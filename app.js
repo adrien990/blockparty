@@ -234,6 +234,8 @@
         disableDefaultUI: true, zoomControl: false, clickableIcons: true, gestureHandling: 'greedy'
       });
       map.addListener('click', onMapClick);
+      // Comme dans Google Maps : on déplace la carte, la liste se range.
+      map.addListener('dragstart', () => { if (S.sheet === 'half') setSheet('min'); });
       mapsReady = true;
       window.gm_authFailure = () => { mapsReady = false; showBanner('La clé Google Maps est refusée. Vérifiez-la dans config.js (voir le guide).'); renderFallback(); };
       setupAutocomplete();
@@ -499,7 +501,7 @@
     $('#chips').hidden = t === 'add' || t === 'book';
     if (t === 'list') { renderZones(); renderAll(); }
     if (t === 'book') renderBook();
-    if (t === 'around' && !mapsReady) requestAnimationFrame(renderFallback);
+    if (t === 'around') requestAnimationFrame(() => setSheet(S.sheet));
   }
   function refresh() { renderChips(); renderNear(); renderMarkers(); if (S.tab === 'list') renderAll(); if (S.tab === 'book') renderBook(); }
 
@@ -580,6 +582,62 @@
   });
   window.addEventListener('resize', () => { if (!mapsReady && S.tab === 'around') renderFallback(); });
 
+  /* ---------- panneau glissant (liste / carte plein écran) ---------- */
+  const SHEET_ORDER = ['min', 'half', 'max'];
+  S.sheet = 'half';
+  function sheetHeights() {
+    const viewH = $('#v-around').clientHeight || window.innerHeight;
+    const minH = ($('#sheet-top').offsetHeight || 70) + 6;
+    return { min: minH, half: Math.round(viewH * 0.5), max: Math.max(minH, viewH - 72) };
+  }
+  function setSheet(state) {
+    const hs = sheetHeights(), sheet = $('#sheet');
+    S.sheet = state;
+    sheet.style.height = hs[state] + 'px';
+    sheet.dataset.state = state;
+    $('#sheet-top').setAttribute('aria-expanded', state !== 'min');
+    // La carte occupe tout l'espace au-dessus du panneau (le logo Google reste visible).
+    $('#v-around').style.setProperty('--map-b', Math.max(0, hs[state] - 16) + 'px');
+    if (!mapsReady) setTimeout(renderFallback, 30);
+  }
+  (function initSheet() {
+    const top = $('#sheet-top'), sheet = $('#sheet');
+    let drag = null;
+    top.addEventListener('pointerdown', (e) => {
+      drag = { y: e.clientY, h: sheet.offsetHeight, t: Date.now(), moved: false, dy: 0 };
+      try { top.setPointerCapture(e.pointerId); } catch (err) { /* ignore */ }
+      sheet.classList.add('dragging');
+    });
+    top.addEventListener('pointermove', (e) => {
+      if (!drag) return;
+      drag.dy = e.clientY - drag.y;
+      if (Math.abs(drag.dy) > 5) drag.moved = true;
+      const hs = sheetHeights();
+      sheet.style.height = Math.min(hs.max, Math.max(hs.min, drag.h - drag.dy)) + 'px';
+    });
+    const end = () => {
+      if (!drag) return;
+      sheet.classList.remove('dragging');
+      const d = drag; drag = null;
+      const i = SHEET_ORDER.indexOf(S.sheet);
+      if (!d.moved) { setSheet(S.sheet === 'min' ? 'half' : 'min'); return; }
+      const v = d.dy / Math.max(1, Date.now() - d.t); // px par ms, positif = vers le bas
+      if (v > 0.45) { setSheet(SHEET_ORDER[Math.max(0, i - 1)]); return; }
+      if (v < -0.45) { setSheet(SHEET_ORDER[Math.min(2, i + 1)]); return; }
+      const hs = sheetHeights(), h = sheet.offsetHeight;
+      setSheet(SHEET_ORDER.reduce((best, s) => Math.abs(hs[s] - h) < Math.abs(hs[best] - h) ? s : best, 'half'));
+    };
+    top.addEventListener('pointerup', end);
+    top.addEventListener('pointercancel', end);
+    top.addEventListener('keydown', (e) => {
+      const i = SHEET_ORDER.indexOf(S.sheet);
+      if (e.key === 'ArrowUp') { e.preventDefault(); setSheet(SHEET_ORDER[Math.min(2, i + 1)]); }
+      else if (e.key === 'ArrowDown') { e.preventDefault(); setSheet(SHEET_ORDER[Math.max(0, i - 1)]); }
+      else if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setSheet(S.sheet === 'min' ? 'half' : 'min'); }
+    });
+    window.addEventListener('resize', () => setSheet(S.sheet));
+  })();
+
   /* ---------- démarrage ---------- */
   async function boot() {
     Object.assign(NAMES, store.get('names', {}));
@@ -595,6 +653,7 @@
     // Lieux mis à jour par Claude : on n'écrase jamais vos ajouts.
     setWhere();
     refresh();
+    setSheet('half');
     const ok = await initGoogle();
     if (ok) { renderMarkers(); }
     else {

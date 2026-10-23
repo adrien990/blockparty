@@ -46,7 +46,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,
 .banner button{margin-left:auto;border:none;background:transparent;font-weight:700;text-decoration:underline;font-size:14px;padding:6px}
 
 .view{flex:1;min-height:0;display:flex;flex-direction:column;position:relative}
-.map-wrap{position:relative;flex:1 1 46%;min-height:220px;background:#E4E2DA;overflow:hidden}
+.map-wrap{position:absolute;left:0;right:0;top:0;bottom:var(--map-b,48%);background:#E4E2DA;overflow:hidden}
 #map{position:absolute;inset:0}
 .fallback-map{position:absolute;inset:0;background:
   repeating-linear-gradient(-29deg,transparent 0 46px,#fff 46px 52px),
@@ -57,11 +57,16 @@ button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,
 .pin.star{outline:3px solid var(--mine);outline-offset:1px}
 .me-dot{position:absolute;width:20px;height:20px;border-radius:50%;background:var(--voir);border:3px solid #fff;transform:translate(-50%,-50%);box-shadow:0 0 0 14px rgba(47,111,224,.18)}
 .map-note{position:absolute;left:12px;top:12px;right:12px;background:rgba(20,20,20,.86);color:#fff;font-size:13px;padding:8px 12px;border-radius:10px}
-.fab-row{position:absolute;right:12px;bottom:28px;display:flex;flex-direction:column;gap:8px;align-items:flex-end}
+.fab-row{position:absolute;right:12px;bottom:calc(100% + 12px);display:flex;flex-direction:column;gap:8px;align-items:flex-end}
 .fab{height:44px;padding:0 16px;border-radius:22px;border:none;background:var(--ink);color:#fff;font:700 17px/1 var(--display);letter-spacing:.04em;display:flex;align-items:center;gap:8px;box-shadow:0 3px 10px rgba(0,0,0,.25)}
 .fab.round{width:44px;padding:0;justify-content:center;background:#fff;color:var(--ink)}
-.sheet{flex:1 1 54%;min-height:0;background:var(--paper);border-radius:20px 20px 0 0;margin-top:-16px;position:relative;z-index:2;display:flex;flex-direction:column}
-.grab{width:40px;height:4px;border-radius:2px;background:var(--soft);margin:10px auto 0}
+.sheet{position:absolute;left:0;right:0;bottom:0;height:52%;background:var(--paper);border-radius:20px 20px 0 0;z-index:2;display:flex;flex-direction:column;box-shadow:0 -4px 18px rgba(0,0,0,.14);transition:height .25s ease}
+.sheet.dragging{transition:none}
+.sheet-top{flex:none;touch-action:none;cursor:grab;user-select:none;-webkit-user-select:none;padding-top:2px}
+.sheet-top:active{cursor:grabbing}
+.sheet[data-state="min"] .list{visibility:hidden}
+.grab{width:48px;height:5px;border-radius:3px;background:var(--soft);margin:10px auto 2px}
+@media (prefers-reduced-motion:reduce){.sheet{transition:none}}
 .sheet-head{display:flex;align-items:baseline;justify-content:space-between;padding:8px 16px 4px;gap:8px}
 .sheet-head h2{margin:0;font:700 24px/1.1 var(--display)}
 .sheet-head span{font-size:13px;color:var(--muted)}
@@ -186,6 +191,8 @@ gmp-place-autocomplete{width:100%}
   <main class="view" id="v-around">
     <div class="map-wrap">
       <div id="map"></div>
+    </div>
+    <section class="sheet" id="sheet" data-state="half" aria-label="Lieux proches">
       <div class="fab-row">
         <button class="fab round" id="hungry" aria-pressed="false" aria-label="J'ai faim : restos ouverts proches" title="J'ai faim">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 3v8M5 3v5a2 2 0 004 0V3M7 11v10M16 3c-2 0-3 3-3 7h3v11M16 3v18"></path></svg>
@@ -195,10 +202,10 @@ gmp-place-autocomplete{width:100%}
           SURPRENDS-MOI
         </button>
       </div>
-    </div>
-    <section class="sheet" aria-label="Lieux proches">
-      <div class="grab" aria-hidden="true"></div>
-      <div class="sheet-head"><h2 id="near-title">Autour de vous</h2><span id="near-sub">à pied</span></div>
+      <div class="sheet-top" id="sheet-top" role="button" tabindex="0" aria-expanded="true" aria-label="Glisser pour agrandir ou réduire la liste">
+        <div class="grab" aria-hidden="true"></div>
+        <div class="sheet-head"><h2 id="near-title">Autour de vous</h2><span id="near-sub">à pied</span></div>
+      </div>
       <div class="list" id="near-list"></div>
     </section>
   </main>
