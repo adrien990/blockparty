@@ -83,7 +83,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,
 .tag.ok{color:var(--ok)}.tag.warn{color:var(--warn)}.tag.bad{color:var(--bad)}
 .empty{padding:24px 0;color:var(--muted);font-size:15px;line-height:1.5}
 
-.tabbar{flex:none;background:var(--paper);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(4,minmax(0,1fr));padding-bottom:var(--safe-b);z-index:6}
+.tabbar{flex:none;background:var(--paper);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(5,minmax(0,1fr));padding-bottom:var(--safe-b);z-index:6}
 .tab{height:64px;border:none;background:none;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;font-size:12px;color:var(--muted)}
 .tab[aria-current="page"]{color:var(--ink);font-weight:700}
 
@@ -127,7 +127,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,
 .duo-row button[aria-pressed="true"]{background:var(--ink);color:#fff;border:1px solid var(--ink)}
 .match{font-size:14px;font-weight:700;color:var(--ok)}
 .actions{flex:none;padding:12px 16px calc(14px + var(--safe-b));border-top:1px solid var(--line);display:flex;gap:10px;background:var(--paper)}
-.btn{height:50px;border-radius:12px;border:2px solid var(--ink);background:var(--ink);color:#fff;font:700 18px/1 var(--display);letter-spacing:.04em;display:flex;align-items:center;justify-content:center;gap:6px;text-decoration:none;padding:0 14px}
+.btn{white-space:nowrap;height:50px;border-radius:12px;border:2px solid var(--ink);background:var(--ink);color:#fff;font:700 18px/1 var(--display);letter-spacing:.04em;display:flex;align-items:center;justify-content:center;gap:6px;text-decoration:none;padding:0 14px}
 .btn.ghost{background:var(--paper);color:var(--ink)}
 .btn.ghost[aria-pressed="true"]{background:var(--ok);border-color:var(--ok);color:#fff}
 .btn.grow{flex:1}
@@ -168,6 +168,26 @@ gmp-place-autocomplete{width:100%}
 .ag div{font-size:14px;line-height:1.4}
 .challenge{background:var(--ink);color:#fff;border-radius:14px;padding:14px 16px;display:flex;flex-direction:column;gap:6px}
 .challenge span{font-size:11px;font-weight:700;color:var(--mine);text-transform:uppercase;letter-spacing:.1em}
+/* Claire */
+:root{--claire:#D6336C;--claire-soft:#FCE4EC;--claire-ink:#8A1C45}
+.pin.cl,.fb-pin.cl,.bullet.cl{position:relative}
+.pin.cl::after,.fb-pin.cl::after,.bullet.cl::after{content:"";position:absolute;right:-3px;top:-3px;width:11px;height:11px;border-radius:50%;background:var(--claire);border:2px solid #fff}
+.claire-hero{background:var(--claire);color:#fff;border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:2px}
+.claire-hero b{font:800 44px/1 var(--display);letter-spacing:.01em;text-transform:uppercase}
+.claire-hero span:last-child{font-size:14px;opacity:.92}
+.csec{display:flex;flex-direction:column;gap:8px}
+.csec h3{margin:0;display:flex;gap:8px;align-items:baseline}
+.csec h3 span{color:var(--muted);font-weight:600}
+.crow{border-bottom:1px solid var(--line)}
+.crow:last-child{border-bottom:none}
+.crow .row{border-bottom:none}
+.cq{margin:-4px 0 12px 48px;font-size:14px;line-height:1.45;color:#3C3C3C}
+.tips{padding:6px 14px}
+.tips p{margin:8px 0;font-size:14px;line-height:1.45}
+.claire-box{background:var(--claire-soft);border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:6px}
+.claire-box h3{margin:0;font-size:12px;font-weight:700;color:var(--claire-ink);text-transform:uppercase;letter-spacing:.1em;display:flex;justify-content:space-between;gap:8px}
+.claire-box p{margin:0;font-size:15px;line-height:1.45;color:#3A1424}
+.cl-star{color:var(--claire)}
 .small-btn{height:44px;border-radius:10px;border:1px solid var(--soft);background:var(--paper);font-weight:600;font-size:14px;padding:0 14px}
 @media (prefers-reduced-motion:no-preference){.pin,.fb-pin{transition:transform .15s}.fb-pin:hover{transform:translate(-50%,-50%) scale(1.12)}}
 </style>
@@ -252,10 +272,15 @@ gmp-place-autocomplete{width:100%}
     <div class="page" id="book-page"></div>
   </main>
 
+  <main class="view" id="v-claire" hidden>
+    <div class="page" id="claire-page"></div>
+  </main>
+
   <nav class="tabbar" aria-label="Navigation">
     <button class="tab" data-tab="around" aria-current="page"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="3"></circle><circle cx="12" cy="12" r="8"></circle></svg>Autour</button>
     <button class="tab" data-tab="list"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-7-5.5-7-11a7 7 0 0114 0c0 5.5-7 11-7 11z"></path><circle cx="12" cy="10" r="2.5"></circle></svg>Lieux</button>
     <button class="tab" data-tab="add"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 8v8M8 12h8"></path></svg>Ajouter</button>
+    <button class="tab" data-tab="claire"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 017-2.6A4 4 0 0119 10c0 5.6-7 10-7 10z"></path></svg>Claire</button>
     <button class="tab" data-tab="book"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2"></rect><path d="M9 8h6M9 12h6"></path></svg>Carnet</button>
   </nav>
 </div>

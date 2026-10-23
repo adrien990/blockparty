@@ -1,102 +1,4598 @@
 {
-  "meta": {
-    "trip": { "start": "2026-11-20", "end": "2026-11-28" },
-    "updated": "2026-10-23",
-    "notes": "Note BP = synthèse des critiques, guides et avis en ligne, faite par Claude en octobre 2026. La note Google affichée dans l'app est en direct."
+ "meta": {
+  "trip": {
+   "start": "2026-11-20",
+   "end": "2026-11-28"
   },
-  "places": [
-    { "id": "joes-carmine", "name": "Joe's Pizza", "cat": "viral", "zone": "Manhattan", "hood": "Greenwich Village", "address": "7 Carmine St, New York, NY 10014", "lat": 40.7305, "lng": -74.0021, "why": "La part new-yorkaise de référence, filmée en boucle sur TikTok depuis des années.", "order": "Une part fromage nature, puis une pepperoni. On plie la part et on mange debout.", "tip": "Ça tourne vite, même avec la file.", "price": "$", "duration": 20, "score": 8.6, "plus": ["Part classique, pâte fine", "Très bon rapport qualité-prix", "Service rapide"], "minus": ["Peu de places assises"], "verdict": "Hype méritée" },
-    { "id": "katz", "name": "Katz's Delicatessen", "cat": "viral", "zone": "Manhattan", "hood": "Lower East Side", "address": "205 E Houston St, New York, NY 10002", "lat": 40.7223, "lng": -73.9874, "why": "Deli de 1888, son pastrami est une légende, et la table de Quand Harry rencontre Sally est toujours là.", "order": "Pastrami on rye, à partager à deux : la portion est énorme.", "tip": "Gardez le ticket remis à l'entrée, il sert à payer en sortant.", "price": "$$", "duration": 60, "score": 8.8, "plus": ["Pastrami exceptionnel", "Ambiance d'époque"], "minus": ["Cher pour un sandwich", "Foule aux heures de pointe"], "verdict": "Hype méritée" },
-    { "id": "levain", "name": "Levain Bakery", "cat": "viral", "zone": "Manhattan", "hood": "Upper West Side", "address": "167 W 74th St, New York, NY 10023", "lat": 40.7799, "lng": -73.9802, "why": "Les cookies géants et fondants qui ont fait le tour des réseaux.", "order": "Chocolate chip walnut, mangé tiède.", "tip": "Parfait avant une balade à Central Park, à deux rues.", "price": "$", "duration": 15, "score": 8.5, "plus": ["Cookie très généreux", "Cœur fondant"], "minus": ["File le week-end", "Très sucré"], "verdict": "Hype méritée" },
-    { "id": "magnolia", "name": "Magnolia Bakery", "cat": "viral", "zone": "Manhattan", "hood": "West Village", "address": "401 Bleecker St, New York, NY 10014", "lat": 40.7359, "lng": -74.0050, "why": "Rendue célèbre par Sex and the City, aujourd'hui star de TikTok pour son banana pudding.", "order": "Banana pudding classique.", "tip": "La boutique d'origine est sur Bleecker, idéale pour la photo.", "price": "$", "duration": 15, "score": 7.4, "plus": ["Banana pudding réussi", "Adresse culte"], "minus": ["Cupcakes jugés moyens", "Touristique"], "verdict": "Surcoté sauf le pudding" },
-    { "id": "sp-lunch", "name": "S&P Lunch", "cat": "viral", "zone": "Manhattan", "hood": "Flatiron", "address": "174 5th Ave, New York, NY 10010", "lat": 40.7408, "lng": -73.9903, "why": "Luncheonette au comptoir d'époque, adorée des critiques et de TikTok.", "order": "Tuna melt ou egg cream.", "tip": "À deux pas du Flatiron Building.", "price": "$$", "duration": 45, "score": 8.4, "plus": ["Cadre rétro authentique", "Sandwichs soignés"], "minus": ["Petit, attente possible"], "verdict": "Hype méritée" },
-    { "id": "thai-diner", "name": "Thai Diner", "cat": "viral", "zone": "Manhattan", "hood": "Nolita", "address": "186 Mott St, New York, NY 10012", "lat": 40.7212, "lng": -73.9963, "why": "Un diner américain à la sauce thaï, l'une des réservations les plus partagées sur les réseaux.", "order": "Thai disco fries et le Thai tea babka.", "tip": "Réservez sur Resy ou venez tôt.", "price": "$$", "duration": 75, "score": 8.5, "plus": ["Plats originaux", "Ambiance festive"], "minus": ["Réservation difficile", "Bruyant"], "verdict": "Hype méritée" },
-    { "id": "via-carota", "name": "Via Carota", "cat": "viral", "zone": "Manhattan", "hood": "West Village", "address": "51 Grove St, New York, NY 10014", "lat": 40.7333, "lng": -74.0036, "why": "Trattoria très romantique, une des tables les plus aimées de New York.", "order": "Cacio e pepe et la salade verte, devenue célèbre.", "tip": "Pas de réservation classique : inscrivez-vous sur la liste d'attente dès l'ouverture.", "price": "$$$", "duration": 90, "score": 8.9, "plus": ["Cuisine italienne simple et parfaite", "Cadre romantique"], "minus": ["Longue attente"], "verdict": "Hype méritée" },
-    { "id": "carbone", "name": "Carbone", "cat": "viral", "zone": "Manhattan", "hood": "Greenwich Village", "address": "181 Thompson St, New York, NY 10012", "lat": 40.7279, "lng": -74.0004, "why": "Le resto italo-américain des stars, célèbre pour ses spicy rigatoni.", "order": "Spicy rigatoni vodka.", "tip": "Réservation extrêmement difficile : à tenter des semaines avant.", "price": "$$$$", "duration": 120, "score": 7.9, "plus": ["Show et service théâtral", "Rigatoni excellentes"], "minus": ["Très cher", "Quasi impossible à réserver"], "verdict": "Expérience plus que gastronomie" },
-    { "id": "mamas-too", "name": "Mama's Too!", "cat": "viral", "zone": "Manhattan", "hood": "Upper West Side", "address": "2750 Broadway, New York, NY 10025", "lat": 40.8018, "lng": -73.9673, "why": "Les parts carrées croustillantes qui font saliver TikTok.", "order": "Square slice cacio e pepe ou pepperoni.", "tip": "Peu de place : on mange en marchant.", "price": "$", "duration": 20, "score": 8.6, "plus": ["Parts carrées très croustillantes", "Créatif"], "minus": ["Loin du centre"], "verdict": "Hype méritée" },
-    { "id": "7th-street-burger", "name": "7th Street Burger", "cat": "viral", "zone": "Manhattan", "hood": "East Village", "address": "91 E 7th St, New York, NY 10009", "lat": 40.7270, "lng": -73.9853, "why": "Smash burger aux bords croustillants, l'une des vidéos food les plus sauvegardées de New York.", "order": "Double cheeseburger et frites.", "tip": "Petit prix, parfait pour un déjeuner rapide.", "price": "$", "duration": 25, "score": 8.2, "plus": ["Burger simple et très efficace", "Pas cher"], "minus": ["Peu de places"], "verdict": "Hype méritée" },
-    { "id": "cote", "name": "COTE Korean Steakhouse", "cat": "viral", "zone": "Manhattan", "hood": "Flatiron", "address": "16 W 22nd St, New York, NY 10010", "lat": 40.7414, "lng": -73.9918, "why": "Steakhouse coréen étoilé, une réservation très convoitée sur Resy.", "order": "Butcher's Feast pour deux.", "tip": "Parfait pour une soirée en amoureux.", "price": "$$$$", "duration": 120, "score": 8.8, "plus": ["Viande d'exception", "Service attentionné"], "minus": ["Addition salée"], "verdict": "Hype méritée" },
-    { "id": "jacks-wife-freda", "name": "Jack's Wife Freda", "cat": "viral", "zone": "Manhattan", "hood": "SoHo", "address": "224 Lafayette St, New York, NY 10012", "lat": 40.7215, "lng": -73.9978, "why": "Le brunch que TikTok a transformé en art de vivre.", "order": "Green shakshuka et halloumi frit.", "tip": "Le week-end, l'attente est longue : venez en semaine.", "price": "$$", "duration": 60, "score": 7.8, "plus": ["Ambiance agréable", "Bon brunch"], "minus": ["Attente le week-end", "Cuisine sans surprise"], "verdict": "Sympa, sans plus" },
-    { "id": "dominique-ansel", "name": "Dominique Ansel Bakery", "cat": "viral", "zone": "Manhattan", "hood": "SoHo", "address": "189 Spring St, New York, NY 10012", "lat": 40.7254, "lng": -74.0030, "why": "Le berceau du Cronut, la pâtisserie d'un chef français star à New York.", "order": "Le Cronut du mois et le DKA.", "tip": "Les Cronuts partent tôt le matin.", "price": "$$", "duration": 20, "score": 8.0, "plus": ["Pâtisserie très soignée"], "minus": ["Cronut vite épuisé", "Cher"], "verdict": "Hype méritée" },
-    { "id": "nom-wah", "name": "Nom Wah Tea Parlor", "cat": "typique", "zone": "Manhattan", "hood": "Chinatown", "address": "13 Doyers St, New York, NY 10013", "lat": 40.7144, "lng": -73.9981, "why": "Le plus vieux salon de dim sum de New York, dans la ruelle la plus photogénique de Chinatown.", "order": "Original egg roll, har gow et shu mai.", "tip": "Prenez le temps de marcher dans Doyers Street.", "price": "$", "duration": 50, "score": 8.1, "plus": ["Cadre historique", "Dim sum à bon prix"], "minus": ["Attente le week-end"], "verdict": "Pépite" },
-    { "id": "russ-daughters", "name": "Russ & Daughters", "cat": "typique", "zone": "Manhattan", "hood": "Lower East Side", "address": "179 E Houston St, New York, NY 10002", "lat": 40.7225, "lng": -73.9883, "why": "Épicerie juive de 1914, temple du bagel au saumon fumé.", "order": "Bagel cream cheese et saumon fumé.", "tip": "Prenez un ticket à l'entrée, puis allez manger chez Katz's juste à côté.", "price": "$$", "duration": 25, "score": 8.9, "plus": ["Saumon exceptionnel", "Institution"], "minus": ["File le week-end"], "verdict": "Incontournable" },
-    { "id": "ess-a-bagel", "name": "Ess-a-Bagel", "cat": "typique", "zone": "Manhattan", "hood": "Midtown East", "address": "831 3rd Ave, New York, NY 10022", "lat": 40.7559, "lng": -73.9701, "why": "Des bagels énormes et moelleux, une institution locale.", "order": "Everything bagel, scallion cream cheese.", "tip": "Parfait pour le petit-déjeuner avant Midtown.", "price": "$", "duration": 20, "score": 8.3, "plus": ["Bagels généreux"], "minus": ["File le matin"], "verdict": "Pépite" },
-    { "id": "halal-guys", "name": "The Halal Guys", "cat": "typique", "zone": "Manhattan", "hood": "Midtown", "address": "W 53rd St & 6th Ave, New York, NY 10019", "lat": 40.7616, "lng": -73.9790, "why": "Le chariot de rue le plus célèbre de New York.", "order": "Combo platter, sauce blanche et un peu de sauce piquante.", "tip": "Allez au chariot d'origine, au coin sud-est de la rue.", "price": "$", "duration": 15, "score": 7.6, "plus": ["Copieux et pas cher", "Expérience street food"], "minus": ["Sauce piquante très forte"], "verdict": "Classique à faire une fois" },
-    { "id": "lombardis", "name": "Lombardi's", "cat": "typique", "zone": "Manhattan", "hood": "Nolita", "address": "32 Spring St, New York, NY 10012", "lat": 40.7216, "lng": -73.9956, "why": "Présentée comme la première pizzeria des États-Unis, avec son four à charbon.", "order": "Margherita au four à charbon.", "tip": "Ici, on commande une pizza entière, pas à la part.", "price": "$$", "duration": 60, "score": 7.5, "plus": ["Lieu historique"], "minus": ["Touristique", "Moins bon que sa réputation selon beaucoup"], "verdict": "Surcoté" },
-    { "id": "veselka", "name": "Veselka", "cat": "typique", "zone": "Manhattan", "hood": "East Village", "address": "144 2nd Ave, New York, NY 10003", "lat": 40.7290, "lng": -73.9871, "why": "Diner ukrainien ouvert depuis 1954, chaleureux et réconfortant.", "order": "Pierogis et bortsch.", "tip": "Idéal un soir de froid.", "price": "$$", "duration": 50, "score": 8.2, "plus": ["Plats réconfortants", "Ambiance de quartier"], "minus": ["Souvent plein"], "verdict": "Pépite" },
-    { "id": "sylvias", "name": "Sylvia's", "cat": "typique", "zone": "Manhattan", "hood": "Harlem", "address": "328 Malcolm X Blvd, New York, NY 10027", "lat": 40.8089, "lng": -73.9446, "why": "La reine de la soul food à Harlem depuis 1962.", "order": "Fried chicken and waffles.", "tip": "Le dimanche, le gospel brunch est une vraie expérience.", "price": "$$", "duration": 75, "score": 7.7, "plus": ["Histoire de Harlem", "Soul food généreuse"], "minus": ["Assez touristique"], "verdict": "Classique à faire une fois" },
-    { "id": "los-tacos", "name": "Los Tacos No.1", "cat": "typique", "zone": "Manhattan", "hood": "Chelsea", "address": "75 9th Ave, New York, NY 10011", "lat": 40.7424, "lng": -74.0061, "why": "Les meilleurs tacos de Manhattan pour beaucoup, dans le Chelsea Market.", "order": "Adobada taco et quesadilla.", "tip": "Ça se mange debout, ça va vite.", "price": "$", "duration": 20, "score": 8.7, "plus": ["Tacos excellents", "Pas cher"], "minus": ["Foule le midi"], "verdict": "Hype méritée" },
-
-    { "id": "juliana", "name": "Juliana's", "cat": "typique", "zone": "Brooklyn", "hood": "DUMBO", "address": "19 Old Fulton St, Brooklyn, NY 11201", "lat": 40.7027, "lng": -73.9934, "why": "La pizza au four à charbon du maître pizzaiolo Patsy Grimaldi, sous le pont de Brooklyn.", "order": "Margherita classique, ou la n°1 avec mozzarella et pesto.", "tip": "À enchaîner avec la balade dans DUMBO.", "price": "$$", "duration": 60, "score": 8.6, "plus": ["Pâte fine et croustillante", "Emplacement parfait"], "minus": ["File à l'heure du déjeuner"], "verdict": "Hype méritée" },
-    { "id": "grimaldis", "name": "Grimaldi's", "cat": "typique", "zone": "Brooklyn", "hood": "DUMBO", "address": "1 Front St, Brooklyn, NY 11201", "lat": 40.7025, "lng": -73.9933, "why": "La pizzeria historique de DUMBO, juste à côté de Juliana's.", "order": "Pizza entière au four à charbon.", "tip": "Si la file est trop longue chez Juliana's.", "price": "$$", "duration": 60, "score": 7.4, "plus": ["Pizza au four à charbon"], "minus": ["Les locaux préfèrent Juliana's", "Touristique"], "verdict": "Surcoté" },
-    { "id": "lindustrie", "name": "L'Industrie Pizzeria", "cat": "viral", "zone": "Brooklyn", "hood": "Williamsburg", "address": "254 S 2nd St, Brooklyn, NY 11211", "lat": 40.7115, "lng": -73.9581, "why": "Souvent élue meilleure part de New York sur les réseaux.", "order": "Burrata slice et la part fig jam & bacon.", "tip": "File quasi permanente, mais elle avance vite.", "price": "$", "duration": 25, "score": 9.0, "plus": ["Part exceptionnelle", "Produits italiens de qualité"], "minus": ["File", "Peu de place"], "verdict": "Hype méritée" },
-    { "id": "peter-luger", "name": "Peter Luger", "cat": "typique", "zone": "Brooklyn", "hood": "Williamsburg", "address": "178 Broadway, Brooklyn, NY 11211", "lat": 40.7099, "lng": -73.9623, "why": "Le steakhouse légendaire de 1887.", "order": "Porterhouse pour deux et creamed spinach.", "tip": "Réservez à l'avance.", "price": "$$$$", "duration": 105, "score": 8.0, "plus": ["Steak mythique", "Lieu historique"], "minus": ["Service bourru", "Avis partagés ces dernières années"], "verdict": "Classique à faire une fois" },
-    { "id": "lilia", "name": "Lilia", "cat": "viral", "zone": "Brooklyn", "hood": "Williamsburg", "address": "567 Union Ave, Brooklyn, NY 11211", "lat": 40.7177, "lng": -73.9525, "why": "Les pâtes fraîches de la cheffe Missy Robbins, une réservation star.", "order": "Mafaldine au poivre rose et l'agnolotti.", "tip": "Le comptoir du bar se tente sans réservation, tôt en soirée.", "price": "$$$", "duration": 100, "score": 9.0, "plus": ["Pâtes parmi les meilleures de la ville"], "minus": ["Réservation difficile"], "verdict": "Hype méritée" },
-    { "id": "lucali", "name": "Lucali", "cat": "viral", "zone": "Brooklyn", "hood": "Carroll Gardens", "address": "575 Henry St, Brooklyn, NY 11231", "lat": 40.6812, "lng": -74.0002, "why": "Pizzeria aux chandelles, adorée des stars et des foodies.", "order": "Pizza et calzone à partager.", "tip": "Venez avant l'ouverture pour mettre votre nom sur la liste. Prévoyez vos boissons, c'est BYOB.", "price": "$$", "duration": 90, "score": 8.9, "plus": ["Pizza exceptionnelle", "Ambiance romantique"], "minus": ["Attente de plusieurs heures possible"], "verdict": "Hype méritée" },
-    { "id": "di-fara", "name": "Di Fara Pizza", "cat": "typique", "zone": "Brooklyn", "hood": "Midwood", "address": "1424 Avenue J, Brooklyn, NY 11230", "lat": 40.6250, "lng": -73.9615, "why": "Une institution de quartier depuis 1965, considérée comme un monument de la pizza.", "order": "Square slice.", "tip": "Loin du centre : à combiner avec les lumières de Dyker Heights.", "price": "$", "duration": 40, "score": 8.4, "plus": ["Pizza culte"], "minus": ["Loin", "Attente"], "verdict": "Pépite" },
-    { "id": "roberta", "name": "Roberta's", "cat": "viral", "zone": "Brooklyn", "hood": "Bushwick", "address": "261 Moore St, Brooklyn, NY 11206", "lat": 40.7051, "lng": -73.9336, "why": "La pizzeria qui a rendu Bushwick cool.", "order": "Bee Sting (miel piquant, soppressata).", "tip": "Le quartier est connu pour son street art.", "price": "$$", "duration": 75, "score": 8.1, "plus": ["Pizza créative", "Quartier street art"], "minus": ["Un peu excentré"], "verdict": "Hype méritée" },
-    { "id": "lb-spumoni", "name": "L&B Spumoni Gardens", "cat": "typique", "zone": "Brooklyn", "hood": "Gravesend", "address": "2725 86th St, Brooklyn, NY 11223", "lat": 40.5947, "lng": -73.9814, "why": "La square pizza sauce sur le dessus, et la glace spumoni, depuis 1939.", "order": "Square slice et une spumoni.", "tip": "Sur le chemin de Dyker Heights.", "price": "$", "duration": 40, "score": 8.3, "plus": ["Institution de quartier", "Pas cher"], "minus": ["Loin"], "verdict": "Pépite" },
-    { "id": "nathans", "name": "Nathan's Famous", "cat": "typique", "zone": "Brooklyn", "hood": "Coney Island", "address": "1310 Surf Ave, Brooklyn, NY 11224", "lat": 40.5755, "lng": -73.9814, "why": "Le hot-dog d'origine de Coney Island, depuis 1916.", "order": "Hot-dog et cheese fries.", "tip": "En novembre, le parc d'attractions est fermé mais la promenade reste belle.", "price": "$", "duration": 30, "score": 7.2, "plus": ["Lieu historique"], "minus": ["Coney Island hors saison"], "verdict": "Pour la nostalgie" },
-
-    { "id": "zero-otto-nove", "name": "Zero Otto Nove", "cat": "typique", "zone": "Bronx", "hood": "Arthur Avenue", "address": "2357 Arthur Ave, Bronx, NY 10458", "lat": 40.8543, "lng": -73.8886, "why": "Pizza napolitaine au feu de bois, saluée par le Michelin, au cœur de la vraie Little Italy.", "order": "Pizza La Riccia et une pasta à partager.", "tip": "Déjeuner idéal après le jardin botanique.", "price": "$$", "duration": 75, "score": 8.6, "plus": ["Meilleure pizza du Bronx pour beaucoup", "Cadre de village italien"], "minus": ["Attente le week-end"], "verdict": "Pépite" },
-    { "id": "tra-di-noi", "name": "Tra Di Noi", "cat": "typique", "zone": "Bronx", "hood": "Arthur Avenue", "address": "622 E 187th St, Bronx, NY 10458", "lat": 40.8547, "lng": -73.8875, "why": "Petite trattoria familiale aux serveurs passionnés par leurs plats du jour.", "order": "L'espadon ou le plat du jour de la mer, et une pasta chacun.", "tip": "Écoutez les suggestions du serveur.", "price": "$$", "duration": 90, "score": 8.5, "plus": ["Accueil chaleureux", "Plats du jour excellents"], "minus": ["Petite salle"], "verdict": "Pépite" },
-    { "id": "arthur-market", "name": "Arthur Avenue Retail Market", "cat": "typique", "zone": "Bronx", "hood": "Arthur Avenue", "address": "2344 Arthur Ave, Bronx, NY 10458", "lat": 40.8548, "lng": -73.8885, "why": "Marché couvert italien : pâtes fraîches, charcuteries, et un comptoir à sandwichs culte.", "order": "Un sandwich italien au comptoir du deli.", "tip": "Fermé le dimanche. Beaucoup de commerces du quartier préfèrent les espèces.", "price": "$", "duration": 45, "score": 8.4, "plus": ["Ambiance authentique", "Sandwichs énormes"], "minus": ["Fermé le dimanche"], "verdict": "Incontournable" },
-    { "id": "madonia", "name": "Madonia Brothers Bakery", "cat": "typique", "zone": "Bronx", "hood": "Arthur Avenue", "address": "2348 Arthur Ave, Bronx, NY 10458", "lat": 40.8550, "lng": -73.8884, "why": "Boulangerie familiale depuis plus d'un siècle.", "order": "Un cannolo garni à la minute.", "tip": "C'est votre défi du jour Bronx dans le carnet.", "price": "$", "duration": 15, "score": 8.5, "plus": ["Cannoli frais", "Pain excellent"], "minus": [], "verdict": "Pépite" },
-    { "id": "casa-mozzarella", "name": "Casa Della Mozzarella", "cat": "shop", "zone": "Bronx", "hood": "Arthur Avenue", "address": "604 E 187th St, Bronx, NY 10458", "lat": 40.8549, "lng": -73.8880, "why": "Mozzarella faite sur place chaque jour, et des sandwichs réputés.", "order": "Un morceau de mozzarella encore tiède.", "tip": "Le matin, elle est toute fraîche.", "price": "$", "duration": 15, "score": 8.6, "plus": ["Mozzarella du jour"], "minus": ["File le samedi"], "verdict": "Pépite" },
-    { "id": "calabria-pork", "name": "Calabria Pork Store", "cat": "typique", "zone": "Bronx", "hood": "Arthur Avenue", "address": "2338 Arthur Ave, Bronx, NY 10458", "lat": 40.8546, "lng": -73.8886, "why": "Des centaines de soppressate suspendues au plafond : la photo à faire du Bronx.", "order": "Un sandwich à la soppressata piquante.", "tip": "Regardez le plafond en entrant.", "price": "$", "duration": 15, "score": 8.4, "plus": ["Lieu unique", "Charcuterie maison"], "minus": [], "verdict": "Pépite" },
-    { "id": "cosenza", "name": "Cosenza's Fish Market", "cat": "typique", "zone": "Bronx", "hood": "Arthur Avenue", "address": "2354 Arthur Ave, Bronx, NY 10458", "lat": 40.8551, "lng": -73.8884, "why": "Huîtres et palourdes ouvertes à la minute, sur le trottoir.", "order": "Une demi-douzaine de clams au citron.", "tip": "Une des expériences les plus typiques du quartier.", "price": "$", "duration": 15, "score": 8.1, "plus": ["Fruits de mer très frais"], "minus": ["Debout dans le froid en novembre"], "verdict": "Pépite" },
-    { "id": "188-cuchifritos", "name": "188 Bakery Cuchifritos", "cat": "typique", "zone": "Bronx", "hood": "Fordham", "address": "158 E 188th St, Bronx, NY 10468", "lat": 40.8608, "lng": -73.8993, "why": "Fritures portoricaines, entrées en 2025 dans le classement des 100 meilleurs restos du New York Times.", "order": "Alcapurria, pernil et un jus de passion.", "tip": "Petit comptoir de quartier : commandez en montrant du doigt.", "price": "$", "duration": 25, "score": 8.4, "plus": ["Très authentique", "Pas cher"], "minus": ["Simple, sans décor"], "verdict": "Pépite" },
-    { "id": "tlaxcalli", "name": "Taqueria Tlaxcalli", "cat": "viral", "zone": "Bronx", "hood": "Parkchester", "address": "2103 Starling Ave, Bronx, NY 10462", "lat": 40.8340, "lng": -73.8558, "why": "Devenue célèbre après la vidéo du critique Keith Lee.", "order": "Tacos al pastor et barbacoa.", "tip": "Un peu à l'écart d'Arthur Avenue, en taxi.", "price": "$", "duration": 40, "score": 8.5, "plus": ["Tacos excellents", "Famille accueillante"], "minus": ["Excentré"], "verdict": "Hype méritée" },
-    { "id": "nybg-train", "name": "Holiday Train Show (NYBG)", "cat": "voir", "zone": "Bronx", "hood": "Bronx Park", "address": "2900 Southern Blvd, Bronx, NY 10458", "lat": 40.8623, "lng": -73.8770, "why": "Des trains miniatures circulent entre près de 200 monuments de New York faits de bois, d'écorce et de graines, sous la grande serre.", "order": "Le parcours sous la serre, puis un chocolat chaud.", "tip": "Du 14 novembre 2026 au 10 janvier 2027. Billet horaire à réserver en ligne.", "price": "$$", "duration": 120, "score": 8.8, "plus": ["Magique et unique", "Parfait en couple"], "minus": ["Billet à réserver"], "verdict": "Incontournable", "dates": "14 nov 2026 – 10 jan 2027" },
-    { "id": "bronx-zoo-lights", "name": "Bronx Zoo Holiday Lights", "cat": "voir", "zone": "Bronx", "hood": "Bronx Park", "address": "2300 Southern Blvd, Bronx, NY 10460", "lat": 40.8506, "lng": -73.8770, "why": "Le zoo illuminé par près de 400 lanternes géantes d'animaux. Nouveauté 2026 : visite des reptiles et des animaux nocturnes le soir.", "order": "Les sentiers de lanternes à la nuit tombée.", "tip": "Ouvert certains soirs seulement, à partir du 21 novembre. Billets en ligne uniquement.", "price": "$$", "duration": 150, "score": 8.3, "plus": ["Très beau de nuit", "Nouveautés 2026"], "minus": ["Pensé d'abord pour les familles"], "verdict": "Incontournable en saison", "dates": "21 nov 2026 – 3 jan 2027, certains soirs" },
-    { "id": "yankee-stadium", "name": "Yankee Stadium", "cat": "voir", "zone": "Bronx", "hood": "Concourse", "address": "1 E 161st St, Bronx, NY 10451", "lat": 40.8296, "lng": -73.9262, "why": "Le stade mythique des Yankees.", "order": "Photo devant l'entrée, boutique officielle.", "tip": "Pas de match en novembre : vérifiez les visites guidées.", "price": "$$", "duration": 60, "score": 7.8, "plus": ["Lieu iconique"], "minus": ["Hors saison"], "verdict": "Pour les fans" },
-    { "id": "sedgwick", "name": "1520 Sedgwick Avenue", "cat": "voir", "zone": "Bronx", "hood": "Morris Heights", "address": "1520 Sedgwick Ave, Bronx, NY 10453", "lat": 40.8460, "lng": -73.9285, "why": "L'immeuble où est né le hip-hop, lors d'une fête en 1973.", "order": "Une photo devant l'immeuble.", "tip": "C'est un immeuble d'habitation : restez discrets. Le Hip Hop Museum n'ouvrira qu'en 2027.", "price": "Gratuit", "duration": 15, "score": 7.0, "plus": ["Lieu historique"], "minus": ["Rien à visiter"], "verdict": "Pour les fans de rap" },
-
-    { "id": "brooklyn-bridge", "name": "Pont de Brooklyn", "cat": "voir", "zone": "Brooklyn", "hood": "DUMBO", "address": "Brooklyn Bridge, New York, NY 10038", "lat": 40.7061, "lng": -73.9969, "why": "La traversée à pied la plus célèbre du monde.", "order": "Traverser de Manhattan vers Brooklyn, pour avoir la vue sur les gratte-ciel au retour.", "tip": "Tôt le matin, il y a beaucoup moins de monde.", "price": "Gratuit", "duration": 45, "score": 9.3, "plus": ["Vue incroyable"], "minus": ["Bondé l'après-midi"], "verdict": "Incontournable" },
-    { "id": "dumbo-washington", "name": "DUMBO, Washington Street", "cat": "voir", "zone": "Brooklyn", "hood": "DUMBO", "address": "Washington St & Water St, Brooklyn, NY 11201", "lat": 40.7032, "lng": -73.9894, "why": "La photo culte du Manhattan Bridge encadré par les immeubles de brique.", "order": "Photo au milieu de la rue, en faisant attention aux voitures.", "tip": "Belle lumière en fin de journée.", "price": "Gratuit", "duration": 20, "score": 9.0, "plus": ["Photo iconique"], "minus": ["Foule de photographes"], "verdict": "Incontournable" },
-    { "id": "janes-carousel", "name": "Jane's Carousel", "cat": "voir", "zone": "Brooklyn", "hood": "DUMBO", "address": "Old Dock St, Brooklyn, NY 11201", "lat": 40.7043, "lng": -73.9924, "why": "Un carrousel de 1922 dans une boîte de verre, face à Manhattan.", "order": "Un tour à deux au coucher du soleil.", "tip": "Horaires réduits en hiver.", "price": "$", "duration": 15, "score": 8.2, "plus": ["Romantique", "Vue sur le pont"], "minus": [], "verdict": "Pépite" },
-    { "id": "bb-park", "name": "Brooklyn Bridge Park", "cat": "voir", "zone": "Brooklyn", "hood": "DUMBO", "address": "Pier 1, Brooklyn, NY 11201", "lat": 40.7021, "lng": -73.9965, "why": "La plus belle vue sur la skyline de Manhattan.", "order": "Coucher de soleil depuis le Pier 1.", "tip": "Coucher du soleil vers 16h30 fin novembre.", "price": "Gratuit", "duration": 45, "score": 9.0, "plus": ["Vue spectaculaire"], "minus": ["Froid et venté en novembre"], "verdict": "Incontournable" },
-    { "id": "promenade", "name": "Brooklyn Heights Promenade", "cat": "voir", "zone": "Brooklyn", "hood": "Brooklyn Heights", "address": "Brooklyn Heights Promenade, Brooklyn, NY 11201", "lat": 40.6960, "lng": -73.9970, "why": "Une promenade surélevée face à Manhattan, au bout de rues bordées de maisons en brownstone.", "order": "Flâner dans les rues autour, Willow Street et Pierrepont Street.", "tip": "Plus calme que DUMBO.", "price": "Gratuit", "duration": 30, "score": 8.6, "plus": ["Calme", "Architecture superbe"], "minus": [], "verdict": "Pépite" },
-    { "id": "domino-park", "name": "Domino Park", "cat": "voir", "zone": "Brooklyn", "hood": "Williamsburg", "address": "15 River St, Brooklyn, NY 11249", "lat": 40.7146, "lng": -73.9686, "why": "Parc moderne au bord de l'eau, face au Williamsburg Bridge.", "order": "Balade au bord de l'East River.", "tip": "À enchaîner avec les boutiques de Williamsburg.", "price": "Gratuit", "duration": 30, "score": 8.2, "plus": ["Vue sur le pont et Manhattan"], "minus": [], "verdict": "Pépite" },
-    { "id": "bedford-ave", "name": "Williamsburg, Bedford Avenue", "cat": "shop", "zone": "Brooklyn", "hood": "Williamsburg", "address": "Bedford Ave & N 7th St, Brooklyn, NY 11249", "lat": 40.7178, "lng": -73.9573, "why": "La rue des boutiques vintage, des créateurs et des concept stores de Brooklyn.", "order": "Fripes, disquaires, concept stores.", "tip": "Explorez aussi les rues autour, N 6th et Wythe Ave.", "price": "$$", "duration": 120, "score": 8.4, "plus": ["Boutiques originales", "Ambiance de quartier"], "minus": [], "verdict": "Incontournable shopping" },
-    { "id": "dyker-heights", "name": "Lumières de Dyker Heights", "cat": "voir", "zone": "Brooklyn", "hood": "Dyker Heights", "address": "84th St & 11th Ave, Brooklyn, NY 11228", "lat": 40.6205, "lng": -74.0149, "why": "Des maisons décorées de façon spectaculaire pour Noël.", "order": "Balade le soir entre la 83e et la 86e rue.", "tip": "Les décorations s'allument surtout après Thanksgiving : visez les soirs du 27 ou du 28 novembre.", "price": "Gratuit", "duration": 75, "score": 8.0, "plus": ["Spectaculaire"], "minus": ["Loin", "Peut-être pas encore complet fin novembre"], "verdict": "À tenter en fin de séjour", "dates": "à partir de fin novembre" },
-
-    { "id": "statue-liberty", "name": "Statue de la Liberté et Ellis Island", "cat": "voir", "zone": "Manhattan", "hood": "Battery Park", "address": "Battery Park, New York, NY 10004", "lat": 40.7013, "lng": -74.0145, "why": "Le symbole de New York, avec le musée de l'immigration à Ellis Island.", "order": "Le ferry officiel Statue City Cruises, accès au piédestal si possible.", "tip": "Réservez uniquement sur le site officiel. Option gratuite : le Staten Island Ferry, qui passe devant la statue.", "price": "$$", "duration": 240, "score": 8.7, "plus": ["Incontournable", "Ellis Island passionnant"], "minus": ["Contrôle de sécurité long"], "verdict": "Incontournable" },
-    { "id": "911-memorial", "name": "Mémorial du 11-Septembre", "cat": "voir", "zone": "Manhattan", "hood": "Financial District", "address": "180 Greenwich St, New York, NY 10007", "lat": 40.7115, "lng": -74.0134, "why": "Deux bassins à l'emplacement des tours jumelles, et un musée très fort.", "order": "Les bassins, puis le musée.", "tip": "Les bassins sont gratuits, le musée est payant.", "price": "$$", "duration": 120, "score": 9.2, "plus": ["Très émouvant"], "minus": [], "verdict": "Incontournable" },
-    { "id": "one-wtc", "name": "One World Observatory", "cat": "voir", "zone": "Manhattan", "hood": "Financial District", "address": "117 West St, New York, NY 10007", "lat": 40.7130, "lng": -74.0132, "why": "La plus haute tour de l'hémisphère ouest.", "order": "La vue sur le pont de Brooklyn et la baie.", "tip": "À combiner avec le mémorial.", "price": "$$$", "duration": 75, "score": 8.0, "plus": ["Très haut", "Vue sur la baie"], "minus": ["Vitres, pas de terrasse"], "verdict": "Bien, mais Top of the Rock est mieux placé" },
-    { "id": "charging-bull", "name": "Wall Street et Charging Bull", "cat": "voir", "zone": "Manhattan", "hood": "Financial District", "address": "Bowling Green, New York, NY 10004", "lat": 40.7056, "lng": -74.0134, "why": "Le taureau de bronze de Wall Street.", "order": "Photo, puis la Bourse et le Federal Hall.", "tip": "Tôt le matin pour éviter la file de photos.", "price": "Gratuit", "duration": 30, "score": 7.6, "plus": ["Iconique"], "minus": ["Foule"], "verdict": "Classique à faire une fois" },
-    { "id": "oculus", "name": "Oculus", "cat": "shop", "zone": "Manhattan", "hood": "Financial District", "address": "185 Greenwich St, New York, NY 10007", "lat": 40.7116, "lng": -74.0110, "why": "La gare-centre commercial en forme d'ailes blanches de Calatrava.", "order": "Photo depuis l'intérieur, au centre.", "tip": "Parfait pour se réchauffer.", "price": "Gratuit", "duration": 30, "score": 8.1, "plus": ["Architecture spectaculaire"], "minus": ["Boutiques classiques"], "verdict": "Pépite" },
-    { "id": "century-21", "name": "Century 21", "cat": "shop", "zone": "Manhattan", "hood": "Financial District", "address": "22 Cortlandt St, New York, NY 10007", "lat": 40.7104, "lng": -74.0105, "why": "Le grand magasin de déstockage de marques, très prisé des Français.", "order": "Chasse aux bonnes affaires.", "tip": "Prévoyez du temps pour fouiller.", "price": "$$", "duration": 90, "score": 7.8, "plus": ["Marques à prix réduits"], "minus": ["Désordonné"], "verdict": "Bon plan" },
-    { "id": "empire-state", "name": "Empire State Building", "cat": "voir", "zone": "Manhattan", "hood": "Midtown", "address": "20 W 34th St, New York, NY 10001", "lat": 40.7484, "lng": -73.9857, "why": "Le gratte-ciel le plus célèbre du monde, avec sa terrasse en plein air au 86e étage.", "order": "La terrasse du 86e, de nuit.", "tip": "En soirée, la ville illuminée est magique.", "price": "$$$", "duration": 90, "score": 8.5, "plus": ["Iconique", "Terrasse extérieure"], "minus": ["Attente possible"], "verdict": "Incontournable" },
-    { "id": "top-of-the-rock", "name": "Top of the Rock", "cat": "voir", "zone": "Manhattan", "hood": "Midtown", "address": "30 Rockefeller Plaza, New York, NY 10112", "lat": 40.7593, "lng": -73.9794, "why": "La meilleure vue d'ensemble : Central Park d'un côté, l'Empire State de l'autre.", "order": "Montez 45 minutes avant le coucher du soleil.", "tip": "Coucher du soleil vers 16h30 fin novembre.", "price": "$$$", "duration": 75, "score": 9.0, "plus": ["Vue sur l'Empire State", "Terrasses extérieures"], "minus": [], "verdict": "Incontournable" },
-    { "id": "summit", "name": "SUMMIT One Vanderbilt", "cat": "viral", "zone": "Manhattan", "hood": "Midtown", "address": "45 E 42nd St, New York, NY 10017", "lat": 40.7531, "lng": -73.9787, "why": "Les salles de miroirs ultra-instagrammables au sommet d'une tour.", "order": "Les salles de miroirs, puis l'ascenseur vitré extérieur.", "tip": "Évitez les jupes : les sols sont en miroir.", "price": "$$$", "duration": 90, "score": 8.4, "plus": ["Expérience unique", "Très photogénique"], "minus": ["Cher", "Foule"], "verdict": "Hype méritée" },
-    { "id": "edge", "name": "Edge", "cat": "voir", "zone": "Manhattan", "hood": "Hudson Yards", "address": "30 Hudson Yards, New York, NY 10001", "lat": 40.7539, "lng": -74.0011, "why": "La plus haute terrasse extérieure en surplomb de l'hémisphère ouest, avec un sol vitré.", "order": "Photo sur le sol vitré.", "tip": "À enchaîner avec la High Line.", "price": "$$$", "duration": 60, "score": 8.2, "plus": ["Sensations"], "minus": ["Vent froid"], "verdict": "Bien si pas Top of the Rock" },
-    { "id": "central-park", "name": "Central Park, Bethesda Terrace", "cat": "voir", "zone": "Manhattan", "hood": "Central Park", "address": "Bethesda Terrace, New York, NY 10024", "lat": 40.7740, "lng": -73.9708, "why": "Le cœur du parc : la fontaine, le Bow Bridge et le Mall bordé d'arbres.", "order": "Bethesda, Bow Bridge, puis Strawberry Fields.", "tip": "Fin novembre, il reste souvent des couleurs d'automne.", "price": "Gratuit", "duration": 120, "score": 9.4, "plus": ["Magnifique en automne", "Romantique"], "minus": [], "verdict": "Incontournable" },
-    { "id": "met", "name": "The Met", "cat": "voir", "zone": "Manhattan", "hood": "Upper East Side", "address": "1000 5th Ave, New York, NY 10028", "lat": 40.7794, "lng": -73.9632, "why": "L'un des plus grands musées du monde.", "order": "Le temple de Dendour, puis la terrasse du toit si ouverte.", "tip": "Fermé le mercredi et le jour de Thanksgiving.", "price": "$$", "duration": 180, "score": 9.3, "plus": ["Collections immenses"], "minus": ["On ne peut pas tout voir"], "verdict": "Incontournable", "closed": ["wed", "2026-11-26"] },
-    { "id": "moma", "name": "MoMA", "cat": "voir", "zone": "Manhattan", "hood": "Midtown", "address": "11 W 53rd St, New York, NY 10019", "lat": 40.7614, "lng": -73.9776, "why": "Van Gogh, Warhol, Picasso : le musée d'art moderne de référence.", "order": "La Nuit étoilée de Van Gogh, au 5e étage.", "tip": "Réservez un créneau en ligne.", "price": "$$", "duration": 150, "score": 9.0, "plus": ["Chefs-d'œuvre"], "minus": ["Foule devant les stars"], "verdict": "Incontournable" },
-    { "id": "amnh", "name": "Muséum d'histoire naturelle", "cat": "voir", "zone": "Manhattan", "hood": "Upper West Side", "address": "200 Central Park West, New York, NY 10024", "lat": 40.7813, "lng": -73.9740, "why": "Les dinosaures et la baleine bleue de La Nuit au musée.", "order": "Salle des dinosaures et la baleine bleue.", "tip": "Fermé le jour de Thanksgiving. La veille, les ballons de la parade sont gonflés juste à côté.", "price": "$$", "duration": 150, "score": 8.6, "plus": ["Spectaculaire"], "minus": ["Très fréquenté"], "verdict": "Incontournable", "closed": ["2026-11-26"] },
-    { "id": "times-square", "name": "Times Square", "cat": "voir", "zone": "Manhattan", "hood": "Midtown", "address": "Times Square, New York, NY 10036", "lat": 40.7580, "lng": -73.9855, "why": "Les écrans géants, à voir une fois de nuit.", "order": "Montez sur les marches rouges, au nord, pour la vue.", "tip": "Le soir, c'est le plus impressionnant. Gardez un œil sur vos affaires.", "price": "Gratuit", "duration": 30, "score": 7.8, "plus": ["Spectaculaire de nuit"], "minus": ["Foule", "Très touristique"], "verdict": "À voir une fois" },
-    { "id": "grand-central", "name": "Grand Central Terminal", "cat": "voir", "zone": "Manhattan", "hood": "Midtown", "address": "89 E 42nd St, New York, NY 10017", "lat": 40.7527, "lng": -73.9772, "why": "Le grand hall et son plafond étoilé.", "order": "Testez la Whispering Gallery : chuchotez dans un angle, l'autre vous entend dans l'angle opposé.", "tip": "Gratuit, à combiner avec SUMMIT juste à côté.", "price": "Gratuit", "duration": 30, "score": 8.8, "plus": ["Architecture superbe", "Gratuit"], "minus": [], "verdict": "Incontournable" },
-    { "id": "nypl", "name": "Bibliothèque publique de New York", "cat": "voir", "zone": "Manhattan", "hood": "Midtown", "address": "476 5th Ave, New York, NY 10018", "lat": 40.7532, "lng": -73.9822, "why": "La salle de lecture Rose, l'une des plus belles du monde.", "order": "Rose Main Reading Room, au 3e étage.", "tip": "Gratuit. Bryant Park et son village de Noël sont juste derrière.", "price": "Gratuit", "duration": 30, "score": 8.5, "plus": ["Magnifique", "Gratuit"], "minus": [], "verdict": "Pépite" },
-    { "id": "bryant-park", "name": "Bryant Park Winter Village", "cat": "voir", "zone": "Manhattan", "hood": "Midtown", "address": "Bryant Park, New York, NY 10018", "lat": 40.7536, "lng": -73.9832, "why": "Patinoire gratuite et marché de Noël d'environ 180 chalets.", "order": "Patiner à deux, puis un chocolat chaud aux chalets.", "tip": "Patinoire ouverte jusqu'à minuit pendant votre séjour. Location de patins payante.", "price": "Gratuit", "duration": 75, "score": 8.6, "plus": ["Patinoire gratuite", "Ambiance de Noël"], "minus": ["Foule le soir"], "verdict": "Incontournable", "dates": "28 oct 2026 – 3 jan 2027" },
-    { "id": "rockefeller", "name": "Rockefeller Center", "cat": "voir", "zone": "Manhattan", "hood": "Midtown", "address": "45 Rockefeller Plaza, New York, NY 10111", "lat": 40.7587, "lng": -73.9787, "why": "La patinoire la plus célèbre du monde et le sapin géant.", "order": "Regarder les patineurs depuis la place.", "tip": "Le sapin est installé mais ne sera allumé que le 2 décembre, après votre départ.", "price": "Gratuit", "duration": 30, "score": 8.0, "plus": ["Iconique"], "minus": ["Sapin pas encore allumé pendant votre séjour"], "verdict": "À voir en passant" },
-    { "id": "radio-city", "name": "Christmas Spectacular (Rockettes)", "cat": "voir", "zone": "Manhattan", "hood": "Midtown", "address": "1260 6th Ave, New York, NY 10020", "lat": 40.7600, "lng": -73.9800, "why": "Le spectacle de Noël mythique des Rockettes au Radio City Music Hall.", "order": "Le show d'environ 90 minutes.", "tip": "Réservez vite : la semaine de Thanksgiving est très demandée.", "price": "$$$", "duration": 120, "score": 8.4, "plus": ["Spectacle unique", "Salle superbe"], "minus": ["Cher"], "verdict": "Incontournable en saison", "dates": "novembre – décembre 2026" },
-    { "id": "broadway", "name": "Spectacle de Broadway (TKTS)", "cat": "voir", "zone": "Manhattan", "hood": "Theater District", "address": "Father Duffy Square, New York, NY 10036", "lat": 40.7590, "lng": -73.9845, "why": "Une comédie musicale à Broadway, l'expérience new-yorkaise par excellence.", "order": "Le Roi Lion, Hamilton, Wicked ou Moulin Rouge.", "tip": "Le guichet TKTS vend des places à prix réduit le jour même.", "price": "$$$", "duration": 180, "score": 9.0, "plus": ["Inoubliable"], "minus": ["Places chères pour les hits"], "verdict": "Incontournable" },
-    { "id": "high-line", "name": "High Line", "cat": "voir", "zone": "Manhattan", "hood": "Chelsea", "address": "Gansevoort St & Washington St, New York, NY 10014", "lat": 40.7398, "lng": -74.0081, "why": "Une ancienne voie ferrée aérienne transformée en promenade jardin.", "order": "Du sud (Gansevoort) vers le nord, jusqu'à Hudson Yards.", "tip": "Passez par le Chelsea Market au début.", "price": "Gratuit", "duration": 60, "score": 8.8, "plus": ["Unique", "Gratuit"], "minus": ["Foule le week-end"], "verdict": "Incontournable" },
-    { "id": "vessel", "name": "Hudson Yards et Vessel", "cat": "voir", "zone": "Manhattan", "hood": "Hudson Yards", "address": "20 Hudson Yards, New York, NY 10001", "lat": 40.7538, "lng": -74.0022, "why": "La sculpture en nid d'abeille de cuivre, star d'Instagram.", "order": "Photo depuis le bas, puis le centre commercial.", "tip": "Vérifiez si l'ascension est ouverte.", "price": "$", "duration": 30, "score": 7.6, "plus": ["Très photogénique"], "minus": ["Montée limitée"], "verdict": "Pour la photo" },
-    { "id": "little-island", "name": "Little Island", "cat": "voir", "zone": "Manhattan", "hood": "Meatpacking", "address": "Pier 55, Hudson River Greenway, New York, NY 10014", "lat": 40.7420, "lng": -74.0103, "why": "Un parc-île posé sur des tulipes de béton dans l'Hudson.", "order": "Le belvédère, au coucher du soleil.", "tip": "Juste à côté du départ de la High Line.", "price": "Gratuit", "duration": 30, "score": 8.3, "plus": ["Original", "Gratuit"], "minus": [], "verdict": "Pépite" },
-    { "id": "chelsea-market", "name": "Chelsea Market", "cat": "shop", "zone": "Manhattan", "hood": "Chelsea", "address": "75 9th Ave, New York, NY 10011", "lat": 40.7424, "lng": -74.0061, "why": "Halle gourmande dans une ancienne biscuiterie, idéale pour grignoter et chiner.", "order": "Grignoter de stand en stand.", "tip": "Parfait pour un déjeuner rapide avant la High Line.", "price": "$$", "duration": 60, "score": 8.3, "plus": ["Choix énorme", "Au chaud"], "minus": ["Foule"], "verdict": "Incontournable" },
-    { "id": "flatiron", "name": "Flatiron Building", "cat": "voir", "zone": "Manhattan", "hood": "Flatiron", "address": "175 5th Ave, New York, NY 10010", "lat": 40.7411, "lng": -73.9897, "why": "L'immeuble en fer à repasser, l'une des photos les plus célèbres de New York.", "order": "Photo depuis le Madison Square Park.", "tip": "S&P Lunch est juste à côté.", "price": "Gratuit", "duration": 15, "score": 8.0, "plus": ["Iconique"], "minus": [], "verdict": "À voir en passant" },
-    { "id": "washington-sq", "name": "Washington Square Park", "cat": "voir", "zone": "Manhattan", "hood": "Greenwich Village", "address": "Washington Square Park, New York, NY 10012", "lat": 40.7308, "lng": -73.9973, "why": "L'arche, les musiciens de rue, l'esprit du Village.", "order": "Une pause devant l'arche, avec une part de Joe's.", "tip": "Le Village autour est idéal pour flâner.", "price": "Gratuit", "duration": 30, "score": 8.5, "plus": ["Ambiance vivante"], "minus": [], "verdict": "Pépite" },
-    { "id": "macys-parade", "name": "Parade de Thanksgiving Macy's", "cat": "voir", "zone": "Manhattan", "hood": "Central Park West", "address": "Central Park West & W 70th St, New York, NY 10023", "lat": 40.7766, "lng": -73.9767, "why": "La 100e parade : ballons géants, chars, fanfares. Un événement historique.", "order": "Le passage des ballons géants.", "tip": "Jeudi 26 novembre, départ à 8h30. Arrivez vers 6h, habillés très chaudement. Le haut de Central Park West est moins bondé que la 6e avenue.", "price": "Gratuit", "duration": 240, "score": 9.5, "plus": ["100e édition", "Une fois dans sa vie"], "minus": ["Lever très tôt", "Foule énorme"], "verdict": "Incontournable", "dates": "jeu. 26 nov 2026, 8h30–12h" },
-    { "id": "balloon-inflation", "name": "Gonflage des ballons de la parade", "cat": "voir", "zone": "Manhattan", "hood": "Upper West Side", "address": "W 77th St & Columbus Ave, New York, NY 10024", "lat": 40.7806, "lng": -73.9760, "why": "La veille de la parade, on voit les ballons géants prendre forme autour du muséum.", "order": "Le circuit piéton autour du muséum, en fin d'après-midi.", "tip": "Mercredi 25 novembre, généralement l'après-midi et le soir. Vérifiez les horaires officiels de Macy's la semaine même.", "price": "Gratuit", "duration": 60, "score": 8.5, "plus": ["Moins de foule que la parade", "Insolite"], "minus": ["File d'attente pour entrer dans le circuit"], "verdict": "Pépite", "dates": "mer. 25 nov 2026" },
-
-    { "id": "fifth-avenue", "name": "5e Avenue et vitrines de Noël", "cat": "shop", "zone": "Manhattan", "hood": "Midtown", "address": "611 5th Ave, New York, NY 10022", "lat": 40.7580, "lng": -73.9772, "why": "Les grands magasins et leurs vitrines de Noël, dont Saks Fifth Avenue.", "order": "De Saks à Bergdorf Goodman, à pied.", "tip": "Les vitrines sont généralement dévoilées autour de Thanksgiving.", "price": "$$$", "duration": 120, "score": 8.6, "plus": ["Ambiance de Noël", "Grandes marques"], "minus": ["Foule le Black Friday"], "verdict": "Incontournable shopping" },
-    { "id": "tiffany", "name": "Tiffany & Co. The Landmark", "cat": "shop", "zone": "Manhattan", "hood": "Midtown", "address": "727 5th Ave, New York, NY 10022", "lat": 40.7627, "lng": -73.9739, "why": "Le Tiffany de Diamants sur canapé, entièrement rénové.", "order": "Visite de la boutique et du café Blue Box.", "tip": "Le café se réserve longtemps à l'avance.", "price": "$$$$", "duration": 45, "score": 8.0, "plus": ["Mythique"], "minus": ["Très cher"], "verdict": "Pour le rêve" },
-    { "id": "soho", "name": "SoHo", "cat": "shop", "zone": "Manhattan", "hood": "SoHo", "address": "Broadway & Prince St, New York, NY 10012", "lat": 40.7245, "lng": -73.9978, "why": "Le quartier shopping le plus agréable, entre immeubles en fonte et boutiques de créateurs.", "order": "Broadway pour les grandes enseignes, Prince et Greene Street pour les créateurs.", "tip": "Le Black Friday (27 novembre), il y a de grosses promos mais beaucoup de monde.", "price": "$$", "duration": 180, "score": 8.8, "plus": ["Tout au même endroit", "Architecture"], "minus": ["Foule le week-end"], "verdict": "Incontournable shopping" },
-    { "id": "macys", "name": "Macy's Herald Square", "cat": "shop", "zone": "Manhattan", "hood": "Midtown", "address": "151 W 34th St, New York, NY 10001", "lat": 40.7509, "lng": -73.9888, "why": "L'un des plus grands magasins du monde, avec des escalators en bois d'origine.", "order": "Les escalators en bois et le rayon Noël.", "tip": "Le Black Friday, il ouvre très tôt.", "price": "$$", "duration": 90, "score": 7.6, "plus": ["Immense", "Historique"], "minus": ["Foule"], "verdict": "Classique à faire une fois" },
-    { "id": "nike-5th", "name": "Nike House of Innovation", "cat": "shop", "zone": "Manhattan", "hood": "Midtown", "address": "650 5th Ave, New York, NY 10019", "lat": 40.7600, "lng": -73.9765, "why": "Le Nike phare de New York, sur plusieurs étages.", "order": "Personnalisation de baskets.", "tip": "Les modèles exclusifs New York partent vite.", "price": "$$$", "duration": 45, "score": 7.8, "plus": ["Grand choix"], "minus": ["Prix américains + taxe"], "verdict": "Bon plan pour les fans" },
-    { "id": "strand", "name": "Strand Book Store", "cat": "shop", "zone": "Manhattan", "hood": "Union Square", "address": "828 Broadway, New York, NY 10003", "lat": 40.7332, "lng": -73.9909, "why": "Une librairie de légende, avec des kilomètres de livres neufs et d'occasion.", "order": "Les totes bags Strand, souvenir parfait.", "tip": "Le marché de Noël d'Union Square est à deux pas.", "price": "$", "duration": 45, "score": 8.6, "plus": ["Lieu culte", "Souvenirs originaux"], "minus": [], "verdict": "Pépite" },
-    { "id": "union-sq-market", "name": "Marché de Noël d'Union Square", "cat": "shop", "zone": "Manhattan", "hood": "Union Square", "address": "Union Square, New York, NY 10003", "lat": 40.7359, "lng": -73.9911, "why": "Des chalets d'artisans et de créateurs new-yorkais.", "order": "Cadeaux et souvenirs originaux.", "tip": "Ouvre habituellement mi-novembre : vérifiez la date 2026.", "price": "$$", "duration": 60, "score": 8.0, "plus": ["Créateurs locaux"], "minus": ["Foule le week-end"], "verdict": "Pépite", "dates": "mi-nov – fin déc, à vérifier" }
-  ]
+  "updated": "2026-10-23",
+  "notes": "Note BP = synthèse des critiques, guides et avis en ligne, faite par Claude en octobre 2026. La note Google affichée dans l'app est en direct."
+ },
+ "places": [
+  {
+   "id": "joes-carmine",
+   "name": "Joe's Pizza",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "Greenwich Village",
+   "address": "7 Carmine St, New York, NY 10014",
+   "lat": 40.7305,
+   "lng": -74.0021,
+   "why": "La part new-yorkaise de référence, filmée en boucle sur TikTok depuis des années.",
+   "order": "Une part fromage nature, puis une pepperoni. On plie la part et on mange debout.",
+   "tip": "Ça tourne vite, même avec la file.",
+   "price": "$",
+   "duration": 20,
+   "score": 8.6,
+   "plus": [
+    "Part classique, pâte fine",
+    "Très bon rapport qualité-prix",
+    "Service rapide"
+   ],
+   "minus": [
+    "Peu de places assises"
+   ],
+   "verdict": "Hype méritée"
+  },
+  {
+   "id": "katz",
+   "name": "Katz's Delicatessen",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "Lower East Side",
+   "address": "205 E Houston St, New York, NY 10002",
+   "lat": 40.7223,
+   "lng": -73.9874,
+   "why": "Deli de 1888, son pastrami est une légende, et la table de Quand Harry rencontre Sally est toujours là.",
+   "order": "Pastrami on rye, à partager à deux : la portion est énorme.",
+   "tip": "Gardez le ticket remis à l'entrée, il sert à payer en sortant.",
+   "price": "$$",
+   "duration": 60,
+   "score": 8.8,
+   "plus": [
+    "Pastrami exceptionnel",
+    "Ambiance d'époque"
+   ],
+   "minus": [
+    "Cher pour un sandwich",
+    "Foule aux heures de pointe"
+   ],
+   "verdict": "Hype méritée"
+  },
+  {
+   "id": "levain",
+   "name": "Levain Bakery",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "Upper West Side",
+   "address": "167 W 74th St, New York, NY 10023",
+   "lat": 40.7799,
+   "lng": -73.9802,
+   "why": "Les cookies géants et fondants qui ont fait le tour des réseaux.",
+   "order": "Chocolate chip walnut, mangé tiède.",
+   "tip": "Parfait avant une balade à Central Park, à deux rues.",
+   "price": "$",
+   "duration": 15,
+   "score": 8.5,
+   "plus": [
+    "Cookie très généreux",
+    "Cœur fondant"
+   ],
+   "minus": [
+    "File le week-end",
+    "Très sucré"
+   ],
+   "verdict": "Hype méritée",
+   "claire": {
+    "sec": [
+     "gouter"
+    ],
+    "notes": {
+     "gouter": "Meilleurs cookies de NYC."
+    },
+    "star": true
+   }
+  },
+  {
+   "id": "magnolia",
+   "name": "Magnolia Bakery",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "West Village",
+   "address": "401 Bleecker St, New York, NY 10014",
+   "lat": 40.7359,
+   "lng": -74.005,
+   "why": "Rendue célèbre par Sex and the City, aujourd'hui star de TikTok pour son banana pudding.",
+   "order": "Banana pudding classique.",
+   "tip": "La boutique d'origine est sur Bleecker, idéale pour la photo.",
+   "price": "$",
+   "duration": 15,
+   "score": 7.4,
+   "plus": [
+    "Banana pudding réussi",
+    "Adresse culte"
+   ],
+   "minus": [
+    "Cupcakes jugés moyens",
+    "Touristique"
+   ],
+   "verdict": "Surcoté sauf le pudding",
+   "claire": {
+    "sec": [
+     "gouter"
+    ],
+    "notes": {
+     "gouter": "Absolument prendre le banana pudding !!"
+    },
+    "star": false
+   }
+  },
+  {
+   "id": "sp-lunch",
+   "name": "S&P Lunch",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "Flatiron",
+   "address": "174 5th Ave, New York, NY 10010",
+   "lat": 40.7408,
+   "lng": -73.9903,
+   "why": "Luncheonette au comptoir d'époque, adorée des critiques et de TikTok.",
+   "order": "Tuna melt ou egg cream.",
+   "tip": "À deux pas du Flatiron Building.",
+   "price": "$$",
+   "duration": 45,
+   "score": 8.4,
+   "plus": [
+    "Cadre rétro authentique",
+    "Sandwichs soignés"
+   ],
+   "minus": [
+    "Petit, attente possible"
+   ],
+   "verdict": "Hype méritée"
+  },
+  {
+   "id": "thai-diner",
+   "name": "Thai Diner",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "Nolita",
+   "address": "186 Mott St, New York, NY 10012",
+   "lat": 40.7212,
+   "lng": -73.9963,
+   "why": "Un diner américain à la sauce thaï, l'une des réservations les plus partagées sur les réseaux.",
+   "order": "Thai disco fries et le Thai tea babka.",
+   "tip": "Réservez sur Resy ou venez tôt.",
+   "price": "$$",
+   "duration": 75,
+   "score": 8.5,
+   "plus": [
+    "Plats originaux",
+    "Ambiance festive"
+   ],
+   "minus": [
+    "Réservation difficile",
+    "Bruyant"
+   ],
+   "verdict": "Hype méritée"
+  },
+  {
+   "id": "via-carota",
+   "name": "Via Carota",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "West Village",
+   "address": "51 Grove St, New York, NY 10014",
+   "lat": 40.7333,
+   "lng": -74.0036,
+   "why": "Trattoria très romantique, une des tables les plus aimées de New York.",
+   "order": "Cacio e pepe et la salade verte, devenue célèbre.",
+   "tip": "Pas de réservation classique : inscrivez-vous sur la liste d'attente dès l'ouverture.",
+   "price": "$$$",
+   "duration": 90,
+   "score": 8.9,
+   "plus": [
+    "Cuisine italienne simple et parfaite",
+    "Cadre romantique"
+   ],
+   "minus": [
+    "Longue attente"
+   ],
+   "verdict": "Hype méritée"
+  },
+  {
+   "id": "carbone",
+   "name": "Carbone",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "Greenwich Village",
+   "address": "181 Thompson St, New York, NY 10012",
+   "lat": 40.7279,
+   "lng": -74.0004,
+   "why": "Le resto italo-américain des stars, célèbre pour ses spicy rigatoni.",
+   "order": "Spicy rigatoni vodka.",
+   "tip": "Réservation extrêmement difficile : à tenter des semaines avant.",
+   "price": "$$$$",
+   "duration": 120,
+   "score": 7.9,
+   "plus": [
+    "Show et service théâtral",
+    "Rigatoni excellentes"
+   ],
+   "minus": [
+    "Très cher",
+    "Quasi impossible à réserver"
+   ],
+   "verdict": "Expérience plus que gastronomie"
+  },
+  {
+   "id": "mamas-too",
+   "name": "Mama's Too!",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "Upper West Side",
+   "address": "2750 Broadway, New York, NY 10025",
+   "lat": 40.8018,
+   "lng": -73.9673,
+   "why": "Les parts carrées croustillantes qui font saliver TikTok.",
+   "order": "Square slice cacio e pepe ou pepperoni.",
+   "tip": "Peu de place : on mange en marchant.",
+   "price": "$",
+   "duration": 20,
+   "score": 8.6,
+   "plus": [
+    "Parts carrées très croustillantes",
+    "Créatif"
+   ],
+   "minus": [
+    "Loin du centre"
+   ],
+   "verdict": "Hype méritée"
+  },
+  {
+   "id": "7th-street-burger",
+   "name": "7th Street Burger",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "East Village",
+   "address": "91 E 7th St, New York, NY 10009",
+   "lat": 40.727,
+   "lng": -73.9853,
+   "why": "Smash burger aux bords croustillants, l'une des vidéos food les plus sauvegardées de New York.",
+   "order": "Double cheeseburger et frites.",
+   "tip": "Petit prix, parfait pour un déjeuner rapide.",
+   "price": "$",
+   "duration": 25,
+   "score": 8.2,
+   "plus": [
+    "Burger simple et très efficace",
+    "Pas cher"
+   ],
+   "minus": [
+    "Peu de places"
+   ],
+   "verdict": "Hype méritée"
+  },
+  {
+   "id": "cote",
+   "name": "COTE Korean Steakhouse",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "Flatiron",
+   "address": "16 W 22nd St, New York, NY 10010",
+   "lat": 40.7414,
+   "lng": -73.9918,
+   "why": "Steakhouse coréen étoilé, une réservation très convoitée sur Resy.",
+   "order": "Butcher's Feast pour deux.",
+   "tip": "Parfait pour une soirée en amoureux.",
+   "price": "$$$$",
+   "duration": 120,
+   "score": 8.8,
+   "plus": [
+    "Viande d'exception",
+    "Service attentionné"
+   ],
+   "minus": [
+    "Addition salée"
+   ],
+   "verdict": "Hype méritée"
+  },
+  {
+   "id": "jacks-wife-freda",
+   "name": "Jack's Wife Freda",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "SoHo",
+   "address": "224 Lafayette St, New York, NY 10012",
+   "lat": 40.7215,
+   "lng": -73.9978,
+   "why": "Le brunch que TikTok a transformé en art de vivre.",
+   "order": "Green shakshuka et halloumi frit.",
+   "tip": "Le week-end, l'attente est longue : venez en semaine.",
+   "price": "$$",
+   "duration": 60,
+   "score": 7.8,
+   "plus": [
+    "Ambiance agréable",
+    "Bon brunch"
+   ],
+   "minus": [
+    "Attente le week-end",
+    "Cuisine sans surprise"
+   ],
+   "verdict": "Sympa, sans plus",
+   "claire": {
+    "sec": [
+     "brunch"
+    ],
+    "notes": {
+     "brunch": "Un peu déçue par la nourriture, mais celui de SoHo a un cadre très sympa. Ne pas prendre les pancakes, rien de fou."
+    },
+    "star": false
+   }
+  },
+  {
+   "id": "dominique-ansel",
+   "name": "Dominique Ansel Bakery",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "SoHo",
+   "address": "189 Spring St, New York, NY 10012",
+   "lat": 40.7254,
+   "lng": -74.003,
+   "why": "Le berceau du Cronut, la pâtisserie d'un chef français star à New York.",
+   "order": "Le Cronut du mois et le DKA.",
+   "tip": "Les Cronuts partent tôt le matin.",
+   "price": "$$",
+   "duration": 20,
+   "score": 8.0,
+   "plus": [
+    "Pâtisserie très soignée"
+   ],
+   "minus": [
+    "Cronut vite épuisé",
+    "Cher"
+   ],
+   "verdict": "Hype méritée"
+  },
+  {
+   "id": "nom-wah",
+   "name": "Nom Wah Tea Parlor",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "Chinatown",
+   "address": "13 Doyers St, New York, NY 10013",
+   "lat": 40.7144,
+   "lng": -73.9981,
+   "why": "Le plus vieux salon de dim sum de New York, dans la ruelle la plus photogénique de Chinatown.",
+   "order": "Original egg roll, har gow et shu mai.",
+   "tip": "Prenez le temps de marcher dans Doyers Street.",
+   "price": "$",
+   "duration": 50,
+   "score": 8.1,
+   "plus": [
+    "Cadre historique",
+    "Dim sum à bon prix"
+   ],
+   "minus": [
+    "Attente le week-end"
+   ],
+   "verdict": "Pépite"
+  },
+  {
+   "id": "russ-daughters",
+   "name": "Russ & Daughters",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "Lower East Side",
+   "address": "179 E Houston St, New York, NY 10002",
+   "lat": 40.7225,
+   "lng": -73.9883,
+   "why": "Épicerie juive de 1914, temple du bagel au saumon fumé.",
+   "order": "Bagel cream cheese et saumon fumé.",
+   "tip": "Prenez un ticket à l'entrée, puis allez manger chez Katz's juste à côté.",
+   "price": "$$",
+   "duration": 25,
+   "score": 8.9,
+   "plus": [
+    "Saumon exceptionnel",
+    "Institution"
+   ],
+   "minus": [
+    "File le week-end"
+   ],
+   "verdict": "Incontournable"
+  },
+  {
+   "id": "ess-a-bagel",
+   "name": "Ess-a-Bagel",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "Midtown East",
+   "address": "831 3rd Ave, New York, NY 10022",
+   "lat": 40.7559,
+   "lng": -73.9701,
+   "why": "Des bagels énormes et moelleux, une institution locale.",
+   "order": "Everything bagel, scallion cream cheese.",
+   "tip": "Parfait pour le petit-déjeuner avant Midtown.",
+   "price": "$",
+   "duration": 20,
+   "score": 8.3,
+   "plus": [
+    "Bagels généreux"
+   ],
+   "minus": [
+    "File le matin"
+   ],
+   "verdict": "Pépite"
+  },
+  {
+   "id": "halal-guys",
+   "name": "The Halal Guys",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "Midtown",
+   "address": "W 53rd St & 6th Ave, New York, NY 10019",
+   "lat": 40.7616,
+   "lng": -73.979,
+   "why": "Le chariot de rue le plus célèbre de New York.",
+   "order": "Combo platter, sauce blanche et un peu de sauce piquante.",
+   "tip": "Allez au chariot d'origine, au coin sud-est de la rue.",
+   "price": "$",
+   "duration": 15,
+   "score": 7.6,
+   "plus": [
+    "Copieux et pas cher",
+    "Expérience street food"
+   ],
+   "minus": [
+    "Sauce piquante très forte"
+   ],
+   "verdict": "Classique à faire une fois"
+  },
+  {
+   "id": "lombardis",
+   "name": "Lombardi's",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "Nolita",
+   "address": "32 Spring St, New York, NY 10012",
+   "lat": 40.7216,
+   "lng": -73.9956,
+   "why": "Présentée comme la première pizzeria des États-Unis, avec son four à charbon.",
+   "order": "Margherita au four à charbon.",
+   "tip": "Ici, on commande une pizza entière, pas à la part.",
+   "price": "$$",
+   "duration": 60,
+   "score": 7.5,
+   "plus": [
+    "Lieu historique"
+   ],
+   "minus": [
+    "Touristique",
+    "Moins bon que sa réputation selon beaucoup"
+   ],
+   "verdict": "Surcoté"
+  },
+  {
+   "id": "veselka",
+   "name": "Veselka",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "East Village",
+   "address": "144 2nd Ave, New York, NY 10003",
+   "lat": 40.729,
+   "lng": -73.9871,
+   "why": "Diner ukrainien ouvert depuis 1954, chaleureux et réconfortant.",
+   "order": "Pierogis et bortsch.",
+   "tip": "Idéal un soir de froid.",
+   "price": "$$",
+   "duration": 50,
+   "score": 8.2,
+   "plus": [
+    "Plats réconfortants",
+    "Ambiance de quartier"
+   ],
+   "minus": [
+    "Souvent plein"
+   ],
+   "verdict": "Pépite"
+  },
+  {
+   "id": "sylvias",
+   "name": "Sylvia's",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "Harlem",
+   "address": "328 Malcolm X Blvd, New York, NY 10027",
+   "lat": 40.8089,
+   "lng": -73.9446,
+   "why": "La reine de la soul food à Harlem depuis 1962.",
+   "order": "Fried chicken and waffles.",
+   "tip": "Le dimanche, le gospel brunch est une vraie expérience.",
+   "price": "$$",
+   "duration": 75,
+   "score": 7.7,
+   "plus": [
+    "Histoire de Harlem",
+    "Soul food généreuse"
+   ],
+   "minus": [
+    "Assez touristique"
+   ],
+   "verdict": "Classique à faire une fois"
+  },
+  {
+   "id": "los-tacos",
+   "name": "Los Tacos No.1",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "Chelsea",
+   "address": "75 9th Ave, New York, NY 10011",
+   "lat": 40.7424,
+   "lng": -74.0061,
+   "why": "Les meilleurs tacos de Manhattan pour beaucoup, dans le Chelsea Market.",
+   "order": "Adobada taco et quesadilla.",
+   "tip": "Ça se mange debout, ça va vite.",
+   "price": "$",
+   "duration": 20,
+   "score": 8.7,
+   "plus": [
+    "Tacos excellents",
+    "Pas cher"
+   ],
+   "minus": [
+    "Foule le midi"
+   ],
+   "verdict": "Hype méritée"
+  },
+  {
+   "id": "juliana",
+   "name": "Juliana's",
+   "cat": "typique",
+   "zone": "Brooklyn",
+   "hood": "DUMBO",
+   "address": "19 Old Fulton St, Brooklyn, NY 11201",
+   "lat": 40.7027,
+   "lng": -73.9934,
+   "why": "La pizza au four à charbon du maître pizzaiolo Patsy Grimaldi, sous le pont de Brooklyn.",
+   "order": "Margherita classique, ou la n°1 avec mozzarella et pesto.",
+   "tip": "À enchaîner avec la balade dans DUMBO.",
+   "price": "$$",
+   "duration": 60,
+   "score": 8.6,
+   "plus": [
+    "Pâte fine et croustillante",
+    "Emplacement parfait"
+   ],
+   "minus": [
+    "File à l'heure du déjeuner"
+   ],
+   "verdict": "Hype méritée"
+  },
+  {
+   "id": "grimaldis",
+   "name": "Grimaldi's",
+   "cat": "typique",
+   "zone": "Brooklyn",
+   "hood": "DUMBO",
+   "address": "1 Front St, Brooklyn, NY 11201",
+   "lat": 40.7025,
+   "lng": -73.9933,
+   "why": "La pizzeria historique de DUMBO, juste à côté de Juliana's.",
+   "order": "Pizza entière au four à charbon.",
+   "tip": "Si la file est trop longue chez Juliana's.",
+   "price": "$$",
+   "duration": 60,
+   "score": 7.4,
+   "plus": [
+    "Pizza au four à charbon"
+   ],
+   "minus": [
+    "Les locaux préfèrent Juliana's",
+    "Touristique"
+   ],
+   "verdict": "Surcoté"
+  },
+  {
+   "id": "lindustrie",
+   "name": "L'Industrie Pizzeria",
+   "cat": "viral",
+   "zone": "Brooklyn",
+   "hood": "Williamsburg",
+   "address": "254 S 2nd St, Brooklyn, NY 11211",
+   "lat": 40.7115,
+   "lng": -73.9581,
+   "why": "Souvent élue meilleure part de New York sur les réseaux.",
+   "order": "Burrata slice et la part fig jam & bacon.",
+   "tip": "File quasi permanente, mais elle avance vite.",
+   "price": "$",
+   "duration": 25,
+   "score": 9.0,
+   "plus": [
+    "Part exceptionnelle",
+    "Produits italiens de qualité"
+   ],
+   "minus": [
+    "File",
+    "Peu de place"
+   ],
+   "verdict": "Hype méritée"
+  },
+  {
+   "id": "peter-luger",
+   "name": "Peter Luger",
+   "cat": "typique",
+   "zone": "Brooklyn",
+   "hood": "Williamsburg",
+   "address": "178 Broadway, Brooklyn, NY 11211",
+   "lat": 40.7099,
+   "lng": -73.9623,
+   "why": "Le steakhouse légendaire de 1887.",
+   "order": "Porterhouse pour deux et creamed spinach.",
+   "tip": "Réservez à l'avance.",
+   "price": "$$$$",
+   "duration": 105,
+   "score": 8.0,
+   "plus": [
+    "Steak mythique",
+    "Lieu historique"
+   ],
+   "minus": [
+    "Service bourru",
+    "Avis partagés ces dernières années"
+   ],
+   "verdict": "Classique à faire une fois"
+  },
+  {
+   "id": "lilia",
+   "name": "Lilia",
+   "cat": "viral",
+   "zone": "Brooklyn",
+   "hood": "Williamsburg",
+   "address": "567 Union Ave, Brooklyn, NY 11211",
+   "lat": 40.7177,
+   "lng": -73.9525,
+   "why": "Les pâtes fraîches de la cheffe Missy Robbins, une réservation star.",
+   "order": "Mafaldine au poivre rose et l'agnolotti.",
+   "tip": "Le comptoir du bar se tente sans réservation, tôt en soirée.",
+   "price": "$$$",
+   "duration": 100,
+   "score": 9.0,
+   "plus": [
+    "Pâtes parmi les meilleures de la ville"
+   ],
+   "minus": [
+    "Réservation difficile"
+   ],
+   "verdict": "Hype méritée",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {
+     "resto": "Réserver longtemps à l'avance. Je n'ai pas pu tester, mais ça a l'air génial."
+    },
+    "star": false
+   }
+  },
+  {
+   "id": "lucali",
+   "name": "Lucali",
+   "cat": "viral",
+   "zone": "Brooklyn",
+   "hood": "Carroll Gardens",
+   "address": "575 Henry St, Brooklyn, NY 11231",
+   "lat": 40.6812,
+   "lng": -74.0002,
+   "why": "Pizzeria aux chandelles, adorée des stars et des foodies.",
+   "order": "Pizza et calzone à partager.",
+   "tip": "Venez avant l'ouverture pour mettre votre nom sur la liste. Prévoyez vos boissons, c'est BYOB.",
+   "price": "$$",
+   "duration": 90,
+   "score": 8.9,
+   "plus": [
+    "Pizza exceptionnelle",
+    "Ambiance romantique"
+   ],
+   "minus": [
+    "Attente de plusieurs heures possible"
+   ],
+   "verdict": "Hype méritée"
+  },
+  {
+   "id": "di-fara",
+   "name": "Di Fara Pizza",
+   "cat": "typique",
+   "zone": "Brooklyn",
+   "hood": "Midwood",
+   "address": "1424 Avenue J, Brooklyn, NY 11230",
+   "lat": 40.625,
+   "lng": -73.9615,
+   "why": "Une institution de quartier depuis 1965, considérée comme un monument de la pizza.",
+   "order": "Square slice.",
+   "tip": "Loin du centre : à combiner avec les lumières de Dyker Heights.",
+   "price": "$",
+   "duration": 40,
+   "score": 8.4,
+   "plus": [
+    "Pizza culte"
+   ],
+   "minus": [
+    "Loin",
+    "Attente"
+   ],
+   "verdict": "Pépite"
+  },
+  {
+   "id": "roberta",
+   "name": "Roberta's",
+   "cat": "viral",
+   "zone": "Brooklyn",
+   "hood": "Bushwick",
+   "address": "261 Moore St, Brooklyn, NY 11206",
+   "lat": 40.7051,
+   "lng": -73.9336,
+   "why": "La pizzeria qui a rendu Bushwick cool.",
+   "order": "Bee Sting (miel piquant, soppressata).",
+   "tip": "Le quartier est connu pour son street art.",
+   "price": "$$",
+   "duration": 75,
+   "score": 8.1,
+   "plus": [
+    "Pizza créative",
+    "Quartier street art"
+   ],
+   "minus": [
+    "Un peu excentré"
+   ],
+   "verdict": "Hype méritée"
+  },
+  {
+   "id": "lb-spumoni",
+   "name": "L&B Spumoni Gardens",
+   "cat": "typique",
+   "zone": "Brooklyn",
+   "hood": "Gravesend",
+   "address": "2725 86th St, Brooklyn, NY 11223",
+   "lat": 40.5947,
+   "lng": -73.9814,
+   "why": "La square pizza sauce sur le dessus, et la glace spumoni, depuis 1939.",
+   "order": "Square slice et une spumoni.",
+   "tip": "Sur le chemin de Dyker Heights.",
+   "price": "$",
+   "duration": 40,
+   "score": 8.3,
+   "plus": [
+    "Institution de quartier",
+    "Pas cher"
+   ],
+   "minus": [
+    "Loin"
+   ],
+   "verdict": "Pépite"
+  },
+  {
+   "id": "nathans",
+   "name": "Nathan's Famous",
+   "cat": "typique",
+   "zone": "Brooklyn",
+   "hood": "Coney Island",
+   "address": "1310 Surf Ave, Brooklyn, NY 11224",
+   "lat": 40.5755,
+   "lng": -73.9814,
+   "why": "Le hot-dog d'origine de Coney Island, depuis 1916.",
+   "order": "Hot-dog et cheese fries.",
+   "tip": "En novembre, le parc d'attractions est fermé mais la promenade reste belle.",
+   "price": "$",
+   "duration": 30,
+   "score": 7.2,
+   "plus": [
+    "Lieu historique"
+   ],
+   "minus": [
+    "Coney Island hors saison"
+   ],
+   "verdict": "Pour la nostalgie"
+  },
+  {
+   "id": "zero-otto-nove",
+   "name": "Zero Otto Nove",
+   "cat": "typique",
+   "zone": "Bronx",
+   "hood": "Arthur Avenue",
+   "address": "2357 Arthur Ave, Bronx, NY 10458",
+   "lat": 40.8543,
+   "lng": -73.8886,
+   "why": "Pizza napolitaine au feu de bois, saluée par le Michelin, au cœur de la vraie Little Italy.",
+   "order": "Pizza La Riccia et une pasta à partager.",
+   "tip": "Déjeuner idéal après le jardin botanique.",
+   "price": "$$",
+   "duration": 75,
+   "score": 8.6,
+   "plus": [
+    "Meilleure pizza du Bronx pour beaucoup",
+    "Cadre de village italien"
+   ],
+   "minus": [
+    "Attente le week-end"
+   ],
+   "verdict": "Pépite"
+  },
+  {
+   "id": "tra-di-noi",
+   "name": "Tra Di Noi",
+   "cat": "typique",
+   "zone": "Bronx",
+   "hood": "Arthur Avenue",
+   "address": "622 E 187th St, Bronx, NY 10458",
+   "lat": 40.8547,
+   "lng": -73.8875,
+   "why": "Petite trattoria familiale aux serveurs passionnés par leurs plats du jour.",
+   "order": "L'espadon ou le plat du jour de la mer, et une pasta chacun.",
+   "tip": "Écoutez les suggestions du serveur.",
+   "price": "$$",
+   "duration": 90,
+   "score": 8.5,
+   "plus": [
+    "Accueil chaleureux",
+    "Plats du jour excellents"
+   ],
+   "minus": [
+    "Petite salle"
+   ],
+   "verdict": "Pépite"
+  },
+  {
+   "id": "arthur-market",
+   "name": "Arthur Avenue Retail Market",
+   "cat": "typique",
+   "zone": "Bronx",
+   "hood": "Arthur Avenue",
+   "address": "2344 Arthur Ave, Bronx, NY 10458",
+   "lat": 40.8548,
+   "lng": -73.8885,
+   "why": "Marché couvert italien : pâtes fraîches, charcuteries, et un comptoir à sandwichs culte.",
+   "order": "Un sandwich italien au comptoir du deli.",
+   "tip": "Fermé le dimanche. Beaucoup de commerces du quartier préfèrent les espèces.",
+   "price": "$",
+   "duration": 45,
+   "score": 8.4,
+   "plus": [
+    "Ambiance authentique",
+    "Sandwichs énormes"
+   ],
+   "minus": [
+    "Fermé le dimanche"
+   ],
+   "verdict": "Incontournable"
+  },
+  {
+   "id": "madonia",
+   "name": "Madonia Brothers Bakery",
+   "cat": "typique",
+   "zone": "Bronx",
+   "hood": "Arthur Avenue",
+   "address": "2348 Arthur Ave, Bronx, NY 10458",
+   "lat": 40.855,
+   "lng": -73.8884,
+   "why": "Boulangerie familiale depuis plus d'un siècle.",
+   "order": "Un cannolo garni à la minute.",
+   "tip": "C'est votre défi du jour Bronx dans le carnet.",
+   "price": "$",
+   "duration": 15,
+   "score": 8.5,
+   "plus": [
+    "Cannoli frais",
+    "Pain excellent"
+   ],
+   "minus": [],
+   "verdict": "Pépite"
+  },
+  {
+   "id": "casa-mozzarella",
+   "name": "Casa Della Mozzarella",
+   "cat": "shop",
+   "zone": "Bronx",
+   "hood": "Arthur Avenue",
+   "address": "604 E 187th St, Bronx, NY 10458",
+   "lat": 40.8549,
+   "lng": -73.888,
+   "why": "Mozzarella faite sur place chaque jour, et des sandwichs réputés.",
+   "order": "Un morceau de mozzarella encore tiède.",
+   "tip": "Le matin, elle est toute fraîche.",
+   "price": "$",
+   "duration": 15,
+   "score": 8.6,
+   "plus": [
+    "Mozzarella du jour"
+   ],
+   "minus": [
+    "File le samedi"
+   ],
+   "verdict": "Pépite"
+  },
+  {
+   "id": "calabria-pork",
+   "name": "Calabria Pork Store",
+   "cat": "typique",
+   "zone": "Bronx",
+   "hood": "Arthur Avenue",
+   "address": "2338 Arthur Ave, Bronx, NY 10458",
+   "lat": 40.8546,
+   "lng": -73.8886,
+   "why": "Des centaines de soppressate suspendues au plafond : la photo à faire du Bronx.",
+   "order": "Un sandwich à la soppressata piquante.",
+   "tip": "Regardez le plafond en entrant.",
+   "price": "$",
+   "duration": 15,
+   "score": 8.4,
+   "plus": [
+    "Lieu unique",
+    "Charcuterie maison"
+   ],
+   "minus": [],
+   "verdict": "Pépite"
+  },
+  {
+   "id": "cosenza",
+   "name": "Cosenza's Fish Market",
+   "cat": "typique",
+   "zone": "Bronx",
+   "hood": "Arthur Avenue",
+   "address": "2354 Arthur Ave, Bronx, NY 10458",
+   "lat": 40.8551,
+   "lng": -73.8884,
+   "why": "Huîtres et palourdes ouvertes à la minute, sur le trottoir.",
+   "order": "Une demi-douzaine de clams au citron.",
+   "tip": "Une des expériences les plus typiques du quartier.",
+   "price": "$",
+   "duration": 15,
+   "score": 8.1,
+   "plus": [
+    "Fruits de mer très frais"
+   ],
+   "minus": [
+    "Debout dans le froid en novembre"
+   ],
+   "verdict": "Pépite"
+  },
+  {
+   "id": "188-cuchifritos",
+   "name": "188 Bakery Cuchifritos",
+   "cat": "typique",
+   "zone": "Bronx",
+   "hood": "Fordham",
+   "address": "158 E 188th St, Bronx, NY 10468",
+   "lat": 40.8608,
+   "lng": -73.8993,
+   "why": "Fritures portoricaines, entrées en 2025 dans le classement des 100 meilleurs restos du New York Times.",
+   "order": "Alcapurria, pernil et un jus de passion.",
+   "tip": "Petit comptoir de quartier : commandez en montrant du doigt.",
+   "price": "$",
+   "duration": 25,
+   "score": 8.4,
+   "plus": [
+    "Très authentique",
+    "Pas cher"
+   ],
+   "minus": [
+    "Simple, sans décor"
+   ],
+   "verdict": "Pépite"
+  },
+  {
+   "id": "tlaxcalli",
+   "name": "Taqueria Tlaxcalli",
+   "cat": "viral",
+   "zone": "Bronx",
+   "hood": "Parkchester",
+   "address": "2103 Starling Ave, Bronx, NY 10462",
+   "lat": 40.834,
+   "lng": -73.8558,
+   "why": "Devenue célèbre après la vidéo du critique Keith Lee.",
+   "order": "Tacos al pastor et barbacoa.",
+   "tip": "Un peu à l'écart d'Arthur Avenue, en taxi.",
+   "price": "$",
+   "duration": 40,
+   "score": 8.5,
+   "plus": [
+    "Tacos excellents",
+    "Famille accueillante"
+   ],
+   "minus": [
+    "Excentré"
+   ],
+   "verdict": "Hype méritée"
+  },
+  {
+   "id": "nybg-train",
+   "name": "Holiday Train Show (NYBG)",
+   "cat": "voir",
+   "zone": "Bronx",
+   "hood": "Bronx Park",
+   "address": "2900 Southern Blvd, Bronx, NY 10458",
+   "lat": 40.8623,
+   "lng": -73.877,
+   "why": "Des trains miniatures circulent entre près de 200 monuments de New York faits de bois, d'écorce et de graines, sous la grande serre.",
+   "order": "Le parcours sous la serre, puis un chocolat chaud.",
+   "tip": "Du 14 novembre 2026 au 10 janvier 2027. Billet horaire à réserver en ligne.",
+   "price": "$$",
+   "duration": 120,
+   "score": 8.8,
+   "plus": [
+    "Magique et unique",
+    "Parfait en couple"
+   ],
+   "minus": [
+    "Billet à réserver"
+   ],
+   "verdict": "Incontournable",
+   "dates": "14 nov 2026 – 10 jan 2027"
+  },
+  {
+   "id": "bronx-zoo-lights",
+   "name": "Bronx Zoo Holiday Lights",
+   "cat": "voir",
+   "zone": "Bronx",
+   "hood": "Bronx Park",
+   "address": "2300 Southern Blvd, Bronx, NY 10460",
+   "lat": 40.8506,
+   "lng": -73.877,
+   "why": "Le zoo illuminé par près de 400 lanternes géantes d'animaux. Nouveauté 2026 : visite des reptiles et des animaux nocturnes le soir.",
+   "order": "Les sentiers de lanternes à la nuit tombée.",
+   "tip": "Ouvert certains soirs seulement, à partir du 21 novembre. Billets en ligne uniquement.",
+   "price": "$$",
+   "duration": 150,
+   "score": 8.3,
+   "plus": [
+    "Très beau de nuit",
+    "Nouveautés 2026"
+   ],
+   "minus": [
+    "Pensé d'abord pour les familles"
+   ],
+   "verdict": "Incontournable en saison",
+   "dates": "21 nov 2026 – 3 jan 2027, certains soirs"
+  },
+  {
+   "id": "yankee-stadium",
+   "name": "Yankee Stadium",
+   "cat": "voir",
+   "zone": "Bronx",
+   "hood": "Concourse",
+   "address": "1 E 161st St, Bronx, NY 10451",
+   "lat": 40.8296,
+   "lng": -73.9262,
+   "why": "Le stade mythique des Yankees.",
+   "order": "Photo devant l'entrée, boutique officielle.",
+   "tip": "Pas de match en novembre : vérifiez les visites guidées.",
+   "price": "$$",
+   "duration": 60,
+   "score": 7.8,
+   "plus": [
+    "Lieu iconique"
+   ],
+   "minus": [
+    "Hors saison"
+   ],
+   "verdict": "Pour les fans"
+  },
+  {
+   "id": "sedgwick",
+   "name": "1520 Sedgwick Avenue",
+   "cat": "voir",
+   "zone": "Bronx",
+   "hood": "Morris Heights",
+   "address": "1520 Sedgwick Ave, Bronx, NY 10453",
+   "lat": 40.846,
+   "lng": -73.9285,
+   "why": "L'immeuble où est né le hip-hop, lors d'une fête en 1973.",
+   "order": "Une photo devant l'immeuble.",
+   "tip": "C'est un immeuble d'habitation : restez discrets. Le Hip Hop Museum n'ouvrira qu'en 2027.",
+   "price": "Gratuit",
+   "duration": 15,
+   "score": 7.0,
+   "plus": [
+    "Lieu historique"
+   ],
+   "minus": [
+    "Rien à visiter"
+   ],
+   "verdict": "Pour les fans de rap"
+  },
+  {
+   "id": "brooklyn-bridge",
+   "name": "Pont de Brooklyn",
+   "cat": "voir",
+   "zone": "Brooklyn",
+   "hood": "DUMBO",
+   "address": "Brooklyn Bridge, New York, NY 10038",
+   "lat": 40.7061,
+   "lng": -73.9969,
+   "why": "La traversée à pied la plus célèbre du monde.",
+   "order": "Traverser de Manhattan vers Brooklyn, pour avoir la vue sur les gratte-ciel au retour.",
+   "tip": "Tôt le matin, il y a beaucoup moins de monde.",
+   "price": "Gratuit",
+   "duration": 45,
+   "score": 9.3,
+   "plus": [
+    "Vue incroyable"
+   ],
+   "minus": [
+    "Bondé l'après-midi"
+   ],
+   "verdict": "Incontournable"
+  },
+  {
+   "id": "dumbo-washington",
+   "name": "DUMBO, Washington Street",
+   "cat": "voir",
+   "zone": "Brooklyn",
+   "hood": "DUMBO",
+   "address": "Washington St & Water St, Brooklyn, NY 11201",
+   "lat": 40.7032,
+   "lng": -73.9894,
+   "why": "La photo culte du Manhattan Bridge encadré par les immeubles de brique.",
+   "order": "Photo au milieu de la rue, en faisant attention aux voitures.",
+   "tip": "Belle lumière en fin de journée.",
+   "price": "Gratuit",
+   "duration": 20,
+   "score": 9.0,
+   "plus": [
+    "Photo iconique"
+   ],
+   "minus": [
+    "Foule de photographes"
+   ],
+   "verdict": "Incontournable"
+  },
+  {
+   "id": "janes-carousel",
+   "name": "Jane's Carousel",
+   "cat": "voir",
+   "zone": "Brooklyn",
+   "hood": "DUMBO",
+   "address": "Old Dock St, Brooklyn, NY 11201",
+   "lat": 40.7043,
+   "lng": -73.9924,
+   "why": "Un carrousel de 1922 dans une boîte de verre, face à Manhattan.",
+   "order": "Un tour à deux au coucher du soleil.",
+   "tip": "Horaires réduits en hiver.",
+   "price": "$",
+   "duration": 15,
+   "score": 8.2,
+   "plus": [
+    "Romantique",
+    "Vue sur le pont"
+   ],
+   "minus": [],
+   "verdict": "Pépite"
+  },
+  {
+   "id": "bb-park",
+   "name": "Brooklyn Bridge Park",
+   "cat": "voir",
+   "zone": "Brooklyn",
+   "hood": "DUMBO",
+   "address": "Pier 1, Brooklyn, NY 11201",
+   "lat": 40.7021,
+   "lng": -73.9965,
+   "why": "La plus belle vue sur la skyline de Manhattan.",
+   "order": "Coucher de soleil depuis le Pier 1.",
+   "tip": "Coucher du soleil vers 16h30 fin novembre.",
+   "price": "Gratuit",
+   "duration": 45,
+   "score": 9.0,
+   "plus": [
+    "Vue spectaculaire"
+   ],
+   "minus": [
+    "Froid et venté en novembre"
+   ],
+   "verdict": "Incontournable"
+  },
+  {
+   "id": "promenade",
+   "name": "Brooklyn Heights Promenade",
+   "cat": "voir",
+   "zone": "Brooklyn",
+   "hood": "Brooklyn Heights",
+   "address": "Brooklyn Heights Promenade, Brooklyn, NY 11201",
+   "lat": 40.696,
+   "lng": -73.997,
+   "why": "Une promenade surélevée face à Manhattan, au bout de rues bordées de maisons en brownstone.",
+   "order": "Flâner dans les rues autour, Willow Street et Pierrepont Street.",
+   "tip": "Plus calme que DUMBO.",
+   "price": "Gratuit",
+   "duration": 30,
+   "score": 8.6,
+   "plus": [
+    "Calme",
+    "Architecture superbe"
+   ],
+   "minus": [],
+   "verdict": "Pépite"
+  },
+  {
+   "id": "domino-park",
+   "name": "Domino Park",
+   "cat": "voir",
+   "zone": "Brooklyn",
+   "hood": "Williamsburg",
+   "address": "15 River St, Brooklyn, NY 11249",
+   "lat": 40.7146,
+   "lng": -73.9686,
+   "why": "Parc moderne au bord de l'eau, face au Williamsburg Bridge.",
+   "order": "Balade au bord de l'East River.",
+   "tip": "À enchaîner avec les boutiques de Williamsburg.",
+   "price": "Gratuit",
+   "duration": 30,
+   "score": 8.2,
+   "plus": [
+    "Vue sur le pont et Manhattan"
+   ],
+   "minus": [],
+   "verdict": "Pépite",
+   "claire": {
+    "sec": [
+     "parcs"
+    ],
+    "notes": {
+     "parcs": "Mon préféré : vue sur Manhattan imprenable, mood trop sympa, terrains de volley en été."
+    },
+    "star": true
+   }
+  },
+  {
+   "id": "bedford-ave",
+   "name": "Williamsburg, Bedford Avenue",
+   "cat": "shop",
+   "zone": "Brooklyn",
+   "hood": "Williamsburg",
+   "address": "Bedford Ave & N 7th St, Brooklyn, NY 11249",
+   "lat": 40.7178,
+   "lng": -73.9573,
+   "why": "La rue des boutiques vintage, des créateurs et des concept stores de Brooklyn.",
+   "order": "Fripes, disquaires, concept stores.",
+   "tip": "Explorez aussi les rues autour, N 6th et Wythe Ave.",
+   "price": "$$",
+   "duration": 120,
+   "score": 8.4,
+   "plus": [
+    "Boutiques originales",
+    "Ambiance de quartier"
+   ],
+   "minus": [],
+   "verdict": "Incontournable shopping",
+   "claire": {
+    "sec": [
+     "friperies"
+    ],
+    "notes": {
+     "friperies": "N 6th Street, à Williamsburg."
+    },
+    "star": false
+   }
+  },
+  {
+   "id": "dyker-heights",
+   "name": "Lumières de Dyker Heights",
+   "cat": "voir",
+   "zone": "Brooklyn",
+   "hood": "Dyker Heights",
+   "address": "84th St & 11th Ave, Brooklyn, NY 11228",
+   "lat": 40.6205,
+   "lng": -74.0149,
+   "why": "Des maisons décorées de façon spectaculaire pour Noël.",
+   "order": "Balade le soir entre la 83e et la 86e rue.",
+   "tip": "Les décorations s'allument surtout après Thanksgiving : visez les soirs du 27 ou du 28 novembre.",
+   "price": "Gratuit",
+   "duration": 75,
+   "score": 8.0,
+   "plus": [
+    "Spectaculaire"
+   ],
+   "minus": [
+    "Loin",
+    "Peut-être pas encore complet fin novembre"
+   ],
+   "verdict": "À tenter en fin de séjour",
+   "dates": "à partir de fin novembre"
+  },
+  {
+   "id": "statue-liberty",
+   "name": "Statue de la Liberté et Ellis Island",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Battery Park",
+   "address": "Battery Park, New York, NY 10004",
+   "lat": 40.7013,
+   "lng": -74.0145,
+   "why": "Le symbole de New York, avec le musée de l'immigration à Ellis Island.",
+   "order": "Le ferry officiel Statue City Cruises, accès au piédestal si possible.",
+   "tip": "Réservez uniquement sur le site officiel. Option gratuite : le Staten Island Ferry, qui passe devant la statue.",
+   "price": "$$",
+   "duration": 240,
+   "score": 8.7,
+   "plus": [
+    "Incontournable",
+    "Ellis Island passionnant"
+   ],
+   "minus": [
+    "Contrôle de sécurité long"
+   ],
+   "verdict": "Incontournable"
+  },
+  {
+   "id": "911-memorial",
+   "name": "Mémorial du 11-Septembre",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Financial District",
+   "address": "180 Greenwich St, New York, NY 10007",
+   "lat": 40.7115,
+   "lng": -74.0134,
+   "why": "Deux bassins à l'emplacement des tours jumelles, et un musée très fort.",
+   "order": "Les bassins, puis le musée.",
+   "tip": "Les bassins sont gratuits, le musée est payant.",
+   "price": "$$",
+   "duration": 120,
+   "score": 9.2,
+   "plus": [
+    "Très émouvant"
+   ],
+   "minus": [],
+   "verdict": "Incontournable"
+  },
+  {
+   "id": "one-wtc",
+   "name": "One World Observatory",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Financial District",
+   "address": "117 West St, New York, NY 10007",
+   "lat": 40.713,
+   "lng": -74.0132,
+   "why": "La plus haute tour de l'hémisphère ouest.",
+   "order": "La vue sur le pont de Brooklyn et la baie.",
+   "tip": "À combiner avec le mémorial.",
+   "price": "$$$",
+   "duration": 75,
+   "score": 8.0,
+   "plus": [
+    "Très haut",
+    "Vue sur la baie"
+   ],
+   "minus": [
+    "Vitres, pas de terrasse"
+   ],
+   "verdict": "Bien, mais Top of the Rock est mieux placé"
+  },
+  {
+   "id": "charging-bull",
+   "name": "Wall Street et Charging Bull",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Financial District",
+   "address": "Bowling Green, New York, NY 10004",
+   "lat": 40.7056,
+   "lng": -74.0134,
+   "why": "Le taureau de bronze de Wall Street.",
+   "order": "Photo, puis la Bourse et le Federal Hall.",
+   "tip": "Tôt le matin pour éviter la file de photos.",
+   "price": "Gratuit",
+   "duration": 30,
+   "score": 7.6,
+   "plus": [
+    "Iconique"
+   ],
+   "minus": [
+    "Foule"
+   ],
+   "verdict": "Classique à faire une fois"
+  },
+  {
+   "id": "oculus",
+   "name": "Oculus",
+   "cat": "shop",
+   "zone": "Manhattan",
+   "hood": "Financial District",
+   "address": "185 Greenwich St, New York, NY 10007",
+   "lat": 40.7116,
+   "lng": -74.011,
+   "why": "La gare-centre commercial en forme d'ailes blanches de Calatrava.",
+   "order": "Photo depuis l'intérieur, au centre.",
+   "tip": "Parfait pour se réchauffer.",
+   "price": "Gratuit",
+   "duration": 30,
+   "score": 8.1,
+   "plus": [
+    "Architecture spectaculaire"
+   ],
+   "minus": [
+    "Boutiques classiques"
+   ],
+   "verdict": "Pépite"
+  },
+  {
+   "id": "century-21",
+   "name": "Century 21",
+   "cat": "shop",
+   "zone": "Manhattan",
+   "hood": "Financial District",
+   "address": "22 Cortlandt St, New York, NY 10007",
+   "lat": 40.7104,
+   "lng": -74.0105,
+   "why": "Le grand magasin de déstockage de marques, très prisé des Français.",
+   "order": "Chasse aux bonnes affaires.",
+   "tip": "Prévoyez du temps pour fouiller.",
+   "price": "$$",
+   "duration": 90,
+   "score": 7.8,
+   "plus": [
+    "Marques à prix réduits"
+   ],
+   "minus": [
+    "Désordonné"
+   ],
+   "verdict": "Bon plan"
+  },
+  {
+   "id": "empire-state",
+   "name": "Empire State Building",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Midtown",
+   "address": "20 W 34th St, New York, NY 10001",
+   "lat": 40.7484,
+   "lng": -73.9857,
+   "why": "Le gratte-ciel le plus célèbre du monde, avec sa terrasse en plein air au 86e étage.",
+   "order": "La terrasse du 86e, de nuit.",
+   "tip": "En soirée, la ville illuminée est magique.",
+   "price": "$$$",
+   "duration": 90,
+   "score": 8.5,
+   "plus": [
+    "Iconique",
+    "Terrasse extérieure"
+   ],
+   "minus": [
+    "Attente possible"
+   ],
+   "verdict": "Incontournable",
+   "claire": {
+    "sec": [
+     "sky"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "top-of-the-rock",
+   "name": "Top of the Rock",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Midtown",
+   "address": "30 Rockefeller Plaza, New York, NY 10112",
+   "lat": 40.7593,
+   "lng": -73.9794,
+   "why": "La meilleure vue d'ensemble : Central Park d'un côté, l'Empire State de l'autre.",
+   "order": "Montez 45 minutes avant le coucher du soleil.",
+   "tip": "Coucher du soleil vers 16h30 fin novembre.",
+   "price": "$$$",
+   "duration": 75,
+   "score": 9.0,
+   "plus": [
+    "Vue sur l'Empire State",
+    "Terrasses extérieures"
+   ],
+   "minus": [],
+   "verdict": "Incontournable"
+  },
+  {
+   "id": "summit",
+   "name": "SUMMIT One Vanderbilt",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "Midtown",
+   "address": "45 E 42nd St, New York, NY 10017",
+   "lat": 40.7531,
+   "lng": -73.9787,
+   "why": "Les salles de miroirs ultra-instagrammables au sommet d'une tour.",
+   "order": "Les salles de miroirs, puis l'ascenseur vitré extérieur.",
+   "tip": "Évitez les jupes : les sols sont en miroir.",
+   "price": "$$$",
+   "duration": 90,
+   "score": 8.4,
+   "plus": [
+    "Expérience unique",
+    "Très photogénique"
+   ],
+   "minus": [
+    "Cher",
+    "Foule"
+   ],
+   "verdict": "Hype méritée",
+   "claire": {
+    "sec": [
+     "sky"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "edge",
+   "name": "Edge",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Hudson Yards",
+   "address": "30 Hudson Yards, New York, NY 10001",
+   "lat": 40.7539,
+   "lng": -74.0011,
+   "why": "La plus haute terrasse extérieure en surplomb de l'hémisphère ouest, avec un sol vitré.",
+   "order": "Photo sur le sol vitré.",
+   "tip": "À enchaîner avec la High Line.",
+   "price": "$$$",
+   "duration": 60,
+   "score": 8.2,
+   "plus": [
+    "Sensations"
+   ],
+   "minus": [
+    "Vent froid"
+   ],
+   "verdict": "Bien si pas Top of the Rock",
+   "claire": {
+    "sec": [
+     "sky"
+    ],
+    "notes": {
+     "sky": "Mon préféré ! Astuce pour payer moins cher : réserver pour prendre un verre au bar de l'immeuble (Peak). On boit un verre là-bas (environ 20 $), puis on paie et on va aux toilettes : au bout, une porte mène à la terrasse avec la vue. On ne paie donc que le verre, et pas les 50 $ de l'entrée."
+    },
+    "star": true
+   }
+  },
+  {
+   "id": "central-park",
+   "name": "Central Park, Bethesda Terrace",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Central Park",
+   "address": "Bethesda Terrace, New York, NY 10024",
+   "lat": 40.774,
+   "lng": -73.9708,
+   "why": "Le cœur du parc : la fontaine, le Bow Bridge et le Mall bordé d'arbres.",
+   "order": "Bethesda, Bow Bridge, puis Strawberry Fields.",
+   "tip": "Fin novembre, il reste souvent des couleurs d'automne.",
+   "price": "Gratuit",
+   "duration": 120,
+   "score": 9.4,
+   "plus": [
+    "Magnifique en automne",
+    "Romantique"
+   ],
+   "minus": [],
+   "verdict": "Incontournable",
+   "claire": {
+    "sec": [
+     "parcs"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "met",
+   "name": "The Met",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Upper East Side",
+   "address": "1000 5th Ave, New York, NY 10028",
+   "lat": 40.7794,
+   "lng": -73.9632,
+   "why": "L'un des plus grands musées du monde.",
+   "order": "Le temple de Dendour, puis la terrasse du toit si ouverte.",
+   "tip": "Fermé le mercredi et le jour de Thanksgiving.",
+   "price": "$$",
+   "duration": 180,
+   "score": 9.3,
+   "plus": [
+    "Collections immenses"
+   ],
+   "minus": [
+    "On ne peut pas tout voir"
+   ],
+   "verdict": "Incontournable",
+   "closed": [
+    "wed",
+    "2026-11-26"
+   ],
+   "claire": {
+    "sec": [
+     "culture"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "moma",
+   "name": "MoMA",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Midtown",
+   "address": "11 W 53rd St, New York, NY 10019",
+   "lat": 40.7614,
+   "lng": -73.9776,
+   "why": "Van Gogh, Warhol, Picasso : le musée d'art moderne de référence.",
+   "order": "La Nuit étoilée de Van Gogh, au 5e étage.",
+   "tip": "Réservez un créneau en ligne.",
+   "price": "$$",
+   "duration": 150,
+   "score": 9.0,
+   "plus": [
+    "Chefs-d'œuvre"
+   ],
+   "minus": [
+    "Foule devant les stars"
+   ],
+   "verdict": "Incontournable",
+   "claire": {
+    "sec": [
+     "culture"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "amnh",
+   "name": "Muséum d'histoire naturelle",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Upper West Side",
+   "address": "200 Central Park West, New York, NY 10024",
+   "lat": 40.7813,
+   "lng": -73.974,
+   "why": "Les dinosaures et la baleine bleue de La Nuit au musée.",
+   "order": "Salle des dinosaures et la baleine bleue.",
+   "tip": "Fermé le jour de Thanksgiving. La veille, les ballons de la parade sont gonflés juste à côté.",
+   "price": "$$",
+   "duration": 150,
+   "score": 8.6,
+   "plus": [
+    "Spectaculaire"
+   ],
+   "minus": [
+    "Très fréquenté"
+   ],
+   "verdict": "Incontournable",
+   "closed": [
+    "2026-11-26"
+   ]
+  },
+  {
+   "id": "times-square",
+   "name": "Times Square",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Midtown",
+   "address": "Times Square, New York, NY 10036",
+   "lat": 40.758,
+   "lng": -73.9855,
+   "why": "Les écrans géants, à voir une fois de nuit.",
+   "order": "Montez sur les marches rouges, au nord, pour la vue.",
+   "tip": "Le soir, c'est le plus impressionnant. Gardez un œil sur vos affaires.",
+   "price": "Gratuit",
+   "duration": 30,
+   "score": 7.8,
+   "plus": [
+    "Spectaculaire de nuit"
+   ],
+   "minus": [
+    "Foule",
+    "Très touristique"
+   ],
+   "verdict": "À voir une fois"
+  },
+  {
+   "id": "grand-central",
+   "name": "Grand Central Terminal",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Midtown",
+   "address": "89 E 42nd St, New York, NY 10017",
+   "lat": 40.7527,
+   "lng": -73.9772,
+   "why": "Le grand hall et son plafond étoilé.",
+   "order": "Testez la Whispering Gallery : chuchotez dans un angle, l'autre vous entend dans l'angle opposé.",
+   "tip": "Gratuit, à combiner avec SUMMIT juste à côté.",
+   "price": "Gratuit",
+   "duration": 30,
+   "score": 8.8,
+   "plus": [
+    "Architecture superbe",
+    "Gratuit"
+   ],
+   "minus": [],
+   "verdict": "Incontournable"
+  },
+  {
+   "id": "nypl",
+   "name": "Bibliothèque publique de New York",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Midtown",
+   "address": "476 5th Ave, New York, NY 10018",
+   "lat": 40.7532,
+   "lng": -73.9822,
+   "why": "La salle de lecture Rose, l'une des plus belles du monde.",
+   "order": "Rose Main Reading Room, au 3e étage.",
+   "tip": "Gratuit. Bryant Park et son village de Noël sont juste derrière.",
+   "price": "Gratuit",
+   "duration": 30,
+   "score": 8.5,
+   "plus": [
+    "Magnifique",
+    "Gratuit"
+   ],
+   "minus": [],
+   "verdict": "Pépite"
+  },
+  {
+   "id": "bryant-park",
+   "name": "Bryant Park Winter Village",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Midtown",
+   "address": "Bryant Park, New York, NY 10018",
+   "lat": 40.7536,
+   "lng": -73.9832,
+   "why": "Patinoire gratuite et marché de Noël d'environ 180 chalets.",
+   "order": "Patiner à deux, puis un chocolat chaud aux chalets.",
+   "tip": "Patinoire ouverte jusqu'à minuit pendant votre séjour. Location de patins payante.",
+   "price": "Gratuit",
+   "duration": 75,
+   "score": 8.6,
+   "plus": [
+    "Patinoire gratuite",
+    "Ambiance de Noël"
+   ],
+   "minus": [
+    "Foule le soir"
+   ],
+   "verdict": "Incontournable",
+   "dates": "28 oct 2026 – 3 jan 2027",
+   "claire": {
+    "sec": [
+     "parcs"
+    ],
+    "notes": {
+     "parcs": "Un de mes préférés : c'est là qu'on voit les films en plein air l'été."
+    },
+    "star": true
+   }
+  },
+  {
+   "id": "rockefeller",
+   "name": "Rockefeller Center",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Midtown",
+   "address": "45 Rockefeller Plaza, New York, NY 10111",
+   "lat": 40.7587,
+   "lng": -73.9787,
+   "why": "La patinoire la plus célèbre du monde et le sapin géant.",
+   "order": "Regarder les patineurs depuis la place.",
+   "tip": "Le sapin est installé mais ne sera allumé que le 2 décembre, après votre départ.",
+   "price": "Gratuit",
+   "duration": 30,
+   "score": 8.0,
+   "plus": [
+    "Iconique"
+   ],
+   "minus": [
+    "Sapin pas encore allumé pendant votre séjour"
+   ],
+   "verdict": "À voir en passant",
+   "claire": {
+    "sec": [
+     "sky"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "radio-city",
+   "name": "Christmas Spectacular (Rockettes)",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Midtown",
+   "address": "1260 6th Ave, New York, NY 10020",
+   "lat": 40.76,
+   "lng": -73.98,
+   "why": "Le spectacle de Noël mythique des Rockettes au Radio City Music Hall.",
+   "order": "Le show d'environ 90 minutes.",
+   "tip": "Réservez vite : la semaine de Thanksgiving est très demandée.",
+   "price": "$$$",
+   "duration": 120,
+   "score": 8.4,
+   "plus": [
+    "Spectacle unique",
+    "Salle superbe"
+   ],
+   "minus": [
+    "Cher"
+   ],
+   "verdict": "Incontournable en saison",
+   "dates": "novembre – décembre 2026"
+  },
+  {
+   "id": "broadway",
+   "name": "Spectacle de Broadway (TKTS)",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Theater District",
+   "address": "Father Duffy Square, New York, NY 10036",
+   "lat": 40.759,
+   "lng": -73.9845,
+   "why": "Une comédie musicale à Broadway, l'expérience new-yorkaise par excellence.",
+   "order": "Le Roi Lion, Hamilton, Wicked ou Moulin Rouge.",
+   "tip": "Le guichet TKTS vend des places à prix réduit le jour même.",
+   "price": "$$$",
+   "duration": 180,
+   "score": 9.0,
+   "plus": [
+    "Inoubliable"
+   ],
+   "minus": [
+    "Places chères pour les hits"
+   ],
+   "verdict": "Incontournable",
+   "claire": {
+    "sec": [
+     "sorties"
+    ],
+    "notes": {
+     "sorties": "Voir un spectacle à Broadway."
+    },
+    "star": false
+   }
+  },
+  {
+   "id": "high-line",
+   "name": "High Line",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Chelsea",
+   "address": "Gansevoort St & Washington St, New York, NY 10014",
+   "lat": 40.7398,
+   "lng": -74.0081,
+   "why": "Une ancienne voie ferrée aérienne transformée en promenade jardin.",
+   "order": "Du sud (Gansevoort) vers le nord, jusqu'à Hudson Yards.",
+   "tip": "Passez par le Chelsea Market au début.",
+   "price": "Gratuit",
+   "duration": 60,
+   "score": 8.8,
+   "plus": [
+    "Unique",
+    "Gratuit"
+   ],
+   "minus": [
+    "Foule le week-end"
+   ],
+   "verdict": "Incontournable",
+   "claire": {
+    "sec": [
+     "sorties"
+    ],
+    "notes": {
+     "sorties": "Balade sur la High Line."
+    },
+    "star": false
+   }
+  },
+  {
+   "id": "vessel",
+   "name": "Hudson Yards et Vessel",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Hudson Yards",
+   "address": "20 Hudson Yards, New York, NY 10001",
+   "lat": 40.7538,
+   "lng": -74.0022,
+   "why": "La sculpture en nid d'abeille de cuivre, star d'Instagram.",
+   "order": "Photo depuis le bas, puis le centre commercial.",
+   "tip": "Vérifiez si l'ascension est ouverte.",
+   "price": "$",
+   "duration": 30,
+   "score": 7.6,
+   "plus": [
+    "Très photogénique"
+   ],
+   "minus": [
+    "Montée limitée"
+   ],
+   "verdict": "Pour la photo"
+  },
+  {
+   "id": "little-island",
+   "name": "Little Island",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Meatpacking",
+   "address": "Pier 55, Hudson River Greenway, New York, NY 10014",
+   "lat": 40.742,
+   "lng": -74.0103,
+   "why": "Un parc-île posé sur des tulipes de béton dans l'Hudson.",
+   "order": "Le belvédère, au coucher du soleil.",
+   "tip": "Juste à côté du départ de la High Line.",
+   "price": "Gratuit",
+   "duration": 30,
+   "score": 8.3,
+   "plus": [
+    "Original",
+    "Gratuit"
+   ],
+   "minus": [],
+   "verdict": "Pépite"
+  },
+  {
+   "id": "chelsea-market",
+   "name": "Chelsea Market",
+   "cat": "shop",
+   "zone": "Manhattan",
+   "hood": "Chelsea",
+   "address": "75 9th Ave, New York, NY 10011",
+   "lat": 40.7424,
+   "lng": -74.0061,
+   "why": "Halle gourmande dans une ancienne biscuiterie, idéale pour grignoter et chiner.",
+   "order": "Grignoter de stand en stand.",
+   "tip": "Parfait pour un déjeuner rapide avant la High Line.",
+   "price": "$$",
+   "duration": 60,
+   "score": 8.3,
+   "plus": [
+    "Choix énorme",
+    "Au chaud"
+   ],
+   "minus": [
+    "Foule"
+   ],
+   "verdict": "Incontournable",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {
+     "resto": "Les bagels sont trop bons."
+    },
+    "star": true
+   }
+  },
+  {
+   "id": "flatiron",
+   "name": "Flatiron Building",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Flatiron",
+   "address": "175 5th Ave, New York, NY 10010",
+   "lat": 40.7411,
+   "lng": -73.9897,
+   "why": "L'immeuble en fer à repasser, l'une des photos les plus célèbres de New York.",
+   "order": "Photo depuis le Madison Square Park.",
+   "tip": "S&P Lunch est juste à côté.",
+   "price": "Gratuit",
+   "duration": 15,
+   "score": 8.0,
+   "plus": [
+    "Iconique"
+   ],
+   "minus": [],
+   "verdict": "À voir en passant"
+  },
+  {
+   "id": "washington-sq",
+   "name": "Washington Square Park",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Greenwich Village",
+   "address": "Washington Square Park, New York, NY 10012",
+   "lat": 40.7308,
+   "lng": -73.9973,
+   "why": "L'arche, les musiciens de rue, l'esprit du Village.",
+   "order": "Une pause devant l'arche, avec une part de Joe's.",
+   "tip": "Le Village autour est idéal pour flâner.",
+   "price": "Gratuit",
+   "duration": 30,
+   "score": 8.5,
+   "plus": [
+    "Ambiance vivante"
+   ],
+   "minus": [],
+   "verdict": "Pépite",
+   "claire": {
+    "sec": [
+     "parcs"
+    ],
+    "notes": {
+     "parcs": "Très cool."
+    },
+    "star": false
+   }
+  },
+  {
+   "id": "macys-parade",
+   "name": "Parade de Thanksgiving Macy's",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Central Park West",
+   "address": "Central Park West & W 70th St, New York, NY 10023",
+   "lat": 40.7766,
+   "lng": -73.9767,
+   "why": "La 100e parade : ballons géants, chars, fanfares. Un événement historique.",
+   "order": "Le passage des ballons géants.",
+   "tip": "Jeudi 26 novembre, départ à 8h30. Arrivez vers 6h, habillés très chaudement. Le haut de Central Park West est moins bondé que la 6e avenue.",
+   "price": "Gratuit",
+   "duration": 240,
+   "score": 9.5,
+   "plus": [
+    "100e édition",
+    "Une fois dans sa vie"
+   ],
+   "minus": [
+    "Lever très tôt",
+    "Foule énorme"
+   ],
+   "verdict": "Incontournable",
+   "dates": "jeu. 26 nov 2026, 8h30–12h"
+  },
+  {
+   "id": "balloon-inflation",
+   "name": "Gonflage des ballons de la parade",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Upper West Side",
+   "address": "W 77th St & Columbus Ave, New York, NY 10024",
+   "lat": 40.7806,
+   "lng": -73.976,
+   "why": "La veille de la parade, on voit les ballons géants prendre forme autour du muséum.",
+   "order": "Le circuit piéton autour du muséum, en fin d'après-midi.",
+   "tip": "Mercredi 25 novembre, généralement l'après-midi et le soir. Vérifiez les horaires officiels de Macy's la semaine même.",
+   "price": "Gratuit",
+   "duration": 60,
+   "score": 8.5,
+   "plus": [
+    "Moins de foule que la parade",
+    "Insolite"
+   ],
+   "minus": [
+    "File d'attente pour entrer dans le circuit"
+   ],
+   "verdict": "Pépite",
+   "dates": "mer. 25 nov 2026"
+  },
+  {
+   "id": "fifth-avenue",
+   "name": "5e Avenue et vitrines de Noël",
+   "cat": "shop",
+   "zone": "Manhattan",
+   "hood": "Midtown",
+   "address": "611 5th Ave, New York, NY 10022",
+   "lat": 40.758,
+   "lng": -73.9772,
+   "why": "Les grands magasins et leurs vitrines de Noël, dont Saks Fifth Avenue.",
+   "order": "De Saks à Bergdorf Goodman, à pied.",
+   "tip": "Les vitrines sont généralement dévoilées autour de Thanksgiving.",
+   "price": "$$$",
+   "duration": 120,
+   "score": 8.6,
+   "plus": [
+    "Ambiance de Noël",
+    "Grandes marques"
+   ],
+   "minus": [
+    "Foule le Black Friday"
+   ],
+   "verdict": "Incontournable shopping",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "tiffany",
+   "name": "Tiffany & Co. The Landmark",
+   "cat": "shop",
+   "zone": "Manhattan",
+   "hood": "Midtown",
+   "address": "727 5th Ave, New York, NY 10022",
+   "lat": 40.7627,
+   "lng": -73.9739,
+   "why": "Le Tiffany de Diamants sur canapé, entièrement rénové.",
+   "order": "Visite de la boutique et du café Blue Box.",
+   "tip": "Le café se réserve longtemps à l'avance.",
+   "price": "$$$$",
+   "duration": 45,
+   "score": 8.0,
+   "plus": [
+    "Mythique"
+   ],
+   "minus": [
+    "Très cher"
+   ],
+   "verdict": "Pour le rêve"
+  },
+  {
+   "id": "soho",
+   "name": "SoHo",
+   "cat": "shop",
+   "zone": "Manhattan",
+   "hood": "SoHo",
+   "address": "Broadway & Prince St, New York, NY 10012",
+   "lat": 40.7245,
+   "lng": -73.9978,
+   "why": "Le quartier shopping le plus agréable, entre immeubles en fonte et boutiques de créateurs.",
+   "order": "Broadway pour les grandes enseignes, Prince et Greene Street pour les créateurs.",
+   "tip": "Le Black Friday (27 novembre), il y a de grosses promos mais beaucoup de monde.",
+   "price": "$$",
+   "duration": 180,
+   "score": 8.8,
+   "plus": [
+    "Tout au même endroit",
+    "Architecture"
+   ],
+   "minus": [
+    "Foule le week-end"
+   ],
+   "verdict": "Incontournable shopping",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "macys",
+   "name": "Macy's Herald Square",
+   "cat": "shop",
+   "zone": "Manhattan",
+   "hood": "Midtown",
+   "address": "151 W 34th St, New York, NY 10001",
+   "lat": 40.7509,
+   "lng": -73.9888,
+   "why": "L'un des plus grands magasins du monde, avec des escalators en bois d'origine.",
+   "order": "Les escalators en bois et le rayon Noël.",
+   "tip": "Le Black Friday, il ouvre très tôt.",
+   "price": "$$",
+   "duration": 90,
+   "score": 7.6,
+   "plus": [
+    "Immense",
+    "Historique"
+   ],
+   "minus": [
+    "Foule"
+   ],
+   "verdict": "Classique à faire une fois"
+  },
+  {
+   "id": "nike-5th",
+   "name": "Nike House of Innovation",
+   "cat": "shop",
+   "zone": "Manhattan",
+   "hood": "Midtown",
+   "address": "650 5th Ave, New York, NY 10019",
+   "lat": 40.76,
+   "lng": -73.9765,
+   "why": "Le Nike phare de New York, sur plusieurs étages.",
+   "order": "Personnalisation de baskets.",
+   "tip": "Les modèles exclusifs New York partent vite.",
+   "price": "$$$",
+   "duration": 45,
+   "score": 7.8,
+   "plus": [
+    "Grand choix"
+   ],
+   "minus": [
+    "Prix américains + taxe"
+   ],
+   "verdict": "Bon plan pour les fans"
+  },
+  {
+   "id": "strand",
+   "name": "Strand Book Store",
+   "cat": "shop",
+   "zone": "Manhattan",
+   "hood": "Union Square",
+   "address": "828 Broadway, New York, NY 10003",
+   "lat": 40.7332,
+   "lng": -73.9909,
+   "why": "Une librairie de légende, avec des kilomètres de livres neufs et d'occasion.",
+   "order": "Les totes bags Strand, souvenir parfait.",
+   "tip": "Le marché de Noël d'Union Square est à deux pas.",
+   "price": "$",
+   "duration": 45,
+   "score": 8.6,
+   "plus": [
+    "Lieu culte",
+    "Souvenirs originaux"
+   ],
+   "minus": [],
+   "verdict": "Pépite"
+  },
+  {
+   "id": "union-sq-market",
+   "name": "Marché de Noël d'Union Square",
+   "cat": "shop",
+   "zone": "Manhattan",
+   "hood": "Union Square",
+   "address": "Union Square, New York, NY 10003",
+   "lat": 40.7359,
+   "lng": -73.9911,
+   "why": "Des chalets d'artisans et de créateurs new-yorkais.",
+   "order": "Cadeaux et souvenirs originaux.",
+   "tip": "Ouvre habituellement mi-novembre : vérifiez la date 2026.",
+   "price": "$$",
+   "duration": 60,
+   "score": 8.0,
+   "plus": [
+    "Créateurs locaux"
+   ],
+   "minus": [
+    "Foule le week-end"
+   ],
+   "verdict": "Pépite",
+   "dates": "mi-nov – fin déc, à vérifier"
+  },
+  {
+   "id": "celestine",
+   "name": "Célestine",
+   "cat": "viral",
+   "zone": "Brooklyn",
+   "hood": "Dumbo",
+   "address": "1 John St, Brooklyn, NY 11201",
+   "lat": 40.70466,
+   "lng": -73.98797,
+   "claire": {
+    "sec": [
+     "brunch"
+    ],
+    "notes": {
+     "brunch": "À DUMBO, vue incroyable sur Manhattan et le Brooklyn Bridge. Les œufs Benedict sont trop bons."
+    },
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "sunday-in-brooklyn",
+   "name": "Sunday in Brooklyn",
+   "cat": "viral",
+   "zone": "Brooklyn",
+   "hood": "Williamsburg",
+   "address": "348 Wythe Ave, Brooklyn, NY 11249",
+   "lat": 40.7142,
+   "lng": -73.96535,
+   "claire": {
+    "sec": [
+     "brunch"
+    ],
+    "notes": {
+     "brunch": "Réserver bien bien à l'avance."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "rubys",
+   "name": "Ruby's",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "Nolita",
+   "address": "219 Mulberry St, New York, NY 10012",
+   "lat": 40.72233,
+   "lng": -73.99625,
+   "claire": {
+    "sec": [
+     "brunch"
+    ],
+    "notes": {
+     "brunch": "Pancakes trop bons (réserver)."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "factory-380",
+   "name": "The Factory 380",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "Murray Hill",
+   "address": "380 3rd Ave, New York, NY 10016",
+   "lat": 40.74166,
+   "lng": -73.98134,
+   "claire": {
+    "sec": [
+     "brunch"
+    ],
+    "notes": {
+     "brunch": "Uniquement pour un bon bottomless brunch. Un peu kitsch, mais bonne ambiance et bon tarif."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "maman-1",
+   "name": "Maman",
+   "cat": "cafe",
+   "zone": "Manhattan",
+   "hood": "SoHo",
+   "address": "239 Centre St, New York, NY 10013",
+   "lat": 40.72029,
+   "lng": -73.99839,
+   "claire": {
+    "sec": [
+     "brunch",
+     "gouter",
+     "cafe"
+    ],
+    "notes": {
+     "brunch": "Chaîne mood brunch un peu healthy, trop trop trop bon, beaucoup de choix et des options françaises. Y aller absolument !",
+     "gouter": "Pour le tea time.",
+     "cafe": "Matcha validé."
+    },
+    "star": true
+   },
+   "fromClaire": true,
+   "group": "maman"
+  },
+  {
+   "id": "maman-2",
+   "name": "Maman",
+   "cat": "cafe",
+   "zone": "Manhattan",
+   "hood": "Chelsea",
+   "address": "3 W 18th St, New York, NY 10011",
+   "lat": 40.73895,
+   "lng": -73.99235,
+   "claire": {
+    "sec": [
+     "brunch",
+     "gouter",
+     "cafe"
+    ],
+    "notes": {
+     "brunch": "Chaîne mood brunch un peu healthy, trop trop trop bon, beaucoup de choix et des options françaises. Y aller absolument !",
+     "gouter": "Pour le tea time.",
+     "cafe": "Matcha validé."
+    },
+    "star": true
+   },
+   "fromClaire": true,
+   "group": "maman"
+  },
+  {
+   "id": "maman-3",
+   "name": "Maman",
+   "cat": "cafe",
+   "zone": "Manhattan",
+   "hood": "East Village",
+   "address": "67 University Pl, New York, NY 10003",
+   "lat": 40.73294,
+   "lng": -73.99342,
+   "claire": {
+    "sec": [
+     "brunch",
+     "gouter",
+     "cafe"
+    ],
+    "notes": {
+     "brunch": "Chaîne mood brunch un peu healthy, trop trop trop bon, beaucoup de choix et des options françaises. Y aller absolument !",
+     "gouter": "Pour le tea time.",
+     "cafe": "Matcha validé."
+    },
+    "star": true
+   },
+   "fromClaire": true,
+   "group": "maman"
+  },
+  {
+   "id": "maman-4",
+   "name": "Maman",
+   "cat": "cafe",
+   "zone": "Manhattan",
+   "hood": "SoHo",
+   "address": "211 W Broadway, New York, NY 10013",
+   "lat": 40.71896,
+   "lng": -74.00621,
+   "claire": {
+    "sec": [
+     "brunch",
+     "gouter",
+     "cafe"
+    ],
+    "notes": {
+     "brunch": "Chaîne mood brunch un peu healthy, trop trop trop bon, beaucoup de choix et des options françaises. Y aller absolument !",
+     "gouter": "Pour le tea time.",
+     "cafe": "Matcha validé."
+    },
+    "star": true
+   },
+   "fromClaire": true,
+   "group": "maman"
+  },
+  {
+   "id": "maman-5",
+   "name": "Maman",
+   "cat": "cafe",
+   "zone": "Manhattan",
+   "hood": "Flatiron",
+   "address": "22 W 25th St, New York, NY 10010",
+   "lat": 40.74327,
+   "lng": -73.99013,
+   "claire": {
+    "sec": [
+     "brunch",
+     "gouter",
+     "cafe"
+    ],
+    "notes": {
+     "brunch": "Chaîne mood brunch un peu healthy, trop trop trop bon, beaucoup de choix et des options françaises. Y aller absolument !",
+     "gouter": "Pour le tea time.",
+     "cafe": "Matcha validé."
+    },
+    "star": true
+   },
+   "fromClaire": true,
+   "group": "maman"
+  },
+  {
+   "id": "sugarfish-1",
+   "name": "Sugarfish",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "SoHo",
+   "address": "202 Spring St, New York, NY 10012",
+   "lat": 40.72512,
+   "lng": -74.00364,
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {
+     "resto": "Meilleur sushi de ma vie, tout simplement :) Les autres restos du groupe aussi, comme KazuNori."
+    },
+    "star": true
+   },
+   "fromClaire": true,
+   "group": "sugarfish"
+  },
+  {
+   "id": "sugarfish-2",
+   "name": "Sugarfish",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "East Village",
+   "address": "33 E 20th St, New York, NY 10003",
+   "lat": 40.739,
+   "lng": -73.98883,
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {
+     "resto": "Meilleur sushi de ma vie, tout simplement :) Les autres restos du groupe aussi, comme KazuNori."
+    },
+    "star": true
+   },
+   "fromClaire": true,
+   "group": "sugarfish"
+  },
+  {
+   "id": "sugarfish-3",
+   "name": "Sugarfish",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "Midtown East",
+   "address": "152 E 53rd St, New York, NY 10022",
+   "lat": 40.75795,
+   "lng": -73.97034,
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {
+     "resto": "Meilleur sushi de ma vie, tout simplement :) Les autres restos du groupe aussi, comme KazuNori."
+    },
+    "star": true
+   },
+   "fromClaire": true,
+   "group": "sugarfish"
+  },
+  {
+   "id": "tao-downtown",
+   "name": "TAO Downtown",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "Chelsea",
+   "address": "92 9th Ave, New York, NY 10011",
+   "lat": 40.74254,
+   "lng": -74.00385,
+   "claire": {
+    "sec": [
+     "resto",
+     "boite"
+    ],
+    "notes": {
+     "resto": "Resto promo, très bon.",
+     "boite": "La boîte est nulle, mais obligé si on fait le resto promo avant."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "pecora-bianca",
+   "name": "La Pecora Bianca",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "SoHo",
+   "address": "54 Prince St, New York, NY 10012",
+   "lat": 40.72346,
+   "lng": -73.99631,
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {
+     "resto": "Italien à SoHo, très bon."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "super-taste",
+   "name": "Super Taste",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "Chinatown",
+   "address": "26 Eldridge St, New York, NY 10002",
+   "lat": 40.71507,
+   "lng": -73.99334,
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {
+     "resto": "Meilleur resto de Chinatown, pas cher. Prendre à emporter : à l'intérieur, c'est vraiment le chaos."
+    },
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "ribalta",
+   "name": "Ribalta",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "East Village",
+   "address": "48 E 12th St, New York, NY 10003",
+   "lat": 40.73328,
+   "lng": -73.99156,
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {
+     "resto": "Bon italien, et une soirée festive par mois."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "tomi-jazz",
+   "name": "Tomi Jazz",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "Midtown East",
+   "address": "239 E 53rd St, New York, NY 10022",
+   "lat": 40.75717,
+   "lng": -73.96781,
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {
+     "resto": "Resto japonais avec des musiciens de jazz. Arriver en avance, il y a beaucoup d'attente, mais ça vaut le coup ! Hyper bon et mood incroyable."
+    },
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "felix",
+   "name": "Félix",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "SoHo",
+   "address": "340 W Broadway, New York, NY 10013",
+   "lat": 40.72259,
+   "lng": -74.00382,
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {
+     "resto": "Resto français : serveurs désagréables et nourriture pas folle. Mais le dimanche, réserver vers 14h30 (pas avant) : après, ça s'ambiance. Bien aussi pour voir un match de la France."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "pastis",
+   "name": "Pastis",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "Meatpacking",
+   "address": "52 Gansevoort St, New York, NY 10014",
+   "lat": 40.73924,
+   "lng": -74.00701,
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {
+     "resto": "Le MEILLEUR resto français à New York : vibe géniale et meilleur rapport qualité-prix."
+    },
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "boathouse",
+   "name": "The Loeb Boathouse",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "Central Park",
+   "address": "E 72nd St & Park Dr North, New York, NY 10021",
+   "lat": 40.77522,
+   "lng": -73.96876,
+   "claire": {
+    "sec": [
+     "resto",
+     "sorties"
+    ],
+    "notes": {
+     "resto": "Déjeuner au bord de l'eau, mood fancy, réf. Sex and the City… très cool :)",
+     "sorties": "Faire de la barque à Central Park : départ au Boathouse."
+    },
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "la-mercerie",
+   "name": "La Mercerie",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "SoHo",
+   "address": "53 Howard St, New York, NY 10013",
+   "lat": 40.72015,
+   "lng": -74.00217,
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {
+     "resto": "Resto français ok, cadre sympa, mais j'ai préféré Pastis."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "papas",
+   "name": "Papa's",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "Greenwich Village",
+   "address": "105 MacDougal St, New York, NY 10012",
+   "lat": 40.7298,
+   "lng": -74.00091,
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {
+     "resto": "Resto festif grec. Avec la promo, il n'y a vraiment pas assez à manger, mais l'ambiance est cool."
+    },
+    "star": false
+   },
+   "fromClaire": true,
+   "closedForGood": true
+  },
+  {
+   "id": "little-rubys-1",
+   "name": "Little Ruby's",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "West Village",
+   "address": "225 W 4th St, New York, NY 10014",
+   "lat": 40.73406,
+   "lng": -74.00278,
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "fromClaire": true,
+   "group": "little-rubys"
+  },
+  {
+   "id": "little-rubys-2",
+   "name": "Little Ruby's",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "East Village",
+   "address": "198 E 11th St, New York, NY 10003",
+   "lat": 40.73108,
+   "lng": -73.98836,
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "fromClaire": true,
+   "group": "little-rubys"
+  },
+  {
+   "id": "appartement-4f",
+   "name": "L'Appartement 4F",
+   "cat": "cafe",
+   "zone": "Brooklyn",
+   "hood": "Brooklyn Heights",
+   "address": "115 Montague St, Brooklyn, NY 11201",
+   "lat": 40.69521,
+   "lng": -73.99478,
+   "claire": {
+    "sec": [
+     "gouter"
+    ],
+    "notes": {
+     "gouter": "Le cookie et le chocolat chaud, oh my god !! Une de mes meilleures recos goûter et café, y aller absolument."
+    },
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "krispy-kreme",
+   "name": "Krispy Kreme",
+   "cat": "cafe",
+   "zone": "Manhattan",
+   "hood": "Times Square",
+   "address": "1601 Broadway, New York, NY 10019",
+   "lat": 40.76034,
+   "lng": -73.98493,
+   "claire": {
+    "sec": [
+     "gouter"
+    ],
+    "notes": {
+     "gouter": "Pour les donuts."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "poetica",
+   "name": "Poetica",
+   "cat": "cafe",
+   "zone": "Manhattan",
+   "hood": "East Village",
+   "address": "131 2nd Ave, New York, NY 10003",
+   "lat": 40.72854,
+   "lng": -73.98795,
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "for-five-1",
+   "name": "For Five Coffee Roasters",
+   "cat": "cafe",
+   "zone": "Manhattan",
+   "hood": "Times Square",
+   "address": "117 W 46th St, New York, NY 10036",
+   "lat": 40.75791,
+   "lng": -73.9832,
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "fromClaire": true,
+   "group": "for-five"
+  },
+  {
+   "id": "for-five-2",
+   "name": "For Five Coffee Roasters",
+   "cat": "cafe",
+   "zone": "Manhattan",
+   "hood": "Battery Park City",
+   "address": "225 Liberty St, New York, NY 10281",
+   "lat": 40.71234,
+   "lng": -74.01516,
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "fromClaire": true,
+   "group": "for-five"
+  },
+  {
+   "id": "st-kilda",
+   "name": "St Kilda Coffee",
+   "cat": "cafe",
+   "zone": "Manhattan",
+   "hood": "Times Square",
+   "address": "328 W 44th St, New York, NY 10036",
+   "lat": 40.75901,
+   "lng": -73.99021,
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {
+     "cafe": "Très mimi, et très bon matcha."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "kore",
+   "name": "Koré Coffee",
+   "cat": "cafe",
+   "zone": "Manhattan",
+   "hood": "Chinatown",
+   "address": "26A Elizabeth St, New York, NY 10013",
+   "lat": 40.71618,
+   "lng": -73.99709,
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {
+     "cafe": "À Chinatown. Meilleur matcha de ma vie !!!!"
+    },
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "blue-bottle",
+   "name": "Blue Bottle Coffee",
+   "cat": "cafe",
+   "zone": "Manhattan",
+   "hood": "Financial District",
+   "address": "22 Broad St, New York, NY 10005",
+   "lat": 40.70655,
+   "lng": -74.0113,
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {
+     "cafe": "Coffee shop très sympa dans le Financial District (à emporter)."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "think-coffee-1",
+   "name": "Think Coffee",
+   "cat": "cafe",
+   "zone": "Manhattan",
+   "hood": "SoHo",
+   "address": "248 Mercer St, New York, NY 10012",
+   "lat": 40.72834,
+   "lng": -73.99529,
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {
+     "cafe": "Trop bons cafés et matcha. Il y en a beaucoup dans NY, et ils font souvent des éditions limitées (le matcha à la rose, incroyable)."
+    },
+    "star": false
+   },
+   "fromClaire": true,
+   "group": "think-coffee"
+  },
+  {
+   "id": "think-coffee-2",
+   "name": "Think Coffee",
+   "cat": "cafe",
+   "zone": "Manhattan",
+   "hood": "East Village",
+   "address": "123 4th Ave, New York, NY 10003",
+   "lat": 40.73301,
+   "lng": -73.98971,
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {
+     "cafe": "Trop bons cafés et matcha. Il y en a beaucoup dans NY, et ils font souvent des éditions limitées (le matcha à la rose, incroyable)."
+    },
+    "star": false
+   },
+   "fromClaire": true,
+   "group": "think-coffee"
+  },
+  {
+   "id": "think-coffee-3",
+   "name": "Think Coffee",
+   "cat": "cafe",
+   "zone": "Manhattan",
+   "hood": "SoHo",
+   "address": "1 Bleecker St, New York, NY 10012",
+   "lat": 40.72542,
+   "lng": -73.99243,
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {
+     "cafe": "Trop bons cafés et matcha. Il y en a beaucoup dans NY, et ils font souvent des éditions limitées (le matcha à la rose, incroyable)."
+    },
+    "star": false
+   },
+   "fromClaire": true,
+   "group": "think-coffee"
+  },
+  {
+   "id": "think-coffee-4",
+   "name": "Think Coffee",
+   "cat": "cafe",
+   "zone": "Manhattan",
+   "hood": "Chelsea",
+   "address": "568 6th Ave, New York, NY 10011",
+   "lat": 40.73842,
+   "lng": -73.99581,
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {
+     "cafe": "Trop bons cafés et matcha. Il y en a beaucoup dans NY, et ils font souvent des éditions limitées (le matcha à la rose, incroyable)."
+    },
+    "star": false
+   },
+   "fromClaire": true,
+   "group": "think-coffee"
+  },
+  {
+   "id": "paper",
+   "name": "Paper",
+   "cat": "cafe",
+   "zone": "Manhattan",
+   "hood": "Chelsea",
+   "address": "44 W 29th St, New York, NY 10001",
+   "lat": 40.7462,
+   "lng": -73.9895,
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {
+     "cafe": "Trop beau café, il y a souvent du monde, matcha trop bon."
+    },
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "blank-street-1",
+   "name": "Blank Street Coffee",
+   "cat": "cafe",
+   "zone": "Manhattan",
+   "hood": "Chelsea",
+   "address": "442 6th Ave, New York, NY 10011",
+   "lat": 40.7348,
+   "lng": -73.99841,
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": true
+   },
+   "fromClaire": true,
+   "group": "blank-street"
+  },
+  {
+   "id": "blank-street-2",
+   "name": "Blank Street Coffee",
+   "cat": "cafe",
+   "zone": "Manhattan",
+   "hood": "SoHo",
+   "address": "688 Broadway, New York, NY 10012",
+   "lat": 40.72809,
+   "lng": -73.99435,
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": true
+   },
+   "fromClaire": true,
+   "group": "blank-street"
+  },
+  {
+   "id": "blank-street-3",
+   "name": "Blank Street Coffee",
+   "cat": "cafe",
+   "zone": "Manhattan",
+   "hood": "East Village",
+   "address": "80 University Pl, New York, NY 10003",
+   "lat": 40.7335,
+   "lng": -73.9934,
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": true
+   },
+   "fromClaire": true,
+   "group": "blank-street"
+  },
+  {
+   "id": "blank-street-4",
+   "name": "Blank Street Coffee",
+   "cat": "cafe",
+   "zone": "Manhattan",
+   "hood": "Chelsea",
+   "address": "590 6th Ave, New York, NY 10011",
+   "lat": 40.73886,
+   "lng": -73.99552,
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": true
+   },
+   "fromClaire": true,
+   "group": "blank-street"
+  },
+  {
+   "id": "blank-street-5",
+   "name": "Blank Street Coffee",
+   "cat": "cafe",
+   "zone": "Manhattan",
+   "hood": "Flatiron",
+   "address": "127 E 23rd St, New York, NY 10010",
+   "lat": 40.73983,
+   "lng": -73.98498,
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": true
+   },
+   "fromClaire": true,
+   "group": "blank-street"
+  },
+  {
+   "id": "sporty-rich",
+   "name": "Sporty & Rich",
+   "cat": "shop",
+   "zone": "Manhattan",
+   "hood": "SoHo",
+   "address": "133 Greene St, New York, NY 10012",
+   "lat": 40.72578,
+   "lng": -73.99901,
+   "claire": {
+    "sec": [
+     "cafe",
+     "shopping"
+    ],
+    "notes": {
+     "cafe": "Le coffee shop."
+    },
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "aime-leon-dore",
+   "name": "Aimé Leon Dore (boutique et café)",
+   "cat": "shop",
+   "zone": "Manhattan",
+   "hood": "Nolita",
+   "address": "224 Mulberry St, New York, NY 10012",
+   "lat": 40.7223,
+   "lng": -73.9959,
+   "claire": {
+    "sec": [
+     "cafe",
+     "shopping"
+    ],
+    "notes": {
+     "cafe": "Le coffee shop Léon Dore."
+    },
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "shake-shack-1",
+   "name": "Shake Shack",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "East Village",
+   "address": "20 3rd Ave, New York, NY 10003",
+   "lat": 40.73009,
+   "lng": -73.99004,
+   "claire": {
+    "sec": [
+     "pouce"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "fromClaire": true,
+   "group": "shake-shack"
+  },
+  {
+   "id": "shake-shack-2",
+   "name": "Shake Shack",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "Flatiron",
+   "address": "Madison Ave & E 23rd St, New York, NY 10010",
+   "lat": 40.74152,
+   "lng": -73.98817,
+   "claire": {
+    "sec": [
+     "pouce"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "fromClaire": true,
+   "group": "shake-shack"
+  },
+  {
+   "id": "shake-shack-3",
+   "name": "Shake Shack",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "Midtown",
+   "address": "1333 Broadway, New York, NY 10018",
+   "lat": 40.75143,
+   "lng": -73.98794,
+   "claire": {
+    "sec": [
+     "pouce"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "fromClaire": true,
+   "group": "shake-shack"
+  },
+  {
+   "id": "taco-bell-1",
+   "name": "Taco Bell",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "Chelsea",
+   "address": "545 6th Ave, New York, NY 10011",
+   "lat": 40.7379,
+   "lng": -73.99671,
+   "claire": {
+    "sec": [
+     "pouce"
+    ],
+    "notes": {
+     "pouce": "Trop miam."
+    },
+    "star": false
+   },
+   "fromClaire": true,
+   "group": "taco-bell"
+  },
+  {
+   "id": "taco-bell-2",
+   "name": "Taco Bell",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "East Village",
+   "address": "104 3rd Ave, New York, NY 10003",
+   "lat": 40.7326,
+   "lng": -73.98797,
+   "claire": {
+    "sec": [
+     "pouce"
+    ],
+    "notes": {
+     "pouce": "Trop miam."
+    },
+    "star": false
+   },
+   "fromClaire": true,
+   "group": "taco-bell"
+  },
+  {
+   "id": "employees-only",
+   "name": "Employees Only",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "West Village",
+   "address": "510 Hudson St, New York, NY 10014",
+   "lat": 40.73343,
+   "lng": -74.00611,
+   "claire": {
+    "sec": [
+     "bar"
+    ],
+    "notes": {
+     "bar": "Meilleur bar pour danser. Petit donc très serré, mais meilleurs sons, et les cocktails sont dingues. Assez cher."
+    },
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "penny-farthing",
+   "name": "Penny Farthing",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "East Village",
+   "address": "103 3rd Ave, New York, NY 10003",
+   "lat": 40.73239,
+   "lng": -73.98755,
+   "claire": {
+    "sec": [
+     "bar"
+    ],
+    "notes": {
+     "bar": "Pour des espresso martini pas chers (5 $), ambiance cool."
+    },
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "public-hotel",
+   "name": "PUBLIC Hotel",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Lower East Side",
+   "address": "215 Chrystie St, New York, NY 10002",
+   "lat": 40.72311,
+   "lng": -73.99209,
+   "claire": {
+    "sec": [
+     "bar",
+     "rooftop"
+    ],
+    "notes": {
+     "rooftop": "Ambiance soirée."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "soho-grand",
+   "name": "SoHo Grand Hotel",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "SoHo",
+   "address": "310 W Broadway, New York, NY 10013",
+   "lat": 40.72198,
+   "lng": -74.00433,
+   "claire": {
+    "sec": [
+     "bar"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "brass-monkey",
+   "name": "Brass Monkey",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Meatpacking",
+   "address": "55 Little W 12th St, New York, NY 10014",
+   "lat": 40.74076,
+   "lng": -74.00848,
+   "claire": {
+    "sec": [
+     "bar"
+    ],
+    "notes": {
+     "bar": "À côté du Bain."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "rudys",
+   "name": "Rudy's Bar & Grill",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Hell's Kitchen",
+   "address": "627 9th Ave, New York, NY 10036",
+   "lat": 40.76003,
+   "lng": -73.9918,
+   "claire": {
+    "sec": [
+     "bar"
+    ],
+    "notes": {
+     "bar": "Hot dog + pinte pour 3 $, parfait pour les jours de match."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "zinc-bar",
+   "name": "Zinc Bar",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Greenwich Village",
+   "address": "82 W 3rd St, New York, NY 10012",
+   "lat": 40.72967,
+   "lng": -73.99899,
+   "claire": {
+    "sec": [
+     "bar"
+    ],
+    "notes": {
+     "bar": "Bar de jazz."
+    },
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "blue-note",
+   "name": "Blue Note",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Greenwich Village",
+   "address": "131 W 3rd St, New York, NY 10012",
+   "lat": 40.73091,
+   "lng": -74.00066,
+   "claire": {
+    "sec": [
+     "bar"
+    ],
+    "notes": {
+     "bar": "Bar de jazz."
+    },
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "studio-151",
+   "name": "Studio 151",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "East Village",
+   "address": "151 Avenue A, New York, NY 10009",
+   "lat": 40.72566,
+   "lng": -73.97803,
+   "claire": {
+    "sec": [
+     "bar"
+    ],
+    "notes": {
+     "bar": "Bar à vinyles, mood incroyable."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "mulberry-bar",
+   "name": "Mulberry",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Nolita",
+   "address": "240 Mulberry St, New York, NY 10012",
+   "lat": 40.72282,
+   "lng": -73.99573,
+   "claire": {
+    "sec": [
+     "bar"
+    ],
+    "notes": {
+     "bar": "Très chic, souvent de l'attente donc arriver tôt, mais très très stylé."
+    },
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "temple-bar",
+   "name": "Temple Bar",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "NoHo",
+   "address": "332 Lafayette St, New York, NY 10012",
+   "lat": 40.72589,
+   "lng": -73.99494,
+   "claire": {
+    "sec": [
+     "bar"
+    ],
+    "notes": {
+     "bar": "Très chic, souvent de l'attente donc arriver tôt, mais très très stylé."
+    },
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "bemelmans",
+   "name": "Bemelmans Bar",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Upper East Side",
+   "address": "35 E 76th St, New York, NY 10021",
+   "lat": 40.77442,
+   "lng": -73.96317,
+   "claire": {
+    "sec": [
+     "bar"
+    ],
+    "notes": {
+     "bar": "Le bar jazz de l'hôtel Carlyle."
+    },
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "bella-union",
+   "name": "Bella Union",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Murray Hill",
+   "address": "411 3rd Ave, New York, NY 10016",
+   "lat": 40.74237,
+   "lng": -73.98018,
+   "claire": {
+    "sec": [
+     "bar"
+    ],
+    "notes": {
+     "bar": "Pas vraiment un rooftop, mais depuis le bar, très belle vue sur l'Empire State Building. Normalement un jour par semaine (le mardi ?), espresso martini à 5 $."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "dudleys",
+   "name": "Dudley's",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Lower East Side",
+   "address": "85 Orchard St, New York, NY 10002",
+   "lat": 40.71807,
+   "lng": -73.99044,
+   "claire": {
+    "sec": [
+     "bar"
+    ],
+    "notes": {
+     "bar": "Bar chill très cool."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "the-campbell",
+   "name": "The Campbell",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Grand Central",
+   "address": "15 Vanderbilt Ave, New York, NY 10017",
+   "lat": 40.75261,
+   "lng": -73.97781,
+   "claire": {
+    "sec": [
+     "bar"
+    ],
+    "notes": {
+     "bar": "Le bar de Gossip Girl dans Grand Central. Pas d'ambiance, mais très beau."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "mr-purple",
+   "name": "Mr. Purple",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Lower East Side",
+   "address": "180 Orchard St, 15e étage, New York, NY 10002",
+   "lat": 40.72174,
+   "lng": -73.9881,
+   "claire": {
+    "sec": [
+     "rooftop"
+    ],
+    "notes": {
+     "rooftop": "Ambiance soirée."
+    },
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "le-bain",
+   "name": "Le Bain",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Meatpacking",
+   "address": "The Standard High Line, 848 Washington St, New York, NY 10014",
+   "lat": 40.74108,
+   "lng": -74.00817,
+   "claire": {
+    "sec": [
+     "rooftop",
+     "boite"
+    ],
+    "notes": {
+     "rooftop": "Entrée gratuite, vestiaire gratuit, ambiance soirée.",
+     "boite": "Entrée gratuite, rooftop avec une petite piscine à l'intérieur."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "230-fifth",
+   "name": "230 Fifth",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Chelsea",
+   "address": "1150 Broadway, New York, NY 10001",
+   "lat": 40.74411,
+   "lng": -73.98882,
+   "claire": {
+    "sec": [
+     "rooftop"
+    ],
+    "notes": {
+     "rooftop": "Ambiance verre sympa en extérieur."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "westlight",
+   "name": "Westlight",
+   "cat": "nuit",
+   "zone": "Brooklyn",
+   "hood": "Williamsburg",
+   "address": "111 N 12th St, Brooklyn, NY 11249",
+   "lat": 40.7223,
+   "lng": -73.95654,
+   "claire": {
+    "sec": [
+     "rooftop"
+    ],
+    "notes": {
+     "rooftop": "Ambiance verre sympa en extérieur."
+    },
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "arlo-williamsburg",
+   "name": "Arlo Williamsburg",
+   "cat": "nuit",
+   "zone": "Brooklyn",
+   "hood": "Williamsburg",
+   "address": "96 Wythe Ave, Brooklyn, NY 11249",
+   "lat": 40.72168,
+   "lng": -73.95888,
+   "claire": {
+    "sec": [
+     "rooftop",
+     "ete"
+    ],
+    "notes": {
+     "rooftop": "Ambiance verre sympa en extérieur. En été, le jeudi, soirée Palosanto trop bien.",
+     "ete": "Palosanto : tous les jeudis l'été, beaucoup de Français, rooftop de fou et house ludique, trop sympa."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "skylark",
+   "name": "The Skylark",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Midtown",
+   "address": "200 W 39th St, New York, NY 10018",
+   "lat": 40.75419,
+   "lng": -73.98886,
+   "claire": {
+    "sec": [
+     "rooftop"
+    ],
+    "notes": {
+     "rooftop": "Rooftop avec une vue très sympa, assez fancy."
+    },
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "jimmy",
+   "name": "Jimmy",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "SoHo",
+   "address": "15 Thompson St, New York, NY 10013",
+   "lat": 40.72247,
+   "lng": -74.00481,
+   "claire": {
+    "sec": [
+     "rooftop"
+    ],
+    "notes": {
+     "rooftop": "Rooftop downtown avec piscine."
+    },
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "house-of-yes",
+   "name": "House of Yes",
+   "cat": "nuit",
+   "zone": "Brooklyn",
+   "hood": "Bushwick",
+   "address": "2 Wyckoff Ave, Brooklyn, NY 11237",
+   "lat": 40.7068,
+   "lng": -73.9236,
+   "claire": {
+    "sec": [
+     "boite"
+    ],
+    "notes": {
+     "boite": "À Brooklyn. Ambiance queer très sympa le jeudi."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "brooklyn-mirage",
+   "name": "Brooklyn Mirage",
+   "cat": "nuit",
+   "zone": "Brooklyn",
+   "hood": "East Williamsburg",
+   "address": "140 Stewart Ave, Brooklyn, NY 11237",
+   "lat": 40.71091,
+   "lng": -73.92576,
+   "claire": {
+    "sec": [
+     "boite"
+    ],
+    "notes": {
+     "boite": "Voir les soirées sur Shotgun : les gros artistes se produisent ici."
+    },
+    "star": false
+   },
+   "fromClaire": true,
+   "closedForGood": true
+  },
+  {
+   "id": "marquee",
+   "name": "Marquee",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Chelsea",
+   "address": "289 10th Ave, New York, NY 10001",
+   "lat": 40.7501,
+   "lng": -74.00281,
+   "claire": {
+    "sec": [
+     "boite"
+    ],
+    "notes": {
+     "boite": "Boîte promo, à faire une fois. Souvent de gros artistes aussi."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "gospel",
+   "name": "Gospel",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "SoHo",
+   "address": "281 Lafayette St, New York, NY 10012",
+   "lat": 40.72395,
+   "lng": -73.99604,
+   "claire": {
+    "sec": [
+     "boite"
+    ],
+    "notes": {
+     "boite": "Trop cool, mais il faut être très bien habillé."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "pauls-baby-grand",
+   "name": "Paul's Baby Grand",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Tribeca",
+   "address": "2 6th Ave, New York, NY 10013",
+   "lat": 40.71938,
+   "lng": -74.00478,
+   "claire": {
+    "sec": [
+     "boite"
+    ],
+    "notes": {
+     "boite": "Ma boîte préférée à NY, déco trop sympa, bar et boîte. Contacter @Orson sur Instagram : meilleur DJ français de New York, il ne mixe que des bons sons, souvent le mercredi."
+    },
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "fleur-room",
+   "name": "Fleur Room",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Chelsea",
+   "address": "105 W 28th St, New York, NY 10001",
+   "lat": 40.74645,
+   "lng": -73.99089,
+   "claire": {
+    "sec": [
+     "boite"
+    ],
+    "notes": {
+     "boite": "Boîte avec vue sur l'Empire State. Boîte promo à faire une fois pour la vue, mais sons pas fous et mood promo."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "little-sister",
+   "name": "Little Sister",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "East Village",
+   "address": "112 E 11th St, New York, NY 10003",
+   "lat": 40.73164,
+   "lng": -73.98956,
+   "claire": {
+    "sec": [
+     "boite"
+    ],
+    "notes": {
+     "boite": "Très sympa (promo)."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "the-box",
+   "name": "The Box",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Lower East Side",
+   "address": "189 Chrystie St, New York, NY 10002",
+   "lat": 40.72188,
+   "lng": -73.99221,
+   "claire": {
+    "sec": [
+     "boite"
+    ],
+    "notes": {
+     "boite": "Très très très dur de rentrer, mais insane."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "jeans",
+   "name": "Jean's",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "NoHo",
+   "address": "415 Lafayette St, New York, NY 10003",
+   "lat": 40.72854,
+   "lng": -73.99212,
+   "claire": {
+    "sec": [
+     "boite"
+    ],
+    "notes": {
+     "boite": "Très cool, mood plus petite boîte, un peu house et électro."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "nublu",
+   "name": "Nublu",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "East Village",
+   "address": "62 Avenue C, New York, NY 10009",
+   "lat": 40.72251,
+   "lng": -73.97968,
+   "claire": {
+    "sec": [
+     "boite"
+    ],
+    "notes": {
+     "boite": "Une des meilleures boîtes : mood 70's avec une déco de fou, des télés qui diffusent d'anciens clips… trop sympa."
+    },
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "the-stranger",
+   "name": "The Stranger",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Midtown",
+   "address": "311 W 57th St, New York, NY 10019",
+   "lat": 40.76715,
+   "lng": -73.98349,
+   "claire": {
+    "sec": [
+     "boite"
+    ],
+    "notes": {
+     "boite": "Boîte de crazy people, des shows qu'on ne verra jamais ailleurs, trop drôle. Une salle karaoké à l'intérieur. À faire absolument, et très bons sons."
+    },
+    "star": false
+   },
+   "fromClaire": true,
+   "closedForGood": true
+  },
+  {
+   "id": "virgo",
+   "name": "Virgo",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Lower East Side",
+   "address": "324 Grand St, New York, NY 10002",
+   "lat": 40.71725,
+   "lng": -73.99033,
+   "claire": {
+    "sec": [
+     "boite"
+    ],
+    "notes": {
+     "boite": "Une de mes meilleures boîtes, connue que par les locaux. Trop bons sons, assez petit, trop trop trop bien."
+    },
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "tiki-disco",
+   "name": "Tiki Disco",
+   "cat": "nuit",
+   "zone": "Queens",
+   "hood": "Maspeth (Queens)",
+   "address": "52-19 Flushing Ave, Maspeth, NY 11378",
+   "lat": 40.71568,
+   "lng": -73.91438,
+   "claire": {
+    "sec": [
+     "ete"
+    ],
+    "notes": {
+     "ete": "Le dimanche après-midi, mood house, techno, disco : trop trop cool."
+    },
+    "star": false
+   },
+   "fromClaire": true,
+   "dates": "Été uniquement"
+  },
+  {
+   "id": "solidcore-1",
+   "name": "[solidcore]",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Chelsea",
+   "address": "155 W 23rd St, New York, NY 10011",
+   "lat": 40.74395,
+   "lng": -73.99459,
+   "claire": {
+    "sec": [
+     "sport"
+    ],
+    "notes": {
+     "sport": "Pilates ++"
+    },
+    "star": false
+   },
+   "fromClaire": true,
+   "group": "solidcore"
+  },
+  {
+   "id": "solidcore-2",
+   "name": "[solidcore]",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "East Village",
+   "address": "504 E 14th St, New York, NY 10009",
+   "lat": 40.73,
+   "lng": -73.97976,
+   "claire": {
+    "sec": [
+     "sport"
+    ],
+    "notes": {
+     "sport": "Pilates ++"
+    },
+    "star": false
+   },
+   "fromClaire": true,
+   "group": "solidcore"
+  },
+  {
+   "id": "vaura",
+   "name": "Vaura Pilates",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Upper East Side",
+   "address": "1011 3rd Ave, New York, NY 10065",
+   "lat": 40.76209,
+   "lng": -73.96568,
+   "claire": {
+    "sec": [
+     "sport"
+    ],
+    "notes": {
+     "sport": "Pilates, dans l'Upper East Side."
+    },
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "chelsea-hotel",
+   "name": "Hotel Chelsea",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Chelsea",
+   "address": "222 W 23rd St, New York, NY 10011",
+   "lat": 40.74433,
+   "lng": -73.99687,
+   "claire": {
+    "sec": [
+     "sorties"
+    ],
+    "notes": {
+     "sorties": "Pour vivre l'expérience « Just Kids » de Patti Smith (sympa d'y déjeuner)."
+    },
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "met-opera",
+   "name": "Opéra du Lincoln Center",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Lincoln Center",
+   "address": "30 Lincoln Center Plaza, New York, NY 10023",
+   "lat": 40.77271,
+   "lng": -73.98391,
+   "claire": {
+    "sec": [
+     "sorties"
+    ],
+    "notes": {
+     "sorties": "Aller à l'opéra."
+    },
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "coney-island",
+   "name": "Coney Island",
+   "cat": "voir",
+   "zone": "Brooklyn",
+   "hood": "Coney Island",
+   "address": "Riegelmann Boardwalk, Brooklyn, NY 11224",
+   "lat": 40.57329,
+   "lng": -73.97879,
+   "claire": {
+    "sec": [
+     "sorties"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "msg",
+   "name": "Madison Square Garden",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Chelsea",
+   "address": "4 Pennsylvania Plaza, New York, NY 10001",
+   "lat": 40.7505,
+   "lng": -73.99344,
+   "claire": {
+    "sec": [
+     "sorties"
+    ],
+    "notes": {
+     "sorties": "Aller voir un match de basket."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "cinema-lex",
+   "name": "Cinéma Lexington / 59th St",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Midtown East",
+   "address": "1001 3rd Ave, New York, NY 10022",
+   "lat": 40.76186,
+   "lng": -73.96609,
+   "claire": {
+    "sec": [
+     "sorties"
+    ],
+    "notes": {
+     "sorties": "Un cinéma avec des sièges dingues, vers Lexington Avenue et la 59e rue."
+    },
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "jetski",
+   "name": "Jet-ski sur l'Hudson",
+   "cat": "voir",
+   "zone": "New Jersey",
+   "hood": "Jersey City",
+   "address": "84 Audrey Zapp Dr, Jersey City, NJ 07305",
+   "lat": 40.70955,
+   "lng": -74.04194,
+   "claire": {
+    "sec": [
+     "sorties"
+    ],
+    "notes": {
+     "sorties": "Jet-ski sur l'Hudson, départ du New Jersey."
+    },
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "onu",
+   "name": "Siège de l'ONU",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Midtown East",
+   "address": "801 1st Ave, New York, NY 10017",
+   "lat": 40.75092,
+   "lng": -73.96855,
+   "claire": {
+    "sec": [
+     "sorties"
+    ],
+    "notes": {
+     "sorties": "Aller visiter les Nations unies."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "columbia",
+   "name": "Columbia University",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Morningside Heights",
+   "address": "1150 Amsterdam Ave, New York, NY 10027",
+   "lat": 40.80742,
+   "lng": -73.96091,
+   "claire": {
+    "sec": [
+     "sorties"
+    ],
+    "notes": {
+     "sorties": "Le quartier de Columbia University."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "gramercy",
+   "name": "Gramercy Park",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Gramercy Park",
+   "address": "Gramercy Park, New York, NY 10003",
+   "lat": 40.73678,
+   "lng": -73.98447,
+   "claire": {
+    "sec": [
+     "parcs"
+    ],
+    "notes": {
+     "parcs": "Un de mes quartiers préférés. Le parc n'est accessible qu'aux habitants des immeubles autour, qui ont la clé. Très paisible et beau."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "albertine",
+   "name": "Albertine (Villa Albertine)",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Upper East Side",
+   "address": "972 5th Ave, New York, NY 10075",
+   "lat": 40.77672,
+   "lng": -73.96372,
+   "claire": {
+    "sec": [
+     "culture"
+    ],
+    "notes": {
+     "culture": "Librairie française."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "mcnally-jackson",
+   "name": "McNally Jackson",
+   "cat": "shop",
+   "zone": "Manhattan",
+   "hood": "SoHo",
+   "address": "134 Prince St, New York, NY 10012",
+   "lat": 40.72542,
+   "lng": -74.00069,
+   "claire": {
+    "sec": [
+     "culture"
+    ],
+    "notes": {
+     "culture": "Ma préférée."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "jewish-museum",
+   "name": "Jewish Museum",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Upper East Side",
+   "address": "1109 5th Ave, New York, NY 10128",
+   "lat": 40.78533,
+   "lng": -73.95735,
+   "claire": {
+    "sec": [
+     "culture"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "guggenheim",
+   "name": "Guggenheim",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Upper East Side",
+   "address": "1071 5th Ave, New York, NY 10128",
+   "lat": 40.78298,
+   "lng": -73.95897,
+   "claire": {
+    "sec": [
+     "culture"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "frick",
+   "name": "The Frick Collection",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Upper East Side",
+   "address": "1 E 70th St, New York, NY 10021",
+   "lat": 40.77109,
+   "lng": -73.96739,
+   "claire": {
+    "sec": [
+     "culture"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "whitney",
+   "name": "Whitney Museum",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Meatpacking",
+   "address": "99 Gansevoort St, New York, NY 10014",
+   "lat": 40.73959,
+   "lng": -74.00886,
+   "claire": {
+    "sec": [
+     "culture"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "christies",
+   "name": "Christie's",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Midtown",
+   "address": "20 Rockefeller Plaza, New York, NY 10020",
+   "lat": 40.75874,
+   "lng": -73.98002,
+   "claire": {
+    "sec": [
+     "culture"
+    ],
+    "notes": {
+     "culture": "Les expos de Christie's."
+    },
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "taittinger",
+   "name": "Galerie Taittinger",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Lower East Side",
+   "address": "154 Ludlow St, New York, NY 10002",
+   "lat": 40.72089,
+   "lng": -73.98775,
+   "claire": {
+    "sec": [
+     "culture"
+    ],
+    "notes": {
+     "culture": "Une exposition à la Galerie Taittinger."
+    },
+    "star": false
+   },
+   "fromClaire": true,
+   "closedForGood": true
+  },
+  {
+   "id": "reformation",
+   "name": "Reformation",
+   "cat": "shop",
+   "zone": "Manhattan",
+   "hood": "SoHo",
+   "address": "62 Greene St, New York, NY 10012",
+   "lat": 40.72291,
+   "lng": -74.00077,
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "staud",
+   "name": "Staud",
+   "cat": "shop",
+   "zone": "Manhattan",
+   "hood": "SoHo",
+   "address": "45 Greene St, New York, NY 10013",
+   "lat": 40.7222,
+   "lng": -74.00212,
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "cult-gaia",
+   "name": "Cult Gaia",
+   "cat": "shop",
+   "zone": "Manhattan",
+   "hood": "SoHo",
+   "address": "60 Wooster St, New York, NY 10012",
+   "lat": 40.72316,
+   "lng": -74.00187,
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "2nd-street-broadway",
+   "name": "2nd Street (Broadway)",
+   "cat": "shop",
+   "zone": "Manhattan",
+   "hood": "NoHo",
+   "address": "712 Broadway, New York, NY 10003",
+   "lat": 40.72888,
+   "lng": -73.99364,
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {
+     "shopping": "Friperie au 711 Broadway."
+    },
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "l-train-vintage",
+   "name": "L Train Vintage",
+   "cat": "shop",
+   "zone": "Brooklyn",
+   "hood": "Bushwick",
+   "address": "106 Thames St, Brooklyn, NY 11237",
+   "lat": 40.70511,
+   "lng": -73.92984,
+   "claire": {
+    "sec": [
+     "friperies"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "bedford-vintage",
+   "name": "Bedford Vintage",
+   "cat": "shop",
+   "zone": "Brooklyn",
+   "hood": "Williamsburg",
+   "address": "207 Bedford Ave, Brooklyn, NY 11211",
+   "lat": 40.71686,
+   "lng": -73.95855,
+   "claire": {
+    "sec": [
+     "friperies"
+    ],
+    "notes": {},
+    "star": true
+   },
+   "fromClaire": true
+  },
+  {
+   "id": "2nd-street-bk",
+   "name": "2nd Street (Brooklyn)",
+   "cat": "shop",
+   "zone": "Brooklyn",
+   "hood": "Williamsburg",
+   "address": "187 Kent Ave, Brooklyn, NY 11249",
+   "lat": 40.71757,
+   "lng": -73.96448,
+   "claire": {
+    "sec": [
+     "friperies"
+    ],
+    "notes": {
+     "friperies": "Vintage, luxe…"
+    },
+    "star": false
+   },
+   "fromClaire": true
+  }
+ ],
+ "claireOnly": [
+  {
+   "id": "julien",
+   "name": "Julien Boulangerie",
+   "claire": {
+    "sec": [
+     "gouter"
+    ],
+    "notes": {
+     "gouter": "Pour du French."
+    },
+    "star": false
+   }
+  },
+  {
+   "id": "solid-striped",
+   "name": "Solid & Striped",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {
+     "shopping": "La marque de Sofia Richie, à SoHo."
+    },
+    "star": false
+   }
+  }
+ ],
+ "claireSections": [
+  {
+   "id": "brunch",
+   "label": "Brunch"
+  },
+  {
+   "id": "resto",
+   "label": "Soir et midi"
+  },
+  {
+   "id": "gouter",
+   "label": "Goûter et boulangeries"
+  },
+  {
+   "id": "cafe",
+   "label": "Cafés (matcha validés)"
+  },
+  {
+   "id": "pouce",
+   "label": "Sur le pouce"
+  },
+  {
+   "id": "bar",
+   "label": "Bars"
+  },
+  {
+   "id": "rooftop",
+   "label": "Rooftops"
+  },
+  {
+   "id": "boite",
+   "label": "Boîtes"
+  },
+  {
+   "id": "ete",
+   "label": "Sorties de l'été"
+  },
+  {
+   "id": "sport",
+   "label": "Sport"
+  },
+  {
+   "id": "sorties",
+   "label": "Sorties"
+  },
+  {
+   "id": "sky",
+   "label": "Gratte-ciel"
+  },
+  {
+   "id": "parcs",
+   "label": "Parcs"
+  },
+  {
+   "id": "culture",
+   "label": "Expos, musées et culture"
+  },
+  {
+   "id": "shopping",
+   "label": "Shopping"
+  },
+  {
+   "id": "friperies",
+   "label": "Friperies à Brooklyn"
+  }
+ ],
+ "claireTips": [
+  "Suivre @Orson sur Instagram : DJ français qui te met toujours sur la guest list, et les meilleurs sons.",
+  "Le compte Instagram @nyc_forfree, pour les sorties gratuites.",
+  "Late night show : tirages au sort de places gratuites sur le site 1iota. Il faut se connecter un peu tous les jours pour gagner.",
+  "Le Bal des Français : 2 ou 3 fois par an, soirée de Français sur des rooftops, trop sympa, sons français.",
+  "Un verre en terrasse mood Paris : sur la 9th Avenue, en face de Catch et de Sephora, la terrasse d'un hôtel (Claire n'a plus le nom).",
+  "Aller courir le long de l'Hudson ou à Central Park.",
+  "Se perdre dans l'Upper East Side : pas mal de galeries d'art très cool, et le shopping plus luxe.",
+  "The Edge pour moins cher : voir l'astuce dans la fiche."
+ ],
+ "claireTrips": "Montréal, Miami, Washington, Boston, les Hamptons (Southampton ou Montauk), le Mexique (Yucatán), Turks and Caicos, les Bahamas (plutôt les Exumas), le Costa Rica. Philadelphie : « ça sert à rien d'y aller »."
 }

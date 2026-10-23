@@ -6,12 +6,15 @@
   const CATS = {
     viral:   { label: 'Viral',    color: '#FF6319', text: '#fff' },
     typique: { label: 'Typique',  color: '#00933C', text: '#fff' },
+    cafe:    { label: 'Cafés',    color: '#6CBE45', text: '#141414' },
+    nuit:    { label: 'Soirées',  color: '#996633', text: '#fff' },
     shop:    { label: 'Shopping', color: '#B933AD', text: '#fff' },
     voir:    { label: 'À voir',   color: '#2F6FE0', text: '#fff' },
     mine:    { label: 'Mes ajouts', color: '#FCCC0A', text: '#141414' }
   };
-  const ZONES = ['Manhattan', 'Brooklyn', 'Bronx', 'Queens', 'Staten Island'];
-  const FOOD = ['viral', 'typique'];
+  const CLAIRE_COLOR = '#D6336C';
+  const ZONES = ['Manhattan', 'Brooklyn', 'Bronx', 'Queens', 'Staten Island', 'New Jersey'];
+  const FOOD = ['viral', 'typique', 'cafe'];
   const NAMES = Object.assign({ a: 'Moi', b: 'Toi' }, CFG.NAMES || {});
 
   /* ---------- stockage local ---------- */
@@ -73,9 +76,26 @@
   function catOf(p) { return CATS[p.cat] || CATS.mine; }
   function letter(p) { return (p.name.replace(/^(The|Le|La|Les|L')\s*/i, '')[0] || '?').toUpperCase(); }
 
+  // Pour les chaînes (plusieurs adresses), on ne garde que l'adresse la plus proche dans les listes.
+  function nearestOfGroups(list) {
+    const best = {};
+    const out = [];
+    list.forEach((p) => {
+      if (!p.group) { out.push(p); return; }
+      const cur = best[p.group];
+      if (!cur || distKm(origin(), p) < distKm(origin(), cur)) best[p.group] = p;
+    });
+    return out.concat(Object.values(best));
+  }
+  function claireNote(p, sec) {
+    if (!p.claire) return '';
+    if (sec) return p.claire.notes[sec] || '';
+    return Object.values(p.claire.notes).join(' ');
+  }
   function visible() {
-    let list = allPlaces();
+    let list = allPlaces().filter((p) => !p.closedForGood);
     if (S.filter === 'mine') list = list.filter((p) => p.custom);
+    else if (S.filter === 'claire') list = list.filter((p) => p.claire);
     else if (S.filter === 'duo') list = list.filter((p) => { const v = S.votes[p.id]; return v && v.a && v.b; });
     else if (S.filter !== 'all') list = list.filter((p) => p.cat === S.filter);
     if (S.hungry) list = list.filter((p) => FOOD.includes(p.cat) && walkMin(p) <= 15);
@@ -86,7 +106,7 @@
   function renderChips() {
     const items = [['all', 'Tout', null]].concat(
       Object.keys(CATS).map((k) => [k, CATS[k].label, CATS[k].color]),
-      [['duo', 'Envies à deux', null]]
+      [['claire', 'Claire', CLAIRE_COLOR], ['duo', 'Envies à deux', null]]
     );
     $('#chips').innerHTML = items.map(([k, label, color]) => {
       const n = k === 'all' ? allPlaces().length : null;
@@ -102,19 +122,22 @@
     const g = S.gcache[p.id];
     if (g && g.openNow === true) return '<span class="tag ok">Ouvert</span>';
     if (g && g.openNow === false) return '<span class="tag bad">Fermé</span>';
+    if (p.closedForGood) return '<span class="tag bad">Fermé</span>';
     if (S.done[p.id]) return '<span class="tag ok">Fait</span>';
-    return p.score ? '<span class="tag warn">' + String(p.score).replace('.', ',') + '/10</span>' : '';
+    if (p.score) return '<span class="tag warn">' + String(p.score).replace('.', ',') + '/10</span>';
+    if (p.claire && p.claire.star) return '<span class="tag" style="color:' + CLAIRE_COLOR + '">★ Claire</span>';
+    return '';
   }
   function rowHtml(p) {
     const c = catOf(p), min = walkMin(p);
     const sub = (p.custom ? 'Mon ajout' : c.label) + ' · ' + (p.hood || p.zone || '') + (p.verdict ? ' · ' + p.verdict : '');
     return '<button class="row" data-open="' + esc(p.id) + '">' +
-      '<span class="bullet" style="background:' + c.color + ';color:' + c.text + (S.done[p.id] ? ';opacity:.45' : '') + '">' + esc(letter(p)) + '</span>' +
+      '<span class="bullet' + (p.claire ? ' cl' : '') + '" style="background:' + c.color + ';color:' + c.text + (S.done[p.id] || p.closedForGood ? ';opacity:.45' : '') + '">' + esc(letter(p)) + '</span>' +
       '<span class="row-main"><b>' + esc(p.name) + '</b><span>' + esc(sub) + '</span></span>' +
       '<span class="row-side"><b>' + travelLabel(min) + '</b>' + statusTag(p) + '</span></button>';
   }
   function renderNear() {
-    const list = visible().map((p) => ({ p, m: walkMin(p) })).sort((a, b) => a.m - b.m);
+    const list = nearestOfGroups(visible()).map((p) => ({ p, m: walkMin(p) })).sort((a, b) => a.m - b.m);
     const close = list.filter((x) => x.m <= 15);
     const shown = (close.length >= 4 ? close : list.slice(0, 12));
     $('#near-title').textContent = S.hungry ? 'Manger tout près' : (close.length >= 4 ? 'À moins de 15 min' : 'Les plus proches');
@@ -130,9 +153,9 @@
   }
   function renderAll() {
     const q = S.query.trim().toLowerCase();
-    let list = visible();
+    let list = nearestOfGroups(visible());
     if (S.zone !== 'Toutes') list = list.filter((p) => p.zone === S.zone);
-    if (q) list = list.filter((p) => [p.name, p.hood, p.zone, p.why, p.order, p.note].join(' ').toLowerCase().includes(q));
+    if (q) list = list.filter((p) => [p.name, p.hood, p.zone, p.why, p.order, p.note, claireNote(p)].join(' ').toLowerCase().includes(q));
     list.sort((a, b) => (b.score || 0) - (a.score || 0));
     $('#all-list').innerHTML = list.length ? list.map(rowHtml).join('') : '<p class="empty">Aucun résultat.</p>';
   }
@@ -165,6 +188,20 @@
     if (p.price) pills.push('<span class="pill">' + esc(p.price) + '</span>');
     if (p.dates) pills.push('<span class="pill hot">' + esc(p.dates) + '</span>');
     if (closedToday(p)) pills.push('<span class="pill" style="background:#F9DEDC;color:#8C1D18">Fermé aujourd\'hui</span>');
+    if (p.closedForGood) pills.push('<span class="pill" style="background:#F9DEDC;color:#8C1D18">Fermé définitivement selon Google</span>');
+
+    let claireHtml = '';
+    if (p.claire) {
+      const notes = p.claire.sec.filter((s) => p.claire.notes[s]).map((s) => '<p><b>' + esc(secLabel(s)) + '</b> · ' + esc(p.claire.notes[s]) + '</p>').join('');
+      claireHtml = '<div class="claire-box"><h3><span>L\'avis de Claire</span>' + (p.claire.star ? '<span class="cl-star">★ Coup de cœur</span>' : '') + '</h3>' +
+        (notes || '<p>Dans sa liste, rubrique « ' + esc(p.claire.sec.map(secLabel).join(', ')) + ' ».</p>') + '</div>';
+    }
+    let branches = '';
+    if (p.group) {
+      const others = allPlaces().filter((q) => q.group === p.group && q.id !== p.id).sort((a, b) => walkMin(a) - walkMin(b));
+      branches = '<div class="sec"><h3>Autres adresses</h3><div class="card" style="padding:0 12px;background:var(--ground)">' +
+        others.map((q) => '<button class="row" data-open="' + esc(q.id) + '"><span class="row-main"><b>' + esc(q.address.split(',')[0]) + '</b><span>' + esc(q.hood) + '</span></span><span class="row-side"><b>' + travelLabel(walkMin(q)) + '</b></span></button>').join('') + '</div></div>';
+    }
 
     const pros = (p.plus || []).map((t) => '<li><strong style="color:var(--ok)">+</strong> ' + esc(t) + '</li>').join('') +
       (p.minus || []).map((t) => '<li><strong style="color:var(--bad)">−</strong> ' + esc(t) + '</li>').join('');
@@ -185,15 +222,20 @@
           '<div class="pills">' + pills.join('') + '</div>' +
           '<div class="stats">' +
             '<div><span>Trajet</span><b>' + travelLabel(min) + '</b></div>' +
-            '<div><span>Note BP</span><b>' + (p.score ? String(p.score).replace('.', ',') + '<small>/10</small>' : '–') + '</b></div>' +
-            '<div><span>Durée</span><b>' + (p.duration ? fmtTime(p.duration) : '–') + '</b></div>' +
+            (p.score || !(g && g.rating)
+              ? '<div><span>Note BP</span><b>' + (p.score ? String(p.score).replace('.', ',') + '<small>/10</small>' : '–') + '</b></div>'
+              : '<div><span>Google</span><b>' + String(g.rating).replace('.', ',') + '<small>/5</small></b></div>') +
+            (p.duration ? '<div><span>Durée</span><b>' + fmtTime(p.duration) + '</b></div>' : '<div><span>Quartier</span><b style="font-size:18px">' + esc(p.zone || '–') + '</b></div>') +
           '</div>' +
           (p.why ? '<div class="sec"><h3>Pourquoi c\'est connu</h3><p>' + esc(p.why) + '</p></div>' : '') +
+          claireHtml +
           (pros ? '<div class="sec"><h3><span>Ce que disent les avis</span>' + (p.verdict ? '<span class="pill ' + verdictClass(p.verdict) + '">' + esc(p.verdict) + '</span>' : '') + '</h3><ul class="pros">' + pros + '</ul>' + googleLine + '<span class="src">Synthèse des critiques, guides et avis en ligne (oct. 2026). Note Google en direct.</span></div>'
             : '<div class="sec"><h3>Avis Google</h3>' + googleLine + '</div>') +
           (p.order ? '<div class="sec"><h3>' + (FOOD.includes(p.cat) ? 'Quoi commander' : 'À faire') + '</h3><p>' + esc(p.order) + '</p></div>' : '') +
           (p.tip ? '<div class="sec"><h3>Astuce</h3><p>' + esc(p.tip) + '</p></div>' : '') +
           (p.note ? '<div class="sec"><h3>Ma note</h3><p>' + esc(p.note) + '</p></div>' : '') +
+          branches +
+          (p.address ? '<div class="sec"><h3>Adresse</h3><p>' + esc(p.address) + '</p></div>' : '') +
           (p.link ? '<div class="sec"><h3>Lien enregistré</h3><p><a href="' + esc(p.link) + '" target="_blank" rel="noopener">' + esc(p.link.replace(/^https?:\/\//, '').slice(0, 48)) + '…</a></p></div>' : '') +
           '<div class="duo"><h3>Vos envies à deux</h3><div class="duo-row">' +
             '<button data-vote="a" aria-pressed="' + !!v.a + '">' + esc(NAMES.a) + (v.a ? ' : j\'adore' : ' : voter') + '</button>' +
@@ -204,7 +246,7 @@
         '<div class="actions">' +
           '<a class="btn grow" href="' + esc(dirUrl(p)) + '" target="_blank" rel="noopener">ITINÉRAIRE</a>' +
           '<a class="btn ghost" href="' + esc(gmapsUrl(p)) + '" target="_blank" rel="noopener" aria-label="Voir dans Google Maps">MAPS</a>' +
-          '<button class="btn ghost" data-done aria-pressed="' + !!S.done[p.id] + '"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12l5 5 9-10"></path></svg>' + (S.done[p.id] ? 'FAIT' : 'FAIT ?') + '</button>' +
+          '<button class="btn ghost" data-done aria-pressed="' + !!S.done[p.id] + '"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12l5 5 9-10"></path></svg>' + 'FAIT</button>' +
         '</div>' +
       '</div>';
     $('#modal').hidden = false;
@@ -249,7 +291,7 @@
   function pinEl(p) {
     const c = catOf(p), el = document.createElement('div');
     const v = S.votes[p.id];
-    el.className = 'pin' + (S.done[p.id] ? ' done' : '') + (v && v.a && v.b ? ' star' : '');
+    el.className = 'pin' + (S.done[p.id] ? ' done' : '') + (v && v.a && v.b ? ' star' : '') + (p.claire ? ' cl' : '');
     el.style.background = c.color; el.style.color = c.text;
     el.textContent = letter(p);
     el.title = p.name;
@@ -346,7 +388,7 @@
     list.forEach((p) => {
       const q = pos(p); if (q.x < -20 || q.x > w + 20 || q.y < -20 || q.y > h + 20) return;
       const c = catOf(p);
-      html += '<button class="fb-pin" data-open="' + esc(p.id) + '" style="left:' + q.x.toFixed(1) + 'px;top:' + q.y.toFixed(1) + 'px;background:' + c.color + ';color:' + c.text + (S.done[p.id] ? ';opacity:.45' : '') + '" aria-label="' + esc(p.name) + '">' + esc(letter(p)) + '</button>';
+      html += '<button class="fb-pin' + (p.claire ? ' cl' : '') + '" data-open="' + esc(p.id) + '" style="left:' + q.x.toFixed(1) + 'px;top:' + q.y.toFixed(1) + 'px;background:' + c.color + ';color:' + c.text + (S.done[p.id] ? ';opacity:.45' : '') + '" aria-label="' + esc(p.name) + '">' + esc(letter(p)) + '</button>';
     });
     const me = pos(o);
     html += '<div class="me-dot" style="left:' + me.x + 'px;top:' + me.y + 'px"></div>';
@@ -431,6 +473,48 @@
     return 'Manhattan';
   }
 
+  /* ---------- Liste de Claire ---------- */
+  S.cSections = []; S.cTips = []; S.cTrips = ''; S.cOnly = [];
+  S.cMode = 'sec';      // 'sec' = par rubrique, 'near' = autour de moi
+  S.cStar = false;      // seulement ses coups de cœur
+  function secLabel(id) { const s = S.cSections.find((x) => x.id === id); return s ? s.label : id; }
+  function claireRow(p, sec) {
+    const note = sec ? claireNote(p, sec) : '';
+    return '<div class="crow">' + rowHtml(p) + (note ? '<p class="cq">« ' + esc(note) + ' »</p>' : '') + '</div>';
+  }
+  function renderClaire() {
+    const all = allPlaces().filter((p) => p.claire);
+    const groups = nearestOfGroups(all);
+    const nStar = groups.filter((p) => p.claire.star).length;
+    const keep = (p) => !S.cStar || p.claire.star;
+    let body = '';
+    if (S.cMode === 'near') {
+      const list = groups.filter((p) => !p.closedForGood && keep(p)).sort((a, b) => walkMin(a) - walkMin(b));
+      body = '<div class="card">' + list.map((p) => claireRow(p, p.claire.sec.find((s) => p.claire.notes[s]))).join('') + '</div>';
+    } else {
+      body = S.cSections.map((s) => {
+        const list = groups.filter((p) => p.claire.sec.includes(s.id) && keep(p))
+          .sort((a, b) => (a.closedForGood ? 1 : 0) - (b.closedForGood ? 1 : 0) || (b.claire.star ? 1 : 0) - (a.claire.star ? 1 : 0) || walkMin(a) - walkMin(b));
+        const only = S.cOnly.filter((p) => p.claire.sec.includes(s.id) && keep(p));
+        if (!list.length && !only.length) return '';
+        return '<section class="csec"><h3 class="label">' + esc(s.label) + ' <span>' + (list.length + only.length) + '</span></h3><div class="card">' +
+          list.map((p) => claireRow(p, s.id)).join('') +
+          only.map((p) => '<div class="crow"><div class="row" style="cursor:default"><span class="bullet" style="background:var(--soft);color:var(--ink)">?</span><span class="row-main"><b>' + esc(p.name) + '</b><span>Adresse introuvable sur Google Maps</span></span></div>' +
+            (claireNote(p, s.id) ? '<p class="cq">« ' + esc(claireNote(p, s.id)) + ' »</p>' : '') + '</div>').join('') +
+          '</div></section>';
+      }).join('');
+    }
+    $('#claire-page').innerHTML =
+      '<div class="claire-hero"><span class="label" style="color:#fff">La liste de</span><b>Claire</b><span>' + groups.length + ' adresses · ' + nStar + ' coups de cœur ★</span></div>' +
+      '<div class="seg" role="toolbar" aria-label="Affichage">' +
+        '<button data-cmode="sec" aria-pressed="' + (S.cMode === 'sec') + '">Par rubrique</button>' +
+        '<button data-cmode="near" aria-pressed="' + (S.cMode === 'near') + '">Autour de moi</button>' +
+        '<button data-cstar aria-pressed="' + S.cStar + '">★ Ses coups de cœur</button>' +
+      '</div>' + body +
+      '<section class="csec"><h3 class="label">Les tips de Claire</h3><div class="card tips">' + S.cTips.map((t) => '<p>' + esc(t) + '</p>').join('') + '</div></section>' +
+      (S.cTrips ? '<section class="csec"><h3 class="label">Ses idées de voyages hors de New York</h3><div class="card tips"><p>' + esc(S.cTrips) + '</p></div></section>' : '');
+  }
+
   /* ---------- Carnet ---------- */
   const AGENDA = [
     { d: '2026-11-20', t: 'Arrivée. Le village de Noël de Bryant Park est ouvert, patinoire gratuite jusqu\'à minuit.' },
@@ -497,13 +581,14 @@
   function switchTab(t) {
     S.tab = t;
     document.querySelectorAll('.tab').forEach((b) => { if (b.dataset.tab === t) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current'); });
-    $('#v-around').hidden = t !== 'around'; $('#v-list').hidden = t !== 'list'; $('#v-add').hidden = t !== 'add'; $('#v-book').hidden = t !== 'book';
-    $('#chips').hidden = t === 'add' || t === 'book';
+    $('#v-around').hidden = t !== 'around'; $('#v-list').hidden = t !== 'list'; $('#v-add').hidden = t !== 'add'; $('#v-book').hidden = t !== 'book'; $('#v-claire').hidden = t !== 'claire';
+    $('#chips').hidden = t === 'add' || t === 'book' || t === 'claire';
     if (t === 'list') { renderZones(); renderAll(); }
+    if (t === 'claire') renderClaire();
     if (t === 'book') renderBook();
     if (t === 'around') requestAnimationFrame(() => setSheet(S.sheet));
   }
-  function refresh() { renderChips(); renderNear(); renderMarkers(); if (S.tab === 'list') renderAll(); if (S.tab === 'book') renderBook(); }
+  function refresh() { renderChips(); renderNear(); renderMarkers(); if (S.tab === 'list') renderAll(); if (S.tab === 'book') renderBook(); if (S.tab === 'claire') renderClaire(); }
 
   function surprise() {
     const pool = visible().filter((p) => !S.done[p.id] && !closedToday(p) && walkMin(p) <= 20);
@@ -519,6 +604,8 @@
     const t = e.target.closest('button, a'); if (!t) return;
     if (t.dataset.f) { S.filter = t.dataset.f; refresh(); return; }
     if (t.dataset.z) { S.zone = t.dataset.z; renderZones(); renderAll(); return; }
+    if (t.dataset.cmode) { S.cMode = t.dataset.cmode; renderClaire(); return; }
+    if (t.hasAttribute('data-cstar')) { S.cStar = !S.cStar; renderClaire(); return; }
     if (t.dataset.open) { openFiche(t.dataset.open); return; }
     if (t.dataset.tab) { switchTab(t.dataset.tab); return; }
     if (t.dataset.cat) { S.addCat = t.dataset.cat; renderAddCats(); return; }
@@ -646,6 +733,10 @@
       const res = await fetch('places.json', { cache: 'no-cache' });
       const data = await res.json();
       S.places = data.places || [];
+      S.cSections = data.claireSections || [];
+      S.cTips = data.claireTips || [];
+      S.cTrips = data.claireTrips || '';
+      S.cOnly = data.claireOnly || [];
     } catch (e) {
       S.places = (window.BP_PLACES && window.BP_PLACES.places) || [];
       if (!S.places.length) showBanner('Impossible de charger la liste des lieux. Vérifiez la connexion.');
