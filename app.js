@@ -13,6 +13,7 @@
     mine:    { label: 'Mes ajouts', color: '#FCCC0A', text: '#141414' }
   };
   const CLAIRE_COLOR = '#D6336C';
+  const IAN_COLOR = '#0E7C86';
   const ZONES = ['Manhattan', 'Brooklyn', 'Bronx', 'Queens', 'Staten Island', 'New Jersey'];
   const FOOD = ['viral', 'typique', 'cafe'];
   const NAMES = Object.assign({ a: 'Moi', b: 'Toi' }, CFG.NAMES || {});
@@ -96,6 +97,7 @@
     let list = allPlaces().filter((p) => !p.closedForGood);
     if (S.filter === 'mine') list = list.filter((p) => p.custom);
     else if (S.filter === 'claire') list = list.filter((p) => p.claire);
+    else if (S.filter === 'ian') list = list.filter((p) => p.ian);
     else if (S.filter === 'duo') list = list.filter((p) => { const v = S.votes[p.id]; return v && v.a && v.b; });
     else if (S.filter !== 'all') list = list.filter((p) => p.cat === S.filter);
     if (S.hungry) list = list.filter((p) => FOOD.includes(p.cat) && walkMin(p) <= 15);
@@ -106,7 +108,7 @@
   function renderChips() {
     const items = [['all', 'Tout', null]].concat(
       Object.keys(CATS).map((k) => [k, CATS[k].label, CATS[k].color]),
-      [['claire', 'Claire', CLAIRE_COLOR], ['duo', 'Envies à deux', null]]
+      [['claire', 'Claire', CLAIRE_COLOR], ['ian', 'Ian (TikTok)', IAN_COLOR], ['duo', 'Envies à deux', null]]
     );
     $('#chips').innerHTML = items.map(([k, label, color]) => {
       const n = k === 'all' ? allPlaces().length : null;
@@ -132,7 +134,7 @@
     const c = catOf(p), min = walkMin(p);
     const sub = (p.custom ? 'Mon ajout' : c.label) + ' · ' + (p.hood || p.zone || '') + (p.verdict ? ' · ' + p.verdict : '');
     return '<button class="row" data-open="' + esc(p.id) + '">' +
-      '<span class="bullet' + (p.claire ? ' cl' : '') + '" style="background:' + c.color + ';color:' + c.text + (S.done[p.id] || p.closedForGood ? ';opacity:.45' : '') + '">' + esc(letter(p)) + '</span>' +
+      '<span class="bullet' + (p.claire ? ' cl' : '') + (p.ian ? ' ia' : '') + '" style="background:' + c.color + ';color:' + c.text + (S.done[p.id] || p.closedForGood ? ';opacity:.45' : '') + '">' + esc(letter(p)) + '</span>' +
       '<span class="row-main"><b>' + esc(p.name) + '</b><span>' + esc(sub) + '</span></span>' +
       '<span class="row-side"><b>' + travelLabel(min) + '</b>' + statusTag(p) + '</span></button>';
   }
@@ -155,7 +157,7 @@
     const q = S.query.trim().toLowerCase();
     let list = nearestOfGroups(visible());
     if (S.zone !== 'Toutes') list = list.filter((p) => p.zone === S.zone);
-    if (q) list = list.filter((p) => [p.name, p.hood, p.zone, p.why, p.order, p.note, claireNote(p)].join(' ').toLowerCase().includes(q));
+    if (q) list = list.filter((p) => [p.name, p.hood, p.zone, p.why, p.order, p.note, claireNote(p), p.ian ? p.ian.tip + ' ' + p.ian.anec : ''].join(' ').toLowerCase().includes(q));
     list.sort((a, b) => (b.score || 0) - (a.score || 0));
     $('#all-list').innerHTML = list.length ? list.map(rowHtml).join('') : '<p class="empty">Aucun résultat.</p>';
   }
@@ -196,6 +198,17 @@
       claireHtml = '<div class="claire-box"><h3><span>L\'avis de Claire</span>' + (p.claire.star ? '<span class="cl-star">★ Coup de cœur</span>' : '') + '</h3>' +
         (notes || '<p>Dans sa liste, rubrique « ' + esc(p.claire.sec.map(secLabel).join(', ')) + ' ».</p>') + '</div>';
     }
+    let ianHtml = '';
+    if (p.ian) {
+      const I = p.ian, vids = I.v.map((n) => [n, S.iVideos[n]]).filter((x) => x[1]);
+      ianHtml = '<div class="ian-box"><h3><span>Vu chez Ian · @ian_in_nyc</span><span>' + vids.length + ' vidéo' + (vids.length > 1 ? 's' : '') + '</span></h3>' +
+        (I.tip ? '<p><b>Son conseil</b> · ' + esc(I.tip) + '</p>' : '') +
+        (I.anec ? '<p><b>Anecdote</b> · ' + esc(I.anec) + '</p>' : '') +
+        ((I.st || I.rem || I.conf !== 'Confirmé') ? '<p class="iv">Vérifié le 23 oct. 2026' + (I.st ? ' · ' + esc(I.st) : '') + (I.rem ? ' · ' + esc(I.rem) : '') + (I.conf !== 'Confirmé' ? ' · Identification ' + esc(I.conf.toLowerCase()) : '') + '</p>' : '') +
+        vids.map(([n, v]) => '<div class="ivid"><a href="' + esc(v.u) + '" target="_blank" rel="noopener"><span class="iplay" aria-hidden="true">▶</span><span><b>' + esc(v.t) + '</b><small>Vidéo n°' + n + ' · ' + esc(v.m) + '</small></span></a>' +
+          '<details><summary>Ce que dit Ian dans la vidéo</summary><p>' + esc(v.s) + '</p>' + (v.c ? '<p class="iv"><b>Vérifications</b> · ' + esc(v.c) + '</p>' : '') + '</details></div>').join('') +
+        '</div>';
+    }
     let branches = '';
     if (p.group) {
       const others = allPlaces().filter((q) => q.group === p.group && q.id !== p.id).sort((a, b) => walkMin(a) - walkMin(b));
@@ -228,7 +241,7 @@
             (p.duration ? '<div><span>Durée</span><b>' + fmtTime(p.duration) + '</b></div>' : '<div><span>Quartier</span><b style="font-size:18px">' + esc(p.zone || '–') + '</b></div>') +
           '</div>' +
           (p.why ? '<div class="sec"><h3>Pourquoi c\'est connu</h3><p>' + esc(p.why) + '</p></div>' : '') +
-          claireHtml +
+          claireHtml + ianHtml +
           (pros ? '<div class="sec"><h3><span>Ce que disent les avis</span>' + (p.verdict ? '<span class="pill ' + verdictClass(p.verdict) + '">' + esc(p.verdict) + '</span>' : '') + '</h3><ul class="pros">' + pros + '</ul>' + googleLine + '<span class="src">Synthèse des critiques, guides et avis en ligne (oct. 2026). Note Google en direct.</span></div>'
             : '<div class="sec"><h3>Avis Google</h3>' + googleLine + '</div>') +
           (p.order ? '<div class="sec"><h3>' + (FOOD.includes(p.cat) ? 'Quoi commander' : 'À faire') + '</h3><p>' + esc(p.order) + '</p></div>' : '') +
@@ -291,7 +304,7 @@
   function pinEl(p) {
     const c = catOf(p), el = document.createElement('div');
     const v = S.votes[p.id];
-    el.className = 'pin' + (S.done[p.id] ? ' done' : '') + (v && v.a && v.b ? ' star' : '') + (p.claire ? ' cl' : '');
+    el.className = 'pin' + (S.done[p.id] ? ' done' : '') + (v && v.a && v.b ? ' star' : '') + (p.claire ? ' cl' : '') + (p.ian ? ' ia' : '');
     el.style.background = c.color; el.style.color = c.text;
     el.textContent = letter(p);
     el.title = p.name;
@@ -388,7 +401,7 @@
     list.forEach((p) => {
       const q = pos(p); if (q.x < -20 || q.x > w + 20 || q.y < -20 || q.y > h + 20) return;
       const c = catOf(p);
-      html += '<button class="fb-pin' + (p.claire ? ' cl' : '') + '" data-open="' + esc(p.id) + '" style="left:' + q.x.toFixed(1) + 'px;top:' + q.y.toFixed(1) + 'px;background:' + c.color + ';color:' + c.text + (S.done[p.id] ? ';opacity:.45' : '') + '" aria-label="' + esc(p.name) + '">' + esc(letter(p)) + '</button>';
+      html += '<button class="fb-pin' + (p.claire ? ' cl' : '') + (p.ian ? ' ia' : '') + '" data-open="' + esc(p.id) + '" style="left:' + q.x.toFixed(1) + 'px;top:' + q.y.toFixed(1) + 'px;background:' + c.color + ';color:' + c.text + (S.done[p.id] ? ';opacity:.45' : '') + '" aria-label="' + esc(p.name) + '">' + esc(letter(p)) + '</button>';
     });
     const me = pos(o);
     html += '<div class="me-dot" style="left:' + me.x + 'px;top:' + me.y + 'px"></div>';
@@ -515,6 +528,38 @@
       (S.cTrips ? '<section class="csec"><h3 class="label">Ses idées de voyages hors de New York</h3><div class="card tips"><p>' + esc(S.cTrips) + '</p></div></section>' : '');
   }
 
+  /* ---------- Lieux de Ian (TikTok @ian_in_nyc) ---------- */
+  S.iVideos = {}; S.iMeta = {};
+  S.iMode = 'cat';      // 'cat' = par thème, 'near' = autour de moi
+  const IAN_CATS = ['Bar', 'Restaurant / street food', 'Café / boulangerie', 'Shopping / marché', 'Point de vue / photo', 'Histoire / architecture', 'Musée / culture', 'Parc / plein air', 'Événement / sortie', 'Transport', 'Autre'];
+  function ianRow(p) {
+    const n = p.ian.v.length;
+    return '<div class="crow">' + rowHtml(p) + '<p class="cq iq">' + (p.ian.tip ? '« ' + esc(p.ian.tip) + ' »' : esc((S.iVideos[p.ian.v[0]] || {}).t || '')) + ' <span>· ' + n + ' vidéo' + (n > 1 ? 's' : '') + '</span></p></div>';
+  }
+  function renderIan() {
+    const all = allPlaces().filter((p) => p.ian && !p.closedForGood);
+    let body = '';
+    if (S.iMode === 'near') {
+      body = '<div class="card">' + all.slice().sort((a, b) => walkMin(a) - walkMin(b)).map(ianRow).join('') + '</div>';
+    } else {
+      body = IAN_CATS.map((c) => {
+        const list = all.filter((p) => p.ian.cat === c).sort((a, b) => walkMin(a) - walkMin(b));
+        if (!list.length) return '';
+        return '<section class="csec"><h3 class="label">' + esc(c) + ' <span>' + list.length + '</span></h3><div class="card">' + list.map(ianRow).join('') + '</div></section>';
+      }).join('');
+    }
+    const nv = Object.keys(S.iVideos).length;
+    $('#ian-page').innerHTML =
+      '<div class="claire-hero ian-hero"><span class="label" style="color:#fff">Les adresses de</span><b>Ian</b><span>' + all.length + ' lieux · ' + nv + ' vidéos TikTok liées · guide new-yorkais</span></div>' +
+      '<div class="seg" role="toolbar" aria-label="Affichage">' +
+        '<button data-imode="cat" aria-pressed="' + (S.iMode === 'cat') + '">Par thème</button>' +
+        '<button data-imode="near" aria-pressed="' + (S.iMode === 'near') + '">Autour de moi</button>' +
+        (S.iMeta.profile ? '<a class="seg-link" href="' + esc(S.iMeta.profile) + '" target="_blank" rel="noopener">Son profil ↗</a>' : '') +
+      '</div>' +
+      '<p class="help" style="margin:0">Conseils et prix tels que les donne Ian dans ses vidéos (' + esc(S.iMeta.period || '2026') + '). Ils peuvent avoir changé : la fiche indique ce qui a été vérifié.</p>' +
+      body;
+  }
+
   /* ---------- Carnet ---------- */
   const AGENDA = [
     { d: '2026-11-20', t: 'Arrivée. Le village de Noël de Bryant Park est ouvert, patinoire gratuite jusqu\'à minuit.' },
@@ -581,14 +626,15 @@
   function switchTab(t) {
     S.tab = t;
     document.querySelectorAll('.tab').forEach((b) => { if (b.dataset.tab === t) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current'); });
-    $('#v-around').hidden = t !== 'around'; $('#v-list').hidden = t !== 'list'; $('#v-add').hidden = t !== 'add'; $('#v-book').hidden = t !== 'book'; $('#v-claire').hidden = t !== 'claire';
-    $('#chips').hidden = t === 'add' || t === 'book' || t === 'claire';
+    $('#v-around').hidden = t !== 'around'; $('#v-list').hidden = t !== 'list'; $('#v-add').hidden = t !== 'add'; $('#v-book').hidden = t !== 'book'; $('#v-claire').hidden = t !== 'claire'; $('#v-ian').hidden = t !== 'ian';
+    $('#chips').hidden = t === 'add' || t === 'book' || t === 'claire' || t === 'ian';
     if (t === 'list') { renderZones(); renderAll(); }
     if (t === 'claire') renderClaire();
+    if (t === 'ian') renderIan();
     if (t === 'book') renderBook();
     if (t === 'around') requestAnimationFrame(() => setSheet(S.sheet));
   }
-  function refresh() { renderChips(); renderNear(); renderMarkers(); if (S.tab === 'list') renderAll(); if (S.tab === 'book') renderBook(); if (S.tab === 'claire') renderClaire(); }
+  function refresh() { renderChips(); renderNear(); renderMarkers(); if (S.tab === 'list') renderAll(); if (S.tab === 'book') renderBook(); if (S.tab === 'claire') renderClaire(); if (S.tab === 'ian') renderIan(); }
 
   function surprise() {
     const pool = visible().filter((p) => !S.done[p.id] && !closedToday(p) && walkMin(p) <= 20);
@@ -605,6 +651,7 @@
     if (t.dataset.f) { S.filter = t.dataset.f; refresh(); return; }
     if (t.dataset.z) { S.zone = t.dataset.z; renderZones(); renderAll(); return; }
     if (t.dataset.cmode) { S.cMode = t.dataset.cmode; renderClaire(); return; }
+    if (t.dataset.imode) { S.iMode = t.dataset.imode; renderIan(); return; }
     if (t.hasAttribute('data-cstar')) { S.cStar = !S.cStar; renderClaire(); return; }
     if (t.dataset.open) { openFiche(t.dataset.open); return; }
     if (t.dataset.tab) { switchTab(t.dataset.tab); return; }
@@ -737,6 +784,8 @@
       S.cTips = data.claireTips || [];
       S.cTrips = data.claireTrips || '';
       S.cOnly = data.claireOnly || [];
+      S.iVideos = data.ianVideos || {};
+      S.iMeta = data.ianMeta || {};
     } catch (e) {
       S.places = (window.BP_PLACES && window.BP_PLACES.places) || [];
       if (!S.places.length) showBanner('Impossible de charger la liste des lieux. Vérifiez la connexion.');

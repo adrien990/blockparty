@@ -56,7 +56,19 @@
     "Cher pour un sandwich",
     "Foule aux heures de pointe"
    ],
-   "verdict": "Hype méritée"
+   "verdict": "Hype méritée",
+   "ian": {
+    "v": [
+     79,
+     92
+    ],
+    "cat": "Restaurant / street food",
+    "tip": "Y aller après 22 h ou entre 15 h et 17 h",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
   },
   {
    "id": "levain",
@@ -352,7 +364,19 @@
     "Cronut vite épuisé",
     "Cher"
    ],
-   "verdict": "Hype méritée"
+   "verdict": "Hype méritée",
+   "ian": {
+    "v": [
+     64,
+     83
+    ],
+    "cat": "Café / boulangerie",
+    "tip": "Cronut",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
   },
   {
    "id": "nom-wah",
@@ -567,7 +591,18 @@
    "minus": [
     "File à l'heure du déjeuner"
    ],
-   "verdict": "Hype méritée"
+   "verdict": "Hype méritée",
+   "ian": {
+    "v": [
+     156
+    ],
+    "cat": "Restaurant / street food",
+    "tip": "« Meilleure pizza de New York »",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
   },
   {
    "id": "grimaldis",
@@ -641,7 +676,18 @@
     "Service bourru",
     "Avis partagés ces dernières années"
    ],
-   "verdict": "Classique à faire une fois"
+   "verdict": "Classique à faire une fois",
+   "ian": {
+    "v": [
+     63
+    ],
+    "cat": "Restaurant / street food",
+    "tip": "Commander un steak",
+    "anec": "Institution du XIXe siècle",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
   },
   {
    "id": "lilia",
@@ -1075,7 +1121,18 @@
    "minus": [
     "Hors saison"
    ],
-   "verdict": "Pour les fans"
+   "verdict": "Pour les fans",
+   "ian": {
+    "v": [
+     28
+    ],
+    "cat": "Événement / sortie",
+    "tip": "Match parfois à 20 $",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "Prix non vérifié",
+    "conf": "Confirmé"
+   }
   },
   {
    "id": "sedgwick",
@@ -1121,7 +1178,20 @@
    "minus": [
     "Bondé l'après-midi"
    ],
-   "verdict": "Incontournable"
+   "verdict": "Incontournable",
+   "ian": {
+    "v": [
+     34,
+     52,
+     124
+    ],
+    "cat": "Point de vue / photo",
+    "tip": "3 spots photo : base de la 1re tour, fin des câbles, milieu (plaques de métal) ; crème solaire",
+    "anec": "21 éléphants de P.T. Barnum ; péages pour vaches et moutons",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
   },
   {
    "id": "dumbo-washington",
@@ -1144,7 +1214,19 @@
    "minus": [
     "Foule de photographes"
    ],
-   "verdict": "Incontournable"
+   "verdict": "Incontournable",
+   "ian": {
+    "v": [
+     32,
+     52
+    ],
+    "cat": "Point de vue / photo",
+    "tip": "Remonter la rue pour éviter la foule ; zoom ×3 pour cadrer l'Empire State",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
   },
   {
    "id": "janes-carousel",
@@ -1211,7 +1293,18 @@
     "Architecture superbe"
    ],
    "minus": [],
-   "verdict": "Pépite"
+   "verdict": "Pépite",
+   "ian": {
+    "v": [
+     108
+    ],
+    "cat": "Point de vue / photo",
+    "tip": "Meilleur coucher de soleil, calme le vendredi soir",
+    "anec": "Aussi longue que le WTC est haut (selon Ian) ; 1re banlieue pendulaire",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
   },
   {
    "id": "domino-park",
@@ -1466,6 +1559,17 @@
     ],
     "notes": {},
     "star": false
+   },
+   "ian": {
+    "v": [
+     17
+    ],
+    "cat": "Point de vue / photo",
+    "tip": "",
+    "anec": "Crash du B-25 en 1945 ; liftière ayant survécu à une chute",
+    "st": "Ouvert / actif",
+    "rem": "Impact 78e-79e étage, chute de ~75 étages (NYC Archives)",
+    "conf": "Confirmé"
    }
   },
   {
@@ -1717,7 +1821,19 @@
     "Gratuit"
    ],
    "minus": [],
-   "verdict": "Incontournable"
+   "verdict": "Incontournable",
+   "ian": {
+    "v": [
+     35,
+     107
+    ],
+    "cat": "Histoire / architecture",
+    "tip": "Chercher les petits glands sculptés · Whispering Gallery : Chuchoter dans un angle, écouter dans l'angle opposé",
+    "anec": "Glands = symbole des Vanderbilt",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
   },
   {
    "id": "nypl",
@@ -1739,7 +1855,19 @@
     "Gratuit"
    ],
    "minus": [],
-   "verdict": "Pépite"
+   "verdict": "Pépite",
+   "ian": {
+    "v": [
+     74,
+     105
+    ],
+    "cat": "Musée / culture",
+    "tip": "Gratuit, sans réservation",
+    "anec": "Peluches originales de Winnie l'ourson ; bureau et coupe-papier de Dickens",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
   },
   {
    "id": "bryant-park",
@@ -1860,6 +1988,19 @@
      "sorties": "Voir un spectacle à Broadway."
     },
     "star": false
+   },
+   "ian": {
+    "v": [
+     66,
+     87,
+     133
+    ],
+    "cat": "Événement / sortie",
+    "tip": "Billets du jour, parfois 50-60 $ ; file longue",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
    }
   },
   {
@@ -2182,7 +2323,19 @@
    "minus": [
     "Foule"
    ],
-   "verdict": "Classique à faire une fois"
+   "verdict": "Classique à faire une fois",
+   "ian": {
+    "v": [
+     5,
+     104
+    ],
+    "cat": "Histoire / architecture",
+    "tip": "Entrer et chercher le panneau des escalators en bois",
+    "anec": "Premier escalator : alcool offert à l'arrivée ; abandon du bois après l'incendie de King's Cross",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
   },
   {
    "id": "nike-5th",
@@ -3377,7 +3530,21 @@
     },
     "star": false
    },
-   "fromClaire": true
+   "fromClaire": true,
+   "ian": {
+    "v": [
+     23,
+     26,
+     31,
+     117
+    ],
+    "cat": "Bar",
+    "tip": "Bière 4 $, pichet 6 $, hot-dog offert à chaque boisson",
+    "anec": "Parmi les premiers bars licenciés après la Prohibition ; caisse antique",
+    "st": "Ouvert / actif",
+    "rem": "Prix non vérifiés",
+    "conf": "Confirmé"
+   }
   },
   {
    "id": "zinc-bar",
@@ -3557,7 +3724,18 @@
     },
     "star": false
    },
-   "fromClaire": true
+   "fromClaire": true,
+   "ian": {
+    "v": [
+     107
+    ],
+    "cat": "Bar",
+    "tip": "Ascenseur jusqu'au niveau balcon",
+    "anec": "Club privé de John Campbell, puis poste de police de la MTA ; Gossip Girl",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
   },
   {
    "id": "mr-purple",
@@ -3577,7 +3755,18 @@
     },
     "star": true
    },
-   "fromClaire": true
+   "fromClaire": true,
+   "ian": {
+    "v": [
+     58
+    ],
+    "cat": "Bar",
+    "tip": "Rooftop populaire chez les étudiants",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
   },
   {
    "id": "le-bain",
@@ -3599,7 +3788,18 @@
     },
     "star": false
    },
-   "fromClaire": true
+   "fromClaire": true,
+   "ian": {
+    "v": [
+     58
+    ],
+    "cat": "Bar",
+    "tip": "Rooftop fréquenté par les New-Yorkais",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "Transcrit « Lebanon »",
+    "conf": "Confirmé"
+   }
   },
   {
    "id": "230-fifth",
@@ -4488,6 +4688,2342 @@
     "star": false
    },
    "fromClaire": true
+  },
+  {
+   "id": "ian-carmelos",
+   "ianOnly": true,
+   "name": "Carmelo's",
+   "cat": "nuit",
+   "zone": "Brooklyn",
+   "hood": "Bushwick",
+   "address": "1544 Dekalb Ave, Brooklyn, NY 11237",
+   "lat": 40.70276,
+   "lng": -73.92052,
+   "ian": {
+    "v": [
+     23,
+     26,
+     114
+    ],
+    "cat": "Bar",
+    "tip": "Budweiser 3 $, billard, photomaton ; ouvert jusqu'à 4 h",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "Prix non vérifié",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-duffs",
+   "ianOnly": true,
+   "name": "Duff's",
+   "cat": "nuit",
+   "zone": "Brooklyn",
+   "hood": "Williamsburg",
+   "address": "168 Marcy Ave, Brooklyn, NY 11211",
+   "lat": 40.70887,
+   "lng": -73.95789,
+   "ian": {
+    "v": [
+     29
+    ],
+    "cat": "Bar",
+    "tip": "Bière 5 $",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Probable"
+   }
+  },
+  {
+   "id": "ian-fine-time",
+   "ianOnly": true,
+   "name": "Fine Time",
+   "cat": "nuit",
+   "zone": "Brooklyn",
+   "hood": "Bushwick / Williamsburg",
+   "address": "84 Central Ave, Brooklyn, NY 11206",
+   "lat": 40.70073,
+   "lng": -73.93008,
+   "ian": {
+    "v": [
+     23,
+     26,
+     114,
+     151
+    ],
+    "cat": "Bar",
+    "tip": "Pinte 3 $, vin 7 $, hot-dog et pop-corn offerts, terrasse au coucher du soleil",
+    "anec": "« Billard le plus bancal du monde », queue sciée",
+    "st": "Ouvert / actif",
+    "rem": "Ian indique 48 Central Ave ; Google : 84 Central Ave",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-horses-divorces",
+   "ianOnly": true,
+   "name": "Horses and Divorces",
+   "cat": "nuit",
+   "zone": "Brooklyn",
+   "hood": "Williamsburg",
+   "address": "285 Bedford Ave, Brooklyn, NY 11211",
+   "lat": 40.71405,
+   "lng": -73.96135,
+   "ian": {
+    "v": [
+     29,
+     149
+    ],
+    "cat": "Bar",
+    "tip": "24 oz pour 6 $ ; billard, juke-box",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "Prix non vérifié",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-ornithology",
+   "ianOnly": true,
+   "name": "Ornithology Jazz Club",
+   "cat": "nuit",
+   "zone": "Brooklyn",
+   "hood": "Bushwick",
+   "address": "6 Suydam St, Brooklyn, NY 11221",
+   "lat": 40.69559,
+   "lng": -73.93198,
+   "ian": {
+    "v": [
+     152
+    ],
+    "cat": "Bar",
+    "tip": "Jazz intime jusqu'à 2 h ; café attenant",
+    "anec": "Toutes les surfaces couvertes de tapis",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-anchored-inn",
+   "ianOnly": true,
+   "name": "The Anchored Inn",
+   "cat": "nuit",
+   "zone": "Brooklyn",
+   "hood": "Bushwick / Williamsburg",
+   "address": "57 Waterbury St, Brooklyn, NY 11206",
+   "lat": 40.70914,
+   "lng": -73.93731,
+   "ian": {
+    "v": [
+     29
+    ],
+    "cat": "Bar",
+    "tip": "Bière 5 $",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-wonderville",
+   "ianOnly": true,
+   "name": "Wonderville",
+   "cat": "nuit",
+   "zone": "Brooklyn",
+   "hood": "Bushwick",
+   "address": "1186 Broadway, Brooklyn, NY 11221",
+   "lat": 40.69237,
+   "lng": -73.92746,
+   "ian": {
+    "v": [
+     29,
+     114
+    ],
+    "cat": "Bar",
+    "tip": "Bière 4-5 $, jeux d'arcade gratuits au fond",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "Appelé « Wonderland » dans la vidéo 29",
+    "conf": "Probable"
+   }
+  },
+  {
+   "id": "ian-clockwork",
+   "ianOnly": true,
+   "name": "Clockwork Bar",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Lower East Side / Chinatown",
+   "address": "21 Essex St, New York, NY 10002",
+   "lat": 40.7154,
+   "lng": -73.99007,
+   "ian": {
+    "v": [
+     144
+    ],
+    "cat": "Bar",
+    "tip": "Bière + shot 6 $",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "Prix non vérifié",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-conwell",
+   "ianOnly": true,
+   "name": "Conwell Coffee & Cocktail Hall",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Financial District",
+   "address": "6 Hanover St, New York, NY 10005",
+   "lat": 40.70544,
+   "lng": -74.00914,
+   "ian": {
+    "v": [
+     113
+    ],
+    "cat": "Bar",
+    "tip": "Cocktails dans un ancien hall bancaire",
+    "anec": "Coffre-fort d'origine ; banquier fictif J.G. Conwell",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-double-down",
+   "ianOnly": true,
+   "name": "Double Down Saloon",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "East Village",
+   "address": "14 Avenue A, New York, NY 10009",
+   "lat": 40.72252,
+   "lng": -73.98574,
+   "ian": {
+    "v": [
+     125
+    ],
+    "cat": "Bar",
+    "tip": "Petite canette à 2 $ en happy hour ; terrasse arrière",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "Prix non vérifié",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-jimmys-corner",
+   "ianOnly": true,
+   "name": "Jimmy's Corner",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Times Square / Hell's Kitchen",
+   "address": "140 W 44th St, New York, NY 10036",
+   "lat": 40.75673,
+   "lng": -73.98476,
+   "ian": {
+    "v": [
+     23,
+     26,
+     73
+    ],
+    "cat": "Bar",
+    "tip": "Bière à 3 $ ; laisser un bon pourboire, juke-box",
+    "anec": "Bar familial d'un ancien manager de boxe ; photos de Mike Tyson",
+    "st": "Ouvert / actif",
+    "rem": "Expulsion suspendue par un juge (NPR, 2026)",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-mcsorleys",
+   "ianOnly": true,
+   "name": "McSorley's Old Ale House",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "East Village / Union Sq",
+   "address": "15 E 7th St, New York, NY 10003",
+   "lat": 40.72881,
+   "lng": -73.98968,
+   "ian": {
+    "v": [
+     28,
+     63,
+     110
+    ],
+    "cat": "Bar",
+    "tip": "Deux chopes pour 8 $ ; deux bières seulement (blonde, brune)",
+    "anec": "Depuis 1854 ; femmes admises en 1970 ; sciure au sol ; Lincoln et Lennon",
+    "st": "Ouvert / actif",
+    "rem": "Titre de « plus vieux bar » disputé",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-oharas",
+   "ianOnly": true,
+   "name": "O'Hara's",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Financial District",
+   "address": "120 Cedar St, New York, NY 10006",
+   "lat": 40.7095,
+   "lng": -74.01266,
+   "ian": {
+    "v": [
+     23,
+     26,
+     91
+    ],
+    "cat": "Bar",
+    "tip": "Bière 4-5 $",
+    "anec": "Écussons de secouristes du monde entier depuis le 1er anniversaire du 11-Septembre (Engine/Ladder 10)",
+    "st": "Ouvert / actif",
+    "rem": "Prix non vérifié",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-oscar-wilde",
+   "ianOnly": true,
+   "name": "Oscar Wilde",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Chelsea / Herald Sq",
+   "address": "45 W 27th St, New York, NY 10001",
+   "lat": 40.74516,
+   "lng": -73.99007,
+   "ian": {
+    "v": [
+     154
+    ],
+    "cat": "Bar",
+    "tip": "Décor d'Halloween (et de chaque saison) ; familial",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-stone-st",
+   "ianOnly": true,
+   "name": "Stone Street",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Financial District",
+   "address": "30 Stone St, New York, NY 10004",
+   "lat": 40.70416,
+   "lng": -74.01059,
+   "ian": {
+    "v": [
+     10,
+     100,
+     136
+    ],
+    "cat": "Bar",
+    "tip": "Terrasses communes l'été et le midi ; Oktoberfest le samedi (jusqu'au 24/10 selon Ian)",
+    "anec": "Une des premières rues pavées (brasseries embourbées) ; sauvée car oubliée",
+    "st": "Ouvert / actif",
+    "rem": "Dates Oktoberfest 2026 non confirmées",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-yakuni",
+   "ianOnly": true,
+   "name": "yakuni (speakeasy japonais)",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Midtown East",
+   "address": "226 E 53rd St (sous-sol), New York, NY 10022",
+   "lat": 40.75717,
+   "lng": -73.96838,
+   "ian": {
+    "v": [
+     115
+    ],
+    "cat": "Bar",
+    "tip": "Cocktails au saké et au shochu, vinyles, dégustation de saké",
+    "anec": "Propriétaire coiffeur, salon voisin (selon Ian)",
+    "st": "Ouvert / actif",
+    "rem": "Non nommé par Ian ; identification probable",
+    "conf": "Probable"
+   }
+  },
+  {
+   "id": "ian-bk-ice-cream",
+   "ianOnly": true,
+   "name": "Brooklyn Ice Cream Factory",
+   "cat": "cafe",
+   "zone": "Brooklyn",
+   "hood": "DUMBO / Brooklyn Heights",
+   "address": "14 Old Fulton St, Brooklyn, NY 11201",
+   "lat": 40.70264,
+   "lng": -73.9946,
+   "ian": {
+    "v": [
+     156
+    ],
+    "cat": "Café / boulangerie",
+    "tip": "Glaces « légendaires »",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-peter-pan",
+   "ianOnly": true,
+   "name": "Peter Pan Donut & Pastry Shop (Greenpoint)",
+   "cat": "cafe",
+   "zone": "Brooklyn",
+   "hood": "Greenpoint",
+   "address": "727 Manhattan Ave, Brooklyn, NY 11222",
+   "lat": 40.72608,
+   "lng": -73.95231,
+   "ian": {
+    "v": [
+     55
+    ],
+    "cat": "Café / boulangerie",
+    "tip": "Boutiques de donuts vieilles de plusieurs décennies",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "Non nommé par Ian",
+    "conf": "Probable"
+   }
+  },
+  {
+   "id": "ian-ess-a-bagel",
+   "ianOnly": true,
+   "name": "Ess-a-Bagel (32nd St)",
+   "cat": "cafe",
+   "zone": "Manhattan",
+   "hood": "Chelsea / Herald Sq",
+   "address": "108 W 32nd St, New York, NY 10001",
+   "lat": 40.74866,
+   "lng": -73.98934,
+   "ian": {
+    "v": [
+     134
+    ],
+    "cat": "Café / boulangerie",
+    "tip": "Bagel jamais toasté ni évidé",
+    "anec": "Syndicat des boulangers de bagels ; eau douce (selon Ian)",
+    "st": "Ouvert / actif",
+    "rem": "Succursale déduite du trajet",
+    "conf": "Probable"
+   }
+  },
+  {
+   "id": "ian-la-bella-ferrara",
+   "ianOnly": true,
+   "name": "La Bella Ferrara (pâtisserie de Little Italy)",
+   "cat": "cafe",
+   "zone": "Manhattan",
+   "hood": "Chinatown / Little Italy / SoHo",
+   "address": "108 Mulberry St, New York, NY 10013",
+   "lat": 40.71735,
+   "lng": -73.99828,
+   "ian": {
+    "v": [
+     64,
+     99
+    ],
+    "cat": "Café / boulangerie",
+    "tip": "Cannolo au beurre de cacahuète ; cheesecake",
+    "anec": "« Depuis 1931 », trois familles successives (selon Ian)",
+    "st": "Ouvert / actif",
+    "rem": "Pâtisserie non nommée ; identification probable",
+    "conf": "Probable"
+   }
+  },
+  {
+   "id": "ian-mei-lai-wah",
+   "ianOnly": true,
+   "name": "Mei Lai Wah",
+   "cat": "cafe",
+   "zone": "Manhattan",
+   "hood": "Chinatown / Little Italy / SoHo",
+   "address": "41 Mott St, New York, NY 10013",
+   "lat": 40.71517,
+   "lng": -73.99891,
+   "ian": {
+    "v": [
+     118
+    ],
+    "cat": "Café / boulangerie",
+    "tip": "Brioche au porc 2,75 $ ; éviter le week-end",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "Prix non vérifié",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-pineapple-st",
+   "ianOnly": true,
+   "name": "Pineapple / Orange / Cranberry Streets",
+   "cat": "voir",
+   "zone": "Brooklyn",
+   "hood": "Brooklyn Heights",
+   "address": "Pineapple St, Brooklyn, NY 11201",
+   "lat": 40.69857,
+   "lng": -73.99439,
+   "ian": {
+    "v": [
+     47
+    ],
+    "cat": "Histoire / architecture",
+    "tip": "",
+    "anec": "Mystère des rues aux noms de fruits (Lady Middagh ou frères Hicks)",
+    "st": "",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-plymouth-church",
+   "ianOnly": true,
+   "name": "Plymouth Church",
+   "cat": "voir",
+   "zone": "Brooklyn",
+   "hood": "DUMBO / Brooklyn Heights",
+   "address": "75 Hicks St, Brooklyn, NY 11201",
+   "lat": 40.69934,
+   "lng": -73.99372,
+   "ian": {
+    "v": [
+     46
+    ],
+    "cat": "Histoire / architecture",
+    "tip": "",
+    "anec": "« Grand Central du chemin de fer clandestin » ; vente fictive de Pinky en 1860 ; visite de Lincoln",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-1040-fifth",
+   "ianOnly": true,
+   "name": "1040 Fifth Avenue (Jackie Kennedy Onassis)",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Upper East Side",
+   "address": "1040 5th Ave, New York, NY 10028",
+   "lat": 40.78102,
+   "lng": -73.96056,
+   "ian": {
+    "v": [
+     27
+    ],
+    "cat": "Histoire / architecture",
+    "tip": "",
+    "anec": "Question de l'examen de guide",
+    "st": "",
+    "rem": "Adresse non dite par Ian",
+    "conf": "Probable"
+   }
+  },
+  {
+   "id": "ian-6-half",
+   "ianOnly": true,
+   "name": "6½ Avenue",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Midtown West",
+   "address": "50 W 51st St, New York, NY 10019",
+   "lat": 40.76135,
+   "lng": -73.98154,
+   "ian": {
+    "v": [
+     142
+    ],
+    "cat": "Histoire / architecture",
+    "tip": "Sculptures et passages piétons de Midtown",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-82-beaver",
+   "ianOnly": true,
+   "name": "82 Beaver St (« Continental » de John Wick)",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Financial District",
+   "address": "82 Beaver St, New York, NY 10005",
+   "lat": 40.70511,
+   "lng": -74.00856,
+   "ian": {
+    "v": [
+     148
+    ],
+    "cat": "Histoire / architecture",
+    "tip": "Bar sportif à l'intérieur",
+    "anec": "Ancienne bourse du cacao ; castors sculptés sur la façade",
+    "st": "",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-33-thomas",
+   "ianOnly": true,
+   "name": "AT&T Long Lines Building",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Tribeca / Civic Center",
+   "address": "33 Thomas St, New York, NY 10007",
+   "lat": 40.7168,
+   "lng": -74.00611,
+   "ian": {
+    "v": [
+     21
+    ],
+    "cat": "Histoire / architecture",
+    "tip": "",
+    "anec": "Tour sans fenêtres, écoutes de la NSA selon des fuites",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-tammany",
+   "ianOnly": true,
+   "name": "Ancien Tammany Hall",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "East Village / Union Sq",
+   "address": "44 Union Sq E, New York, NY 10003",
+   "lat": 40.73625,
+   "lng": -73.98896,
+   "ian": {
+    "v": [
+     16
+    ],
+    "cat": "Histoire / architecture",
+    "tip": "",
+    "anec": "Organisation corrompue ; Boss Tweed ; aujourd'hui un Petco",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-st-patricks",
+   "ianOnly": true,
+   "name": "Cathédrale Saint-Patrick",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Midtown East",
+   "address": "5th Ave, New York, NY 10022",
+   "lat": 40.75861,
+   "lng": -73.9762,
+   "ian": {
+    "v": [
+     48
+    ],
+    "cat": "Histoire / architecture",
+    "tip": "Y entrer plutôt que piétiner sur la 5e Avenue",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-fulton-center",
+   "ianOnly": true,
+   "name": "Fulton Center / station Fulton St (fresques)",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Financial District",
+   "address": "200 Broadway, New York, NY 10038",
+   "lat": 40.71056,
+   "lng": -74.00897,
+   "ian": {
+    "v": [
+     54
+    ],
+    "cat": "Histoire / architecture",
+    "tip": "Cinq fresques de bateaux à vapeur",
+    "anec": "Robert Fulton : premier sous-marin fonctionnel",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-greene-st",
+   "ianOnly": true,
+   "name": "Greene Street (SoHo, fonte)",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "SoHo",
+   "address": "Greene St, New York, NY",
+   "lat": 40.72179,
+   "lng": -74.00209,
+   "ian": {
+    "v": [
+     14,
+     19,
+     20
+    ],
+    "cat": "Histoire / architecture",
+    "tip": "Coller un aimant sur les façades",
+    "anec": "Façades en fonte magnétiques ; « Belgian blocks » arrivés comme lest de navires",
+    "st": "",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-houston-st",
+   "ianOnly": true,
+   "name": "Houston Street",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "SoHo / NoHo",
+   "address": "Broadway & E Houston St, New York, NY 10012",
+   "lat": 40.72551,
+   "lng": -73.99671,
+   "ian": {
+    "v": [
+     41
+    ],
+    "cat": "Histoire / architecture",
+    "tip": "Prononcer « Haouston »",
+    "anec": "Nom d'un propriétaire écossais ; frontière SoHo / rues numérotées",
+    "st": "",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-herald-sq",
+   "ianOnly": true,
+   "name": "James Gordon Bennett Memorial (Herald Square)",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Chelsea / Herald Sq",
+   "address": "1 Herald Square, New York, NY 10001",
+   "lat": 40.75039,
+   "lng": -73.98759,
+   "ian": {
+    "v": [
+     112
+    ],
+    "cat": "Histoire / architecture",
+    "tip": "Attendre l'heure pour les cloches ; journaux gratuits",
+    "anec": "Bennett et la cheminée des futurs beaux-parents ; obsession des hiboux",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-loews-canal",
+   "ianOnly": true,
+   "name": "Loew's Canal Street Theatre (abandonné)",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Lower East Side / Chinatown",
+   "address": "31 Canal St, New York, NY 10002",
+   "lat": 40.7144,
+   "lng": -73.9906,
+   "ian": {
+    "v": [
+     24
+    ],
+    "cat": "Histoire / architecture",
+    "tip": "",
+    "anec": "Cinéma de 2 314 places ; explosion de 1932 liée à une grève",
+    "st": "",
+    "rem": "Ouvert en 1927 et non 1926 (After the Final Curtain) ; coordonnées approximatives",
+    "conf": "Approximatif"
+   }
+  },
+  {
+   "id": "ian-mcc",
+   "ianOnly": true,
+   "name": "Metropolitan Correctional Center (abandonné)",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Tribeca / Civic Center",
+   "address": "150 Park Row, New York, NY 10007",
+   "lat": 40.71313,
+   "lng": -74.0015,
+   "ian": {
+    "v": [
+     129
+    ],
+    "cat": "Histoire / architecture",
+    "tip": "",
+    "anec": "Prison d'Epstein, El Chapo, Madoff ; ouverte 1975, fermée 2021 (reconstitution depuis sous-titres)",
+    "st": "Référencé",
+    "rem": "Contenu reconstitué",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-city-hall",
+   "ianOnly": true,
+   "name": "New York City Hall",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Civic Center",
+   "address": "City Hall Park, New York, NY 10007",
+   "lat": 40.71279,
+   "lng": -74.006,
+   "ian": {
+    "v": [
+     139
+    ],
+    "cat": "Histoire / architecture",
+    "tip": "Accès public pour votes et audiences (calendrier Legistar NYC)",
+    "anec": "Fenêtres sur la première station de métro",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-40-wall",
+   "ianOnly": true,
+   "name": "The Trump Building (40 Wall St)",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Financial District",
+   "address": "40 Wall St, New York, NY 10005",
+   "lat": 40.70695,
+   "lng": -74.00974,
+   "ian": {
+    "v": [
+     7,
+     113
+    ],
+    "cat": "Histoire / architecture",
+    "tip": "",
+    "anec": "Acheté ~1 M$ par Trump ; ex-plus haut immeuble du monde ; avion égaré dans le brouillard dans les années 1940",
+    "st": "Ouvert / actif",
+    "rem": "Faits historiques non vérifiés",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-sdny",
+   "ianOnly": true,
+   "name": "Tribunal fédéral SDNY (Thurgood Marshall Courthouse)",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Tribeca / Civic Center",
+   "address": "40 Foley Square, New York, NY 10007",
+   "lat": 40.71375,
+   "lng": -74.00266,
+   "ian": {
+    "v": [
+     8,
+     129
+    ],
+    "cat": "Histoire / architecture",
+    "tip": "",
+    "anec": "« Mother Court » : affaires Trump, Diddy, Epstein, FIFA, Tom Brady",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-trinity-church",
+   "ianOnly": true,
+   "name": "Trinity Church",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Financial District",
+   "address": "89 Broadway, New York, NY 10006",
+   "lat": 40.70789,
+   "lng": -74.01179,
+   "ian": {
+    "v": [
+     54
+    ],
+    "cat": "Histoire / architecture",
+    "tip": "",
+    "anec": "Tombes de Robert Fulton et d'Alexander Hamilton",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-wall-st",
+   "ianOnly": true,
+   "name": "Wall Street (tracé du mur néerlandais)",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Financial District",
+   "address": "Wall St, New York, NY",
+   "lat": 40.70607,
+   "lng": -74.0089,
+   "ian": {
+    "v": [
+     7
+    ],
+    "cat": "Histoire / architecture",
+    "tip": "Repérer les marquages au sol du tracé du mur",
+    "anec": "La rue tire son nom du mur de la Nouvelle-Amsterdam",
+    "st": "",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-washington-mews",
+   "ianOnly": true,
+   "name": "Washington Mews",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "East Village / Union Sq",
+   "address": "Washington Mews, New York, NY 10003",
+   "lat": 40.73151,
+   "lng": -73.99583,
+   "ian": {
+    "v": [
+     15
+    ],
+    "cat": "Histoire / architecture",
+    "tip": "Spot photo Instagram",
+    "anec": "Anciennes écuries louées par NYU ; ancien sentier amérindien",
+    "st": "",
+    "rem": "Rue non nommée par Ian",
+    "conf": "Probable"
+   }
+  },
+  {
+   "id": "ian-woolworth",
+   "ianOnly": true,
+   "name": "Woolworth Building",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Tribeca / Civic Center",
+   "address": "233 Broadway, New York, NY 10007",
+   "lat": 40.71243,
+   "lng": -74.00835,
+   "ian": {
+    "v": [
+     9
+    ],
+    "cat": "Histoire / architecture",
+    "tip": "",
+    "anec": "Payé comptant après refus de J.P. Morgan ; même architecte que la Cour suprême",
+    "st": "Ouvert / actif",
+    "rem": "Penthouse vendu 30 M$ en 2023 (6sqft)",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-intrepid",
+   "ianOnly": true,
+   "name": "Intrepid Museum",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Times Square / Hell's Kitchen",
+   "address": "Pier 86, W 46th St, New York, NY 10036",
+   "lat": 40.76488,
+   "lng": -74.00083,
+   "ian": {
+    "v": [
+     106
+    ],
+    "cat": "Musée / culture",
+    "tip": "F-14, navette spatiale, Concorde",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-14st-8av",
+   "ianOnly": true,
+   "name": "Life Underground (station 14 St–8 Av)",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Chelsea / Meatpacking",
+   "address": "14 St & 8 Av, New York, NY 10014",
+   "lat": 40.73971,
+   "lng": -74.00279,
+   "ian": {
+    "v": [
+     153
+    ],
+    "cat": "Musée / culture",
+    "tip": "Ligne A depuis Times Square",
+    "anec": "Sculptures de bronze satiriques (fraudeur, alligator)",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-lincoln-center",
+   "ianOnly": true,
+   "name": "Lincoln Center (David H. Koch Theater)",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Upper West Side",
+   "address": "20 Lincoln Center Plaza, New York, NY 10023",
+   "lat": 40.77187,
+   "lng": -73.98362,
+   "ian": {
+    "v": [
+     76
+    ],
+    "cat": "Musée / culture",
+    "tip": "Ballet : 30 $ pour les moins de 30 ans ; fontaine de nuit",
+    "anec": "Architecte Wallace Harrison",
+    "st": "Ouvert / actif",
+    "rem": "Offre 30 under 30 non vérifiée",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-mcny",
+   "ianOnly": true,
+   "name": "Museum of the City of New York (maquette de Joe Macken)",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "East Harlem",
+   "address": "1220 5th Ave, New York, NY 10029",
+   "lat": 40.79249,
+   "lng": -73.95191,
+   "ian": {
+    "v": [
+     131
+    ],
+    "cat": "Musée / culture",
+    "tip": "Maquette de 800 000 bâtiments",
+    "anec": "Construite en 20 ans par un chauffeur routier",
+    "st": "Ouvert / actif",
+    "rem": "Expo annoncée jusqu'au 31/08/2026 (ArtRabbit) : vérifier",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-rock-center",
+   "ianOnly": true,
+   "name": "Rockefeller Center",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Midtown",
+   "address": "30 Rockefeller Plaza, New York, NY 10112",
+   "lat": 40.75938,
+   "lng": -73.97997,
+   "ian": {
+    "v": [
+     48,
+     86,
+     90
+    ],
+    "cat": "Musée / culture",
+    "tip": "S'y perdre comme dans une galerie d'art ; fresque près du Café Le Rock",
+    "anec": "Fresque « lettre d'amour au monde » : aigles, lion, Mercure",
+    "st": "",
+    "rem": "Œuvre non identifiée",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-tenement",
+   "ianOnly": true,
+   "name": "Tenement Museum",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Lower East Side / Chinatown",
+   "address": "103 Orchard St, New York, NY 10002",
+   "lat": 40.71882,
+   "lng": -73.99009,
+   "ian": {
+    "v": [
+     138
+    ],
+    "cat": "Musée / culture",
+    "tip": "Visite guidée uniquement, ~1 h, 30 $",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "30 $ confirmé (NPS)",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-cloisters",
+   "ianOnly": true,
+   "name": "The Met Cloisters",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Washington Heights",
+   "address": "99 Margaret Corbin Dr, New York, NY 10040",
+   "lat": 40.86486,
+   "lng": -73.93173,
+   "ian": {
+    "v": [
+     80
+    ],
+    "cat": "Musée / culture",
+    "tip": "Art médiéval, climatisé, par forte chaleur",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-bronx-zoo",
+   "ianOnly": true,
+   "name": "Bronx Zoo",
+   "cat": "voir",
+   "zone": "Bronx",
+   "hood": "Bronx (West Farms)",
+   "address": "2300 Southern Blvd, Bronx, NY 10460",
+   "lat": 40.85014,
+   "lng": -73.87672,
+   "ian": {
+    "v": [
+     55,
+     75
+    ],
+    "cat": "Parc / plein air",
+    "tip": "Gorilles, manchots, girafes ; idéal avec des enfants",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-ferry-point",
+   "ianOnly": true,
+   "name": "Ferry Point Park (embarcadère NYC Ferry)",
+   "cat": "voir",
+   "zone": "Bronx",
+   "hood": "Bronx (Throggs Neck)",
+   "address": "Ferry Point Park, Bronx, NY 10465",
+   "lat": 40.8115,
+   "lng": -73.83779,
+   "ian": {
+    "v": [
+     3
+    ],
+    "cat": "Parc / plein air",
+    "tip": "Descendre ici pour la vue ; 9 $ aller-retour selon Ian",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "Tarif 5 $ l'aller depuis le 19/10/2026",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-nybg",
+   "ianOnly": true,
+   "name": "New York Botanical Garden",
+   "cat": "voir",
+   "zone": "Bronx",
+   "hood": "Bronx (Bedford Park)",
+   "address": "2900 Southern Blvd, Bronx, NY 10458",
+   "lat": 40.86229,
+   "lng": -73.87739,
+   "ian": {
+    "v": [
+     48,
+     75
+    ],
+    "cat": "Parc / plein air",
+    "tip": "« Le meilleur parc de New York »",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-bbg",
+   "ianOnly": true,
+   "name": "Brooklyn Botanic Garden",
+   "cat": "voir",
+   "zone": "Brooklyn",
+   "hood": "Prospect Heights",
+   "address": "Brooklyn, NY 11238",
+   "lat": 40.66858,
+   "lng": -73.96447,
+   "ian": {
+    "v": [
+     56
+    ],
+    "cat": "Parc / plein air",
+    "tip": "Cerisiers en fleur au printemps",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-prospect-park",
+   "ianOnly": true,
+   "name": "Prospect Park",
+   "cat": "voir",
+   "zone": "Brooklyn",
+   "hood": "Prospect Park",
+   "address": "Brooklyn, NY",
+   "lat": 40.6602,
+   "lng": -73.96896,
+   "ian": {
+    "v": [
+     101
+    ],
+    "cat": "Parc / plein air",
+    "tip": "Cité par un ami comme meilleur parc",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-bowling-green",
+   "ianOnly": true,
+   "name": "Bowling Green (parc et station 4/5)",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Financial District",
+   "address": "Broadway, New York, NY 10004",
+   "lat": 40.70494,
+   "lng": -74.01369,
+   "ian": {
+    "v": [
+     100
+    ],
+    "cat": "Parc / plein air",
+    "tip": "Station 4/5 pour Stone Street",
+    "anec": "Plus vieux parc de New York (selon Ian)",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-central-park",
+   "ianOnly": true,
+   "name": "Central Park (sud, 59e rue)",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Central Park",
+   "address": "Central Park South, New York, NY",
+   "lat": 40.7678,
+   "lng": -73.9718,
+   "ian": {
+    "v": [
+     56,
+     68,
+     92,
+     101
+    ],
+    "cat": "Parc / plein air",
+    "tip": "Entrée sud bondée : préférer le Conservatory Water",
+    "anec": "",
+    "st": "",
+    "rem": "Point indicatif",
+    "conf": "Approximatif"
+   }
+  },
+  {
+   "id": "ian-conservatory-water",
+   "ianOnly": true,
+   "name": "Conservatory Water (Central Park)",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Upper East Side",
+   "address": "E 72nd St, New York, NY 10021",
+   "lat": 40.77423,
+   "lng": -73.96711,
+   "ian": {
+    "v": [
+     68,
+     79,
+     80,
+     92
+    ],
+    "cat": "Parc / plein air",
+    "tip": "Entrer ici plutôt que par la 59e rue ; calme, frais, pique-nique",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-williamsburg-bridge",
+   "ianOnly": true,
+   "name": "Williamsburg Bridge (piste cyclable)",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Lower East Side / Williamsburg",
+   "address": "Williamsburg Bridge, New York, NY",
+   "lat": 40.71558,
+   "lng": -73.97837,
+   "ian": {
+    "v": [
+     65
+    ],
+    "cat": "Parc / plein air",
+    "tip": "Meilleur pont à vélo ; Citi Bike pass journée ~25 $ selon Ian",
+    "anec": "",
+    "st": "",
+    "rem": "Prix du pass non confirmé",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-rockaway",
+   "ianOnly": true,
+   "name": "Rockaway Beach",
+   "cat": "voir",
+   "zone": "Queens",
+   "hood": "Rockaway (Queens)",
+   "address": "Rockaway Beach, Queens, NY",
+   "lat": 40.58602,
+   "lng": -73.81663,
+   "ian": {
+    "v": [
+     80
+    ],
+    "cat": "Parc / plein air",
+    "tip": "Vraie plage, accessible en ferry",
+    "anec": "",
+    "st": "",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-snug-harbor",
+   "ianOnly": true,
+   "name": "Snug Harbor (jardins de Staten Island)",
+   "cat": "voir",
+   "zone": "Staten Island",
+   "hood": "Staten Island",
+   "address": "1000 Richmond Ter, Staten Island, NY 10301",
+   "lat": 40.64337,
+   "lng": -74.10274,
+   "ian": {
+    "v": [
+     42
+    ],
+    "cat": "Parc / plein air",
+    "tip": "Après le ferry, aller dans les jardins",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "Jardin non nommé par Ian",
+    "conf": "Probable"
+   }
+  },
+  {
+   "id": "ian-dumbo-hill",
+   "ianOnly": true,
+   "name": "Main Street Park (colline, vue sur 3 ponts)",
+   "cat": "voir",
+   "zone": "Brooklyn",
+   "hood": "DUMBO",
+   "address": "Plymouth St, Brooklyn, NY 11201",
+   "lat": 40.70449,
+   "lng": -73.99002,
+   "ian": {
+    "v": [
+     156
+    ],
+    "cat": "Point de vue / photo",
+    "tip": "Grimper la colline : ponts de Brooklyn, Manhattan, Williamsburg (« BMW »)",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "Point déduit",
+    "conf": "Probable"
+   }
+  },
+  {
+   "id": "ian-pebble-beach",
+   "ianOnly": true,
+   "name": "Pebble Beach (Brooklyn Bridge Park)",
+   "cat": "voir",
+   "zone": "Brooklyn",
+   "hood": "DUMBO / Brooklyn Heights",
+   "address": "65 Plymouth St, Brooklyn, NY 11201",
+   "lat": 40.70435,
+   "lng": -73.99057,
+   "ian": {
+    "v": [
+     33,
+     98
+    ],
+    "cat": "Point de vue / photo",
+    "tip": "Vue plus calme sur les deux ponts ; vide en hiver",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Probable"
+   }
+  },
+  {
+   "id": "ian-elevated-acre",
+   "ianOnly": true,
+   "name": "Elevated Acre",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Financial District",
+   "address": "55 Water St, New York, NY 10041",
+   "lat": 40.70334,
+   "lng": -74.00858,
+   "ian": {
+    "v": [
+     122
+    ],
+    "cat": "Point de vue / photo",
+    "tip": "Terrasse gratuite, pique-nique",
+    "anec": "Espace public privé (POPS) en échange de hauteur",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-snfl",
+   "ianOnly": true,
+   "name": "Stavros Niarchos Foundation Library (rooftop)",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Murray Hill",
+   "address": "455 5th Ave, New York, NY 10016",
+   "lat": 40.7519,
+   "lng": -73.98184,
+   "ian": {
+    "v": [
+     105,
+     147
+    ],
+    "cat": "Point de vue / photo",
+    "tip": "Rooftop gratuit au 7e étage, ouvert jusqu'à 21 h selon Ian",
+    "anec": "Terminaux Bloomberg pour les détenteurs de carte",
+    "st": "Ouvert / actif",
+    "rem": "Horaires non vérifiés",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-m-social",
+   "ianOnly": true,
+   "name": "msocial Rooftop (Times Square)",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Midtown West",
+   "address": "226 W 52nd St, New York, NY 10019",
+   "lat": 40.76269,
+   "lng": -73.98353,
+   "ian": {
+    "v": [
+     158
+    ],
+    "cat": "Point de vue / photo",
+    "tip": "Vue sur Times Square ; photo avec son reflet",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-crown-chicken",
+   "ianOnly": true,
+   "name": "Crown Chicken & Grill",
+   "cat": "typique",
+   "zone": "Brooklyn",
+   "hood": "Bushwick",
+   "address": "127 Wyckoff Ave, Brooklyn, NY 11237",
+   "lat": 40.70425,
+   "lng": -73.91876,
+   "ian": {
+    "v": [
+     13
+    ],
+    "cat": "Restaurant / street food",
+    "tip": "4 morceaux de poulet frit pour 6 $",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "Chaîne : succursale non précisée par Ian",
+    "conf": "Probable"
+   }
+  },
+  {
+   "id": "ian-mao-mao",
+   "ianOnly": true,
+   "name": "Mao Mao",
+   "cat": "typique",
+   "zone": "Brooklyn",
+   "hood": "Bushwick",
+   "address": "1000 Broadway, Brooklyn, NY 11221",
+   "lat": 40.6958,
+   "lng": -73.93346,
+   "ian": {
+    "v": [
+     119
+    ],
+    "cat": "Restaurant / street food",
+    "tip": "Khao soi, larb, cocktails au saké ; Street Fighter à l'étage",
+    "anec": "Décor de cinéma thaï des années 1970",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-santa-panza",
+   "ianOnly": true,
+   "name": "Santa Panza",
+   "cat": "typique",
+   "zone": "Brooklyn",
+   "hood": "Bushwick",
+   "address": "1079 Broadway, Brooklyn, NY 11221",
+   "lat": 40.69467,
+   "lng": -73.93072,
+   "ian": {
+    "v": [
+     60
+    ],
+    "cat": "Restaurant / street food",
+    "tip": "Pizza",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-2-bros",
+   "ianOnly": true,
+   "name": "2 Bros Pizza",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "East Village / Union Sq",
+   "address": "32 St Marks Pl, New York, NY 10003",
+   "lat": 40.72872,
+   "lng": -73.98846,
+   "ian": {
+    "v": [
+     130
+    ],
+    "cat": "Restaurant / street food",
+    "tip": "Part autour de 1,50 $",
+    "anec": "Popularisation de la part à 1 $ après 2008",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-2nd-ave-deli",
+   "ianOnly": true,
+   "name": "2nd Ave Deli",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "Murray Hill",
+   "address": "162 E 33rd St, New York, NY 10016",
+   "lat": 40.74519,
+   "lng": -73.97918,
+   "ian": {
+    "v": [
+     59,
+     60,
+     79,
+     92,
+     135
+    ],
+    "cat": "Restaurant / street food",
+    "tip": "Meilleur pastrami ; pas de file ; dégustation de pickles",
+    "anec": "Abe Lebewohl, assassiné dans les années 1990 ; déménagement après un conflit avec le propriétaire",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-bens-pizza",
+   "ianOnly": true,
+   "name": "Famous Ben's Pizza",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "SoHo",
+   "address": "177 Spring St, New York, NY 10012",
+   "lat": 40.72493,
+   "lng": -74.00245,
+   "ian": {
+    "v": [
+     64
+    ],
+    "cat": "Restaurant / street food",
+    "tip": "Part classique",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-fried-dumpling",
+   "ianOnly": true,
+   "name": "Fried Dumpling",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "Chinatown / Little Italy / SoHo",
+   "address": "106 Mosco St, New York, NY 10013",
+   "lat": 40.71455,
+   "lng": -73.99927,
+   "ian": {
+    "v": [
+     6,
+     31,
+     40
+    ],
+    "cat": "Restaurant / street food",
+    "tip": "26 raviolis pour 10 $",
+    "anec": "Prix bas grâce aux loyers encadrés et au paiement en liquide (selon Ian)",
+    "st": "Ouvert / actif",
+    "rem": "Prix non vérifié",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-ichiran",
+   "ianOnly": true,
+   "name": "Ichiran Times Square",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "Midtown",
+   "address": "152 W 49th St, New York, NY 10020",
+   "lat": 40.76006,
+   "lng": -73.98332,
+   "ian": {
+    "v": [
+     111
+    ],
+    "cat": "Restaurant / street food",
+    "tip": "Ramen en cabines de concentration ; sauce piquante",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-king-dumplings",
+   "ianOnly": true,
+   "name": "King Dumplings",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "Lower East Side / Chinatown",
+   "address": "74 Hester St, New York, NY 10002",
+   "lat": 40.71596,
+   "lng": -73.99171,
+   "ian": {
+    "v": [
+     18
+    ],
+    "cat": "Restaurant / street food",
+    "tip": "~50 raviolis surgelés pour 13 $",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "Prix non vérifié",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-grande-boucherie",
+   "ianOnly": true,
+   "name": "La Grande Boucherie (6½ Avenue)",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "Midtown West",
+   "address": "145 W 53rd St, New York, NY 10019",
+   "lat": 40.76263,
+   "lng": -73.98084,
+   "ian": {
+    "v": [
+     142
+    ],
+    "cat": "Restaurant / street food",
+    "tip": "Happy hour : pain au levain, cocktail, huîtres",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "Non nommé par Ian ; identification probable",
+    "conf": "Probable"
+   }
+  },
+  {
+   "id": "ian-north-dumpling",
+   "ianOnly": true,
+   "name": "North Dumplings",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "Lower East Side / Chinatown",
+   "address": "23 Essex St, New York, NY 10002",
+   "lat": 40.71546,
+   "lng": -73.99006,
+   "ian": {
+    "v": [
+     144
+    ],
+    "cat": "Restaurant / street food",
+    "tip": "10 raviolis 4,50 $",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "Prix non vérifié",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-punjabi-deli",
+   "ianOnly": true,
+   "name": "Punjabi Deli",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "East Village",
+   "address": "114 E 1st St, New York, NY 10009",
+   "lat": 40.72265,
+   "lng": -73.98671,
+   "ian": {
+    "v": [
+     109
+    ],
+    "cat": "Restaurant / street food",
+    "tip": "Repas végétarien à moins de 10 $",
+    "anec": "Adorée des chauffeurs de taxi ; sauvée par une cagnotte de 50 000 $",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-tulcingo",
+   "ianOnly": true,
+   "name": "Tulcingo del Valle (« Tulcimexico »)",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "Times Square / Hell's Kitchen",
+   "address": "665 10th Ave, New York, NY 10036",
+   "lat": 40.76272,
+   "lng": -73.99346,
+   "ian": {
+    "v": [
+     60
+    ],
+    "cat": "Restaurant / street food",
+    "tip": "Tacos birria",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "Nom écrit « Tulcimexico » sur l'image ; correspondance incertaine",
+    "conf": "Approximatif"
+   }
+  },
+  {
+   "id": "ian-qp-skewers",
+   "ianOnly": true,
+   "name": "Camions de brochettes de Queens Plaza",
+   "cat": "typique",
+   "zone": "Queens",
+   "hood": "Long Island City",
+   "address": "Queens Plaza, Long Island City, NY 11101",
+   "lat": 40.7505,
+   "lng": -73.9372,
+   "ian": {
+    "v": [
+     94
+    ],
+    "cat": "Restaurant / street food",
+    "tip": "Brochette d'agneau 2 $ ; 3 camions",
+    "anec": "",
+    "st": "",
+    "rem": "Camions non identifiés ; position approximative",
+    "conf": "Approximatif"
+   }
+  },
+  {
+   "id": "ian-flushing",
+   "ianOnly": true,
+   "name": "Flushing (Main Street)",
+   "cat": "typique",
+   "zone": "Queens",
+   "hood": "Flushing (Queens)",
+   "address": "Main St, Flushing, Queens, NY",
+   "lat": 40.759,
+   "lng": -73.83,
+   "ian": {
+    "v": [
+     55,
+     132
+    ],
+    "cat": "Restaurant / street food",
+    "tip": "Cuisine chinoise authentique, supermarchés importés ; accès en dollar van (4 $)",
+    "anec": "",
+    "st": "",
+    "rem": "Point de quartier",
+    "conf": "Approximatif"
+   }
+  },
+  {
+   "id": "ian-10-ft-single",
+   "ianOnly": true,
+   "name": "10 ft Single by Stella Dallas",
+   "cat": "shop",
+   "zone": "Brooklyn",
+   "hood": "Williamsburg",
+   "address": "285 N 6th St, Brooklyn, NY 11211",
+   "lat": 40.71445,
+   "lng": -73.95353,
+   "ian": {
+    "v": [
+     145
+    ],
+    "cat": "Shopping / marché",
+    "tip": "Ralph Lauren vintage 50 $, chaussures en cuir < 100 $",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-brooklyn-flea",
+   "ianOnly": true,
+   "name": "Brooklyn Flea (DUMBO Archway)",
+   "cat": "shop",
+   "zone": "Brooklyn",
+   "hood": "DUMBO / Brooklyn Heights",
+   "address": "Adams St, Brooklyn, NY 11201",
+   "lat": 40.70301,
+   "lng": -73.98855,
+   "ian": {
+    "v": [
+     77,
+     96
+    ],
+    "cat": "Shopping / marché",
+    "tip": "Vintage, bijoux, art ; le week-end",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "Samedi et dimanche, concession jusqu'en 2027 (Commercial Observer)",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-l-train-vintage",
+   "ianOnly": true,
+   "name": "L Train Vintage",
+   "cat": "shop",
+   "zone": "Brooklyn",
+   "hood": "Bushwick",
+   "address": "1377 Dekalb Ave, Brooklyn, NY 11221",
+   "lat": 40.69928,
+   "lng": -73.92439,
+   "ian": {
+    "v": [
+     145
+    ],
+    "cat": "Shopping / marché",
+    "tip": "Jeans à moins de 10 $",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "Chaîne : succursale non précisée",
+    "conf": "Probable"
+   }
+  },
+  {
+   "id": "ian-rugged-road",
+   "ianOnly": true,
+   "name": "Rugged Road & Co.",
+   "cat": "shop",
+   "zone": "Brooklyn",
+   "hood": "Williamsburg",
+   "address": "218 Bedford Ave, Brooklyn, NY 11249",
+   "lat": 40.71664,
+   "lng": -73.95927,
+   "ian": {
+    "v": [
+     145
+    ],
+    "cat": "Shopping / marché",
+    "tip": "Vintage haut de gamme (veste 1950 à 600 $) ; cartes postales 2 $",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-chelsea-flea",
+   "ianOnly": true,
+   "name": "Chelsea Flea",
+   "cat": "shop",
+   "zone": "Manhattan",
+   "hood": "Flatiron",
+   "address": "29 W 25th St, New York, NY 10010",
+   "lat": 40.74382,
+   "lng": -73.99034,
+   "ian": {
+    "v": [
+     77
+    ],
+    "cat": "Shopping / marché",
+    "tip": "Le week-end",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-flower-district",
+   "ianOnly": true,
+   "name": "Flower District (chatte Luna)",
+   "cat": "shop",
+   "zone": "Manhattan",
+   "hood": "Chelsea / NoMad",
+   "address": "W 28th St, New York, NY 10001",
+   "lat": 40.7458,
+   "lng": -73.9898,
+   "ian": {
+    "v": [
+     143
+    ],
+    "cat": "Shopping / marché",
+    "tip": "Saluer Luna, la chatte gardienne des fleurs",
+    "anec": "",
+    "st": "",
+    "rem": "Boutique non identifiée ; position approximative",
+    "conf": "Approximatif"
+   }
+  },
+  {
+   "id": "ian-grand-bazaar",
+   "ianOnly": true,
+   "name": "Grand Bazaar NYC",
+   "cat": "shop",
+   "zone": "Manhattan",
+   "hood": "Upper West Side",
+   "address": "100 W 77th St, New York, NY 10024",
+   "lat": 40.78039,
+   "lng": -73.97706,
+   "ian": {
+    "v": [
+     77,
+     121
+    ],
+    "cat": "Shopping / marché",
+    "tip": "Plus grand marché aux puces ; prix justes",
+    "anec": "Finance plus de 2 000 élèves de 4 écoles",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-high-tech",
+   "ianOnly": true,
+   "name": "High Tech Electronics (New Hitech Service Center)",
+   "cat": "shop",
+   "zone": "Manhattan",
+   "hood": "Lower East Side / Chinatown",
+   "address": "47 Canal St, New York, NY 10002",
+   "lat": 40.71496,
+   "lng": -73.99147,
+   "ian": {
+    "v": [
+     137,
+     144
+    ],
+    "cat": "Shopping / marché",
+    "tip": "Télés, caméras, vinyles vintage ; réparations",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-porcelain",
+   "ianOnly": true,
+   "name": "Jing Dezhen Art Porcelain",
+   "cat": "shop",
+   "zone": "Manhattan",
+   "hood": "Chinatown / Little Italy / SoHo",
+   "address": "113 Mott St, New York, NY 10013",
+   "lat": 40.71767,
+   "lng": -73.99749,
+   "ian": {
+    "v": [
+     137
+    ],
+    "cat": "Shopping / marché",
+    "tip": "Théières, tasses, jade à prix abordables",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-fruit-canal",
+   "ianOnly": true,
+   "name": "Étals de fruits de Canal Street",
+   "cat": "shop",
+   "zone": "Manhattan",
+   "hood": "Chinatown",
+   "address": "Canal St, New York, NY 10013",
+   "lat": 40.71733,
+   "lng": -73.99859,
+   "ian": {
+    "v": [
+     137
+    ],
+    "cat": "Shopping / marché",
+    "tip": "Fruit du dragon, à manger au parc voisin",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "Localisation approximative",
+    "conf": "Approximatif"
+   }
+  },
+  {
+   "id": "ian-qnm",
+   "ianOnly": true,
+   "name": "Queens Night Market",
+   "cat": "shop",
+   "zone": "Queens",
+   "hood": "Corona (Queens)",
+   "address": "47-01 111th St, Corona, NY 11368",
+   "lat": 40.74806,
+   "lng": -73.85051,
+   "ian": {
+    "v": [
+     88
+    ],
+    "cat": "Shopping / marché",
+    "tip": "Nourriture de 90 pays, très abordable",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "Saison d'automne 2026 : samedis 16 h-minuit, jusqu'au 31/10 (QNS)",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-fulton-ferry",
+   "ianOnly": true,
+   "name": "Embarcadère NYC Ferry DUMBO",
+   "cat": "voir",
+   "zone": "Brooklyn",
+   "hood": "DUMBO",
+   "address": "DUMBO, Brooklyn, NY",
+   "lat": 40.70374,
+   "lng": -73.99576,
+   "ian": {
+    "v": [
+     98,
+     103
+    ],
+    "cat": "Transport",
+    "tip": "Ferry sous le pont de Brooklyn, billet aux machines",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "Tarif 5 $ depuis le 19/10/2026",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-myrtle-el",
+   "ianOnly": true,
+   "name": "Station Myrtle Av (ancienne ligne aérienne)",
+   "cat": "voir",
+   "zone": "Brooklyn",
+   "hood": "Bushwick",
+   "address": "Myrtle Ave & Broadway, Brooklyn, NY 11206",
+   "lat": 40.69727,
+   "lng": -73.93582,
+   "ian": {
+    "v": [
+     30
+    ],
+    "cat": "Transport",
+    "tip": "",
+    "anec": "Ancienne ligne Myrtle Ave jusqu'à City Hall, démolie fin des années 1960",
+    "st": "Ouvert / actif",
+    "rem": "Station déduite ; ligne non nommée par Ian",
+    "conf": "Probable"
+   }
+  },
+  {
+   "id": "ian-castle-clinton",
+   "ianOnly": true,
+   "name": "Castle Clinton (billets statue de la Liberté)",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Financial District (Battery Park)",
+   "address": "Battery Park, New York, NY 10004",
+   "lat": 40.70344,
+   "lng": -74.0168,
+   "ian": {
+    "v": [
+     89
+    ],
+    "cat": "Transport",
+    "tip": "Seul guichet officiel ; acheter uniquement Statue City Cruises",
+    "anec": "Arnaques aux billets près des bateaux",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-dollar-van",
+   "ianOnly": true,
+   "name": "Dollar van Chinatown → Flushing",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Lower East Side / Chinatown",
+   "address": "East Broadway, New York, NY 10002",
+   "lat": 40.71416,
+   "lng": -73.99673,
+   "ian": {
+    "v": [
+     132
+    ],
+    "cat": "Transport",
+    "tip": "4 $, 30 min plus rapide que le métro",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "Point de départ approximatif",
+    "conf": "Approximatif"
+   }
+  },
+  {
+   "id": "ian-e90-ferry",
+   "ianOnly": true,
+   "name": "Embarcadère East 90th St (ligne Astoria)",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Upper East Side",
+   "address": "East 90th St, New York, NY 10028",
+   "lat": 40.77728,
+   "lng": -73.94229,
+   "ian": {
+    "v": [
+     146
+    ],
+    "cat": "Transport",
+    "tip": "Meilleur trajet de nuit : E 90th St → Wall St",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "Tarif 5 $ depuis le 19/10/2026",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-moynihan",
+   "ianOnly": true,
+   "name": "Moynihan Train Hall",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Chelsea / Herald Sq",
+   "address": "350 W 33rd St, New York, NY 10001",
+   "lat": 40.75167,
+   "lng": -73.99586,
+   "ian": {
+    "v": [
+     128
+    ],
+    "cat": "Transport",
+    "tip": "Train Maple Leaf vers Toronto, 178 $ payés par Ian",
+    "anec": "Ancienne poste convertie en gare",
+    "st": "Ouvert / actif",
+    "rem": "Tarif non vérifié",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-pier11",
+   "ianOnly": true,
+   "name": "Pier 11 / Wall St (NYC Ferry)",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Financial District",
+   "address": "South St, New York, NY 10005",
+   "lat": 40.70327,
+   "lng": -74.00621,
+   "ian": {
+    "v": [
+     3,
+     12,
+     103,
+     146
+    ],
+    "cat": "Transport",
+    "tip": "Embarquer ici ; 4,50 $ le trajet selon Ian ; bar à bord ; ligne jusqu'au Bronx",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "Tarif passé à 5 $ le 19/10/2026 (6sqft)",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-si-ferry",
+   "ianOnly": true,
+   "name": "Staten Island Ferry (Whitehall Terminal)",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Financial District",
+   "address": "4 Whitehall St, New York, NY 10004",
+   "lat": 40.70109,
+   "lng": -74.0131,
+   "ian": {
+    "v": [
+     42,
+     49
+    ],
+    "cat": "Transport",
+    "tip": "Gratuit ; passe près de la statue de la Liberté ; bar à bord",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-lga",
+   "ianOnly": true,
+   "name": "Aéroport LaGuardia",
+   "cat": "voir",
+   "zone": "Queens",
+   "hood": "East Elmhurst (Queens)",
+   "address": "East Elmhurst, NY 11371",
+   "lat": 40.77664,
+   "lng": -73.87425,
+   "ian": {
+    "v": [
+     57
+    ],
+    "cat": "Transport",
+    "tip": "À privilégier ; parfois 30 min en taxi",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "Opinion",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-rockaway-ferry",
+   "ianOnly": true,
+   "name": "Embarcadère NYC Ferry Rockaway",
+   "cat": "voir",
+   "zone": "Queens",
+   "hood": "Rockaway (Queens)",
+   "address": "Rockaway, Queens, NY",
+   "lat": 40.58424,
+   "lng": -73.8316,
+   "ian": {
+    "v": [
+     80
+    ],
+    "cat": "Transport",
+    "tip": "Ferry vers une vraie plage, rafraîchissant par forte chaleur",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-jamaica",
+   "ianOnly": true,
+   "name": "Jamaica (AirTrain JFK / LIRR / métro)",
+   "cat": "voir",
+   "zone": "Queens",
+   "hood": "Jamaica (Queens)",
+   "address": "93-43 Sutphin Blvd, Jamaica, NY 11435",
+   "lat": 40.69894,
+   "lng": -73.80842,
+   "ian": {
+    "v": [
+     78,
+     157
+    ],
+    "cat": "Transport",
+    "tip": "LIRR plus rapide vers Grand Central / Penn ; métro plus simple ailleurs",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "Métro à 3 $ depuis janvier 2026",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-tkts-lc",
+   "ianOnly": true,
+   "name": "TKTS Lincoln Center",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Upper West Side",
+   "address": "61 W 62nd St, New York, NY 10023",
+   "lat": 40.77108,
+   "lng": -73.98277,
+   "ian": {
+    "v": [
+     133
+    ],
+    "cat": "Événement / sortie",
+    "tip": "Guichet « secret » presque sans file",
+    "anec": "",
+    "st": "Ouvert / actif",
+    "rem": "Horaires non vérifiés",
+    "conf": "Confirmé"
+   }
+  },
+  {
+   "id": "ian-tompkins",
+   "ianOnly": true,
+   "name": "Tompkins Square Park (parade des chiens)",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "East Village",
+   "address": "E 10th St & Avenue A, New York, NY 10009",
+   "lat": 40.72643,
+   "lng": -73.98178,
+   "ian": {
+    "v": [
+     155
+    ],
+    "cat": "Événement / sortie",
+    "tip": "Parade des chiens d'Halloween",
+    "anec": "Plus grand rassemblement de chiens déguisés des États-Unis",
+    "st": "Ouvert / actif",
+    "rem": "Édition 2026 : 17 octobre (passée)",
+    "conf": "Confirmé"
+   }
   }
  ],
  "claireOnly": [
@@ -4594,5 +7130,845 @@
   "Se perdre dans l'Upper East Side : pas mal de galeries d'art très cool, et le shopping plus luxe.",
   "The Edge pour moins cher : voir l'astuce dans la fiche."
  ],
- "claireTrips": "Montréal, Miami, Washington, Boston, les Hamptons (Southampton ou Montauk), le Mexique (Yucatán), Turks and Caicos, les Bahamas (plutôt les Exumas), le Costa Rica. Philadelphie : « ça sert à rien d'y aller »."
+ "claireTrips": "Montréal, Miami, Washington, Boston, les Hamptons (Southampton ou Montauk), le Mexique (Yucatán), Turks and Caicos, les Bahamas (plutôt les Exumas), le Costa Rica. Philadelphie : « ça sert à rien d'y aller ».",
+ "ianVideos": {
+  "3": {
+   "t": "Le ferry de Wall Street jusqu'au Bronx",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7642496996657335574",
+   "m": "21 mai 2026 · 44 s · 5 356 vues",
+   "s": "Prendre le NYC Ferry à Wall Street, remonter l'East River avec la vue sur Midtown, passer l'Upper East Side et descendre à Ferry Point Park, dans le Bronx, pour la vue. Il le recommande à tout touriste : on voit les cinq arrondissements.",
+   "c": "Prix dépassé : le billet simple passe à 5 $ le 19 octobre 2026 (6sqft). Les deux embarcadères sont actifs sur Google Maps."
+  },
+  "5": {
+   "t": "L'escalator en bois de Macy's",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7642772943805680918",
+   "m": "22 mai 2026 · 36 s · 28 700 vues",
+   "s": "L'escalator était à l'origine une attraction de Coney Island ; les gens avaient si peur qu'ils s'agrippaient à la rampe. Il a décollé quand les grands magasins l'ont adopté. Le premier aurait eu quelqu'un distribuant du scotch à l'arrivée. Le monde a abandonné le bois après un incendie terrible à King's Cross, à Londres. Le dernier est chez Macy's Herald Square, à côté de l'Empire State Building.",
+   "c": "Macy's est ouvert (Google Maps). Ian dit « le dernier » ici, puis « l'un des derniers » dans la vidéo 104 : la seconde formulation est plus prudente."
+  },
+  "6": {
+   "t": "Les raviolis les moins chers de New York",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7643517500528889110",
+   "m": "24 mai 2026 · 16 s · 29 800 vues",
+   "s": "Une boutique vend 26 raviolis pour 10 $. Beaucoup de Chinatown est à loyer encadré et beaucoup de commerces n'acceptent que le liquide, ce qui fait baisser les prix. La boutique est juste à côté du tribunal du procès Epstein. Il annonce ses cinq adresses de raviolis préférées.",
+   "c": "Fried Dumpling est ouvert (Google Maps). Le prix n'a pas été vérifié."
+  },
+  "7": {
+   "t": "Pourquoi Wall Street s'appelle Wall Street",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7643876924099480854",
+   "m": "25 mai 2026 · 55 s · 26 100 vues",
+   "s": "Les Néerlandais, premiers colons, avaient construit un mur autour de leur village à la pointe de Manhattan : ce mur est devenu Wall Street. Des marquages au sol montrent son tracé. À côté, le 40 Wall Street, que Trump a acheté environ 1 million de dollars ; il vante l'affaire, mais l'immeuble demandait beaucoup de réparations. À sa construction, c'était le plus haut immeuble du monde, et un avion perdu dans le brouillard l'a percuté dans les années 1940.",
+   "c": "Le 40 Wall St est référencé et actif sur Google Maps. Les chiffres historiques n'ont pas été vérifiés séparément."
+  },
+  "8": {
+   "t": "Le tribunal le plus important du monde",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7643922476682022166",
+   "m": "25 mai 2026 · 22 s · 3 818 vues",
+   "s": "Trump, Diddy, Epstein, la FIFA et Tom Brady ont tous eu des affaires devant ce tribunal. Il couvre tout Manhattan ; Wall Street est à 10 minutes à pied, donc chaque grande banque a un bureau ici et chaque grand crime laisse une trace écrite dans la ville. La légende détaille le surnom du tribunal fédéral du district sud de New York, « Mother Court ».",
+   "c": "Le bâtiment est actif sur Google Maps. Les affaires citées ne sont pas vérifiées une à une."
+  },
+  "9": {
+   "t": "Le Woolworth Building payé en liquide",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7643966554882788630",
+   "m": "25 mai 2026 · 49 s · 5 801 vues",
+   "s": "C'était le plus haut immeuble du monde à sa construction. Frank Woolworth s'est enrichi avec des magasins à cinq et dix cents (« le Temu de l'époque »). J.P. Morgan a refusé le prêt, jugé trop risqué : il a tout payé comptant. Le même architecte a dessiné la Cour suprême à Washington. Le penthouse sous le toit vert, sur cinq étages, s'est vendu 30 millions de dollars il y a quelques années.",
+   "c": "Penthouse « The Pinnacle » : vendu 30 millions $ en 2023, après une mise en vente à 110 millions (6sqft). La source parle de sept étages, et non de cinq comme Ian."
+  },
+  "10": {
+   "t": "Stone Street, la rue pavée des brasseries",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7644009985017482518",
+   "m": "26 mai 2026 · 59 s · 37 600 vues",
+   "s": "Dans la Nouvelle-Amsterdam, les rues étaient en boue. Les bâtiments de cette rue étaient des brasseries, et leurs charrettes s'embourbaient : Stone Street fut l'une des premières rues pavées. Elle a survécu parce qu'on l'a oubliée : dans les années 1980-1990 c'était une ruelle mal famée, jusqu'à ce qu'un investisseur l'achète dans les années 1990 pour en faire un quartier historique. Aujourd'hui les pubs partagent une terrasse commune, idéale l'été et le midi.",
+   "c": "Lieu actif sur Google Maps. Le récit historique n'est pas vérifié séparément."
+  },
+  "12": {
+   "t": "Le ferry, transport public à prix de métro",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7644752522586000642",
+   "m": "28 mai 2026 · 20 s · 1 685 vues",
+   "s": "Les ferries font partie des transports publics, pas des attractions. Le billet coûte 4,50 $, on peut y boire une bière, voir les ponts ; c'est la plus belle façon de découvrir la ville. On embarque près de Wall Street. Il invite à mettre la vidéo en pause pour lire la carte des lignes.",
+   "c": "Le billet simple coûte 5 $ depuis le 19 octobre 2026 (6sqft)."
+  },
+  "13": {
+   "t": "Le poulet frit le moins cher de New York",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7645726827062840598",
+   "m": "30 mai 2026 · 22 s · 3 186 vues",
+   "s": "Quatre morceaux de poulet frit pour 6 $, dans une affaire familiale qui garde des prix bas pour la communauté. C'est juste à la sortie d'une station de métro. Ensuite, les bars voisins servent la bière à 3 ou 4 $.",
+   "c": "La chaîne a plusieurs adresses. Le restaurant n'est pas localisé dans la vidéo ; j'ai retenu celui du 127 Wyckoff Ave (Bushwick, où vit Ian), sans certitude. Il est ouvert selon Google Maps."
+  },
+  "14": {
+   "t": "Les immeubles « magnétiques » de SoHo",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7646537315401370882",
+   "m": "1er juin 2026 · 44 s · 18 100 vues",
+   "s": "Ces façades sont en fonte : on peut y coller un aimant. La fonte était populaire au XIXe siècle, car on fabriquait de belles façades en série, en usine. SoHo a la plus forte concentration au monde de ces bâtiments. On a arrêté car la fonte rouille et se fissure si elle refroidit trop vite lors d'un incendie. Protégée, la rue est devenue l'une des plus luxueuses pour le shopping.",
+   "c": "Non vérifié séparément."
+  },
+  "15": {
+   "t": "La ruelle pavée de NYU",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7646605931022781718",
+   "m": "2 juin 2026 · 29 s · 4 383 vues",
+   "s": "L'une des plus vieilles rues de New York : à l'origine un sentier amérindien reliant l'East River à l'Hudson. Les jolies maisons étaient des écuries ; elles sont aujourd'hui louées par NYU. Spot photo Instagram très populaire, à côté de Washington Square Park et de son arche.",
+   "c": "Identification déduite, non confirmée par la vidéo."
+  },
+  "16": {
+   "t": "Tammany Hall, devenu un Petco",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7646783289298111766",
+   "m": "2 juin 2026 · 33 s · 2 712 vues",
+   "s": "Tammany Hall fut l'organisation la plus corrompue d'Amérique. Son nom vient d'un chef lenape. Club de boisson devenu politique, il comptait tous les politiciens new-yorkais et échangeait des emplois contre des votes. Boss Tweed y a volé des millions, et seul un caricaturiste l'a démasqué. L'organisation s'est effondrée au XXe siècle quand le maire Fiorello La Guardia s'y est opposé. Le bâtiment abrite aujourd'hui un magasin Petco.",
+   "c": "Adresse confirmée sur Google Maps. Le caricaturiste, Thomas Nast, n'est pas nommé par Ian."
+  },
+  "17": {
+   "t": "Le jour où un bombardier a percuté l'Empire State Building",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7646821296965258518",
+   "m": "2 juin 2026 · 73 s · 21 400 vues",
+   "s": "En 1945, un bombardier B-25 cherchait l'aéroport militaire de Newark en suivant les rivières. Par brouillard, les pilotes ont pris l'East River pour l'Hudson. Ils ont tourné à droite et percuté l'Empire State vers le 78e étage. Une liftire grièvement brûlée a été mise sur un brancard dans l'ascenseur, dont le câble a lâché. Elle a chuté de 78 étages, amortie par la pression de l'air dans la cage, et a survécu. Ce souvenir explique que beaucoup aient d'abord cru à un accident le 11 septembre 2001.",
+   "c": "Le 28 juillet 1945, l'avion a frappé entre les 78e et 79e étages ; il y a eu 14 morts. La liftire, Betty Lou Oliver, a chuté d'environ 75 étages et non de 78 (NYC Municipal Archives)."
+  },
+  "18": {
+   "t": "50 raviolis surgelés pour 13 $",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7646888350397304086",
+   "m": "2 juin 2026 · 58 s · 4 979 vues",
+   "s": "Il achète un sac d'environ 50 raviolis surgelés pour 13 $ et les cuisine chez lui. Pour lui, New York a parmi les meilleurs raviolis des États-Unis : authentiques, pas chers, très garnis. Après un mois en Chine, il préfère les nouilles, mais trouve qu'à New York les raviolis sont le meilleur choix. Il les mange à la cuillère, faute de baguettes : « c'est très bon ».",
+   "c": "Ouvert (Google Maps). Le prix n'a pas été vérifié."
+  },
+  "19": {
+   "t": "Pourquoi SoHo est devenu si cher",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7646963636027591958",
+   "m": "3 juin 2026 · 57 s · 10 100 vues",
+   "s": "Les façades en fonte étaient fabriquées en usine puis boulonnées, et ces bâtiments étaient eux-mêmes des usines. Les grandes fenêtres apportaient la lumière aux ateliers de textile. Quand l'industrie est partie, le quartier a failli être rasé pour une autoroute. Les artistes sont arrivés pour la lumière et les hauts plafonds, le quartier est devenu tendance, puis cher. D'où les boutiques comme Rolex et les appartements de Robert Downey Jr. ou d'Alicia Keys.",
+   "c": "Non vérifié séparément, y compris les résidences de célébrités."
+  },
+  "20": {
+   "t": "Greene Street : pas des pavés, des « Belgian blocks »",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7647167054105038102",
+   "m": "3 juin 2026 · 35 s · 15 500 vues",
+   "s": "Greene Street, l'une des rues les plus historiques. Ces pierres rectangulaires ne sont pas des pavés ronds mais des « Belgian blocks », arrivés comme lest de navires puis recyclés pour paver la rue. Les façades sont magnétiques. Le quartier, menacé par un projet d'autoroute, a été classé dans les années 1970 ; on n'a plus le droit d'enlever ces pierres.",
+   "c": "Non vérifié séparément."
+  },
+  "21": {
+   "t": "La tour-espion sans fenêtres",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7649517536861490454",
+   "m": "9 juin 2026 · 28 s · 6 865 vues",
+   "s": "Ce bâtiment d'AT&T n'a aucune fenêtre. Ses machines géraient les appels de Manhattan et les appels transatlantiques, ce qui intéressait la NSA : des documents divulgués indiquent qu'elle mettait tout le bâtiment sur écoute. La version officielle de l'absence de fenêtres est la régulation de la température des machines.",
+   "c": "Adresse confirmée (Google Maps). Les révélations sur la NSA ne sont pas vérifiées ici."
+  },
+  "23": {
+   "t": "Les bars les moins chers (liste courte)",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7650991171107425558",
+   "m": "13 juin 2026 · 13 s · 79 600 vues",
+   "s": "Jimmy's Corner, bière à 3 $ ; Fine Time, 3 $ ; O'Hara's, 4 $ ; Rudy's, 4 $ ; Carmelo's, 3 $.",
+   "c": "Les cinq bars sont ouverts selon Google Maps. Prix non vérifiés. Jimmy's Corner fait face à une procédure d'expulsion, suspendue par un juge (NPR)."
+  },
+  "24": {
+   "t": "Le cinéma abandonné de Canal Street",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7651023270325636374",
+   "m": "13 juin 2026 · 61 s · 11 900 vues",
+   "s": "C'était le Loew's Canal, un cinéma ouvert en 1926 de plus de 2 000 places. À l'époque, on allait au cinéma trois ou quatre fois par semaine ; la télévision l'a tué dans les années 1950. Abandonné depuis longtemps et immense, il est jugé dangereux par les pompiers ; les projets de rénovation sont trop chers. Dans les années 1930, lui et un autre cinéma ont été secoués par des explosions, probablement liées à des grévistes du cinéma.",
+   "c": "Ouverture en septembre 1927 (et non 1926), 2 314 places. Explosion le 10 septembre 1932, une heure après celle du Loew's 46th Street, attribuée sans preuve au syndicat des projectionnistes en grève (After the Final Curtain)."
+  },
+  "26": {
+   "t": "Classement des bars les moins chers",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7651424545676528918",
+   "m": "15 juin 2026 · 120 s · 79 600 vues",
+   "s": "1. Jimmy's Corner : son meilleur bar de New York, ouvert depuis les années 1970, prix jamais augmentés. Très étroit, on s'y fait des amis. Photos de Mike Tyson et de légendes de la boxe : le fondateur était manager de boxeurs. Des célébrités y vont encore. À côté de Times Square.\n2. Carmelo's : ouvert jusqu'à 4 h, éclairé à la bougie, banquettes en cuir rouge ; un peu agité en fin de soirée.\n3. Fine Time : grande terrasse arrière, idéale au coucher du soleil, un hot-dog offert par boisson et du pop-corn à volonté. « Probablement le billard le plus détruit du monde. »\n4. O'Hara's : murs couverts d'écussons de policiers et pompiers du monde entier. Après le 11-Septembre, les sauveteurs de Ground Zero venaient y boire, et la tradition continue.\n5. Rudy's : bière à 4 $, hot-dog offert avec chaque boisson ; clientèle jeune et sportive, « pas trop mon ambiance ».",
+   "c": "Tous ouverts (Google Maps). Pour Jimmy's Corner, voir la vidéo 23."
+  },
+  "27": {
+   "t": "Sauriez-vous réussir l'examen de guide new-yorkais ?",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7651432651768859926",
+   "m": "15 juin 2026 · 36 s · 2 362 vues",
+   "s": "Pour devenir guide, il a dû passer un examen et obtenir une licence. Questions et réponses :\n\n- Le Bronx a à peu près la taille de quelle ville européenne ? Paris.\n- Pourquoi les réservoirs d'eau sont-ils en bois ? Pour garder l'eau fraîche et l'empêcher de geler.\n- Quel musée a un Picasso ? Le MoMA.\n- Pourquoi les Néerlandais ont-ils colonisé New York ? Pour la fourrure de castor, et le meilleur port naturel du monde.\n- Quand le métro a-t-il ouvert ? En 1904, après ceux de Paris, Londres et Budapest.\n- Où Jackie Kennedy Onassis vivait-elle ? Sur la 5e Avenue, près du Met.",
+   "c": "Non vérifié séparément."
+  },
+  "28": {
+   "t": "Les meilleures choses pas chères à faire",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7651440357527407894",
+   "m": "15 juin 2026 · 21 s · 2 342 vues",
+   "s": "Prendre le ferry (4,50 $). Manger une part de pizza à un dollar : plus vraiment à 1 $, mais encore à 1,50 $. Aller au Yankee Stadium, parfois 20 $ le match. Aller chez McSorley's, le plus vieux bar de New York, « une machine à remonter le temps », bière à moins de 10 $.",
+   "c": "Ferry à 5 $ depuis le 19 octobre 2026. Lieux ouverts (Google Maps). Le prix des places au Yankee Stadium n'a pas été vérifié."
+  },
+  "29": {
+   "t": "D'autres bars pas chers",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7651727430591221014",
+   "m": "15 juin 2026 · 19 s · 11 700 vues",
+   "s": "The Anchored Inn, bière à 5 $ ; « Wonderland », 4 $, avec des jeux d'arcade ; Duff's, 5 $ ; « Kanka », 8,50 $ le pichet ; Horses and Divorces, 6 $ la très grande bière.",
+   "c": "Ouverts selon Google Maps. « Kanka » n'est pas identifié (transcription probablement déformée)."
+  },
+  "30": {
+   "t": "La ligne aérienne disparue de Brooklyn",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7651742928431353110",
+   "m": "15 juin 2026 · 55 s · 49 200 vues",
+   "s": "Près de l'église Holy Trinity, des voies abandonnées passent au-dessus d'une station. Cette ligne allait de Ridgewood à Downtown Brooklyn, puis traversait le pont de Brooklyn jusqu'à City Hall. Elle a été détruite à la fin des années 1960, à cause des coupes budgétaires et du « redlining » (ségrégation) d'une grande partie du nord de Brooklyn. On a gardé la partie de la ligne M vers Ridgewood et on l'a raccordée à la ligne J par un viaduc, d'où la courbe de la M. Brooklyn était couvert de trams et de lignes aériennes ; leur disparition rend les déplacements pénibles. Il demande s'il faudrait les reconstruire, peut-être en souterrain.",
+   "c": "Il s'agit de l'ancienne ligne aérienne de Myrtle Avenue, que Ian ne nomme pas. Le récit historique n'est pas vérifié ici."
+  },
+  "31": {
+   "t": "Où manger le moins cher",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7651753416485637398",
+   "m": "15 juin 2026 · 16 s · 2 799 vues",
+   "s": "- Sandwich saucisse-œuf-fromage dans un petit pain pour 3 $, dans un lieu dont le nom est déformé par la transcription (« braised papaya »).\n- Fried Dumpling : 26 raviolis pour 10 $.\n- Rudy's : bière et hot-dog pour 4 $.\n- Poulet jerk avec riz pour 5,63 $, dans un lieu dont le nom est lui aussi déformé (« King Barca »).",
+   "c": "Les deux noms déformés n'ont pas pu être retrouvés. Il faudrait regarder la vidéo pour lire les enseignes."
+  },
+  "32": {
+   "t": "L'erreur à éviter pour la photo de DUMBO",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7652060573554838806",
+   "m": "16 juin 2026 · 24 s · 176 400 vues",
+   "s": "Le point de vue célèbre est bondé. Il suffit de remonter la rue, en haut de la côte, pour trouver de la place. Il faut aussi le bon angle : zoom ×3, pour cadrer l'Empire State Building sous le Manhattan Bridge.",
+   "c": "Point de vue actif sur Google Maps (« DUMBO Manhattan Bridge View »)."
+  },
+  "33": {
+   "t": "La vraie meilleure vue de DUMBO",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7652064274939956483",
+   "m": "16 juin 2026 · 17 s · 37 900 vues",
+   "s": "Ce n'est pas la meilleure vue de DUMBO ; la meilleure est ici, avec à la fois le Manhattan Bridge et le Brooklyn Bridge, et beaucoup plus calme.",
+   "c": "Identification déduite."
+  },
+  "34": {
+   "t": "Combien d'éléphants le pont de Brooklyn peut-il porter ?",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7652209250827062550",
+   "m": "17 juin 2026 · 91 s · 12 100 vues",
+   "s": "« Combien d'éléphants le pont peut-il porter ? » Quelques milliers. « Combien en a-t-il porté ? » 21. Le pont, de loin le plus grand jamais construit, faisait peur. Une semaine après l'ouverture, une bousculade due à la peur d'un effondrement a fait de nombreux morts. Le directeur de cirque P.T. Barnum, en quête de publicité, a fait traverser 21 éléphants et 17 chameaux pour prouver sa solidité, « le clickbait ultime des années 1880 ». Le péage était de 5 cents pour une vache, 2 cents pour un cochon ou un mouton, 1 cent pour un piéton, car Manhattan avait les bouchers et Brooklyn les fermes. Un tram puis un train ont traversé le pont, avec une gare à son extrémité, aujourd'hui disparue.",
+   "c": "Non vérifié séparément."
+  },
+  "35": {
+   "t": "Les glands cachés de Grand Central",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7652535174269357334",
+   "m": "18 juin 2026 · 33 s · 20 400 vues",
+   "s": "Grand Central est couvert de symboles. Ses préférés sont de minuscules glands, symbole de la famille Vanderbilt. Les Vanderbilt contrôlaient presque tout le réseau ferré américain ; en part du PIB, personne n'a jamais été plus riche que Cornelius Vanderbilt. Sa devise : « d'un petit gland naît un grand chêne ».",
+   "c": "Non vérifié séparément."
+  },
+  "40": {
+   "t": "L'erreur : se contenter de pizza et de bagels",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7653211356950318358",
+   "m": "19 juin 2026 · 16 s · 177 300 vues",
+   "s": "Il faut aussi manger des raviolis. Cette boutique en vend 26 pour 10 $ ; ses cinq adresses sont copieuses, délicieuses et pas chères.",
+   "c": "Ouvert (Google Maps)."
+  },
+  "41": {
+   "t": "« Houston » se prononce « Haouston »",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7653237245528362262",
+   "m": "19 juin 2026 · 41 s · 674 600 vues",
+   "s": "La pire erreur : prononcer Houston Street comme la ville du Texas. À New York on dit « Haouston », sinon « un New-Yorkais sort d'un buisson et vous frappe ». Au sud de Houston, c'est SoHo (South of Houston), avec ses pavés et ses immeubles en fonte. Au nord commencent les rues numérotées : c'est une ligne de partage de la géographie new-yorkaise. Le nom vient d'un propriétaire écossais, d'où la prononciation à l'anglaise.",
+   "c": "Non vérifié séparément."
+  },
+  "42": {
+   "t": "Ne mangez pas et ne buvez pas à Times Square",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7653240020161088790",
+   "m": "19 juin 2026 · 28 s · 69 000 vues",
+   "s": "Manger et boire autour de Times Square est une perte de temps et d'argent. Pour manger : Chinatown, l'une des communautés les plus soudées de Manhattan. Pour boire : Bushwick, la plus forte concentration de bars pas chers pleins de jeunes toute la nuit. Pour voir la ville : le Staten Island Ferry, gratuit, puis les jardins de Staten Island.",
+   "c": "Le Staten Island Ferry est gratuit et ses terminaux sont actifs (Google Maps)."
+  },
+  "46": {
+   "t": "Plymouth Church, « Grand Central du chemin de fer clandestin »",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7654223031207824663",
+   "m": "22 juin 2026 · 48 s · 4 240 vues",
+   "s": "En février 1860, à Brooklyn, une congrégation organise une fausse vente aux enchères d'esclave pour racheter la liberté d'une fillette, Pinky. Le pasteur Henry Ward Beecher, figure de l'abolitionnisme, mène la vente. Quelqu'un jette une bague dans la quête ; Beecher la passe au doigt de la fillette, qui la garde toute sa vie et la rapporte à l'église dans les années 1920. La sœur du pasteur, Harriet Beecher Stowe, a écrit La Case de l'oncle Tom. Abraham Lincoln a visité l'église juste avant la guerre de Sécession.",
+   "c": "Le lieu existe (Google Maps). Le récit n'est pas vérifié séparément."
+  },
+  "47": {
+   "t": "Pourquoi des rues Ananas, Orange et Canneberge ?",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7654249902087621910",
+   "m": "22 juin 2026 · 48 s · 3 724 vues",
+   "s": "L'un des grands mystères de New York. Première théorie : Lady Middagh trouvait aristocratique et anti-américain de nommer les rues d'après les familles riches. Elle aurait arraché les plaques la nuit pour les remplacer par des noms de fruits, sans toucher à Middagh Street. Deuxième théorie : les frères Hicks, marchands de fruits du quartier. Personne ne sait vraiment. Brooklyn Heights fut la première banlieue pendulaire d'Amérique.",
+   "c": "Théories présentées comme telles par Ian."
+  },
+  "48": {
+   "t": "Carrousel photo : les erreurs à éviter (partie 1)",
+   "u": "https://www.tiktok.com/@ian_in_nyc/photo/7654276441751817494",
+   "m": "22 juin 2026 · 6 images",
+   "s": "",
+   "c": ""
+  },
+  "49": {
+   "t": "L'erreur de payer pour voir la statue de la Liberté",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7654299550831742230",
+   "m": "22 juin 2026 · 28 s · 172 100 vues",
+   "s": "Prendre le Staten Island Ferry : transport public, donc gratuit. Il va de Manhattan à Staten Island et passe juste à côté de la statue. Il y a un bar à bord pour une bière ou un verre de vin.",
+   "c": "Terminal actif (Google Maps). Gratuité conforme à l'usage."
+  },
+  "52": {
+   "t": "Comment aller au spot photo de DUMBO depuis le pont",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7654703458985086231",
+   "m": "23 juin 2026 · 25 s · 149 900 vues · réponse à un commentaire",
+   "s": "Traverser le pont de Brooklyn vers Brooklyn ; à la bifurcation, prendre à gauche ; descendre les escaliers ; tourner encore à gauche en sortant, puis descendre la côte tout droit. Cadrer l'Empire State Building sous le Manhattan Bridge.",
+   "c": ""
+  },
+  "54": {
+   "t": "Les fresques de la station Fulton Street",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7654821416713538819",
+   "m": "24 juin 2026 · 41 s · 4 239 vues",
+   "s": "Cinq fresques de bateaux à vapeur ornent la station Fulton Street, nommée d'après Robert Fulton. Sa rue à Manhattan était reliée par bateau à vapeur à la Fulton Street de Brooklyn. Fulton est enterré à Trinity Church, comme Alexander Hamilton. Il n'a pas inventé le bateau à vapeur, il l'a rendu rentable ; il a en revanche inventé le premier sous-marin fonctionnel.",
+   "c": "Lieux actifs (Google Maps). Affirmations historiques non vérifiées."
+  },
+  "55": {
+   "t": "L'erreur de rester à Manhattan",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7655061253957717270",
+   "m": "24 juin 2026 · 27 s · 25 200 vues",
+   "s": "À Brooklyn, aller à Greenpoint, « terrain de jeu de la nostalgie » avec des boutiques de donuts vieilles de plusieurs décennies. Dans le Bronx, le zoo, l'un des plus célébres du monde (gorilles, manchots, girafes). Dans le Queens, Flushing, pour certains des meilleurs plats chinois hors de Chine.",
+   "c": "Lieux actifs (Google Maps)."
+  },
+  "56": {
+   "t": "La meilleure saison pour venir",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7655179723445669152",
+   "m": "25 juin 2026 · 39 s · 63 500 vues",
+   "s": "Tout le monde vient l'été ou à Noël, la pire météo : trop chaud, trop froid. Venez à l'automne pour les feuilles (toute la région se colore, on voit des dindes traverser la route) ou au printemps pour les cerisiers en fleur, à Central Park et au Brooklyn Botanic Garden.",
+   "c": ""
+  },
+  "57": {
+   "t": "Quel aéroport choisir",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7655180423630310689",
+   "m": "25 juin 2026 · 20 s · 97 000 vues",
+   "s": "Évitez Newark et JFK, « ces aéroports sont nuls ». Si possible, volez vers LaGuardia : parfois 30 minutes en taxi, et c'est l'aéroport le plus récemment rénové, apprécié de tous.",
+   "c": "Opinion."
+  },
+  "58": {
+   "t": "Les deux seuls rooftops où vont les New-Yorkais",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7655527441926016278",
+   "m": "26 juin 2026 · 22 s · 112 600 vues",
+   "s": "Ne choisissez pas un rooftop au hasard. Il n'y en a que deux où vont vraiment les New-Yorkais : Le Bain (la transcription dit « Lebanon »), avec la vue sur Midtown, et Mr. Purple, très populaire chez les étudiants. Ailleurs, il n'a vu que des touristes.",
+   "c": "Ouverts (Google Maps)."
+  },
+  "59": {
+   "t": "POV : le meilleur sandwich traditionnel (2nd Ave Deli)",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7655559967948164374",
+   "m": "26 juin 2026 · 10 s · 5 967 vues",
+   "s": "",
+   "c": "Ouvert (Google Maps)."
+  },
+  "60": {
+   "t": "Carrousel photo : adresses à enregistrer",
+   "u": "https://www.tiktok.com/@ian_in_nyc/photo/7655568910300810518",
+   "m": "26 juin 2026 · 5 images",
+   "s": "",
+   "c": "Santa Panza ouvert (Google Maps). « Tulcimexico » n'existe pas tel quel sur Google ; le résultat le plus proche est Tulcingo del Valle (665 10th Ave), à confirmer."
+  },
+  "63": {
+   "t": "McSorley's et Peter Luger plutôt que Times Square",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7656133108290342166",
+   "m": "27 juin 2026 · 34 s · 150 900 vues",
+   "s": "Pour boire : McSorley's ; pour manger : Peter Luger Steak House. Deux des plus vieilles institutions de la ville, ouvertes au milieu et à la fin du XIXe siècle. McSorley's ne sert que deux bières ; chez Peter Luger, « il suffit d'un steak ». Plus de 100 ans d'existence valent mieux que n'importe quel avis.",
+   "c": "Ouverts (Google Maps)."
+  },
+  "64": {
+   "t": "Ce qu'on mange lors d'une visite gourmande",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7656691308030987522",
+   "m": "29 juin 2026 · 31 s · 22 500 vues",
+   "s": "Visite gourmande sur mesure avec Ran, qui l'a contacté par message TikTok. Au programme : Ben's Pizza (part classique), Dominique Ansel Bakery (Cronut, croisement de croissant et de donut), un cannolo dans une pâtisserie de Little Italy centenaire, un bubble tea et une salade de bœuf épicée à Chinatown, puis une bière. Ran : « absolument incroyable ».",
+   "c": "Ben's et Dominique Ansel ouverts (Google Maps)."
+  },
+  "65": {
+   "t": "Bien utiliser les Citi Bike",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7656692608542051606",
+   "m": "29 juin 2026 · 34 s · 33 400 vues",
+   "s": "Son erreur en arrivant : payer le tarif à la course, plus cher qu'un Uber. Prenez plutôt un pass journée, environ 25 $ ; si vous restez longtemps, l'abonnement annuel revient moins cher que d'acheter un vélo et se le faire voler. Le meilleur trajet : West Side Highway ; le plus beau pont à vélo : Williamsburg Bridge.",
+   "c": "Le prix du pass journée n'a pas pu être confirmé. Les hausses de 2026 portent sur l'abonnement annuel (239 $ depuis le 28 janvier 2026) et sur les frais à la minute (ABC7). Vérifier sur l'appli Citi Bike."
+  },
+  "66": {
+   "t": "Les billets de Broadway pas chers (TKTS)",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7656699420297202966",
+   "m": "29 juin 2026 · 31 s · 177 900 vues",
+   "s": "Prendre un billet de dernière minute : beaucoup de spectacles ne sont pas complets, et les places du jour se vendent parfois 50 ou 60 $. La seule façon officielle : le guichet TKTS de Times Square, sous les marches rouges, ou le site et l'appli TKTS.",
+   "c": "Guichet actif (Google Maps). Prix variables selon les spectacles."
+  },
+  "68": {
+   "t": "Central Park : allez au Conservatory Water",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7656930575822933270",
+   "m": "29 juin 2026 · 30 s · 71 300 vues",
+   "s": "L'erreur : entrer par le sud, vers la 59e rue, et rester près de l'entrée, toujours bondée. Allez plutôt au Conservatory Water : beau, calme, isolé, entouré de certaines des plus belles architectures de New York. C'est là qu'il pique-nique avec sa compagne.",
+   "c": "Lieu actif (Google Maps)."
+  },
+  "73": {
+   "t": "Jimmy's Corner, le meilleur bar de New York",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7657368960240766230",
+   "m": "1er juillet 2026 · 46 s · 443 000 vues",
+   "s": "Bière à 3 $ à côté de Times Square. Mais ce qui en fait le meilleur bar, c'est une affaire familiale sur plusieurs générations, qui ne change rien pour servir le quartier et les voyageurs. Elle pourrait augmenter ses prix ou rendre les lieux au propriétaire, « qui essaie de l'expulser parce que le terrain vaut très cher ». Beaucoup de ses meilleurs souvenirs new-yorkais sont là.",
+   "c": "Le propriétaire de l'immeuble, la Durst Organization, a engagé une procédure d'expulsion. Un juge l'a suspendue le temps du procès intenté par Adam Glenn, le fils du fondateur (NPR). Le bar est ouvert selon Google Maps."
+  },
+  "74": {
+   "t": "Le meilleur musée est gratuit : la bibliothèque",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7657377799023381782",
+   "m": "1er juillet 2026 · 36 s · 74 200 vues",
+   "s": "Le meilleur musée n'est ni le Met ni le MoMA, mais celui de la New York Public Library, gratuit : la salle des trésors, avec les peluches originales de Winnie l'ourson et le bureau de Charles Dickens. Ni réservation ni file d'attente. Le bâtiment lui-même est un musée.",
+   "c": "Ouvert (Google Maps). Voir aussi la vidéo 105."
+  },
+  "75": {
+   "t": "Le meilleur parc n'est pas Central Park",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7657393616431729942",
+   "m": "1er juillet 2026 · 24 s · 56 100 vues",
+   "s": "Le meilleur parc, c'est le jardin botanique du Bronx, que peu de touristes visitent. Il y a aussi le Bronx Zoo, l'un des plus célébrés du monde, parfait avec des enfants. La légende ajoute que le Bronx montre un New York dont les commerces ont disparu de Manhattan, chassés par les prix.",
+   "c": "Ouverts (Google Maps)."
+  },
+  "76": {
+   "t": "Le Lincoln Center, plus beau bâtiment de New York ?",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7657760432949579030",
+   "m": "2 juillet 2026 · 37 s · 53 100 vues",
+   "s": "On se contente souvent de Broadway en oubliant le Lincoln Center, son bâtiment préféré. L'architecte Wallace Harrison a aussi participé au Rockefeller Center et au siège des Nations unies. Il est surtout célèbre pour le ballet, avec une offre « 30 under 30 » : 30 $ pour les moins de 30 ans. La légende : la fontaine de nuit, et un joli cinéma AMC à côté.",
+   "c": "Théâtre ouvert (Google Maps). L'offre « 30 under 30 » n'a pas été vérifiée pour 2026."
+  },
+  "77": {
+   "t": "Les marchés aux puces plutôt que Zara",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7657762416633187606",
+   "m": "2 juillet 2026 · 36 s · 53 500 vues",
+   "s": "Plutôt que Brandy Melville ou Zara, allez aux puces : Chelsea Flea Market, Grand Bazaar dans l'Upper West Side, Dumbo Flea Market. Ils ont lieu surtout le week-end. On y trouve des vêtements uniques, de qualité, qu'on ne fabrique plus.",
+   "c": "Ouverts (Google Maps). Le Brooklyn Flea a signé en mars 2025 une concession pour la place sous l'arche du Manhattan Bridge, les samedis et dimanches, jusqu'en 2027 (Commercial Observer)."
+  },
+  "78": {
+   "t": "De l'aéroport, prenez le Long Island Rail Road",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7657925958401330454",
+   "m": "2 juillet 2026 · 21 s · 696 100 vues",
+   "s": "En sortant de l'aéroport (JFK), prenez le Long Island Rail Road : 20 minutes, contre 50 pour le métro, et plus d'une heure en voiture.",
+   "c": "Voir les nuances de la vidéo 157."
+  },
+  "79": {
+   "t": "Carrousel photo : les erreurs de touristes",
+   "u": "https://www.tiktok.com/@ian_in_nyc/photo/7657991054938983702",
+   "m": "2 juillet 2026 · 5 images",
+   "s": "",
+   "c": ""
+  },
+  "80": {
+   "t": "Où aller quand il fait très chaud",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7658009242598722838",
+   "m": "2 juillet 2026 · 30 s · 25 000 vues",
+   "s": "Le Conservatory Water à Central Park, au bord de l'eau, plus frais et paisible. The Cloisters, musée d'art médiéval européen climatisé, dans un cadre frais, que tout le monde oublie. Le ferry vers Rockaway Beach : une vraie plage, et le trajet rafraîchit.",
+   "c": "Ouverts (Google Maps)."
+  },
+  "83": {
+   "t": "Carrousel photo : les erreurs de touristes (partie 3)",
+   "u": "https://www.tiktok.com/@ian_in_nyc/photo/7659625549697961238",
+   "m": "7 juillet 2026 · 5 images",
+   "s": "",
+   "c": ""
+  },
+  "86": {
+   "t": "La fresque cachée du Rockefeller Center",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7660302114341555478",
+   "m": "8 juillet 2026 · 67 s · 44 200 vues",
+   "s": "Au Rockefeller Center, repérer une petite gravure de Mercure, passer les portes, traverser la rue, tourner à gauche et marcher vers le Café Le Rock : on trouve une fresque « lettre d'amour au monde ». Les aigles représentent les républiques et le lion les monarchies. Une usine figure le monde industriel, un château normand l'ancien monde. Un temple aztèque pour l'hémisphère ouest, une mosquée pour l'est, des palmiers pour le sud, un océan et une queue de baleine pour le nord. Au-dessus, Mercure, dieu des marchands ; en dessous, des commerçants du monde entier. Le Rockefeller Center était conçu comme une ville dans la ville, centre du commerce international. La légende : c'était la fin de son tout premier parcours de visite.",
+   "c": "Œuvre non identifiée."
+  },
+  "87": {
+   "t": "Billets de Broadway au guichet TKTS",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7660305992290176278",
+   "m": "8 juillet 2026 · 27 s · 142 900 vues",
+   "s": "Au guichet TKTS de Times Square, The Great Gatsby est à 60 $ selon la place, contre parfois plus de 100 $ en ligne. Inconvénient : on n'achète pas à l'avance, sans garantie de places. Guichet à côté de la 47e rue et de la 7e Avenue. La légende : tout dépend du spectacle et du jour ; comparez avec une place au poulailler en ligne.",
+   "c": ""
+  },
+  "88": {
+   "t": "Le Queens Night Market plutôt que Times Square",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7660622440795475222",
+   "m": "9 juillet 2026 · 29 s · 434 400 vues",
+   "s": "Manger à Times Square est trop cher et sans authenticité ; allez au marché de nuit du Queens. Des milliers de visiteurs, des prix très abordables, de la nourriture de plus de 90 pays. Il n'ouvre que l'été.",
+   "c": "Saison d'automne 2026 : chaque samedi de 16 h à minuit, du 19 septembre au 31 octobre ; dernière édition spéciale Halloween (QNS). Le marché n'ouvre donc pas que l'été."
+  },
+  "89": {
+   "t": "L'arnaque des billets pour la statue de la Liberté",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7660717092576021782",
+   "m": "10 juillet 2026 · 68 s · 379 400 vues",
+   "s": "Près des bateaux, des vendeurs insistants vous pressent d'acheter un billet : ne les écoutez pas. Le seul guichet officiel est à Castle Clinton. La statue est un parc national, propriété du gouvernement fédéral, qui n'a mandaté qu'une seule compagnie, Statue City Cruises. Sans son logo, n'achetez pas. Soyez fermes : certains vous feront culpabiliser. Pas de panique pour autant, vous serez en sécurité.",
+   "c": "Castle Clinton actif (Google Maps)."
+  },
+  "90": {
+   "t": "Carrousel photo : les erreurs de touristes (partie 4)",
+   "u": "https://www.tiktok.com/@ian_in_nyc/photo/7660728703776722198",
+   "m": "10 juillet 2026 · 5 images",
+   "s": "",
+   "c": ""
+  },
+  "91": {
+   "t": "O'Hara's, le pub des sauveteurs du 11-Septembre",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7661008464587525398",
+   "m": "10 juillet 2026 · 66 s · 610 600 vues",
+   "s": "Depuis les bassins du mémorial du 11-Septembre, marcher vers le sud jusqu'à Cedar Street : O'Hara's Pub. Des milliers d'écussons de secouristes du monde entier tapissent les murs. 343 pompiers sont morts ce jour-là en montant dans les tours. Au premier anniversaire, les hommes de l'Engine and Ladder Company 10, juste en face du World Trade Center, sont venus boire un verre ; l'un a laissé son écusson au mur, et c'est devenu une tradition. Ceux qui oublient l'envoient par la poste. La bière y est encore à 5 $.",
+   "c": "Ouvert (Google Maps). Prix non vérifié."
+  },
+  "92": {
+   "t": "Erreurs de touristes (vidéo)",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7661028303968701719",
+   "m": "10 juillet 2026 · 20 s · 172 200 vues",
+   "s": "N'allez pas chez Katz's au déjeuner ou au dîner : allez-y après 22 h ou entre 15 h et 17 h. N'entrez pas dans Central Park par la 59e rue : allez au Conservatory Water. Ne payez pas 100 $ un bus touristique : prenez le ferry public à 4,50 $. La légende mentionne aussi la 2nd Avenue Deli pour le pastrami.",
+   "c": "Ferry à 5 $ depuis le 19 octobre 2026."
+  },
+  "94": {
+   "t": "Les brochettes d'agneau à 2 $ de Long Island City",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7661489017975770390",
+   "m": "12 juillet 2026 · 30 s · 38 700 vues",
+   "s": "Plutôt qu'un hot-dog à Times Square, allez à Long Island City, « le quartier le plus récent de New York », pour des brochettes d'agneau à 2 $ : 15 brochettes pour le prix d'un sandwich chez Katz's. Lui qui a beaucoup voyagé en Chine en est fan. Trois camions en vendent le long de Queens Plaza ; la légende corrige en « Queensboro Plaza ». Presque tous les trains de Times Square y mènent.",
+   "c": "Camions non identifiés sur Google Maps ; localisation approximative."
+  },
+  "96": {
+   "t": "Comment trouver le Brooklyn Flea à DUMBO",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7661741587700993302",
+   "m": "12 juillet 2026 · 27 s · 2,7 millions de vues",
+   "s": "À DUMBO, prendre à droite sur Water Street vers le Manhattan Bridge et passer dessous : c'est le Brooklyn Flea. Ouvert le week-end, avec du vintage, des vêtements, des bijoux, de l'art et des accessoires : le meilleur endroit pour faire du shopping, plutôt que les chaînes de SoHo. La légende prévient que DUMBO est assez touristique : quelques photos, sans y passer trop de temps.",
+   "c": "Ouvert les samedis et dimanches ; concession jusqu'en 2027 (Commercial Observer)."
+  },
+  "98": {
+   "t": "Comment aller à Pebble Beach",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7661854289932881174",
+   "m": "13 juillet 2026 · 24 s · 1,1 million de vues",
+   "s": "À DUMBO, marcher tout droit vers le Manhattan Bridge, entrer dans le petit parc et continuer : on arrive à « la vue la plus iconique de New York », plus calme. C'est Pebble Beach, nommée pour ses galets. Ensuite, les ferries s'arrêtent sous le pont de Brooklyn, pour 4,50 $. La légende : presque vide en hiver.",
+   "c": "Lieux actifs (Google Maps). Ferry à 5 $ depuis le 19 octobre 2026."
+  },
+  "99": {
+   "t": "La meilleure pâtisserie de Little Italy",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7662222597937024278",
+   "m": "14 juillet 2026 · 65 s · 276 700 vues",
+   "s": "Au coin de Mulberry Street et de Grand Street, descendre Mulberry jusqu'à un très vieil immeuble : une pâtisserie qui fait des gâteaux depuis 1931. Il faut prendre le cannolo au beurre de cacahuète, « l'une des meilleures douceurs de ma vie » ; le cheesecake est léger et sucré. Trois familles se sont succédé et tout est encore fait au sous-sol. Little Italy est surtout faite de boutiques de souvenirs, mais il reste des pépites. Il fête ses 20 000 abonnés, un mois après le lancement. La légende cite un couplet de rap sur Little Italy, sans doute celle du Bronx.",
+   "c": "L'année 1931 n'a pas pu être rattachée avec certitude à La Bella Ferrara. L'identification reste à confirmer sur les images de la vidéo."
+  },
+  "100": {
+   "t": "Stone Street, le passage secret du Financial District",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7662245481635908886",
+   "m": "14 juillet 2026 · 63 s · 836 000 vues",
+   "s": "Depuis le Charging Bull, descendre la rue, tourner à gauche dans Stone Street et contourner l'immeuble : un « passage secret », l'une des seules rues piétonnes à terrasses de la ville. Il reprend l'histoire des brasseries et de la boue, et de l'investisseur des années 1990. On y reste des heures l'été et on se fait des amis à la table voisine. Accès : lignes 4 ou 5 jusqu'à Bowling Green, le plus vieux parc de New York.",
+   "c": "Lieux actifs (Google Maps)."
+  },
+  "101": {
+   "t": "New York contre Londres : l'avis de ses amis anglais",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7662953944468950294",
+   "m": "16 juillet 2026 · 61 s · 37 600 vues",
+   "s": "",
+   "c": ""
+  },
+  "103": {
+   "t": "Comment prendre le NYC Ferry",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7663182342575410454",
+   "m": "16 juillet 2026 · 62 s · 962 400 vues",
+   "s": "Depuis le pied du pont de Brooklyn, aller jusqu'à l'eau et acheter un billet à 4,50 $ aux machines. On voit tous les ponts et la skyline, notamment les Nations unies, le Chrysler Building et l'Empire State. Ce sont des transports publics qui vont partout ; il y emmène tous ses amis. Il y a un bar à bord, des gens y pique-niquent, et c'est climatisé en cas de chaleur ou de pluie. On voit aussi une centrale qui produit environ 50 % de la vapeur de New York. Lignes vers Midtown, Greenpoint, Williamsburg, et de Wall Street jusqu'au Bronx. La légende : filmé pendant la fumée des incendies canadiens.",
+   "c": "Billet à 5 $ depuis le 19 octobre 2026 ; le pass deux jours reste à 15 $ (6sqft). Le chiffre sur la vapeur n'a pas été vérifié."
+  },
+  "104": {
+   "t": "L'escalator en bois de Macy's (version longue)",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7665543139716893974",
+   "m": "23 juillet 2026 · 44 s · 4,1 millions de vues",
+   "s": "Depuis le pied de l'Empire State, entrer chez Macy's, aller tout droit, puis repérer le panneau : l'un des derniers escalators en bois au monde. L'escalator a été inventé à Coney Island comme attraction. Lors de la première installation en grand magasin, on offrait un verre de cognac aux hommes et des sels à respirer aux femmes. Après un terrible incendie à Londres, le monde est passé au métal, mais quelques-uns subsistent, bien entretenus.",
+   "c": "Ouvert (Google Maps). Cette version dit « cognac », la vidéo 5 disait « scotch »."
+  },
+  "105": {
+   "t": "Winnie l'ourson et le bureau de Dickens à la bibliothèque",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7667444766165961986",
+   "m": "28 juillet 2026 · 80 s · 1,1 million de vues",
+   "s": "De Grand Central, sortir par les portes principales, tourner sur la 41e rue et entrer dans la New York Public Library. Au centre se trouvent les vraies peluches de Winnie l'ourson, avec lesquelles jouait Christopher Robin et qui ont inspiré son père. Dans les années 1990, une députée britannique a demandé leur restitution ; le maire a répondu en conférence de presse que l'ours resterait. Il y a aussi un tableau de Robin des Bois, le bureau de Charles Dickens et un coupe-papier dédié à son chat Bob, orné de la patte du chat. Entrée gratuite, sans réservation, pour tous ; certaines salles sont réservées au travail silencieux. Les résidents peuvent emprunter des livres audio sur l'appli. Il filme depuis le toit de l'annexe d'en face.",
+   "c": "Ouverts (Google Maps)."
+  },
+  "106": {
+   "t": "Un porte-avions à 15 minutes de Times Square",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7667749353548746006",
+   "m": "29 juillet 2026 · 60 s · 2 millions de vues",
+   "s": "De Times Square, prendre la 46e rue vers l'ouest sur 15 minutes : au bout, l'Intrepid, porte-avions de la Seconde Guerre mondiale devenu le meilleur musée de l'aviation de New York. Vue sur la skyline, un F-14 Tomcat (celui du premier Top Gun), la passerelle du capitaine, une navette spatiale de la NASA et un Concorde. Il remercie Joe, pilote de la Navy retraité qui volait sur F-14, pour sa visite privée.",
+   "c": "Ouvert (Google Maps)."
+  },
+  "107": {
+   "t": "The Campbell, le bar secret de Grand Central",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7668513612322917654",
+   "m": "31 juillet 2026 · 66 s · 1,2 million de vues",
+   "s": "À Grand Central, passer les portes, descendre la rampe, tourner à droite, puis prendre l'ascenseur jusqu'au niveau balcon : The Campbell. Il porte le nom de John Campbell, financier d'il y a 100 ans, qui en avait fait son club privé pour des fêtes de 40 ou 50 personnes ; on croyait qu'il vivait dans la gare. Ensuite, le lieu a servi de bureau au chemin de fer, puis de poste de police de la MTA : le bar est à l'emplacement d'une cellule. Bar à cocktails depuis une dizaine d'années, il apparaît dans le pilote de Gossip Girl. Après quelques verres, descendre la rampe jusqu'à la Whispering Gallery : un chuchotement dans un angle s'entend dans l'angle opposé.",
+   "c": "Ouverts (Google Maps)."
+  },
+  "108": {
+   "t": "Le plus beau coucher de soleil : Brooklyn Heights Promenade",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7668893775669792002",
+   "m": "1er août 2026 · 63 s · 383 100 vues",
+   "s": "À DUMBO au coucher du soleil, prendre à gauche sous le pont de Brooklyn, monter la côte puis descendre la rampe : la Brooklyn Heights Promenade. Bien plus calme que DUMBO, presque vide un vendredi soir, avec la statue de la Liberté au loin et tout Downtown Manhattan. La promenade est à peu près aussi longue que le World Trade Center est haut. Brooklyn Heights fut l'une des premières banlieues pendulaires d'Amérique : on y vivait pour travailler à Wall Street avant même le pont.",
+   "c": "Ouverte (Google Maps)."
+  },
+  "109": {
+   "t": "Punjabi Deli, l'adresse végétarienne des chauffeurs de taxi",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7670351769523817750",
+   "m": "5 août 2026 · 60 s · 138 400 vues",
+   "s": "En face de Katz's, contourner les buissons, repérer l'auvent vert et descendre l'escalier : Punjabi Deli, deli sikh ouverte depuis 30 ans. Les murs sont couverts de photos de fans, et elle compte plus de 20 000 abonnés Instagram. Les vrais fidèles sont les chauffeurs de taxi, toujours garés devant. Un chantier interminable les a empêchés de stationner et a failli couler l'affaire ; une cagnotte de plus de 50 000 $ l'a sauvée. Repas pour moins de 10 $.",
+   "c": "Ouvert (Google Maps). Cagnotte non vérifiée."
+  },
+  "110": {
+   "t": "McSorley's, le plus vieux saloon de New York",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7670714578157702422",
+   "m": "6 août 2026 · 66 s · 224 700 vues",
+   "s": "McSorley's Old Ale House, « le plus vieux saloon en activité continue de New York », ouvert depuis 1854. Deux bières seulement, ale blonde et ale brune, toujours servies par deux chopes pour 8 $. C'est à 15 minutes de Times Square. Policiers et pompiers l'adorent : leurs écussons couvrent les murs. Les femmes n'y ont été admises qu'en 1970, contraintes par la ville, alors que le bar a appartenu à une femme. Abraham Lincoln et John Lennon y sont venus. Le sol est couvert de sciure, pour absorber bière et crachats de tabac à chiquer.",
+   "c": "Ouvert (Google Maps). Prix et anecdotes non vérifiés ; le titre de « plus vieux bar » est revendiqué par d'autres établissements new-yorkais."
+  },
+  "111": {
+   "t": "Ichiran, les nouilles en cabine à Times Square",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7671399657926298902",
+   "m": "7 août 2026 · 46 s · 1,7 million de vues",
+   "s": "De Times Square, passer la pub Coca-Cola et le magasin M&M's sur la 49e rue, tourner à droite, repérer l'enseigne rouge et passer le rideau : Ichiran, bar à ramen japonais. On mange dans des « cabines de concentration », concept des années 1960, pour se concentrer sur l'arôme et le goût. Leur sauce piquante est réputée. Les cloisons s'ouvrent pour manger entre amis. C'est l'une des rares adresses qu'il recommande à Times Square.",
+   "c": "Ouvert (Google Maps)."
+  },
+  "112": {
+   "t": "Herald Square et James Gordon Bennett, l'homme aux hiboux",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7672585811204017431",
+   "m": "11 août 2026 · 62 s · 103 100 vues",
+   "s": "Depuis l'Empire State, passer entre deux hiboux jusqu'au monument James Gordon Bennett Jr. ; à chaque heure, les cloches sonnent. Bennett est surtout connu pour s'être enivré au réveillon chez les parents de sa fiancée et avoir uriné dans leur cheminée : mariage annulé. Il dirigeait le New York Herald, hérité de son père, dont les bureaux étaient ici. Herald Square est plus calme que Times Square, à cinq minutes, et les New-Yorkais y déjeunent. On y trouve des journaux gratuits, « dont un qui n'appartient même pas à Rupert Murdoch ». La place est couverte de hiboux, l'obsession de Bennett.",
+   "c": "Monument actif (Google Maps)."
+  },
+  "113": {
+   "t": "Conwell, le bar à cocktails dans une ancienne banque",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7672975004979629335",
+   "m": "12 août 2026 · 61 s · 143 600 vues",
+   "s": "Sur Wall Street, passer le Trump Building, tourner à droite dans une ruelle, suivre les lumières : le Conwell Coffee Hall. Le bâtiment, construit dans les années 1930 lors de la fusion de deux banques (aujourd'hui Citigroup), fut l'un des plus hauts de New York, puis converti en appartements au début des années 2000. Le hall bancaire est resté. Une troupe de théâtre immersif y a joué un spectacle sur un banquier fictif, J.G. Conwell, et a gardé le lieu comme café-bar. Le coffre-fort d'origine est au fond, et le bar occupe les anciens guichets. Dehors, de grandes sculptures d'origine gardent l'entrée. En face, de petits castors sculptés rappellent Beaver Street, du nom du commerce de la fourrure, première industrie de New York.",
+   "c": "Ouvert (Google Maps)."
+  },
+  "114": {
+   "t": "La tournée des bars à 3 $",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7673501569987513622",
+   "m": "13 août 2026 · 38 s · 481 800 vues",
+   "s": "1. Carmelo's : Budweiser à 3 $, billard à l'étage, photomaton pour finir.\n2. Fine Time : bière à 3 $ avec hot-dog offert, pop-corn gratuit, terrasse arrière pour le coucher du soleil.\n3. Wonderville : bière à 5 $, jeux gratuits dans l'arrière-salle.",
+   "c": "Ouverts (Google Maps). Prix non vérifiés."
+  },
+  "115": {
+   "t": "Un bar à saké caché sous un pressing",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7674102754901626134",
+   "m": "15 août 2026 · 37 s · 2 millions de vues",
+   "s": "Dans une rue à 10 minutes à pied de Grand Central, descendre l'escalier d'un pressing : un speakeasy japonais. Tous les cocktails sont au saké ou au shochu, la musique est sur vinyle, souvent lo-fi. Le propriétaire est un coiffeur japonais excentrique dont le salon est à côté. Éclairé à la bougie et romantique, idéal pour un rendez-vous ; son moment préféré fut une dégustation de saké.",
+   "c": "Identification à confirmer ; le lien entre « Hard to Explain » et un salon de coiffure n'est pas vérifié."
+  },
+  "117": {
+   "t": "Rudy's Bar & Grill, hot-dog offert",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7674808847596342550",
+   "m": "17 août 2026 · 47 s · 1,2 million de vues",
+   "s": "De Times Square, passer le Raising Cane's, prendre la 9e Avenue à droite et entrer au niveau du cochon : Rudy's Bar & Grill, l'un des bars les plus vieux et les moins chers. Bière à 4 $, pichet à 6 $, hot-dog offert avec chaque boisson. C'est l'un des premiers bars à avoir obtenu une licence après la Prohibition. Rien n'a changé, même la caisse enregistreuse est antique. On y croise étudiants, financiers et habitués du quartier. La terrasse arrière projette du sport. La légende : c'est le premier bar où il est allé, sa première nuit à New York.",
+   "c": "Ouvert (Google Maps). Prix non vérifiés."
+  },
+  "118": {
+   "t": "Mei Lai Wah et ses brioches au porc",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7675173091349122326",
+   "m": "18 août 2026 · 38 s · 130 800 vues",
+   "s": "À Chinatown, repérer un Pégase en nouilles séchées et aller au bout de la rue : Mei Lai Wah, l'une des plus anciennes boulangeries de Chinatown, célèbre pour ses brioches au porc à 2,75 $, recette familiale venue de Chine. Idéal au petit-déjeuner ; éviter le week-end, la file est très longue.",
+   "c": "Google Maps indique le 41 Mott St ; ouvert. Prix non vérifié."
+  },
+  "119": {
+   "t": "Mao Mao, le restaurant thaï façon cinéma",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7675578975908875542",
+   "m": "19 août 2026 · 62 s · 77 500 vues",
+   "s": "Une adresse de rendez-vous originale : un restaurant thaï tamisé, décoré comme un cinéma, avec de vrais fauteuils et de vieux films thaïs projetés au-dessus. Le décor reproduit aussi une rue thaïlandaise. Le propriétaire, arrivé de Thaïlande il y a 20 ans, veut qu'on se croie dans les années 1970. Il recommande le khao soi et le larb ; les cocktails sont à base de saké. Tables serrées, serveurs adorables, Street Fighter à l'étage. Calme le mardi, très fréquenté le week-end.",
+   "c": "Ouvert (Google Maps)."
+  },
+  "121": {
+   "t": "Grand Bazaar, le meilleur marché aux puces",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7675902368587795734",
+   "m": "20 août 2026 · 68 s · 714 800 vues",
+   "s": "Sortir de Central Park par le Muséum d'histoire naturelle, tourner à gauche, puis à droite, et marcher une minute : le plus grand et le meilleur marché aux puces de New York. On y trouve vêtements, nourriture, bijoux, antiquités, art. Des exposants déterrent de vieilles bouteilles en verre, un autre fait des bougies avec des branches ramassées à Central Park. Très international : son portefeuille vient du Maroc, et Elvis fait un jollof rice nigérian. Il y a aussi des pickles maison et de l'huile d'olive. Les recettes financent plus de 2 000 élèves de quatre écoles ; le marché occupe la cour et la cantine d'un collège. Prix justes. La légende : il y était pour une visite privée des marchés aux puces.",
+   "c": "Ouvert (Google Maps)."
+  },
+  "122": {
+   "t": "Elevated Acre, la terrasse gratuite cachée",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7676270081445334294",
+   "m": "21 août 2026 · 60 s · 190 800 vues",
+   "s": "Depuis le Charging Bull, descendre la rue, tourner à gauche, aller vers l'immeuble et monter l'escalier : l'Elevated Acre, l'une des meilleures plateformes gratuites, avec vue sur le pont de Brooklyn et Downtown Brooklyn. C'est un espace public géré par le privé (POPS) : la ville autorise les immeubles à monter plus haut s'ils ouvrent un espace au public. Une carte permet de trouver tous les POPS de la ville, pour se reposer ou se mettre au frais ou au chaud. Idéal pour pique-niquer. Celui-ci est relié aux bureaux de S&P Global, qui calcule le S&P 500.",
+   "c": "Ouvert (Google Maps)."
+  },
+  "124": {
+   "t": "Les meilleurs spots photo sur le pont de Brooklyn",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7678097334554676502",
+   "m": "25 août 2026 · 65 s · 771 700 vues",
+   "s": "Depuis Manhattan, tout le monde s'arrête pour la photo en voyant la première tour, d'où la foule. Trois spots :\n\n1. Un coin vide à la base de la première tour, avec la skyline derrière.\n2. Là où finit le premier ensemble de câbles : belle vue et un banc, un peu fréquenté.\n3. Le milieu du pont, repérable aux plaques de métal : le plus calme, avec Midtown, Downtown et le pont.\n\nEn bonus, pour une photo bien centrée, se placer côté Brooklyn, plus calme.",
+   "c": ""
+  },
+  "125": {
+   "t": "Double Down Saloon, la bière à 2 $",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7678545825521323286",
+   "m": "27 août 2026 · 38 s · 101 500 vues",
+   "s": "Après les bières à 4 $ et à 3 $, voici « peut-être le meilleur happy hour de New York » : la bière à 2 $, en petite canette et non en pinte. Il y a une belle terrasse arrière, et des écrans passent des films « très spéciaux » qu'il ne peut pas montrer pour des raisons de droits.",
+   "c": "Ouvert (Google Maps). Prix non vérifié."
+  },
+  "128": {
+   "t": "En train de New York à Toronto",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7679944506447334678",
+   "m": "30 août 2026 · 79 s · 610 000 vues",
+   "s": "De Times Square, descendre la 7e Avenue jusqu'à l'ancienne poste en face du Madison Square Garden, et prendre le train Maple Leaf jusqu'à Toronto. Le trajet dure environ 12 heures, avec une belle vue sur le Niagara à la frontière ; le billet lui a coûté 178 $, à peu près le prix de l'avion. Les annonces du contrôleur valent le voyage. La douane est simple : on descend du train une demi-heure. Il y a une voiture-restaurant. Au départ, Moynihan Train Hall, une poste convertie en gare, « l'une des rares infrastructures modernes et belles des États-Unis ». Il a vécu et guidé à Toronto.",
+   "c": "Gare active (Google Maps). Tarif non vérifié."
+  },
+  "129": {
+   "t": "La prison abandonnée où Epstein est mort",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7680283883971169558",
+   "m": "31 août 2026 · 70 s · 189 600 vues",
+   "s": "",
+   "c": "Contenu reconstitué, à prendre avec prudence. Google Maps référence toujours le bâtiment à cette adresse."
+  },
+  "130": {
+   "t": "L'histoire de la pizza à un dollar",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7681392389268983062",
+   "m": "3 septembre 2026 · 59 s · 143 800 vues",
+   "s": "L'histoire commence en 2001, quand une pizzeria près d'un foyer pour sans-abri veut les nourrir à bas prix. Elle se popularise avec 2 Bros Pizza dans l'East Village, puis envahit la ville après la crise de 2008. Avec l'inflation, il ne reste plus, à sa connaissance, de vraie part à 1 $ : c'est plutôt 1,50 $. Or 1 $ de 2001 vaudrait environ 1,90 $ aujourd'hui, donc c'est encore une bonne affaire. On en trouve beaucoup à Midtown, près de Times Square.",
+   "c": "Ouvert (Google Maps). Prix et historique non vérifiés."
+  },
+  "131": {
+   "t": "Le New York miniature de Joe Macken",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7684031473653026050",
+   "m": "10 septembre 2026 · 109 s · 127 100 vues",
+   "s": "Sortir de Central Park par la Vanderbilt Gate, tourner à droite et entrer au Museum of the City of New York : une maquette de New York construite par un seul homme en plus de 20 ans. Elle compte plus de 800 000 bâtiments en balsa, carton et polystyrène. Joe Macken, artiste et chauffeur routier, y travaillait chaque soir. Ses bâtiments préférés sont les tours jumelles, qu'il voyait de sa chambre d'enfant dans le Queens : il les a incluses, même en commençant en 2003. Il a commencé par le Rockefeller Center, puis Midtown, Manhattan, et les autres arrondissements en une décennie. Certaines parties, comme son quartier natal de Middle Village, sont faites de mémoire. La maquette occupe un demi-terrain de basket. Sa fille l'a convaincu de la poster sur TikTok il y a un an ; c'est devenu viral, jusqu'au maire qui en fait sa première recommandation. Le musée, sur le Museum Mile, montre aussi l'histoire coloniale néerlandaise et la culture de la ville ; la salle était vide quand il y est allé.",
+   "c": "L'exposition « He Built This City » était annoncée du 12 février au 31 août 2026 (ArtRabbit), alors que la vidéo date du 10 septembre. Il est possible qu'elle ait été prolongée. Vérifier sur le site du musée avant d'y aller."
+  },
+  "132": {
+   "t": "Le « dollar van » vers le Chinatown de Flushing",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7684417340888370454",
+   "m": "11 septembre 2026 · 59 s · 567 100 vues",
+   "s": "Il y a deux Chinatowns à New York ; le second, à Flushing (Queens), est plus grand et « plus merveilleusement chinois ». Il est loin, sauf en « dollar van », sorte de transport public secret. Le van, vide au départ, était plein en 10 minutes. Billet à 4 $, passage par le Manhattan Bridge avec vue sur Downtown puis sur la skyline, et arrivée une demi-heure plus tôt qu'en métro. Sur place, cuisine chinoise authentique et supermarchés de produits importés. La légende : plus confortable, et Flushing devient facile d'accès.",
+   "c": "Un service « Zhong Hua Commuter Van to Flushing » est référencé sur Google Maps dans le Chinatown de Manhattan. Le point de départ exact utilisé par Ian n'est pas confirmé."
+  },
+  "133": {
+   "t": "Le guichet TKTS secret, sans file",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7686302734986890499",
+   "m": "17 septembre 2026 · 50 s · 290 900 vues",
+   "s": "Sous les marches au nord de Times Square, le TKTS vend des places de dernière minute à prix cassé. Avec sa compagne, il a vu Chicago pour environ 200 $ au total, la moitié du prix en ligne. Mais la file est énorme. Sa solution : le second guichet TKTS, au Lincoln Center, à 20 minutes à pied, presque sans file. C'est là qu'il achète ses billets.",
+   "c": "Les deux guichets sont actifs (Google Maps). Horaires non vérifiés."
+  },
+  "134": {
+   "t": "Ess-a-Bagel et l'histoire du bagel new-yorkais",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7686650484353944835",
+   "m": "17 septembre 2026 · 69 s · 135 800 vues",
+   "s": "De Times Square, descendre Broadway, passer l'Empire State et la passerelle aérienne : Ess-a-Bagel, depuis les années 1970. Le bagel new-yorkais vient des familles juives ashkénazes arrivées de Pologne il y a 200 ans, qui ont même créé un syndicat de boulangers de bagels vers 1900. Selon lui, l'eau douce, pauvre en calcium et magnésium, renforce le gluten : moelleux dedans, croustillant dehors. Le classique se garnit de saumon de Nouvelle-Écosse, cream cheese, oignon rouge, tomate et câpres. Un vrai bagel n'est jamais toasté et surtout jamais évidé. Certaines adresses virales sont jugées surcotées par les New-Yorkais. La légende reconnaît que c'est à 10 minutes de Times Square.",
+   "c": "Ouvert (Google Maps). L'explication chimique est celle d'Ian, non vérifiée."
+  },
+  "135": {
+   "t": "2nd Ave Deli, le meilleur pastrami",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7687062100706905366",
+   "m": "19 septembre 2026 · 60 s · 112 100 vues",
+   "s": "De l'Empire State, traverser la 5e Avenue et marcher 10 minutes : la 2nd Avenue Deli, « le meilleur sandwich au pastrami de New York ». On y trouve toutes sortes de charcuteries, une dégustation de pickles, des portions énormes. Institution depuis les années 1950, son propriétaire Abe, légende du Lower East Side, a été assassiné dans les années 1990 lors d'un braquage. Sa famille a repris l'affaire et, après un conflit avec le propriétaire, a déménagé à Midtown et dans l'Upper East Side. Contrairement à « certaines delis », pas de file, des places confortables et un service attentionné. La légende corrige : Abe est et restera une légende du Lower East Side.",
+   "c": "Murray Hill ouvert (Google Maps). L'adresse de l'Upper East Side n'a pas été vérifiée."
+  },
+  "136": {
+   "t": "L'Oktoberfest de Stone Street",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7687372840898776342",
+   "m": "19 septembre 2026 · 34 s · 169 200 vues",
+   "s": "Chaque samedi jusqu'au 24 octobre, Stone Street accueille une Oktoberfest : bière au litre, bretzels, hot-dogs. Il rappelle l'histoire de la première rue pavée. La légende plaisante : les Allemands peuvent se venger de la façon dont on se comporte à Munich.",
+   "c": "Les dates 2026 n'ont pas pu être confirmées sur une source officielle. L'édition 2024 avait lieu six samedis, de midi à 23 h (Downtown Alliance). Au 23 octobre 2026, il resterait au plus le samedi 24 octobre."
+  },
+  "137": {
+   "t": "Canal Street, au-delà des faux sacs",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7688042630592138518",
+   "m": "21 septembre 2026 · 41 s · 168 300 vues",
+   "s": "On achète des faux sacs de marque et on rate les commerces locaux juste à côté. Une boutique de porcelaine au 113 Mott Street vend de belles théières et tasses abordables, et des bijoux en jade. Un magasin d'électronique vintage au 47 Canal Street propose télés et caméras rétro, et même des vinyles. Vers le 198 Canal Street, un marché aux fruits, idéal pour le fruit du dragon, à manger dans le parc voisin. La légende : pas de jugement envers les acheteurs de sacs ; la moitié de sa cuisine vient de la boutique de porcelaine.",
+   "c": "Porcelaine et électronique ouverts (Google Maps). Le marché aux fruits est localisé de façon approximative."
+  },
+  "138": {
+   "t": "Le Tenement Museum",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7688487404214209814",
+   "m": "22 septembre 2026 · 47 s · 37 400 vues",
+   "s": "Premier jour de sa série « un musée par jour ». Le Tenement Museum retrace l'histoire de l'immigration : chaque appartement d'un immeuble est restauré dans l'état d'une famille immigrée qui y vivait. On ne visite qu'en groupe guidé ; arrivé 5 minutes avant, il a rejoint un groupe de sept pour une heure. Billet d'environ 30 $. C'est une bonne façon de rencontrer des gens en voyageant seul, et il reste du temps pour le reste de la ville. La légende : difficile d'y filmer sans gêner le groupe.",
+   "c": "Les deux visites (appartements et quartier) coûtent 30 $, avec des réductions possibles (National Park Service)."
+  },
+  "139": {
+   "t": "Visiter l'hôtel de ville",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7688873916806286614",
+   "m": "23 septembre 2026 · 68 s · 57 700 vues",
+   "s": "Du pont de Brooklyn, passer la grille et le détecteur de métaux : New York City Hall. À gauche, le bureau du maire (« Mamdani »). Malgré la grille, tout le monde peut entrer pour assister à un vote ou à une audience. Les 51 membres du conseil municipal siègent dans la salle des délibérations, avec des bureaux modernes en face. Le bâtiment ressemble à un musée, avec des pépites : un escalier présentant les meilleurs parcs et aires de jeux, et de petites fenêtres sur la toute première station de métro. Il remercie le conseiller municipal Shekar Krishnan, qui l'a fait entrer hors session. Pour le calendrier des séances, chercher « Legistar NYC ». La légende : le grand fauteuil est celui du président du conseil.",
+   "c": "Lieu actif (Google Maps). Les conditions d'accès du public n'ont pas été vérifiées."
+  },
+  "142": {
+   "t": "La 6½ Avenue et sa brasserie parisienne cachée",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7691417282907786499",
+   "m": "30 septembre 2026 · 52 s · 220 500 vues",
+   "s": "De Times Square, aller sur la 53e rue entre les 6e et 7e Avenues : la « 6½ Avenue » secrète. Dans le passage, « le meilleur bar à cocktails secret de New York », dans le style d'une brasserie-steakhouse parisienne. Sa stratégie de happy hour en trois étapes : une corbeille du « meilleur pain au levain hors d'Europe », un cocktail chic, puis des huîtres, mets new-yorkais depuis 400 ans. Ensuite, explorer la 6½ Avenue, ses sculptures et son réseau de passages piétons de Midtown.",
+   "c": "La Grande Boucherie est ouverte (Google Maps). Identification déduite du décor et de l'emplacement."
+  },
+  "143": {
+   "t": "Luna, la chatte du Flower District",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7691797370652101910",
+   "m": "1er octobre 2026 · 44 s · 768 000 vues",
+   "s": "Depuis le Flatiron Building, remonter Broadway jusqu'à la 28e rue, tourner à gauche et traverser : le quartier des fleurs, gardé par une célébrité locale, Luna. Elle protège les fleurs des souris et des rats. Les passants s'arrêtent la saluer, des étudiants en art la dessinent, et on lui envoie jouets et friandises du monde entier. Elle n'est pas née dans la boutique, mais le patron adore les chats et d'autres chatons, dont sa tante, y sont nés.",
+   "c": "Boutique non identifiée ; localisation approximative."
+  },
+  "144": {
+   "t": "High Tech Electronics et le Lower East Side",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7692182643215027478",
+   "m": "2 octobre 2026 · 46 s · 87 400 vues",
+   "s": "Au coin de Ludlow et Canal Street, en face d'un bel immeuble : High Tech Electronics, la plus cool des boutiques d'électronique vintage. On y trouve télés, téléphones et appareils photo vintage, vieux journaux et vinyles, et on peut y faire réparer des objets. À côté : le bar Clockwork, avec une formule bière et shot à 6 $, et North Dumpling, 10 raviolis pour 4,50 $. Tout cela dans le Lower East Side.",
+   "c": "Ouverts (Google Maps). Prix non vérifiés."
+  },
+  "145": {
+   "t": "Fripes à Brooklyn : trois niveaux de prix",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7693002054985370902",
+   "m": "5 octobre 2026 · 46 s · 168 100 vues",
+   "s": "1. Rugged Road & Co. (le plus cher) : veste des années 1950 à 600 $, chemise de bowling des années 1960 à 250 $, cartes postales à 2 $.\n2. 10 ft Single : bonnes affaires, un Ralph Lauren vintage à 50 $, des chaussures en cuir à moins de 100 $.\n3. L Train Vintage : là où il s'habille, des jeans à moins de 10 $.\n\nNiveau bonus : un escalier mène à une galerie de photos d'il y a plus de 100 ans reconstituées.",
+   "c": "Ouverts (Google Maps)."
+  },
+  "146": {
+   "t": "Le ferry de nuit",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7693400061472001302",
+   "m": "6 octobre 2026 · 61 s · 168 400 vues",
+   "s": "Les touristes croient que le ferry s'arrête la nuit ; c'est pourtant le meilleur moment, au crépuscule ou dans le noir, pour voir les immeubles et les ponts illuminés depuis l'eau. Le ferry passe sous le pont de Brooklyn et coûte 4,50 $. Il y a un bar à bord (hard seltzer, bière). Le meilleur trajet : de la 90e rue Est (Upper East Side) à Wall Street, en zigzag entre Astoria, Manhattan et Brooklyn. À l'arrivée, presque toutes les lignes de métro ramènent à l'hôtel.",
+   "c": "Billet à 5 $ depuis le 19 octobre 2026 (6sqft). Embarcadères actifs (Google Maps)."
+  },
+  "147": {
+   "t": "Le rooftop gratuit de la bibliothèque",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7693769524788612374",
+   "m": "7 octobre 2026 · 49 s · 215 300 vues",
+   "s": "De Times Square, passer le grand panneau, prendre la 40e rue à gauche jusqu'à la 5e Avenue et entrer : le meilleur rooftop gratuit de New York, au 7e étage de la bibliothèque, peu connu et bien plus calme que Times Square, à cinq minutes. Les résidents ont accès avec leur carte à des terminaux Bloomberg (d'habitude des dizaines de milliers de dollars) et à des cours ouverts à tous. Ouvert jusqu'à 21 h, idéal au crépuscule.",
+   "c": "Ouvert (Google Maps). L'horaire de 21 h n'a pas été vérifié."
+  },
+  "148": {
+   "t": "L'immeuble de John Wick et les castors de Beaver Street",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7694122089023819030",
+   "m": "8 octobre 2026 · 45 s · 101 200 vues",
+   "s": "Au coin de Pearl Street et Wall Street, on arrive à l'immeuble filmé comme le Continental dans John Wick, l'hôtel où aucun « business » (aucun meurtre) n'est permis. En réalité, il borde Beaver Street, d'où de petits castors sculptés sur la façade. C'était autrefois la bourse du cacao, créée par Nestlé et Hershey's pour les contrats à terme. Il y a aujourd'hui un bar sportif à l'intérieur.",
+   "c": "Adresse référencée (Google Maps). Le rôle de Nestlé et Hershey's n'est pas vérifié."
+  },
+  "149": {
+   "t": "Horses and Divorces, le bar le moins cher de Williamsburg",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7694521062402362646",
+   "m": "9 octobre 2026 · 48 s · 67 200 vues",
+   "s": "Au coin de Grand Street et Bedford Avenue : Horses and Divorces, 24 onces (environ 70 cl) de bière pour 6 $. Billard au fond, juke-box, et un bar long et étroit qui pousse à lier connaissance. C'est un vrai bar de quartier ; il y a plus chic en face, et Williamsburg regorge de bars.",
+   "c": "Ouvert (Google Maps). Prix non vérifié."
+  },
+  "151": {
+   "t": "Fine Time, le bar le moins cher de New York",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7695264901920460054",
+   "m": "11 octobre 2026 · 55 s · 432 100 vues",
+   "s": "Au coin de Central Avenue et Jefferson Street, repérer les lumières rouges : Fine Time, « le bar le moins cher de New York ». Pinte à 3 $, verre de vin à 7 $, hot-dog offert avec chaque boisson et pop-corn à volonté. Belle terrasse, bondée de jeunes le vendredi et le samedi. La star est « le billard le plus bancal du monde » : pas assez de place, il branle, et on a scié une queue pour jouer près des murs. Bushwick est l'un des meilleurs quartiers pour sortir tard, entre bars de quartier et clubs techno ; Ian y habite.",
+   "c": "Ouvert selon Google Maps, mais à l'adresse 84 Central Ave, et non au 48 indiqué par Ian. À vérifier sur place."
+  },
+  "152": {
+   "t": "Ornithology, le jazz intime de Bushwick",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7695619310118620438",
+   "m": "12 octobre 2026 · 62 s · 229 500 vues",
+   "s": "Au coin de Suydam Street et Broadway (la transcription dit « Soho »), sous le métro aérien, une porte verte discrète mène à l'un des bars de jazz les plus confidentiels de Brooklyn. Les concerts sont très intimes : on est juste devant les musiciens. Il y a un long bar et, à côté, un café avec boissons et cuisine plus classiques. Toutes les surfaces sont couvertes de tapis. Ouvert chaque soir jusqu'à 2 h. Il invite à soutenir les groupes via leurs QR codes ou leur Instagram.",
+   "c": "Les deux sont référencés et ouverts (Google Maps). Horaires non vérifiés."
+  },
+  "153": {
+   "t": "Les sculptures de la station 14th Street",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7695944261841325334",
+   "m": "13 octobre 2026 · 61 s · 41 100 vues",
+   "s": "De Times Square, prendre la ligne A cinq minutes vers le sud : la station 14 St est couverte de minuscules sculptures en bronze. Beaucoup de personnages sont des « sales types » : deux scient la station, un autre regarde son associé se faire emporter par un alligator. Les thèmes sont le pouvoir et l'argent, souvent abstraits ; l'artiste voulait exprimer « l'impossibilité de comprendre la vie à New York ». Ses préférées : un fraudeur pris sans billet et un homme aspiré par son téléphone. L'art du métro, souvent en mosaïques, est commandé par Arts for Transit.",
+   "c": "L'œuvre est référencée (Google Maps). Ian ne nomme pas son auteur, Tom Otterness."
+  },
+  "154": {
+   "t": "Oscar Wilde, le bar décoré pour Halloween",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7696523971197553942",
+   "m": "14 octobre 2026 · 41 s · 23 400 vues",
+   "s": "Sur la 27e rue, entre la 6e Avenue et Broadway, le restaurant-bar Oscar Wilde est décoré de la tête aux pieds en maison hantée. On peut passer prendre des photos et quelques minutes au bar, et c'est familial. Le lieu décore pour chaque saison ; il reviendra filmer pour Noël et la Saint-Valentin.",
+   "c": "Ouvert (Google Maps)."
+  },
+  "155": {
+   "t": "La parade des chiens d'Halloween de Tompkins Square",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7697774225653959959",
+   "m": "17 octobre 2026 · 65 s · 26 500 vues",
+   "s": "Au coin de la 10e rue Est et de l'Avenue A, la foule se presse pour la légendaire parade des chiens. Née il y a environ 30 ans comme concours de costumes de quartier, c'est devenue le plus grand rassemblement de chiens déguisés des États-Unis. Les gens amènent leurs chiens en métro de toute la ville, et quelques chats aussi. On voit mal la parade, mais on peut prendre un café et regarder les chiens. Il y a quelques années, l'événement a failli disparaître faute d'argent ; un sponsor l'a sauvé au dernier moment, et il est aujourd'hui géré surtout par une association.",
+   "c": "L'édition 2026 a eu lieu le samedi 17 octobre, de 11 h à 16 h (nycforfree) : l'événement est donc déjà passé pour cette année."
+  },
+  "156": {
+   "t": "La vraie meilleure vue de DUMBO (et ses toilettes)",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7698419111075794198",
+   "m": "19 octobre 2026 · 64 s · 560 500 vues",
+   "s": "À DUMBO, marcher vers le pont jusqu'au « téléphone géant » et entrer : les toilettes les plus propres de DUMBO. Ressortir, prendre la rampe, tourner à gauche au bout, suivre le petit chemin et grimper la colline : le meilleur point de vue, avec les ponts de Brooklyn, de Manhattan et de Williamsburg. Moyen mnémotechnique : BMW (Brooklyn, Manhattan, Williamsburg). Personne, alors que la foule est à 30 secondes. Près du pont de Brooklyn, deux adresses légendaires : la Brooklyn Ice Cream Factory et Juliana's, « la meilleure pizza de New York ». La légende : pour les bars et restaurants, mieux vaut retraverser vers le Lower East Side.",
+   "c": "Ouverts (Google Maps). Le « téléphone géant » n'est pas identifié."
+  },
+  "157": {
+   "t": "De JFK à Manhattan : métro ou LIRR",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7698863351958441238",
+   "m": "20 octobre 2026 · 47 s · 80 000 vues",
+   "s": "Depuis JFK, l'AirTrain mène à Jamaica, où l'on a deux options. Le métro est moins cher : 4,25 $ d'économie aux heures de pointe, 2,25 $ en heures creuses. Le LIRR est bien plus rapide vers Grand Central ou Madison Square Garden (Penn Station) : parfois 20 minutes avec un train bien synchronisé. Mais pour Times Square ou ailleurs à Manhattan, le métro est souvent plus simple, sans regarder les horaires. La légende : version nuancée après les commentaires sur la première vidéo (n° 78).",
+   "c": "Les écarts de prix n'ont pas été recalculés. Le métro coûte 3 $ depuis janvier 2026 (MTA)."
+  },
+  "158": {
+   "t": "Le rooftop avec vue sur Times Square",
+   "u": "https://www.tiktok.com/@ian_in_nyc/video/7699610917914299670",
+   "m": "22 octobre 2026 · 66 s · 449 000 vues",
+   "s": "De Times Square, passer les grandes marches, traverser, et à la 50e rue on voit du monde sur un toit. À la 52e rue, entrer dans un petit restaurant, appuyer sur le bouton, aller au lobby et suivre les gens jusqu'au restaurant, puis sortir : l'une des plus belles vues sur Times Square. C'est un bar-restaurant d'hôtel ouvert à tous, y compris aux familles. Astuce photo : au lieu de regarder vers la place, se retourner pour avoir son reflet avec la place derrière.",
+   "c": "Ouvert (Google Maps)."
+  }
+ },
+ "ianMeta": {
+  "total": 158,
+  "period": "21 mai – 22 octobre 2026",
+  "profile": "https://www.tiktok.com/@ian_in_nyc"
+ }
 }

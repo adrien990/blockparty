@@ -83,7 +83,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,
 .tag.ok{color:var(--ok)}.tag.warn{color:var(--warn)}.tag.bad{color:var(--bad)}
 .empty{padding:24px 0;color:var(--muted);font-size:15px;line-height:1.5}
 
-.tabbar{flex:none;background:var(--paper);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(5,minmax(0,1fr));padding-bottom:var(--safe-b);z-index:6}
+.tabbar{flex:none;background:var(--paper);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(6,minmax(0,1fr));padding-bottom:var(--safe-b);z-index:6}
 .tab{height:64px;border:none;background:none;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;font-size:12px;color:var(--muted)}
 .tab[aria-current="page"]{color:var(--ink);font-weight:700}
 
@@ -188,6 +188,24 @@ gmp-place-autocomplete{width:100%}
 .claire-box h3{margin:0;font-size:12px;font-weight:700;color:var(--claire-ink);text-transform:uppercase;letter-spacing:.1em;display:flex;justify-content:space-between;gap:8px}
 .claire-box p{margin:0;font-size:15px;line-height:1.45;color:#3A1424}
 .cl-star{color:var(--claire)}
+:root{--ian:#0E7C86;--ian-soft:#E0F2F1;--ian-ink:#0B4F55}
+.pin.ia,.bullet.ia{position:relative}
+.pin.ia::before,.fb-pin.ia::before,.bullet.ia::before{content:"";position:absolute;left:-3px;top:-3px;width:11px;height:11px;border-radius:50%;background:var(--ian);border:2px solid #fff}
+.ian-hero{background:var(--ian)}
+.ian-box{background:var(--ian-soft);border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:8px}
+.ian-box h3{margin:0;font-size:12px;font-weight:700;color:var(--ian-ink);text-transform:uppercase;letter-spacing:.1em;display:flex;justify-content:space-between;gap:8px}
+.ian-box p{margin:0;font-size:15px;line-height:1.45;color:#0F2E31}
+.ian-box .iv{font-size:13px;color:#33585B}
+.ivid{background:#fff;border-radius:10px;overflow:hidden}
+.ivid a{display:flex;gap:10px;align-items:center;padding:10px 12px;color:inherit;text-decoration:none}
+.ivid a b{display:block;font-size:15px;line-height:1.3}
+.ivid a small{display:block;font-size:12px;color:var(--muted);margin-top:2px}
+.iplay{flex:none;width:32px;height:32px;border-radius:50%;background:var(--ian);color:#fff;display:grid;place-items:center;font-size:12px}
+.ivid details{border-top:1px solid #E3ECEC;padding:8px 12px}
+.ivid summary{font-size:13px;font-weight:600;color:var(--ian-ink);cursor:pointer}
+.ivid details p{margin-top:8px;font-size:14px}
+.iq span{color:var(--muted);font-style:normal}
+.seg-link{margin-left:auto;align-self:center;font-size:14px;font-weight:600;color:var(--ian);text-decoration:none;white-space:nowrap}
 .small-btn{height:44px;border-radius:10px;border:1px solid var(--soft);background:var(--paper);font-weight:600;font-size:14px;padding:0 14px}
 @media (prefers-reduced-motion:no-preference){.pin,.fb-pin{transition:transform .15s}.fb-pin:hover{transform:translate(-50%,-50%) scale(1.12)}}
 </style>
@@ -276,11 +294,15 @@ gmp-place-autocomplete{width:100%}
     <div class="page" id="claire-page"></div>
   </main>
 
+  <main class="view" id="v-ian" hidden>
+    <div class="page" id="ian-page"></div>
+  </main>
   <nav class="tabbar" aria-label="Navigation">
     <button class="tab" data-tab="around" aria-current="page"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="3"></circle><circle cx="12" cy="12" r="8"></circle></svg>Autour</button>
     <button class="tab" data-tab="list"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-7-5.5-7-11a7 7 0 0114 0c0 5.5-7 11-7 11z"></path><circle cx="12" cy="10" r="2.5"></circle></svg>Lieux</button>
     <button class="tab" data-tab="add"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 8v8M8 12h8"></path></svg>Ajouter</button>
     <button class="tab" data-tab="claire"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 017-2.6A4 4 0 0119 10c0 5.6-7 10-7 10z"></path></svg>Claire</button>
+    <button class="tab" data-tab="ian"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="4" y="5" width="16" height="14" rx="3"></rect><path d="M10.5 9.5v5l4-2.5z"></path></svg>Ian</button>
     <button class="tab" data-tab="book"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2"></rect><path d="M9 8h6M9 12h6"></path></svg>Carnet</button>
   </nav>
 </div>
