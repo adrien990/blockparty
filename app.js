@@ -72,7 +72,7 @@
   }
 
   /* ---------- données ---------- */
-  function allPlaces() { return S.places.concat(S.custom); }
+  function allPlaces() { return S.places.filter((p) => p.lat != null).concat(S.custom); }
   function byId(id) { return allPlaces().find((p) => p.id === id); }
   function catOf(p) { return CATS[p.cat] || CATS.mine; }
   function letter(p) { return (p.name.replace(/^(The|Le|La|Les|L')\s*/i, '')[0] || '?').toUpperCase(); }
@@ -356,10 +356,45 @@
     const cache = store.get('refined', {});
     S.places.forEach((p) => {
       const r = cache[p.id];
-      if (!p.refine || !r) return;
+      if (!(p.refine || p.geo) || !r || r.miss) return;
       p.lat = r.lat; p.lng = r.lng;
+      if (r.address) p.address = r.address;
+      if (r.hood && !p.hood) p.hood = r.hood;
+      if (r.address && !p.zone) p.zone = guessZone(p);
       if (r.closed) p.closedForGood = true;
     });
+  }
+  // Lieux ajoutés par leur seul nom (liste Google Maps) : on les place via Google, 4 à la fois.
+  async function geocodeNew() {
+    const cache = store.get('refined', {});
+    const todo = S.places.filter((p) => p.geo && !cache[p.id]);
+    if (!todo.length) return;
+    const TS = { lat: 40.758, lng: -73.9855 };
+    let done = 0;
+    toast('Placement des nouvelles adresses sur la carte…');
+    const one = async (p) => {
+      try {
+        const res = await libs.places.Place.searchByText({
+          textQuery: p.geo, fields: ['location', 'formattedAddress', 'businessStatus', 'addressComponents'],
+          locationBias: { center: TS, radius: 30000 }, maxResultCount: 1, language: 'fr'
+        });
+        const pl = res.places && res.places[0];
+        if (!pl || !pl.location) { cache[p.id] = { miss: true }; return; }
+        const q = { lat: pl.location.lat(), lng: pl.location.lng() };
+        if (distKm(TS, q) > 45) { cache[p.id] = { miss: true }; return; }
+        const comp = (pl.addressComponents || []).find((c) => c.types.includes('neighborhood')) || (pl.addressComponents || []).find((c) => c.types.includes('sublocality'));
+        cache[p.id] = { lat: q.lat, lng: q.lng, address: pl.formattedAddress || '', hood: comp ? comp.longText : '', closed: pl.businessStatus === 'CLOSED_PERMANENTLY' };
+      } catch (e) { /* réseau ou quota : réessayé au prochain lancement */ }
+      done++;
+    };
+    for (let i = 0; i < todo.length; i += 4) {
+      await Promise.all(todo.slice(i, i + 4).map(one));
+      store.set('refined', cache);
+    }
+    applyRefined();
+    Object.keys(markers).forEach((id) => { markers[id].map = null; delete markers[id]; });
+    refresh();
+    toast(done + ' nouvelles adresses placées sur la carte.');
   }
   async function refinePlaces() {
     const cache = store.get('refined', {});
@@ -829,7 +864,7 @@
     refresh();
     setSheet('half');
     const ok = await initGoogle();
-    if (ok) { renderMarkers(); refinePlaces(); }
+    if (ok) { renderMarkers(); refinePlaces().then(geocodeNew); }
     else {
       if (!CFG.GOOGLE_MAPS_KEY) $('#ac-help').textContent = 'La recherche Google s\'activera avec la clé. En attendant : collez un lien Google Maps ou utilisez votre position.';
       renderFallback();

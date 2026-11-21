@@ -31,7 +31,8 @@
    "minus": [
     "Peu de places assises"
    ],
-   "verdict": "Hype méritée"
+   "verdict": "Hype méritée",
+   "group": "joes-carmine"
   },
   {
    "id": "katz",
@@ -258,7 +259,8 @@
    "minus": [
     "Loin du centre"
    ],
-   "verdict": "Hype méritée"
+   "verdict": "Hype méritée",
+   "group": "mamas-too"
   },
   {
    "id": "7th-street-burger",
@@ -282,7 +284,8 @@
    "minus": [
     "Peu de places"
    ],
-   "verdict": "Hype méritée"
+   "verdict": "Hype méritée",
+   "group": "7th-street-burger"
   },
   {
    "id": "cote",
@@ -400,7 +403,14 @@
    "minus": [
     "Attente le week-end"
    ],
-   "verdict": "Pépite"
+   "verdict": "Pépite",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
   },
   {
    "id": "russ-daughters",
@@ -424,7 +434,14 @@
    "minus": [
     "File le week-end"
    ],
-   "verdict": "Incontournable"
+   "verdict": "Incontournable",
+   "claire": {
+    "sec": [
+     "pouce"
+    ],
+    "notes": {},
+    "star": false
+   }
   },
   {
    "id": "ess-a-bagel",
@@ -567,7 +584,14 @@
    "minus": [
     "Foule le midi"
    ],
-   "verdict": "Hype méritée"
+   "verdict": "Hype méritée",
+   "claire": {
+    "sec": [
+     "pouce"
+    ],
+    "notes": {},
+    "star": false
+   }
   },
   {
    "id": "juliana",
@@ -651,7 +675,15 @@
     "File",
     "Peu de place"
    ],
-   "verdict": "Hype méritée"
+   "verdict": "Hype méritée",
+   "group": "lindustrie",
+   "claire": {
+    "sec": [
+     "pouce"
+    ],
+    "notes": {},
+    "star": false
+   }
   },
   {
    "id": "peter-luger",
@@ -1782,7 +1814,14 @@
    "verdict": "Incontournable",
    "closed": [
     "2026-11-26"
-   ]
+   ],
+   "claire": {
+    "sec": [
+     "culture"
+    ],
+    "notes": {},
+    "star": false
+   }
   },
   {
    "id": "times-square",
@@ -2113,7 +2152,8 @@
    "verdict": "Incontournable",
    "claire": {
     "sec": [
-     "resto"
+     "resto",
+     "sorties"
     ],
     "notes": {
      "resto": "Les bagels sont trop bons."
@@ -2387,7 +2427,14 @@
     "Souvenirs originaux"
    ],
    "minus": [],
-   "verdict": "Pépite"
+   "verdict": "Pépite",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
   },
   {
    "id": "union-sq-market",
@@ -2897,7 +2944,8 @@
    "lng": -74.00278,
    "claire": {
     "sec": [
-     "resto"
+     "resto",
+     "brunch"
     ],
     "notes": {},
     "star": false
@@ -4444,14 +4492,16 @@
    "lng": -74.00069,
    "claire": {
     "sec": [
-     "culture"
+     "culture",
+     "shopping"
     ],
     "notes": {
      "culture": "Ma préférée."
     },
     "star": false
    },
-   "fromClaire": true
+   "fromClaire": true,
+   "group": "mcnally-jackson"
   },
   {
    "id": "jewish-museum",
@@ -5862,6 +5912,13 @@
     "st": "Ouvert / actif",
     "rem": "",
     "conf": "Confirmé"
+   },
+   "claire": {
+    "sec": [
+     "parcs"
+    ],
+    "notes": {},
+    "star": false
    }
   },
   {
@@ -6134,6 +6191,13 @@
     "st": "Ouvert / actif",
     "rem": "Horaires non vérifiés",
     "conf": "Confirmé"
+   },
+   "claire": {
+    "sec": [
+     "culture"
+    ],
+    "notes": {},
+    "star": false
    }
   },
   {
@@ -6538,6 +6602,13 @@
     "st": "Ouvert / actif",
     "rem": "Samedi et dimanche, concession jusqu'en 2027 (Commercial Observer)",
     "conf": "Confirmé"
+   },
+   "claire": {
+    "sec": [
+     "friperies"
+    ],
+    "notes": {},
+    "star": false
    }
   },
   {
@@ -7648,6 +7719,2713 @@
     "star": false
    },
    "why": "L'hôtel au-dessus de la High Line, avec Le Bain sur le toit."
+  },
+  {
+   "id": "cl-mamas-too-pizzeria",
+   "fromList": true,
+   "name": "Mama's Too! Pizzeria",
+   "cat": "viral",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Mama's TOO! Pizzeria West Village",
+   "claire": {
+    "sec": [
+     "pouce"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "group": "mamas-too"
+  },
+  {
+   "id": "cl-sushi-counter",
+   "fromList": true,
+   "name": "Sushi Counter",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Sushi Counter New York",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-fiaschetteria-pistoia-christopher-st",
+   "fromList": true,
+   "name": "Fiaschetteria Pistoia (Christopher St)",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Fiaschetteria Pistoia West Village",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-fiaschetteria-pistoia-east-village",
+   "fromList": true,
+   "name": "Fiaschetteria Pistoia (East Village)",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Fiaschetteria Pistoia Avenue B",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-wayan",
+   "fromList": true,
+   "name": "Wayan",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Wayan restaurant Nolita",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-acquavella-galleries",
+   "fromList": true,
+   "name": "Acquavella Galleries",
+   "cat": "voir",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Acquavella Galleries",
+   "claire": {
+    "sec": [
+     "culture"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-the-commerce-inn",
+   "fromList": true,
+   "name": "The Commerce Inn",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "The Commerce Inn",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-nan-xiang-xiao-long-bao",
+   "fromList": true,
+   "name": "Nan Xiang Xiao Long Bao",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Nan Xiang Xiao Long Bao Manhattan",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-supermoon-bakehouse",
+   "fromList": true,
+   "name": "Supermoon Bakehouse",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Supermoon Bakehouse",
+   "claire": {
+    "sec": [
+     "gouter"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-chor-bazaar",
+   "fromList": true,
+   "name": "Chor Bazaar",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Chor Bazaar NoMad",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-mitr-thai-restaurant",
+   "fromList": true,
+   "name": "Mitr Thai Restaurant",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Mitr Thai Restaurant",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-a-shop-of-things",
+   "fromList": true,
+   "name": "A Shop of Things",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "A Shop of Things New York",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-delphinium-home",
+   "fromList": true,
+   "name": "Delphinium Home",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Delphinium Home",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-corridor",
+   "fromList": true,
+   "name": "Corridor",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Corridor clothing store New York",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-pink-olive-east-village",
+   "fromList": true,
+   "name": "Pink Olive East Village",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Pink Olive East Village",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-lindustrie-pizzeria-west-village",
+   "fromList": true,
+   "name": "L'industrie Pizzeria (West Village)",
+   "cat": "viral",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "L'industrie Pizzeria West Village",
+   "claire": {
+    "sec": [
+     "pouce"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "group": "lindustrie"
+  },
+  {
+   "id": "cl-pier-57-rooftop-park",
+   "fromList": true,
+   "name": "Pier 57 Rooftop Park",
+   "cat": "voir",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Pier 57 Rooftop Park",
+   "claire": {
+    "sec": [
+     "parcs"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-new-york-or-nowhere-nyon",
+   "fromList": true,
+   "name": "New York or Nowhere (NYON)",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "New York or Nowhere NYON store",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-the-lions-bar-grill",
+   "fromList": true,
+   "name": "The Lions Bar & Grill",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "The Lions Bar & Grill New York",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-mure-grand-nomad",
+   "fromList": true,
+   "name": "Mure + Grand Nomad",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Mure + Grand Nomad",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-elizabeth-street-garden",
+   "fromList": true,
+   "name": "Elizabeth Street Garden",
+   "cat": "voir",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Elizabeth Street Garden",
+   "claire": {
+    "sec": [
+     "parcs"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-blank-street",
+   "fromList": true,
+   "name": "Blank Street",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Blank Street Coffee",
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-choice-brooklyn-upper-west-side",
+   "fromList": true,
+   "name": "Choice Brooklyn - Upper West Side",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Choice Brooklyn Upper West Side",
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-milk-bar",
+   "fromList": true,
+   "name": "Milk Bar",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Milk Bar New York",
+   "claire": {
+    "sec": [
+     "gouter"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-time-out-market-new-york",
+   "fromList": true,
+   "name": "Time Out Market New York",
+   "cat": "viral",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Time Out Market New York",
+   "claire": {
+    "sec": [
+     "sorties"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-rude-mouth",
+   "fromList": true,
+   "name": "Rude Mouth",
+   "cat": "nuit",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Rude Mouth bar New York",
+   "claire": {
+    "sec": [
+     "bar"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-barely-disfigured",
+   "fromList": true,
+   "name": "Barely Disfigured",
+   "cat": "nuit",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Barely Disfigured bar Brooklyn",
+   "claire": {
+    "sec": [
+     "bar"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-st-mazie-bar-supper-club",
+   "fromList": true,
+   "name": "St. Mazie Bar & Supper Club",
+   "cat": "nuit",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "St. Mazie Bar & Supper Club Brooklyn",
+   "claire": {
+    "sec": [
+     "bar"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-golden-diner",
+   "fromList": true,
+   "name": "Golden Diner",
+   "cat": "viral",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Golden Diner New York",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-court-street-bagels",
+   "fromList": true,
+   "name": "Court Street Bagels",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Court Street Bagels Brooklyn",
+   "claire": {
+    "sec": [
+     "pouce"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-smacking-burger",
+   "fromList": true,
+   "name": "Smacking Burger",
+   "cat": "viral",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Smacking Burger New York",
+   "claire": {
+    "sec": [
+     "pouce"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-glise-baptiste-abyssinienne",
+   "fromList": true,
+   "name": "Église baptiste abyssinienne",
+   "cat": "voir",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Abyssinian Baptist Church Harlem",
+   "claire": {
+    "sec": [
+     "culture"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-stafili-wine-cafe",
+   "fromList": true,
+   "name": "Stafili Wine Cafe",
+   "cat": "nuit",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Stafili Wine Cafe",
+   "claire": {
+    "sec": [
+     "bar"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-gnocchi-on-9th",
+   "fromList": true,
+   "name": "Gnocchi on 9th",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Gnocchi on 9th",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-asano",
+   "fromList": true,
+   "name": "Asano",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Asano cafe New York",
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-mamo",
+   "fromList": true,
+   "name": "Mamo",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Mamo restaurant SoHo",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-citizen-of-soho",
+   "fromList": true,
+   "name": "Citizen of Soho",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Citizen of Soho A Breakfast Restaurant & Cafe",
+   "claire": {
+    "sec": [
+     "brunch"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-two-hands-corn-dogs",
+   "fromList": true,
+   "name": "Two Hands Corn Dogs",
+   "cat": "viral",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Two Hands Corn Dogs New York",
+   "claire": {
+    "sec": [
+     "pouce"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-caf-ruby",
+   "fromList": true,
+   "name": "Café Ruby",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Cafe Ruby New York",
+   "claire": {
+    "sec": [
+     "brunch"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-rosecrans-florist-caf",
+   "fromList": true,
+   "name": "Rosecrans Florist & Café",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Rosecrans Florist & Cafe",
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-the-elk",
+   "fromList": true,
+   "name": "The Elk",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "The Elk cafe West Village",
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-merriweather-coffee-kitchen",
+   "fromList": true,
+   "name": "Merriweather Coffee + Kitchen",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Merriweather Coffee + Kitchen",
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-cafe-panino-mucho-giusto",
+   "fromList": true,
+   "name": "Cafe Panino Mucho Giusto",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Cafe Panino Mucho Giusto",
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-spring-cafe",
+   "fromList": true,
+   "name": "Spring Cafe",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Spring Cafe vegan New York",
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-l-phin",
+   "fromList": true,
+   "name": "Lé Phin",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Le Phin coffee New York",
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-usagi",
+   "fromList": true,
+   "name": "Usagi",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Usagi gallery Brooklyn",
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-two-hands",
+   "fromList": true,
+   "name": "Two Hands",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Two Hands restaurant New York",
+   "claire": {
+    "sec": [
+     "brunch"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-banter-bar",
+   "fromList": true,
+   "name": "Banter Bar",
+   "cat": "nuit",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Banter Bar New York",
+   "claire": {
+    "sec": [
+     "bar"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-the-butchers-daughter",
+   "fromList": true,
+   "name": "The Butcher's Daughter",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "The Butcher's Daughter New York",
+   "claire": {
+    "sec": [
+     "brunch"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-aurora-brooklyn",
+   "fromList": true,
+   "name": "Aurora Brooklyn",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Aurora Brooklyn Williamsburg",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-kinhfolk",
+   "fromList": true,
+   "name": "Kinhfolk",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Kinhfolk cafe Brooklyn",
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-laser-wolf-brooklyn",
+   "fromList": true,
+   "name": "Laser Wolf Brooklyn",
+   "cat": "viral",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Laser Wolf Brooklyn",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-the-water-tower-bar",
+   "fromList": true,
+   "name": "The Water Tower Bar",
+   "cat": "nuit",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "The Water Tower Bar Brooklyn",
+   "claire": {
+    "sec": [
+     "bar"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-citizen-of-chelsea",
+   "fromList": true,
+   "name": "Citizen of Chelsea",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Citizen of Chelsea",
+   "claire": {
+    "sec": [
+     "brunch"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-banter-nyc-murray-hill",
+   "fromList": true,
+   "name": "Banter NYC - Murray Hill",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Banter NYC Murray Hill",
+   "claire": {
+    "sec": [
+     "brunch"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-ritz-diner",
+   "fromList": true,
+   "name": "Ritz Diner",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Ritz Diner New York",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-bluestone-lane-battery-park",
+   "fromList": true,
+   "name": "Bluestone Lane (Battery Park)",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Bluestone Lane Battery Park Café",
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-bluestone-lane-tribeca",
+   "fromList": true,
+   "name": "Bluestone Lane (Tribeca)",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Bluestone Lane Tribeca Café",
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-hutch-and-waldo",
+   "fromList": true,
+   "name": "Hutch and Waldo",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Hutch and Waldo New York",
+   "claire": {
+    "sec": [
+     "brunch"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-little-rubys-murray-hill",
+   "fromList": true,
+   "name": "Little Ruby's Murray Hill",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Little Ruby's Murray Hill",
+   "claire": {
+    "sec": [
+     "brunch"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "group": "little-rubys"
+  },
+  {
+   "id": "cl-jongro-bbq",
+   "fromList": true,
+   "name": "Jongro BBQ",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Jongro BBQ Koreatown",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-can-eat-korean-bbq",
+   "fromList": true,
+   "name": "Can Eat Korean BBQ",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Can Eat Korean BBQ Koreatown",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-frame-coffee",
+   "fromList": true,
+   "name": "Frame Coffee",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Frame Coffee New York",
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-apollo-bagels",
+   "fromList": true,
+   "name": "Apollo Bagels",
+   "cat": "viral",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Apollo Bagels New York",
+   "claire": {
+    "sec": [
+     "pouce"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-enso-cafe-wine-bar",
+   "fromList": true,
+   "name": "Enso Cafe & Wine Bar",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Enso Cafe & Wine bar New York",
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-dobbin-st-vintage-co-op",
+   "fromList": true,
+   "name": "Dobbin St Vintage Co-op",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Dobbin Street Vintage Co-op Brooklyn",
+   "claire": {
+    "sec": [
+     "friperies"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-old-friend-photobooth",
+   "fromList": true,
+   "name": "Old Friend Photobooth",
+   "cat": "voir",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Old Friend Photobooth New York",
+   "claire": {
+    "sec": [
+     "sorties"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-acre",
+   "fromList": true,
+   "name": "ACRE",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "ACRE Japanese restaurant New York",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-maru-coffee",
+   "fromList": true,
+   "name": "Maru Coffee",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Maru Coffee New York",
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-mcnally-jackson-books-downtown-brooklyn",
+   "fromList": true,
+   "name": "McNally Jackson Books (Downtown Brooklyn)",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "McNally Jackson Books Downtown Brooklyn",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "group": "mcnally-jackson"
+  },
+  {
+   "id": "cl-mcnally-jackson-books-seaport",
+   "fromList": true,
+   "name": "McNally Jackson Books (Seaport)",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "McNally Jackson Books Seaport",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "group": "mcnally-jackson"
+  },
+  {
+   "id": "cl-mcnally-jackson-books-rockefeller-center",
+   "fromList": true,
+   "name": "McNally Jackson Books (Rockefeller Center)",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "McNally Jackson Books Rockefeller Center",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "group": "mcnally-jackson"
+  },
+  {
+   "id": "cl-mcnally-jackson-books-williamsburg",
+   "fromList": true,
+   "name": "McNally Jackson Books (Williamsburg)",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "McNally Jackson Books Williamsburg",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "group": "mcnally-jackson"
+  },
+  {
+   "id": "cl-bakeri",
+   "fromList": true,
+   "name": "Bakeri",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Bakeri bakery Brooklyn",
+   "claire": {
+    "sec": [
+     "gouter"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-banter-nyc-west-village",
+   "fromList": true,
+   "name": "Banter NYC - West Village",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Banter NYC West Village",
+   "claire": {
+    "sec": [
+     "brunch"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-air-mail",
+   "fromList": true,
+   "name": "Air Mail",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Air Mail store New York",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-from-lucie",
+   "fromList": true,
+   "name": "From Lucie",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "From Lucie bakery East Village",
+   "claire": {
+    "sec": [
+     "gouter"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-smor-bakery",
+   "fromList": true,
+   "name": "Smor Bakery",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Smor Bakery New York",
+   "claire": {
+    "sec": [
+     "gouter"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-smor",
+   "fromList": true,
+   "name": "Smor",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Smor Scandinavian restaurant New York",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-book-club-bar",
+   "fromList": true,
+   "name": "Book Club Bar",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Book Club Bar East Village",
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-11th-street-cafe",
+   "fromList": true,
+   "name": "11th Street Cafe",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "11th Street Cafe New York",
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-collier-west",
+   "fromList": true,
+   "name": "Collier West",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Collier West store Brooklyn",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-the-analog-stationer",
+   "fromList": true,
+   "name": "The Analog Stationer",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "The Analog Stationer New York",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-east-village-postal",
+   "fromList": true,
+   "name": "East Village Postal",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "East Village Postal",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-greenwich-letterpress",
+   "fromList": true,
+   "name": "Greenwich Letterpress",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Greenwich Letterpress",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-niconeco-zakkaya",
+   "fromList": true,
+   "name": "niconeco zakkaya",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "niconeco zakkaya New York",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-loaf-on-paper-by-niconeco-zakkaya",
+   "fromList": true,
+   "name": "Loaf on Paper by niconeco zakkaya",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Loaf on Paper by niconeco zakkaya",
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-yoseka-stationery",
+   "fromList": true,
+   "name": "Yoseka Stationery",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Yoseka Stationery",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-zabars",
+   "fromList": true,
+   "name": "Zabar's",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Zabar's",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-philip-williams-posters",
+   "fromList": true,
+   "name": "Philip Williams Posters",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Philip Williams Posters",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-haricot-verts-dreamworld",
+   "fromList": true,
+   "name": "haricot vert's dreamworld",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "haricot vert's dreamworld New York",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-fishs-eddy",
+   "fromList": true,
+   "name": "Fishs Eddy",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Fishs Eddy",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-tiny-doll-house",
+   "fromList": true,
+   "name": "Tiny Doll House",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Tiny Doll House New York",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-big-night",
+   "fromList": true,
+   "name": "Big Night",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Big Night store New York",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-november-19-shop",
+   "fromList": true,
+   "name": "November 19 Shop",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "November 19 Shop New York",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-7th-street-burger-west-village",
+   "fromList": true,
+   "name": "7th Street Burger (West Village)",
+   "cat": "viral",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "7th Street Burger West Village",
+   "claire": {
+    "sec": [
+     "pouce"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "group": "7th-street-burger"
+  },
+  {
+   "id": "cl-beacons-closet",
+   "fromList": true,
+   "name": "Beacon's Closet",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Beacon's Closet",
+   "claire": {
+    "sec": [
+     "friperies"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-rule-of-thirds",
+   "fromList": true,
+   "name": "Rule of Thirds",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Rule of Thirds Brooklyn",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-bird-dog",
+   "fromList": true,
+   "name": "Bird Dog",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Bird Dog restaurant New York",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-chop-shop",
+   "fromList": true,
+   "name": "Chop-Shop",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Chop-Shop Chelsea",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-joes-pizza-broadway",
+   "fromList": true,
+   "name": "Joe's Pizza Broadway",
+   "cat": "viral",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Joe's Pizza Broadway",
+   "claire": {
+    "sec": [
+     "pouce"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "group": "joes-carmine"
+  },
+  {
+   "id": "cl-popup-bagels",
+   "fromList": true,
+   "name": "PopUp Bagels",
+   "cat": "viral",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "PopUp Bagels New York",
+   "claire": {
+    "sec": [
+     "pouce"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-bernies",
+   "fromList": true,
+   "name": "Bernie's",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Bernie's Greenpoint",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-tacombi",
+   "fromList": true,
+   "name": "Tacombi",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Tacombi New York",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-mast-books",
+   "fromList": true,
+   "name": "Mast Books",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Mast Books",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-sip-guzzle",
+   "fromList": true,
+   "name": "Sip&Guzzle",
+   "cat": "nuit",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Sip&Guzzle bar New York",
+   "claire": {
+    "sec": [
+     "bar"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-allantico-vinaio",
+   "fromList": true,
+   "name": "All'Antico Vinaio",
+   "cat": "viral",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "All'Antico Vinaio New York",
+   "claire": {
+    "sec": [
+     "pouce"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-buvette",
+   "fromList": true,
+   "name": "Buvette",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Buvette Grove Street",
+   "claire": {
+    "sec": [
+     "brunch"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-gem-home",
+   "fromList": true,
+   "name": "Gem Home",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Gem Home cafe New York",
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-rosemary-home",
+   "fromList": true,
+   "name": "Rosemary Home",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Rosemary Home store New York",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-friends-nyc",
+   "fromList": true,
+   "name": "Friends NYC",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Friends NYC gift shop",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-annies-blue-ribbon-general-store",
+   "fromList": true,
+   "name": "Annie's Blue Ribbon General Store",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Annie's Blue Ribbon General Store Brooklyn",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-sweet-pickle-books",
+   "fromList": true,
+   "name": "Sweet Pickle Books",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Sweet Pickle Books",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-ediths-sandwich-counter",
+   "fromList": true,
+   "name": "Edith's Sandwich Counter",
+   "cat": "viral",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Edith's Sandwich Counter",
+   "claire": {
+    "sec": [
+     "pouce"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-marks-off-madison",
+   "fromList": true,
+   "name": "Mark's Off Madison",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Mark's Off Madison",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-feste",
+   "fromList": true,
+   "name": "Feste",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Feste store New York",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-goods-for-the-study-nolita",
+   "fromList": true,
+   "name": "Goods for the Study (Nolita)",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Goods for the Study Nolita",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-mimis-frozen-yogurt",
+   "fromList": true,
+   "name": "Mimi's Frozen Yogurt",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Mimi's Frozen Yogurt New York",
+   "claire": {
+    "sec": [
+     "gouter"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-bomi",
+   "fromList": true,
+   "name": "BOMI",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "BOMI home store New York",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-fast-times",
+   "fromList": true,
+   "name": "Fast Times",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Fast Times cafe New York",
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-malaparte",
+   "fromList": true,
+   "name": "Malaparte",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Malaparte West Village",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-jr-son",
+   "fromList": true,
+   "name": "Jr & Son",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Jr & Son Brooklyn",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-chez-ma-tante",
+   "fromList": true,
+   "name": "Chez Ma Tante",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Chez Ma Tante Greenpoint",
+   "claire": {
+    "sec": [
+     "brunch"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-butter-smashburgers",
+   "fromList": true,
+   "name": "Butter Smashburgers",
+   "cat": "viral",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Butter Smashburgers New York",
+   "claire": {
+    "sec": [
+     "pouce"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-kelloggs-diner",
+   "fromList": true,
+   "name": "Kellogg's Diner",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Kellogg's Diner Williamsburg",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-court-street-grocers-williamsburg",
+   "fromList": true,
+   "name": "Court Street Grocers (Williamsburg)",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Court Street Grocers Williamsburg",
+   "claire": {
+    "sec": [
+     "pouce"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-parla",
+   "fromList": true,
+   "name": "Parla",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Parla restaurant New York",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-leif-home-woman",
+   "fromList": true,
+   "name": "LEIF — Home & Woman",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "LEIF Home & Woman Brooklyn",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-leif-home-gift",
+   "fromList": true,
+   "name": "LEIF — Home & Gift",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "LEIF Home & Gift Brooklyn",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-clinton-st-baking-company",
+   "fromList": true,
+   "name": "Clinton St. Baking Company",
+   "cat": "viral",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Clinton St. Baking Company",
+   "claire": {
+    "sec": [
+     "brunch"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-rubirosa",
+   "fromList": true,
+   "name": "Rubirosa",
+   "cat": "viral",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Rubirosa",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-ludlow-coffee-supply",
+   "fromList": true,
+   "name": "Ludlow Coffee Supply",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Ludlow Coffee Supply",
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-good-thanks-les",
+   "fromList": true,
+   "name": "Good Thanks LES",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Good Thanks Lower East Side",
+   "claire": {
+    "sec": [
+     "brunch"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-vinegar-hill-house",
+   "fromList": true,
+   "name": "Vinegar Hill House",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Vinegar Hill House",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-abc-carpet-home",
+   "fromList": true,
+   "name": "ABC Carpet & Home",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "ABC Carpet & Home",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-village-apothecary",
+   "fromList": true,
+   "name": "Village Apothecary",
+   "cat": "shop",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Village Apothecary New York",
+   "claire": {
+    "sec": [
+     "shopping"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-stumptown-coffee-roasters",
+   "fromList": true,
+   "name": "Stumptown Coffee Roasters",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Stumptown Coffee Roasters New York",
+   "claire": {
+    "sec": [
+     "cafe"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-doughnut-plant",
+   "fromList": true,
+   "name": "Doughnut Plant",
+   "cat": "viral",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Doughnut Plant New York",
+   "claire": {
+    "sec": [
+     "gouter"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-momofuku-noodle-bar",
+   "fromList": true,
+   "name": "Momofuku Noodle Bar",
+   "cat": "viral",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Momofuku Noodle Bar",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-please-dont-tell",
+   "fromList": true,
+   "name": "Please Don't Tell",
+   "cat": "nuit",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Please Don't Tell PDT",
+   "claire": {
+    "sec": [
+     "bar"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-vanderbilt-market",
+   "fromList": true,
+   "name": "Vanderbilt Market",
+   "cat": "typique",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "Vanderbilt Market Grand Central",
+   "claire": {
+    "sec": [
+     "sorties"
+    ],
+    "notes": {},
+    "star": false
+   }
+  },
+  {
+   "id": "cl-the-grey-dog-chelsea",
+   "fromList": true,
+   "name": "The Grey Dog - Chelsea",
+   "cat": "cafe",
+   "zone": "",
+   "hood": "",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "geo": "The Grey Dog Chelsea",
+   "claire": {
+    "sec": [
+     "brunch"
+    ],
+    "notes": {},
+    "star": false
+   }
   }
  ],
  "claireOnly": [
