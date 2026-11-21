@@ -743,7 +743,14 @@
    "minus": [
     "Attente de plusieurs heures possible"
    ],
-   "verdict": "Hype méritée"
+   "verdict": "Hype méritée",
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   }
   },
   {
    "id": "di-fara",
@@ -7024,6 +7031,623 @@
     "rem": "Édition 2026 : 17 octobre (passée)",
     "conf": "Confirmé"
    }
+  },
+  {
+   "id": "joseph-leonard",
+   "name": "Joseph Leonard",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "West Village",
+   "address": "170 Waverly Pl, New York, NY 10014",
+   "lat": 40.7336,
+   "lng": -74.0021,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "why": "Bistrot de quartier du West Village, cuisine américaine réconfortante."
+  },
+  {
+   "id": "4-charles",
+   "name": "4 Charles Prime Rib",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "West Village",
+   "address": "4 Charles St, New York, NY 10014",
+   "lat": 40.7357,
+   "lng": -74.0008,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "why": "Steakhouse intimiste en sous-sol, célèbre pour sa prime rib et son burger. Réservation très difficile."
+  },
+  {
+   "id": "dante",
+   "name": "Dante",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Greenwich Village",
+   "address": "79-81 MacDougal St, New York, NY 10012",
+   "lat": 40.729,
+   "lng": -74.0012,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "bar"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "why": "Bar à cocktails historique de MacDougal Street, réputé pour ses negronis."
+  },
+  {
+   "id": "waverly-inn",
+   "name": "The Waverly Inn and Garden",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "West Village",
+   "address": "16 Bank St, New York, NY 10014",
+   "lat": 40.7365,
+   "lng": -74.0017,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "why": "Restaurant chic à l'ambiance de taverne, avec cheminées et jardin couvert."
+  },
+  {
+   "id": "bar-lola",
+   "name": "Bar Lola",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Hell's Kitchen",
+   "address": "346 W 46th St, New York, NY 10036",
+   "lat": 40.76,
+   "lng": -73.9891,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "bar"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "why": "Café et bar à cocktails sur deux étages, esprit bistrot européen, sur Restaurant Row."
+  },
+  {
+   "id": "bobo",
+   "name": "Bobo",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "West Village",
+   "address": "181 W 10th St, New York, NY 10014",
+   "lat": 40.7343,
+   "lng": -74.0029,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "why": "Maison de ville du West Village transformée en restaurant franco-américain."
+  },
+  {
+   "id": "jojo",
+   "name": "JoJo",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "Upper East Side",
+   "address": "160 E 64th St, New York, NY 10065",
+   "lat": 40.7648,
+   "lng": -73.9654,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "why": "Restaurant de Jean-Georges dans une maison de ville de l'Upper East Side."
+  },
+  {
+   "id": "salt-hanks",
+   "name": "Salt Hank's",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "West Village",
+   "address": "280 Bleecker St, New York, NY 10014",
+   "lat": 40.7316,
+   "lng": -74.0034,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "pouce"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "why": "Le French dip viral du créateur TikTok Salt Hank. Compter une file d'attente."
+  },
+  {
+   "id": "the-dutch",
+   "name": "The Dutch",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "SoHo",
+   "address": "131 Sullivan St, New York, NY 10012",
+   "lat": 40.7265,
+   "lng": -74.0018,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "why": "Brasserie américaine de SoHo, bar à huîtres."
+  },
+  {
+   "id": "raku",
+   "name": "Raku",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "SoHo",
+   "address": "48 MacDougal St, New York, NY 10012",
+   "lat": 40.7273,
+   "lng": -74.0026,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "why": "Udon japonais faits maison."
+  },
+  {
+   "id": "leons-bagels",
+   "name": "Leon's Bagels",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "SoHo",
+   "address": "169 Thompson St, New York, NY 10012",
+   "lat": 40.7272,
+   "lng": -74.0002,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "pouce",
+     "brunch"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "why": "Petite fenêtre à bagels très suivie sur TikTok, à emporter."
+  },
+  {
+   "id": "little-rubys-3",
+   "name": "Little Ruby's",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "Nolita",
+   "address": "219 Mulberry St, New York, NY 10012",
+   "lat": 40.7221,
+   "lng": -73.9967,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "brunch"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "group": "little-rubys"
+  },
+  {
+   "id": "bubbys",
+   "name": "Bubby's",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "Tribeca",
+   "address": "120 Hudson St, New York, NY 10013",
+   "lat": 40.7198,
+   "lng": -74.0086,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "brunch",
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "why": "Institution du brunch à Tribeca : pancakes et tartes."
+  },
+  {
+   "id": "sunday-to-sunday",
+   "name": "Sunday to Sunday",
+   "cat": "cafe",
+   "zone": "Manhattan",
+   "hood": "Lower East Side",
+   "address": "88 Orchard St, New York, NY 10002",
+   "lat": 40.7186,
+   "lng": -73.9904,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "brunch",
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "why": "Café-restaurant et bar ouvert toute la journée, parfait pour le brunch."
+  },
+  {
+   "id": "floradora",
+   "name": "Floradora",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "Greenwich Village",
+   "address": "205 Thompson St, New York, NY 10012",
+   "lat": 40.729,
+   "lng": -73.999,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "why": "Restaurant-bar sur deux étages, cuisine servie jusqu'à 2 h le week-end."
+  },
+  {
+   "id": "craft",
+   "name": "Craft",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "Flatiron",
+   "address": "43 E 19th St, New York, NY 10003",
+   "lat": 40.7381,
+   "lng": -73.9888,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {
+     "resto": ""
+    },
+    "star": false
+   },
+   "why": "Restaurant de Tom Colicchio.",
+   "closedForGood": true
+  },
+  {
+   "id": "freemans",
+   "name": "Freemans",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "Lower East Side",
+   "address": "Freeman Alley, New York, NY 10002",
+   "lat": 40.7221,
+   "lng": -73.9925,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "why": "Taverne cachée au bout d'une ruelle, décor de pavillon de chasse."
+  },
+  {
+   "id": "nowon",
+   "name": "Nowon",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "East Village",
+   "address": "507 E 6th St, New York, NY 10009",
+   "lat": 40.7244,
+   "lng": -73.9837,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "why": "Cuisine coréano-américaine, célèbre pour son cheeseburger."
+  },
+  {
+   "id": "tokyo-record-bar",
+   "name": "Tokyo Record Bar & Tokyo Listening Room",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Greenwich Village",
+   "address": "127 MacDougal St, New York, NY 10012",
+   "lat": 40.7301,
+   "lng": -74.0003,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "bar"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "why": "Bar d'écoute vinyle : menu izakaya au sous-sol, DJ et sakés au rez-de-chaussée."
+  },
+  {
+   "id": "lai-rai",
+   "name": "Lai Rai",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Lower East Side",
+   "address": "76 Forsyth St, New York, NY 10002",
+   "lat": 40.7172,
+   "lng": -73.994,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "bar"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "why": "Bar à vins nature vietnamien, minuscule et intimiste."
+  },
+  {
+   "id": "wild-cherry",
+   "name": "Wild Cherry",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "West Village",
+   "address": "38 Commerce St, New York, NY 10014",
+   "lat": 40.7311,
+   "lng": -74.005,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "bar",
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "why": "Restaurant et bar d'A24 dans le Cherry Lane Theatre, réservation conseillée."
+  },
+  {
+   "id": "with-others",
+   "name": "With Others",
+   "cat": "nuit",
+   "zone": "Brooklyn",
+   "hood": "Williamsburg",
+   "address": "340 Bedford Ave, Brooklyn, NY 11249",
+   "lat": 40.7128,
+   "lng": -73.9632,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "bar"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "why": "Bar à vins nature de Williamsburg."
+  },
+  {
+   "id": "stars",
+   "name": "Stars",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "East Village",
+   "address": "139 E 12th St, New York, NY 10003",
+   "lat": 40.7326,
+   "lng": -73.9887,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "bar"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "why": "Bar à vins de 12 places autour d'un comptoir en zinc, sans réservation."
+  },
+  {
+   "id": "obvio",
+   "name": "Obvio",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "NoMad",
+   "address": "3 E 28th St, New York, NY 10016",
+   "lat": 40.7444,
+   "lng": -73.9867,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "bar"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "why": "Supper club et bar à cocktails au décor girafe, DJ en soirée. Tenue soignée exigée."
+  },
+  {
+   "id": "carmines",
+   "name": "Carmine's",
+   "cat": "typique",
+   "zone": "Manhattan",
+   "hood": "Times Square",
+   "address": "200 W 44th St, New York, NY 10036",
+   "lat": 40.7577,
+   "lng": -73.9866,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "why": "Italien familial aux portions géantes, à partager."
+  },
+  {
+   "id": "monkey-bar",
+   "name": "Monkey Bar",
+   "cat": "nuit",
+   "zone": "Manhattan",
+   "hood": "Midtown East",
+   "address": "60 E 54th St, New York, NY 10022",
+   "lat": 40.7595,
+   "lng": -73.9728,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "resto",
+     "bar"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "why": "Restaurant-bar mythique de Midtown, fresques des années 1930."
+  },
+  {
+   "id": "smashy",
+   "name": "Smashy",
+   "cat": "viral",
+   "zone": "Manhattan",
+   "hood": "Union Square",
+   "address": "42 Union Sq E, New York, NY 10003",
+   "lat": 40.7363,
+   "lng": -73.9894,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "pouce"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "why": "Smash burgers : menu court, simple ou double cheeseburger."
+  },
+  {
+   "id": "have-meyer",
+   "name": "Have & Meyer",
+   "cat": "nuit",
+   "zone": "Brooklyn",
+   "hood": "Williamsburg",
+   "address": "103 Havemeyer St, Brooklyn, NY 11211",
+   "lat": 40.7127,
+   "lng": -73.9562,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "bar"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "why": "Bar à vins italiens et charcuterie."
+  },
+  {
+   "id": "baby-lucs",
+   "name": "Baby Luc's",
+   "cat": "viral",
+   "zone": "Brooklyn",
+   "hood": "Carroll Gardens",
+   "address": "387 Court St, Brooklyn, NY 11231",
+   "lat": 40.6797,
+   "lng": -73.9965,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "pouce"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "why": "Le spot à parts de pizza de l'équipe de Lucali, plus accessible."
+  },
+  {
+   "id": "sailor",
+   "name": "Sailor",
+   "cat": "typique",
+   "zone": "Brooklyn",
+   "hood": "Fort Greene",
+   "address": "228 DeKalb Ave, Brooklyn, NY 11205",
+   "lat": 40.6898,
+   "lng": -73.9718,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "resto"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "why": "Bistrot de Fort Greene."
+  },
+  {
+   "id": "colbo",
+   "name": "Colbo & Colbo Next Door",
+   "cat": "shop",
+   "zone": "Manhattan",
+   "hood": "Lower East Side",
+   "address": "51 Orchard St, New York, NY 10002",
+   "lat": 40.7162,
+   "lng": -73.9918,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "shopping",
+     "bar"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "why": "Boutique, café et disquaire, avec un bar à vins d'écoute juste à côté."
+  },
+  {
+   "id": "standard-high-line",
+   "name": "The Standard, High Line",
+   "cat": "voir",
+   "zone": "Manhattan",
+   "hood": "Meatpacking District",
+   "address": "848 Washington St, New York, NY 10014",
+   "lat": 40.7408,
+   "lng": -74.008,
+   "refine": true,
+   "claire": {
+    "sec": [
+     "hotel"
+    ],
+    "notes": {},
+    "star": false
+   },
+   "why": "L'hôtel au-dessus de la High Line, avec Le Bain sur le toit."
   }
  ],
  "claireOnly": [
@@ -7118,6 +7742,10 @@
   {
    "id": "friperies",
    "label": "Friperies à Brooklyn"
+  },
+  {
+   "id": "hotel",
+   "label": "Hôtels"
   }
  ],
  "claireTips": [

@@ -351,6 +351,39 @@
     } catch (e) { /* quota ou réseau : on garde la fiche sans note Google */ }
   }
 
+  // Nouvelles adresses : position estimée, recalée une fois sur Google puis gardée en mémoire.
+  function applyRefined() {
+    const cache = store.get('refined', {});
+    S.places.forEach((p) => {
+      const r = cache[p.id];
+      if (!p.refine || !r) return;
+      p.lat = r.lat; p.lng = r.lng;
+      if (r.closed) p.closedForGood = true;
+    });
+  }
+  async function refinePlaces() {
+    const cache = store.get('refined', {});
+    const todo = S.places.filter((p) => p.refine && !cache[p.id]);
+    if (!todo.length) return;
+    for (const p of todo) {
+      try {
+        const res = await libs.places.Place.searchByText({
+          textQuery: p.name + ', ' + p.address, fields: ['location', 'businessStatus'],
+          locationBias: { lat: p.lat, lng: p.lng }, maxResultCount: 1
+        });
+        const pl = res.places && res.places[0];
+        if (!pl || !pl.location) { cache[p.id] = { lat: p.lat, lng: p.lng }; continue; }
+        const q = { lat: pl.location.lat(), lng: pl.location.lng() };
+        // On ne déplace que si Google trouve le lieu tout près de l'adresse prévue.
+        cache[p.id] = distKm(p, q) < 0.6 ? { lat: q.lat, lng: q.lng, closed: pl.businessStatus === 'CLOSED_PERMANENTLY' } : { lat: p.lat, lng: p.lng };
+      } catch (e) { return; } // quota ou réseau : on réessaiera au prochain lancement
+    }
+    store.set('refined', cache);
+    applyRefined();
+    Object.keys(markers).forEach((id) => { markers[id].map = null; delete markers[id]; });
+    refresh();
+  }
+
   async function onMapClick(e) {
     if (!e.latLng) return;
     if (e.placeId) {
@@ -786,6 +819,7 @@
       S.cOnly = data.claireOnly || [];
       S.iVideos = data.ianVideos || {};
       S.iMeta = data.ianMeta || {};
+      applyRefined();
     } catch (e) {
       S.places = (window.BP_PLACES && window.BP_PLACES.places) || [];
       if (!S.places.length) showBanner('Impossible de charger la liste des lieux. Vérifiez la connexion.');
@@ -795,7 +829,7 @@
     refresh();
     setSheet('half');
     const ok = await initGoogle();
-    if (ok) { renderMarkers(); }
+    if (ok) { renderMarkers(); refinePlaces(); }
     else {
       if (!CFG.GOOGLE_MAPS_KEY) $('#ac-help').textContent = 'La recherche Google s\'activera avec la clé. En attendant : collez un lien Google Maps ou utilisez votre position.';
       renderFallback();
